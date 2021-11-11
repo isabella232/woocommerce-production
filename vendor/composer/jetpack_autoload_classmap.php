@@ -6,304 +6,200 @@ $vendorDir = dirname(__DIR__);
 $baseDir   = dirname($vendorDir);
 
 return array(
+	'Symfony\\Polyfill\\Php80\\Php80' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Php80.php'
+	),
 	'Symfony\\Component\\CssSelector\\XPath\\XPathExpr' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/XPathExpr.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Translator' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Translator.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\ExtensionInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/ExtensionInterface.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\NodeExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/NodeExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\AttributeMatchingExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\HtmlExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/HtmlExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\PseudoClassExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/PseudoClassExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\AbstractExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/AbstractExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\FunctionExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/FunctionExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\Extension\\CombinationExtension' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/Extension/CombinationExtension.php'
 	),
 	'Symfony\\Component\\CssSelector\\XPath\\TranslatorInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/XPath/TranslatorInterface.php'
 	),
-	'Symfony\\Component\\CssSelector\\Tests\\XPath\\TranslatorTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/XPath/TranslatorTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\CssSelectorConverterTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/CssSelectorConverterTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\HashNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/HashNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\NegationNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/NegationNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\AbstractNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/AbstractNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\SelectorNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/SelectorNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\PseudoNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/PseudoNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\ClassNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/ClassNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\AttributeNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/AttributeNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\FunctionNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/FunctionNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\SpecificityTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/SpecificityTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\CombinedSelectorNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Node\\ElementNodeTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Node/ElementNodeTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\ParserTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/ParserTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\ReaderTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/ReaderTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\TokenStreamTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/TokenStreamTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Shortcut\\HashParserTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Shortcut\\ClassParserTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Shortcut\\ElementParserTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Shortcut\\EmptyStringParserTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\CommentHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\HashHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\AbstractHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\IdentifierHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\WhitespaceHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\NumberHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php'
-	),
-	'Symfony\\Component\\CssSelector\\Tests\\Parser\\Handler\\StringHandlerTest' => array(
-		'version' => '3.3.6.0',
-		'path'    => $vendorDir . '/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php'
-	),
 	'Symfony\\Component\\CssSelector\\Exception\\ExpressionErrorException' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Exception/ExpressionErrorException.php'
 	),
 	'Symfony\\Component\\CssSelector\\Exception\\InternalErrorException' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Exception/InternalErrorException.php'
 	),
 	'Symfony\\Component\\CssSelector\\Exception\\ParseException' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Exception/ParseException.php'
 	),
 	'Symfony\\Component\\CssSelector\\Exception\\ExceptionInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Exception/ExceptionInterface.php'
 	),
 	'Symfony\\Component\\CssSelector\\Exception\\SyntaxErrorException' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Exception/SyntaxErrorException.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\SelectorNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/SelectorNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\ClassNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/ClassNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\HashNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/HashNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\FunctionNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/FunctionNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\AttributeNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/AttributeNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\NegationNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/NegationNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\CombinedSelectorNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/CombinedSelectorNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\ElementNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/ElementNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\NodeInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/NodeInterface.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\Specificity' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/Specificity.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\AbstractNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/AbstractNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Node\\PseudoNode' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Node/PseudoNode.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\TokenStream' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/TokenStream.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Token' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Token.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Reader' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Reader.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Tokenizer\\Tokenizer' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Tokenizer/Tokenizer.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Tokenizer\\TokenizerEscaping' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Tokenizer\\TokenizerPatterns' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Shortcut\\EmptyStringParser' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Shortcut\\ClassParser' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Shortcut/ClassParser.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Shortcut\\ElementParser' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Shortcut/ElementParser.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Shortcut\\HashParser' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Shortcut/HashParser.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\IdentifierHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/IdentifierHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\NumberHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/NumberHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\HandlerInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/HandlerInterface.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\StringHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/StringHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\WhitespaceHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/WhitespaceHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\CommentHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/CommentHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Handler\\HashHandler' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Handler/HashHandler.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\Parser' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/Parser.php'
 	),
 	'Symfony\\Component\\CssSelector\\Parser\\ParserInterface' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/Parser/ParserInterface.php'
 	),
 	'Symfony\\Component\\CssSelector\\CssSelectorConverter' => array(
-		'version' => '3.3.6.0',
+		'version' => '5.3.4.0',
 		'path'    => $vendorDir . '/symfony/css-selector/CssSelectorConverter.php'
 	),
 	'Psr\\Container\\NotFoundExceptionInterface' => array(
@@ -3361,5 +3257,21 @@ return array(
 	'Automattic\\Jetpack\\Constants' => array(
 		'version' => '1.5.1.0',
 		'path'    => $vendorDir . '/automattic/jetpack-constants/src/class-constants.php'
+	),
+	'Attribute' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php'
+	),
+	'ValueError' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php'
+	),
+	'Stringable' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php'
+	),
+	'UnhandledMatchError' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php'
 	),
 );
