@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
@@ -675,7 +674,6 @@ return array(
     'Psr\\Container\\ContainerExceptionInterface' => $vendorDir . '/psr/container/src/ContainerExceptionInterface.php',
     'Psr\\Container\\ContainerInterface' => $vendorDir . '/psr/container/src/ContainerInterface.php',
     'Psr\\Container\\NotFoundExceptionInterface' => $vendorDir . '/psr/container/src/NotFoundExceptionInterface.php',
-    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Symfony\\Component\\CssSelector\\CssSelectorConverter' => $vendorDir . '/symfony/css-selector/CssSelectorConverter.php',
     'Symfony\\Component\\CssSelector\\Exception\\ExceptionInterface' => $vendorDir . '/symfony/css-selector/Exception/ExceptionInterface.php',
     'Symfony\\Component\\CssSelector\\Exception\\ExpressionErrorException' => $vendorDir . '/symfony/css-selector/Exception/ExpressionErrorException.php',
@@ -724,9 +722,6 @@ return array(
     'Symfony\\Component\\CssSelector\\XPath\\Translator' => $vendorDir . '/symfony/css-selector/XPath/Translator.php',
     'Symfony\\Component\\CssSelector\\XPath\\TranslatorInterface' => $vendorDir . '/symfony/css-selector/XPath/TranslatorInterface.php',
     'Symfony\\Component\\CssSelector\\XPath\\XPathExpr' => $vendorDir . '/symfony/css-selector/XPath/XPathExpr.php',
-    'Symfony\\Polyfill\\Php80\\Php80' => $vendorDir . '/symfony/polyfill-php80/Php80.php',
-    'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
-    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     'WC_REST_CRUD_Controller' => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php',
     'WC_REST_Controller' => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-controller.php',
     'WC_REST_Coupons_Controller' => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-coupons-controller.php',

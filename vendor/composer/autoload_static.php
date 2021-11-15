@@ -4,17 +4,15 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
+class ComposerStaticInit5b0687305a961bf072b899c00a978cd1
 {
     public static $files = array (
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6158820a7d077e9833fe3bb6ca053d71' => __DIR__ . '/../..' . '/../../tools/changelogger/PluginFormatter.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Component\\CssSelector\\' => 30,
         ),
         'P' => 
@@ -43,10 +41,6 @@ class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Php80\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
-        ),
         'Symfony\\Component\\CssSelector\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
@@ -108,7 +102,6 @@ class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
     );
 
     public static $classMap = array (
-        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
         'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
         'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
@@ -777,7 +770,6 @@ class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
         'Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
-        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\CssSelector\\CssSelectorConverter' => __DIR__ . '/..' . '/symfony/css-selector/CssSelectorConverter.php',
         'Symfony\\Component\\CssSelector\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/css-selector/Exception/ExceptionInterface.php',
         'Symfony\\Component\\CssSelector\\Exception\\ExpressionErrorException' => __DIR__ . '/..' . '/symfony/css-selector/Exception/ExpressionErrorException.php',
@@ -826,9 +818,6 @@ class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
         'Symfony\\Component\\CssSelector\\XPath\\Translator' => __DIR__ . '/..' . '/symfony/css-selector/XPath/Translator.php',
         'Symfony\\Component\\CssSelector\\XPath\\TranslatorInterface' => __DIR__ . '/..' . '/symfony/css-selector/XPath/TranslatorInterface.php',
         'Symfony\\Component\\CssSelector\\XPath\\XPathExpr' => __DIR__ . '/..' . '/symfony/css-selector/XPath/XPathExpr.php',
-        'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
-        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
-        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'WC_REST_CRUD_Controller' => __DIR__ . '/../..' . '/includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php',
         'WC_REST_Controller' => __DIR__ . '/../..' . '/includes/rest-api/Controllers/Version3/class-wc-rest-controller.php',
         'WC_REST_Coupons_Controller' => __DIR__ . '/../..' . '/includes/rest-api/Controllers/Version3/class-wc-rest-coupons-controller.php',
@@ -930,10 +919,10 @@ class ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit51ab8556122b479e8fc8d0431572e0f9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5b0687305a961bf072b899c00a978cd1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5b0687305a961bf072b899c00a978cd1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit5b0687305a961bf072b899c00a978cd1::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit5b0687305a961bf072b899c00a978cd1::$classMap;
 
         }, null, ClassLoader::class);
     }
