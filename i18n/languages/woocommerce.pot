@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-15T10:17:41+00:00\n"
+"POT-Creation-Date: 2021-11-15T18:30:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -16089,7 +16089,7 @@ msgid "Show \"verified owner\" label on customer reviews"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:174
-#: includes/class-wc-comments.php:473
+#: includes/class-wc-comments.php:490
 msgid "Reviews can only be left by \"verified owners\""
 msgstr ""
 
@@ -18670,11 +18670,15 @@ msgstr ""
 msgid "Unable to create order."
 msgstr ""
 
-#: includes/class-wc-comments.php:153
+#: includes/class-wc-comments.php:156
 msgid "Please rate the product."
 msgstr ""
 
-#: includes/class-wc-comments.php:472
+#: includes/class-wc-comments.php:309
+msgid "Product Reviews"
+msgstr ""
+
+#: includes/class-wc-comments.php:489
 #: templates/single-product-reviews.php:141
 msgid "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
