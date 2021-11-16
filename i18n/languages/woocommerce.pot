@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-16T01:34:32+00:00\n"
+"POT-Creation-Date: 2021-11-16T01:38:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -8232,7 +8232,7 @@ msgid "See more"
 msgstr ""
 
 #: includes/admin/class-wc-admin-addons.php:877
-#: includes/admin/class-wc-admin-addons.php:1326
+#: includes/admin/class-wc-admin-addons.php:1338
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 msgid "Free"
 msgstr ""
@@ -8249,11 +8249,11 @@ msgstr ""
 msgid "WooCommerce Services"
 msgstr ""
 
-#: includes/admin/class-wc-admin-addons.php:1262
+#: includes/admin/class-wc-admin-addons.php:1274
 msgid "Promoted"
 msgstr ""
 
-#: includes/admin/class-wc-admin-addons.php:1283
+#: includes/admin/class-wc-admin-addons.php:1295
 #: includes/admin/class-wc-admin-assets.php:347
 #: includes/admin/class-wc-admin-post-types.php:683
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:130
@@ -8263,15 +8263,15 @@ msgid "Featured"
 msgstr ""
 
 #. translators: %s vendor link
-#: includes/admin/class-wc-admin-addons.php:1303
+#: includes/admin/class-wc-admin-addons.php:1315
 msgid "Developed by %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-addons.php:1341
+#: includes/admin/class-wc-admin-addons.php:1355
 msgid "per year"
 msgstr ""
 
-#: includes/admin/class-wc-admin-addons.php:1356
+#: includes/admin/class-wc-admin-addons.php:1376
 msgid "View details"
 msgstr ""
 
