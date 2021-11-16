@@ -9,20 +9,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-16T02:05:07+00:00\n"
+"POT-Creation-Date: 2021-11-16T13:33:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
 
 #. Plugin Name of the plugin
 #: includes/admin/class-wc-admin-assets.php:105
-#: includes/admin/class-wc-admin-menus.php:66
+#: includes/admin/class-wc-admin-menus.php:64
 #: includes/admin/class-wc-admin-setup-wizard.php:353
 #: includes/admin/class-wc-admin-setup-wizard.php:446
 #: includes/admin/class-wc-admin.php:241
 #: includes/admin/helper/class-wc-helper.php:469
 #: includes/admin/helper/class-wc-helper.php:624
-#: includes/admin/helper/views/html-oauth-start.php:18
+#: includes/admin/helper/views/html-oauth-start.php:19
 #: includes/admin/wc-admin-functions.php:20
 #: includes/class-wc-order.php:1718
 #: includes/class-wc-order.php:1719
@@ -8158,7 +8158,7 @@ msgid "Available on backorder"
 msgstr ""
 
 #: includes/abstracts/abstract-wc-settings-api.php:783
-#: includes/admin/class-wc-admin-menus.php:351
+#: includes/admin/class-wc-admin-menus.php:348
 #: includes/admin/class-wc-admin-settings.php:673
 #: includes/admin/meta-boxes/views/html-product-attribute.php:57
 msgid "Select all"
@@ -9018,7 +9018,7 @@ msgid "WooCommerce Endpoint"
 msgstr ""
 
 #: includes/admin/class-wc-admin-customize.php:77
-#: includes/admin/class-wc-admin-menus.php:322
+#: includes/admin/class-wc-admin-menus.php:319
 #: includes/admin/settings/class-wc-settings-advanced.php:292
 #: includes/class-wc-query.php:158
 msgid "Lost password"
@@ -9117,7 +9117,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: includes/admin/class-wc-admin-dashboard.php:423
-#: includes/admin/class-wc-admin-menus.php:145
+#: includes/admin/class-wc-admin-menus.php:143
 #: includes/admin/class-wc-admin-webhooks-table-list.php:49
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:123
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:58
@@ -9423,7 +9423,7 @@ msgstr ""
 msgid "All sources"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:68
+#: includes/admin/class-wc-admin-menus.php:66
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:734
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:111
 #: includes/admin/views/html-admin-page-product-export.php:41
@@ -9432,21 +9432,21 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:76
+#: includes/admin/class-wc-admin-menus.php:74
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:30
 #: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:102
 msgid "Reports"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:78
+#: includes/admin/class-wc-admin-menus.php:76
 msgid "Sales reports"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:86
+#: includes/admin/class-wc-admin-menus.php:84
 msgid "WooCommerce settings"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:86
+#: includes/admin/class-wc-admin-menus.php:84
 #: includes/admin/views/html-admin-page-status-report.php:737
 #: includes/class-wc-install.php:1402
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:34
@@ -9459,46 +9459,34 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:145
+#: includes/admin/class-wc-admin-menus.php:143
 msgid "WooCommerce status"
 msgstr ""
 
 #. translators: %s: extensions count
-#: includes/admin/class-wc-admin-menus.php:154
-msgid "My Subscriptions %s"
+#: includes/admin/class-wc-admin-menus.php:152
+msgid "Extensions %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:155
-#: includes/admin/views/html-admin-page-addons.php:24
-msgid "WooCommerce Marketplace"
+#: includes/admin/class-wc-admin-menus.php:153
+msgid "WooCommerce extensions"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:155
-#: includes/admin/views/html-admin-page-addons.php:20
-#: packages/woocommerce-admin/includes/connect-existing-pages.php:26
-#: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:113
-msgid "Marketplace"
-msgstr ""
-
-#: includes/admin/class-wc-admin-menus.php:156
-msgid "My WooCommerce.com Subscriptions"
-msgstr ""
-
-#: includes/admin/class-wc-admin-menus.php:196
+#: includes/admin/class-wc-admin-menus.php:193
 #: includes/class-wc-post-types.php:403
 msgctxt "Admin menu name"
 msgid "Orders"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:306
+#: includes/admin/class-wc-admin-menus.php:303
 msgid "WooCommerce endpoints"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:354
+#: includes/admin/class-wc-admin-menus.php:351
 msgid "Add to menu"
 msgstr ""
 
-#: includes/admin/class-wc-admin-menus.php:388
+#: includes/admin/class-wc-admin-menus.php:385
 msgid "Visit Store"
 msgstr ""
 
@@ -11609,19 +11597,19 @@ msgid "All"
 msgstr ""
 
 #: includes/admin/helper/class-wc-helper.php:361
-#: includes/admin/helper/views/html-main.php:141
-#: includes/admin/helper/views/html-main.php:144
+#: includes/admin/helper/views/html-main.php:142
+#: includes/admin/helper/views/html-main.php:145
 #: includes/wc-webhook-functions.php:145
 msgid "Active"
 msgstr ""
 
 #: includes/admin/helper/class-wc-helper.php:362
-#: includes/admin/helper/views/html-main.php:151
-#: includes/admin/helper/views/html-main.php:154
-#: includes/admin/helper/views/html-main.php:161
-#: includes/admin/helper/views/html-main.php:164
-#: includes/admin/helper/views/html-main.php:215
-#: includes/admin/helper/views/html-main.php:218
+#: includes/admin/helper/views/html-main.php:152
+#: includes/admin/helper/views/html-main.php:155
+#: includes/admin/helper/views/html-main.php:162
+#: includes/admin/helper/views/html-main.php:165
+#: includes/admin/helper/views/html-main.php:216
+#: includes/admin/helper/views/html-main.php:219
 msgid "Inactive"
 msgstr ""
 
@@ -11640,7 +11628,7 @@ msgstr ""
 #. translators: 1: current item count
 #. translators: %d: downloads count
 #: includes/admin/helper/class-wc-helper.php:367
-#: includes/admin/helper/views/html-main.php:138
+#: includes/admin/helper/views/html-main.php:139
 #: includes/class-wc-emails.php:449
 #: includes/legacy/abstract-wc-legacy-order.php:508
 #: includes/wc-account-functions.php:221
@@ -11716,101 +11704,95 @@ msgstr ""
 msgid "We've made things simpler and easier to manage moving forward. From now on you can manage all your WooCommerce purchases directly from the Extensions menu within the WooCommerce plugin itself. <a href=\"%s\">View and manage</a> your extensions now."
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:12
-#: includes/admin/helper/views/html-section-account.php:11
-#: packages/woocommerce-admin/includes/connect-existing-pages.php:303
-#: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:259
-msgid "My Subscriptions"
+#: includes/admin/helper/views/html-main.php:13
+#: includes/admin/helper/views/html-oauth-start.php:14
+msgid "WooCommerce Extensions"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:17
+#: includes/admin/helper/views/html-main.php:18
 #: packages/woocommerce-admin/src/Features/Onboarding.php:445
 msgid "Subscriptions"
 msgstr ""
 
 #. translators: Introduction to list of WooCommerce.com extensions the merchant has subscriptions for.
-#: includes/admin/helper/views/html-main.php:24
+#: includes/admin/helper/views/html-main.php:25
 msgid "Below is a list of extensions available on your WooCommerce.com account. To receive extension updates please make sure the extension is installed, and its subscription activated and connected to your WooCommerce.com account. Extensions can be activated from the <a href=\"%s\">Plugins</a> screen."
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:43
+#: includes/admin/helper/views/html-main.php:44
 msgid "Sort by:"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:85
+#: includes/admin/helper/views/html-main.php:86
 msgid "Lifetime Subscription"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:89
+#: includes/admin/helper/views/html-main.php:90
 msgid "Expired :("
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:94
+#: includes/admin/helper/views/html-main.php:95
 msgid "Auto renews on:"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:99
+#: includes/admin/helper/views/html-main.php:100
 msgid "Expiring soon!"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:104
+#: includes/admin/helper/views/html-main.php:105
 msgid "Expires on:"
 msgstr ""
 
 #. translators: %1$d: sites active, %2$d max sites active
-#: includes/admin/helper/views/html-main.php:114
+#: includes/admin/helper/views/html-main.php:115
 msgid "Subscription: Not available - %1$d of %2$d already in use"
 msgstr ""
 
 #. translators: %1$d: sites active, %2$d max sites active
-#: includes/admin/helper/views/html-main.php:117
+#: includes/admin/helper/views/html-main.php:118
 msgid "Subscription: Using %1$d of %2$d sites available"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:119
+#: includes/admin/helper/views/html-main.php:120
 msgid "Subscription: Unlimited"
 msgstr ""
 
 #. translators: Email address of person who shared the subscription.
 #. translators: Email address of person who shared the subscription.
-#: includes/admin/helper/views/html-main.php:125
-#: includes/admin/helper/views/html-main.php:128
+#: includes/admin/helper/views/html-main.php:126
+#: includes/admin/helper/views/html-main.php:129
 msgid "Shared by %s"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:136
+#: includes/admin/helper/views/html-main.php:137
 msgid "Upgrade"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:191
+#: includes/admin/helper/views/html-main.php:192
 msgid "Could not find any subscriptions on your WooCommerce.com account"
 msgstr ""
 
-#: includes/admin/helper/views/html-main.php:198
+#: includes/admin/helper/views/html-main.php:199
 msgid "Installed Extensions without a Subscription"
 msgstr ""
 
-#: includes/admin/helper/views/html-oauth-start.php:13
-msgid "WooCommerce Extensions"
-msgstr ""
-
-#: includes/admin/helper/views/html-oauth-start.php:21
+#: includes/admin/helper/views/html-oauth-start.php:22
 msgid "Sorry to see you go."
 msgstr ""
 
-#: includes/admin/helper/views/html-oauth-start.php:21
+#: includes/admin/helper/views/html-oauth-start.php:22
 msgid "Feel free to reconnect again using the button below."
 msgstr ""
 
-#: includes/admin/helper/views/html-oauth-start.php:24
+#: includes/admin/helper/views/html-oauth-start.php:25
 msgid "Manage your subscriptions, get important product notifications, and updates, all from the convenience of your WooCommerce dashboard"
 msgstr ""
 
-#: includes/admin/helper/views/html-oauth-start.php:25
+#: includes/admin/helper/views/html-oauth-start.php:26
 msgid "Once connected, your WooCommerce.com purchases will be listed here."
 msgstr ""
 
-#: includes/admin/helper/views/html-oauth-start.php:26
+#: includes/admin/helper/views/html-oauth-start.php:27
 #: packages/woocommerce-admin/src/Notes/WooSubscriptionsNotes.php:190
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
 msgid "Connect"
@@ -11821,17 +11803,26 @@ msgstr ""
 msgid "Connected to WooCommerce.com"
 msgstr ""
 
+#: includes/admin/helper/views/html-section-account.php:11
+#: packages/woocommerce-admin/includes/connect-existing-pages.php:303
+#: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:259
+msgid "My Subscriptions"
+msgstr ""
+
 #: includes/admin/helper/views/html-section-account.php:12
 msgid "Disconnect"
 msgstr ""
 
 #: includes/admin/helper/views/html-section-nav.php:13
+#: includes/admin/views/html-admin-page-addons.php:50
 msgid "Browse Extensions"
 msgstr ""
 
 #. translators: %s: WooCommerce.com Subscriptions tab count HTML.
+#. translators: %s: WooCommerce.com Subscriptions tab count HTML.
 #: includes/admin/helper/views/html-section-nav.php:18
-msgid "WooCommerce.com Subscriptions %s"
+#: includes/admin/views/html-admin-page-addons.php:61
+msgid "My Subscriptions %s"
 msgstr ""
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:129
@@ -16984,55 +16975,69 @@ msgstr ""
 msgid "Start selling"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:17
+#: includes/admin/views/html-admin-page-addons-category-nav.php:16
+msgid "Browse categories"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-addons.php:19
 msgid "Browse Categories"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:25
+#: includes/admin/views/html-admin-page-addons.php:22
+#: packages/woocommerce-admin/includes/connect-existing-pages.php:26
+#: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:113
+msgid "Marketplace"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-addons.php:26
+msgid "WooCommerce Marketplace"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-addons.php:27
 msgid "Grow your business with hundreds of free and paid WooCommerce extensions."
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:31
+#: includes/admin/views/html-admin-page-addons.php:33
 msgid "Search for extensions"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:69
+#: includes/admin/views/html-admin-page-addons.php:75
 msgid "Sorry, could not find anything. Try searching again using a different term."
 msgstr ""
 
 #. translators: search keyword.
 #. translators: %s: search query
-#: includes/admin/views/html-admin-page-addons.php:75
+#: includes/admin/views/html-admin-page-addons.php:81
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:567
 msgid "Search results for \"%s\""
 msgstr ""
 
 #. translators: a url
-#: includes/admin/views/html-admin-page-addons.php:124
+#: includes/admin/views/html-admin-page-addons.php:130
 msgid "Our catalog of WooCommerce Extensions can be found on WooCommerce.com here: <a href=\"%s\">WooCommerce Extensions Catalog</a>"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:132
+#: includes/admin/views/html-admin-page-addons.php:138
 msgid "Storefront"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:133
+#: includes/admin/views/html-admin-page-addons.php:139
 msgid "Looking for a WooCommerce theme?"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:134
+#: includes/admin/views/html-admin-page-addons.php:140
 msgid "We recommend Storefront, the <em>official</em> WooCommerce theme."
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:135
+#: includes/admin/views/html-admin-page-addons.php:141
 msgid "Storefront is an intuitive, flexible and <strong>free</strong> WordPress theme offering deep integration with WooCommerce and many of the most popular customer-facing extensions."
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:137
+#: includes/admin/views/html-admin-page-addons.php:143
 msgid "Read all about it"
 msgstr ""
 
-#: includes/admin/views/html-admin-page-addons.php:138
+#: includes/admin/views/html-admin-page-addons.php:144
 msgid "Download &amp; install"
 msgstr ""
 
