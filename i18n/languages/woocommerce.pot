@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-18T19:34:15+00:00\n"
+"POT-Creation-Date: 2021-11-18T21:35:01+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -36,8 +36,7 @@ msgstr ""
 #: templates/auth/header.php:32
 #: packages/woocommerce-blocks/assets/js/blocks/active-filters/index.js:21
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/index.js:21
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/index.js:26
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:26
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:28
 #: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:28
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/index.js:28
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/index.js:24
@@ -63,10 +62,10 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-products.js:29
 #: packages/woocommerce-blocks/build/all-reviews.js:7
 #: packages/woocommerce-blocks/build/attribute-filter.js:33
-#: packages/woocommerce-blocks/build/cart.js:45
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 #: packages/woocommerce-blocks/build/handpicked-products.js:3
+#: packages/woocommerce-blocks/build/legacy-template.js:1
 #: packages/woocommerce-blocks/build/mini-cart.js:1
 #: packages/woocommerce-blocks/build/price-filter.js:3
 #: packages/woocommerce-blocks/build/product-best-sellers.js:1
@@ -8037,23 +8036,17 @@ msgstr ""
 #: includes/abstracts/abstract-wc-order.php:2044
 #: includes/wc-template-functions.php:2197
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:29
 msgid "Subtotal:"
 msgstr ""
 
 #: includes/abstracts/abstract-wc-order.php:2059
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:29
 msgid "Discount:"
 msgstr ""
 
 #: includes/abstracts/abstract-wc-order.php:2074
 #: includes/admin/meta-boxes/views/html-order-items.php:176
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:29
 msgid "Shipping:"
 msgstr ""
 
@@ -8149,11 +8142,9 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-products.js:21
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator.js:3
-#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:9
-#: packages/woocommerce-blocks/build/cart-frontend.js:31
-#: packages/woocommerce-blocks/build/cart.js:29
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:19
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
+#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:7
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
 msgid "Available on backorder"
 msgstr ""
 
@@ -8696,10 +8687,8 @@ msgstr ""
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:3
 #: packages/woocommerce-blocks/build/active-filters.js:5
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:9
-#: packages/woocommerce-blocks/build/attribute-filter.js:7
+#: packages/woocommerce-blocks/build/attribute-filter.js:11
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:3
-#: packages/woocommerce-blocks/build/cart-frontend.js:17
-#: packages/woocommerce-blocks/build/cart.js:21
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:5
 msgid "Remove"
 msgstr ""
@@ -8902,8 +8891,6 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 #: packages/woocommerce-blocks/build/wc-blocks-vendors.js:9
 msgid "Update"
@@ -8945,17 +8932,7 @@ msgstr ""
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
 #: templates/myaccount/my-address.php:63
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/edit.js:56
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:186
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:151
-#: packages/woocommerce-blocks/assets/js/blocks/reviews/edit-utils.js:23
-#: packages/woocommerce-blocks/assets/js/blocks/single-product/edit/editor-block-controls.js:22
-#: packages/woocommerce-blocks/build/all-products.js:29
-#: packages/woocommerce-blocks/build/all-reviews.js:1
 #: packages/woocommerce-blocks/build/attribute-filter.js:33
-#: packages/woocommerce-blocks/build/cart.js:45
-#: packages/woocommerce-blocks/build/reviews-by-category.js:1
-#: packages/woocommerce-blocks/build/reviews-by-product.js:1
-#: packages/woocommerce-blocks/build/single-product.js:5
 msgid "Edit"
 msgstr ""
 
@@ -9158,14 +9135,8 @@ msgstr ""
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:29
-#: packages/woocommerce-blocks/build/cart.js:35
-#: packages/woocommerce-blocks/build/cart.js:43
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
 #: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
 msgid "Total"
 msgstr ""
@@ -10025,8 +9996,6 @@ msgstr[1] ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-coupons.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/coupon/index.js:52
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Coupon code"
 msgstr ""
@@ -10064,7 +10033,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/experimental/index.js:2
 #: packages/woocommerce-blocks/assets/js/blocks/product-category/block.js:249
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:218
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:241
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:244
 #: packages/woocommerce-blocks/build/all-products.js:29
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-tag.js:5
@@ -10391,9 +10360,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-revenue.js:1
 #: packages/woocommerce-admin/dist/chunks/analytics-report-taxes.js:1
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:102
 #: packages/woocommerce-blocks/build/blocks-checkout.js:1
-#: packages/woocommerce-blocks/build/cart.js:45
 msgid "Taxes"
 msgstr ""
 
@@ -10504,8 +10471,6 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:27
 msgid "Shipping"
 msgstr ""
@@ -11300,7 +11265,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:100
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:24
 #: packages/woocommerce-blocks/assets/js/editor-components/products-control/index.js:36
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/featured-product.js:1
 #: packages/woocommerce-blocks/build/handpicked-products.js:1
 #: packages/woocommerce-blocks/build/handpicked-products.js:3
@@ -12400,7 +12365,6 @@ msgid "Title"
 msgstr ""
 
 #: includes/admin/importers/mappings/generic.php:22
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/constants.js:7
 #: packages/woocommerce-blocks/build/all-products.js:21
 msgid "Product Title"
 msgstr ""
@@ -12496,9 +12460,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/single-product/edit/index.js:101
 #: packages/woocommerce-blocks/build/all-reviews.js:1
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:13
-#: packages/woocommerce-blocks/build/cart.js:43
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
 #: packages/woocommerce-blocks/build/reviews-by-category.js:1
 #: packages/woocommerce-blocks/build/reviews-by-product.js:1
 #: packages/woocommerce-blocks/build/reviews-by-product.js:17
@@ -13206,8 +13168,6 @@ msgstr ""
 #: includes/widgets/class-wc-widget-layered-nav.php:288
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/coupon/index.js:103
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Apply"
 msgstr ""
@@ -13604,8 +13564,6 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:164
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:29
 msgid "Fees:"
 msgstr ""
 
@@ -14241,7 +14199,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/attribute-filter.js:5
 #: packages/woocommerce-blocks/build/price-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/price-filter.js:3
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:3
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/stock-filter.js:5
 msgid "Go"
 msgstr ""
@@ -15006,7 +14964,6 @@ msgstr ""
 #: includes/admin/views/html-admin-page-status-logs.php:40
 #: includes/wc-account-functions.php:286
 #: packages/woocommerce-blocks/assets/js/editor-components/view-switcher/index.js:18
-#: packages/woocommerce-blocks/build/cart.js:39
 msgid "View"
 msgstr ""
 
@@ -15017,7 +14974,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/base/components/filter-element-label/index.js:28
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:3
 #: packages/woocommerce-blocks/build/attribute-filter.js:5
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:3
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:11
 #: packages/woocommerce-blocks/build/stock-filter.js:5
 msgid "%s product"
 msgid_plural "%s products"
@@ -16257,8 +16214,6 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/shipping/shipping-rate-selector.js:19
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-shipping-methods-block/no-shipping-placeholder/index.js:18
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:9
 msgid "Shipping options"
@@ -16959,7 +16914,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-blocks/contact-information-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:9
+#: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:1
 msgid "Step"
 msgstr ""
 
@@ -17881,7 +17836,7 @@ msgstr ""
 
 #: includes/admin/views/html-bulk-edit-product.php:45
 #: includes/admin/views/html-quick-edit-product.php:39
-#: packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php:454
+#: packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php:559
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/sale-badge/block.js:52
 #: packages/woocommerce-blocks/build/all-products.js:11
 #: packages/woocommerce-blocks/build/atomic-block-components/image-frontend.js:1
@@ -17935,7 +17890,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-downloads.js:1
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/block.js:61
-#: packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js:102
+#: packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js:118
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/index.js:29
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/index.js:82
 #: packages/woocommerce-blocks/build/product-search.js:1
@@ -18484,7 +18439,7 @@ msgstr ""
 #. translators: %s: Attribute name.
 #. translators: %s: Attribute name.
 #: includes/class-wc-cart.php:1119
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1067
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1152
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
 msgstr[0] ""
@@ -18500,7 +18455,7 @@ msgstr ""
 #. translators: %s: product name
 #: includes/class-wc-cart.php:1153
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:72
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:141
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:167
 msgid "You cannot add another \"%s\" to your cart."
 msgstr ""
 
@@ -18523,14 +18478,14 @@ msgstr ""
 #. translators: %s: product name
 #. translators: %s: product name
 #: includes/class-wc-cart.php:1184
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:169
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:195
 msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
 msgstr ""
 
 #. translators: 1: product name 2: quantity in stock
 #. translators: 1: product name 2: quantity in stock
 #: includes/class-wc-cart.php:1201
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:185
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:211
 msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
 msgstr ""
 
@@ -19151,7 +19106,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:285
 #: includes/wc-user-functions.php:43
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:620
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:694
 msgid "Please provide a valid email address."
 msgstr ""
 
@@ -19270,15 +19225,13 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/base/components/block-error-boundary/block-error.js:16
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/all-products-frontend.js:1
-#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
-#: packages/woocommerce-blocks/build/cart-frontend.js:1
-#: packages/woocommerce-blocks/build/cart.js:5
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:1
 #: packages/woocommerce-blocks/build/price-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/reviews-frontend.js:5
 #: packages/woocommerce-blocks/build/single-product-frontend.js:1
-#: packages/woocommerce-blocks/build/single-product.js:1
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:11
+#: packages/woocommerce-blocks/build/single-product.js:5
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:9
 msgid "Error:"
 msgstr ""
 
@@ -19953,8 +19906,6 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/discount/index.js:106
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Coupons"
 msgstr ""
@@ -27788,7 +27739,6 @@ msgstr ""
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:47
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Free shipping"
 msgstr ""
 
@@ -28008,7 +27958,6 @@ msgstr ""
 #: includes/shipping/legacy-local-pickup/class-wc-shipping-legacy-local-pickup.php:105
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:31
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:83
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Local pickup"
 msgstr ""
 
@@ -28121,7 +28070,7 @@ msgstr ""
 
 #: includes/wc-account-functions.php:260
 #: includes/wc-account-functions.php:395
-#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:335
+#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:363
 msgid "Credit card"
 msgstr ""
 
@@ -28182,8 +28131,6 @@ msgstr ""
 #: includes/wc-cart-functions.php:264
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/discount/index.js:77
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:19
-#: packages/woocommerce-blocks/build/cart-frontend.js:39
-#: packages/woocommerce-blocks/build/cart.js:33
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:23
 msgid "Coupon: %s"
 msgstr ""
@@ -28867,27 +28814,27 @@ msgid "MasterCard"
 msgstr ""
 
 #: includes/wc-core-functions.php:1518
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:229
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:248
 msgid "Visa"
 msgstr ""
 
 #: includes/wc-core-functions.php:1519
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:244
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:263
 msgid "Discover"
 msgstr ""
 
 #: includes/wc-core-functions.php:1520
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:233
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:252
 msgid "American Express"
 msgstr ""
 
 #: includes/wc-core-functions.php:1521
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:252
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:271
 msgid "Diners"
 msgstr ""
 
 #: includes/wc-core-functions.php:1522
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:248
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:267
 msgid "JCB"
 msgstr ""
 
@@ -29244,8 +29191,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-cart.php:25
 #: includes/widgets/class-wc-widget-cart.php:29
 #: includes/widgets/class-wc-widget-cart.php:62
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:20
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:22
 msgid "Cart"
 msgstr ""
 
@@ -31509,7 +31455,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product title"
@@ -33466,12 +33412,12 @@ msgid "Block name is required."
 msgstr ""
 
 #. translators: If your word count is based on single characters (e.g. East Asian characters), enter 'characters_excluding_spaces' or 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate into your own language.
-#: packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:388
+#: packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php:361
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php:455
+#: packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php:560
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/sale-badge/block.js:53
 #: packages/woocommerce-blocks/build/all-products.js:11
 #: packages/woocommerce-blocks/build/atomic-block-components/image-frontend.js:1
@@ -33480,29 +33426,17 @@ msgstr ""
 msgid "Product on sale"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:226
+#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:248
 msgid "International"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:227
+#: packages/woocommerce-blocks/src/BlockTypes/Checkout.php:249
 msgid "Locations outside all other zones"
 msgstr ""
 
-#. translators: %d is the number of products in the cart.
-#. translators: %d number of products of the same type in the cart
-#. translators: %d is the count of items in the cart.
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:209
-#: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/order-summary/order-summary-item.js:119
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:29
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
-msgid "%d item"
-msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
-
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:219
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:227
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "%1$d item in cart, total price of %2$s"
 msgid_plural "%1$d items in cart, total price of %2$s"
@@ -33511,10 +33445,8 @@ msgstr[1] ""
 
 #. translators: %d is the count of items in the cart.
 #. translators: %d is the count of items in the cart.
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:230
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
-#: packages/woocommerce-blocks/build/cart.js:41
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:23
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:238
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
 msgid "Your cart (%d item)"
 msgid_plural "Your cart (%d items)"
 msgstr[0] ""
@@ -33534,13 +33466,11 @@ msgstr ""
 
 #. translators: %s number of products in cart.
 #. translators: %d is the count of products.
-#. translators: %d is the number of products in the cart.
 #: packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php:357
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-blocks/assets/js/editor-components/product-attribute-term-control/index.js:98
 #: packages/woocommerce-blocks/assets/js/editor-components/product-category-control/index.js:73
 #: packages/woocommerce-blocks/build/featured-category.js:11
-#: packages/woocommerce-blocks/build/mini-cart.js:3
 #: packages/woocommerce-blocks/build/product-best-sellers.js:11
 #: packages/woocommerce-blocks/build/product-category.js:11
 #: packages/woocommerce-blocks/build/product-new.js:11
@@ -33559,12 +33489,12 @@ msgstr[1] ""
 msgid "Search products…"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Domain/Bootstrap.php:128
+#: packages/woocommerce-blocks/src/Domain/Bootstrap.php:133
 msgid "The WooCommerce Blocks feature plugin requires a more recent version of WooCommerce and has been paused. Please update WooCommerce to the latest version to continue enjoying WooCommerce Blocks."
 msgstr ""
 
 #. translators: %1$s is the install command, %2$s is the build command, %3$s is the watch command.
-#: packages/woocommerce-blocks/src/Domain/Bootstrap.php:163
+#: packages/woocommerce-blocks/src/Domain/Bootstrap.php:168
 msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
 msgstr ""
 
@@ -33619,21 +33549,21 @@ msgstr ""
 msgid "Integration \"%s\" is not registered."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:162
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:175
 #: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/credit-card/index.js:41
 #: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
 msgid "Credit / Debit Card"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:237
+#: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:256
 msgid "Mastercard"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:147
+#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:155
 msgid "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:151
+#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:159
 msgid "X-WC-Store-API-Nonce is invalid."
 msgstr ""
 
@@ -33733,7 +33663,7 @@ msgstr ""
 
 #: packages/woocommerce-blocks/src/StoreApi/Routes/CartItemsByKey.php:67
 #: packages/woocommerce-blocks/src/StoreApi/Routes/CartItemsByKey.php:105
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:127
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:153
 msgid "Cart item does not exist."
 msgstr ""
 
@@ -33777,23 +33707,23 @@ msgstr ""
 msgid "Data to pass through to the payment method when processing payment."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:404
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:456
 msgid "Unable to create order"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:530
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:604
 msgid "Invalid payment result received from payment method."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:550
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:624
 msgid "No payment method provided."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:572
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:646
 msgid "This payment gateway is not available."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:626
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php:700
 msgid "An account is already registered with your email address. Please log in before proceeding."
 msgstr ""
 
@@ -33919,50 +33849,50 @@ msgstr ""
 msgid "Country/Region code in ISO 3166-1 alpha-2 format."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:149
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:178
 msgid "Country is required"
 msgstr ""
 
 #. translators: %s valid country codes
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:159
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:188
 msgid "Invalid country code provided. Must be one of: %s"
 msgstr ""
 
-#. translators: %s valid states
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:173
-msgid "The provided state is not valid. Must be one of: %s"
+#. translators: %1$s given state, %2$s valid states
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:200
+msgid "The provided state (%1$s) is not valid. Must be one of: %2$s"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:182
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:210
 msgid "The provided postcode / ZIP is not valid"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:189
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:217
 msgid "The provided phone number is not valid"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:287
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:292
 msgid "Currency code (in ISO format) for returned prices."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:293
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:298
 msgid "Currency symbol for the currency which can be used to format returned prices."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:299
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:304
 msgid "Currency minor unit (number of digits after the decimal separator) for returned prices."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:305
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:310
 msgid "Decimal separator for the currency which can be used to format returned prices."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:311
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:316
 msgid "Thousand separator for the currency which can be used to format returned prices."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:317
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:323
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:322
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php:328
 msgid "Price prefix for the currency which can be used to format returned prices."
 msgstr ""
 
@@ -33972,8 +33902,8 @@ msgstr ""
 
 #. translators: Placeholders are class and method names
 #. translators: Placeholders are class and method names
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/BillingAddressSchema.php:116
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/ShippingAddressSchema.php:64
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/BillingAddressSchema.php:123
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/ShippingAddressSchema.php:71
 msgid "%1$s requires an instance of %2$s or %3$s for the address"
 msgstr ""
 
@@ -34239,10 +34169,6 @@ msgstr ""
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:314
 msgid "List of required payment gateway features to process the order."
-msgstr ""
-
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:320
-msgid "The time at which this cart data was prepared"
 msgstr ""
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:34
@@ -34647,110 +34573,110 @@ msgstr ""
 msgid "Number of objects (posts of any type) assigned to the term."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:133
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:159
 msgid "Cart item is invalid."
 msgstr ""
 
 #. translators: %s: product name.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:258
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:294
 msgid "%s is out of stock and cannot be purchased. Please remove it from your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:263
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:299
 msgid "%s are out of stock and cannot be purchased. Please remove them from your cart."
 msgstr ""
 
 #. translators: %s: product name.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:270
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:306
 msgid "%s cannot be purchased. Please remove it from your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:275
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:311
 msgid "%s cannot be purchased. Please remove them from your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:282
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:318
 msgid "There are too many %s in the cart. Only 1 can be purchased. Please reduce the quantity in your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:287
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:323
 msgid "There are too many %s in the cart. Only 1 of each can be purchased. Please reduce the quantities in your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:294
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:330
 msgid "There is not enough %s in stock. Please reduce the quantity in your cart."
 msgstr ""
 
 #. translators: %s: product names.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:299
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:335
 msgid "There are not enough %s in stock. Please reduce the quantities in your cart."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:313
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:349
 msgid "There was an error with an item in your cart."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:620
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:656
 msgid "Unable to retrieve cart."
 msgstr ""
 
 #. translators: %d: shipping package number
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:742
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:786
 msgctxt "shipping packages"
 msgid "Shipping method %d"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:745
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:789
 msgctxt "shipping packages"
 msgid "Shipping method"
 msgstr ""
 
 #. translators: %s coupon code
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:786
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:830
 msgid "\"%s\" is an invalid coupon code."
 msgstr ""
 
 #. translators: %s coupon code
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:798
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:842
 msgid "Coupon code \"%s\" has already been applied."
 msgstr ""
 
 #. translators: %s: coupon code
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:829
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:882
 msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
 msgstr ""
 
 #. translators: %1$s coupon code, %2$s reason.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:869
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:935
 msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:920
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1169
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:986
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1254
 msgid "This product cannot be added to the cart."
 msgstr ""
 
 #. translators: %s: product name
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:960
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1026
 msgid "&quot;%s&quot; is not available for purchase."
 msgstr ""
 
 #. translators: %1$s: Attribute name, %2$s: Allowed values.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1052
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1137
 msgid "Invalid value posted for %1$s. Allowed values: %2$s"
 msgstr ""
 
 #. translators: %s: Attribute name.
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1067
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1152
 msgid "Missing variation data for variable product."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1092
+#: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:1177
 msgid "No matching variation found."
 msgstr ""
 
@@ -34817,6 +34743,26 @@ msgstr ""
 #. translators: 1: The first n-1 items of a list 2: the last item in the list.
 #: packages/woocommerce-blocks/src/Utils/ArrayUtils.php:29
 msgid "%1$s and %2$s"
+msgstr ""
+
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:92
+msgid "No theme is defined for this template."
+msgstr ""
+
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:170
+msgid "Single Product Page"
+msgstr ""
+
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:172
+msgid "Product Archive Page"
+msgstr ""
+
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:174
+msgid "Product Category Page"
+msgstr ""
+
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:176
+msgid "Product Tag Page"
 msgstr ""
 
 #. translators: %s: Customer username
@@ -35035,8 +34981,6 @@ msgstr ""
 
 #: templates/cart/cart-totals.php:25
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
-#: packages/woocommerce-blocks/build/cart.js:43
 msgid "Cart totals"
 msgstr ""
 
@@ -35047,6 +34991,7 @@ msgstr ""
 #: templates/checkout/review-order.php:24
 #: templates/checkout/review-order.php:56
 #: packages/woocommerce-blocks/build/blocks-checkout.js:1
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "Subtotal"
 msgstr ""
 
@@ -38142,7 +38087,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:120
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:121
 #: packages/woocommerce-blocks/assets/js/editor-components/error-placeholder/index.js:32
 #: packages/woocommerce-blocks/build/all-reviews.js:1
 #: packages/woocommerce-blocks/build/featured-category.js:1
@@ -38817,8 +38762,8 @@ msgstr[1] ""
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/checkbox-list/index.js:101
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:7
-#: packages/woocommerce-blocks/build/attribute-filter.js:13
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:7
+#: packages/woocommerce-blocks/build/attribute-filter.js:9
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
 #: packages/woocommerce-blocks/build/stock-filter.js:9
 msgid "Show less"
 msgstr ""
@@ -39668,8 +39613,6 @@ msgstr ""
 #: packages/woocommerce-blocks/build/atomic-block-components/add-to-cart-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/add-to-cart.js:3
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary--checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Please select a value."
 msgstr ""
@@ -39698,13 +39641,13 @@ msgstr[1] ""
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/add-to-cart/shared/add-to-cart-button.js:167
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/shared/with-product-selector.js:64
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/edit.js:371
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:232
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:238
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:127
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:150
 #: packages/woocommerce-blocks/assets/js/blocks/product-category/block.js:242
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:211
 #: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/block.js:151
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:234
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:237
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:131
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/edit.js:154
 #: packages/woocommerce-blocks/assets/js/blocks/single-product/edit/index.js:93
@@ -39742,28 +39685,6 @@ msgstr ""
 msgid "Choose a product to display its add to cart button."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/category-list/block.js:44
-#: packages/woocommerce-blocks/build/all-products.js:19
-#: packages/woocommerce-blocks/build/atomic-block-components/category-list-frontend.js:1
-#: packages/woocommerce-blocks/build/atomic-block-components/category-list.js:1
-msgid "Categories:"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/category-list/constants.js:7
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Product Category List"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/category-list/constants.js:12
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Display a list of categories belonging to a product."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/category-list/edit.js:29
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Choose a product to display its categories."
-msgstr ""
-
 #. translators: %s is referring to the product name
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/image/block.js:66
 #: packages/woocommerce-blocks/build/all-products.js:13
@@ -39783,10 +39704,9 @@ msgid "Display the main product image"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/image/edit.js:30
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:58
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/edit.js:70
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:135
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:185
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:138
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:188
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:80
 #: packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/block.js:49
 #: packages/woocommerce-blocks/assets/js/blocks/product-categories/block.js:90
@@ -39823,13 +39743,11 @@ msgid "Content"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/image/edit.js:33
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:61
 #: packages/woocommerce-blocks/build/all-products.js:21
 msgid "Link to Product Page"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/image/edit.js:37
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:65
 #: packages/woocommerce-blocks/build/all-products.js:21
 msgid "Links the image to the single product listing."
 msgstr ""
@@ -39889,13 +39807,13 @@ msgstr ""
 msgid "Display the price of a product."
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/price/edit.js:39
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/price/edit.js:83
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/price/edit.js:100
 #: packages/woocommerce-blocks/assets/js/blocks/active-filters/block.js:148
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/active-filters.js:15
 #: packages/woocommerce-blocks/build/all-products.js:21
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Color"
 msgstr ""
 
@@ -39972,11 +39890,9 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-products.js:21
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator.js:3
-#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:11
-#: packages/woocommerce-blocks/build/cart-frontend.js:33
-#: packages/woocommerce-blocks/build/cart.js:31
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:15
+#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:15
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:9
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:23
 msgid "%d left in stock"
 msgstr ""
 
@@ -40046,58 +39962,29 @@ msgstr ""
 msgid "Choose a product to display its tags."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/constants.js:12
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Display the title of a product."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:80
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Text settings"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:91
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Color settings"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:99
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Text color"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/edit.js:123
-#: packages/woocommerce-blocks/build/all-products.js:21
-msgid "Choose a product to display its title."
-msgstr ""
-
 #: packages/woocommerce-blocks/assets/js/base/components/block-error-boundary/block-error.js:10
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/all-products-frontend.js:1
-#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
-#: packages/woocommerce-blocks/build/cart-frontend.js:1
-#: packages/woocommerce-blocks/build/cart.js:5
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:1
 #: packages/woocommerce-blocks/build/price-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/reviews-frontend.js:5
 #: packages/woocommerce-blocks/build/single-product-frontend.js:1
-#: packages/woocommerce-blocks/build/single-product.js:1
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:11
+#: packages/woocommerce-blocks/build/single-product.js:5
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:9
 msgid "Oops!"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/block-error-boundary/block-error.js:11
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/all-products-frontend.js:1
-#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
-#: packages/woocommerce-blocks/build/cart-frontend.js:1
-#: packages/woocommerce-blocks/build/cart.js:5
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:1
 #: packages/woocommerce-blocks/build/price-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/reviews-frontend.js:5
 #: packages/woocommerce-blocks/build/single-product-frontend.js:1
-#: packages/woocommerce-blocks/build/single-product.js:1
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:11
+#: packages/woocommerce-blocks/build/single-product.js:5
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:9
 msgid "There was an error loading the content."
 msgstr ""
 
@@ -40106,8 +39993,16 @@ msgstr ""
 msgid "Order summary"
 msgstr ""
 
+#. translators: %d number of products of the same type in the cart
+#: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/order-summary/order-summary-item.js:132
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:29
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
 #. translators: %1$d is the number of items, %2$s is the item name and %3$s is the total price including the currency symbol.
-#: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/order-summary/order-summary-item.js:165
+#: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/order-summary/order-summary-item.js:181
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:31
 msgid "Total price for %1$d %2$s item: %3$s"
 msgid_plural "Total price for %1$d %2$s items: %3$s"
@@ -40121,32 +40016,24 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/coupon/index.js:56
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Apply a coupon code"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/coupon/index.js:65
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Applying coupon…"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/coupon/index.js:78
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Enter code"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/discount/index.js:61
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:17
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
-#: packages/woocommerce-blocks/build/cart.js:31
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:21
 msgid "Removing coupon…"
 msgstr ""
@@ -40154,40 +40041,30 @@ msgstr ""
 #. translators: %s is a coupon code.
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/discount/index.js:90
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Remove coupon \"%s\""
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/discount/index.js:105
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Discount"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/footer-item/index.js:51
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Including <TaxAmount/> in taxes"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/shipping/shipping-rate-selector.js:20
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Choose a shipping option"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/shipping/shipping-rate-selector.js:35
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "No shipping options were found."
 msgstr ""
@@ -40195,8 +40072,8 @@ msgstr ""
 #. translators: %s is referring the remaining count of options
 #: packages/woocommerce-blocks/assets/js/base/components/checkbox-list/index.js:62
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:5
-#: packages/woocommerce-blocks/build/attribute-filter.js:11
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
+#: packages/woocommerce-blocks/build/attribute-filter.js:7
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:3
 #: packages/woocommerce-blocks/build/stock-filter.js:7
 msgid "Show %s more option"
 msgid_plural "Show %s more options"
@@ -40206,8 +40083,8 @@ msgstr[1] ""
 #. translators: %s number of options to reveal.
 #: packages/woocommerce-blocks/assets/js/base/components/checkbox-list/index.js:73
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:7
-#: packages/woocommerce-blocks/build/attribute-filter.js:13
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:7
+#: packages/woocommerce-blocks/build/attribute-filter.js:9
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
 #: packages/woocommerce-blocks/build/stock-filter.js:9
 msgid "Show %s more"
 msgid_plural "Show %s more"
@@ -40216,8 +40093,8 @@ msgstr[1] ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/checkbox-list/index.js:96
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:7
-#: packages/woocommerce-blocks/build/attribute-filter.js:13
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:7
+#: packages/woocommerce-blocks/build/attribute-filter.js:9
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
 #: packages/woocommerce-blocks/build/stock-filter.js:9
 msgid "Show less options"
 msgstr ""
@@ -40227,10 +40104,8 @@ msgstr ""
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:5
 #: packages/woocommerce-blocks/build/active-filters.js:7
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:11
-#: packages/woocommerce-blocks/build/attribute-filter.js:9
+#: packages/woocommerce-blocks/build/attribute-filter.js:13
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:19
-#: packages/woocommerce-blocks/build/cart.js:23
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:7
 msgid "Remove \"%s\""
 msgstr ""
@@ -40264,7 +40139,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/attribute-filter.js:5
 #: packages/woocommerce-blocks/build/price-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/price-filter.js:3
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:3
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:1
 #: packages/woocommerce-blocks/build/stock-filter.js:5
 msgid "Apply filter"
 msgstr ""
@@ -40282,10 +40157,8 @@ msgid "Load more"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/loading-mask/index.js:40
-#: packages/woocommerce-blocks/build/cart-frontend.js:3
-#: packages/woocommerce-blocks/build/cart.js:39
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:1
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:1
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:3
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:1
 msgid "Loading…"
 msgstr ""
@@ -40404,36 +40277,30 @@ msgstr ""
 
 #. translators: %1$s min price, %2$s max price
 #: packages/woocommerce-blocks/assets/js/base/components/product-price/index.js:28
-#: packages/woocommerce-blocks/build/all-products.js:5
+#: packages/woocommerce-blocks/build/all-products.js:11
 #: packages/woocommerce-blocks/build/atomic-block-components/price-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/price.js:3
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:3
-#: packages/woocommerce-blocks/build/cart-frontend.js:5
-#: packages/woocommerce-blocks/build/cart.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:3
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:5
 msgid "Price between %1$s and %2$s"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/product-price/index.js:73
-#: packages/woocommerce-blocks/build/all-products.js:5
+#: packages/woocommerce-blocks/build/all-products.js:11
 #: packages/woocommerce-blocks/build/atomic-block-components/price-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/price.js:3
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:3
-#: packages/woocommerce-blocks/build/cart-frontend.js:5
-#: packages/woocommerce-blocks/build/cart.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:3
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:5
 msgid "Previous price:"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/components/product-price/index.js:91
-#: packages/woocommerce-blocks/build/all-products.js:5
+#: packages/woocommerce-blocks/build/all-products.js:11
 #: packages/woocommerce-blocks/build/atomic-block-components/price-frontend.js:3
 #: packages/woocommerce-blocks/build/atomic-block-components/price.js:3
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:3
-#: packages/woocommerce-blocks/build/cart-frontend.js:5
-#: packages/woocommerce-blocks/build/cart.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:3
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:5
 msgid "Discounted price:"
@@ -40522,14 +40389,11 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-reviews.js:7
 #: packages/woocommerce-blocks/build/atomic-block-components/add-to-cart-frontend.js:1
 #: packages/woocommerce-blocks/build/atomic-block-components/add-to-cart.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:3
-#: packages/woocommerce-blocks/build/cart.js:31
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 #: packages/woocommerce-blocks/build/handpicked-products.js:1
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:1
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:3
 #: packages/woocommerce-blocks/build/product-best-sellers.js:1
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
@@ -40545,14 +40409,10 @@ msgid "Something went wrong. Please contact us to get assistance."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/context/providers/cart-checkout/checkout-processor.js:118
-#: packages/woocommerce-blocks/build/cart-frontend.js:5
-#: packages/woocommerce-blocks/build/cart.js:23
 msgid "There was a problem with your payment option."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/base/context/providers/cart-checkout/checkout-processor.js:126
-#: packages/woocommerce-blocks/build/cart-frontend.js:5
-#: packages/woocommerce-blocks/build/cart.js:23
 msgid "There was a problem with your shipping option."
 msgstr ""
 
@@ -40565,14 +40425,12 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/active-filters/block.js:137
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/active-filters.js:15
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Size"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/active-filters/block.js:141
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:13
 #: packages/woocommerce-blocks/build/active-filters.js:15
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Small"
 msgstr ""
 
@@ -40649,7 +40507,7 @@ msgid "From %s"
 msgstr ""
 
 #. translators: %1$s and %2$s are attribute terms (for example: 'red', 'blue', 'large'...).
-#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:260
+#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:261
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:23
 #: packages/woocommerce-blocks/build/attribute-filter.js:25
 msgid "%1$s filter replaced with %2$s."
@@ -40657,24 +40515,36 @@ msgstr ""
 
 #. translators: %s attribute term (for example: 'red', 'blue', 'large'...)
 #. translators: %s stock statuses (for example: 'instock'...)
-#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:272
+#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:273
 #: packages/woocommerce-blocks/assets/js/blocks/stock-filter/block.js:210
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:25
 #: packages/woocommerce-blocks/build/attribute-filter.js:27
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:9
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:7
 #: packages/woocommerce-blocks/build/stock-filter.js:11
 msgid "%s filter added."
 msgstr ""
 
 #. translators: %s attribute term (for example: 'red', 'blue', 'large'...)
 #. translators: %s stock statuses (for example:'instock'...)
-#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:283
+#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:284
 #: packages/woocommerce-blocks/assets/js/blocks/stock-filter/block.js:221
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
 #: packages/woocommerce-blocks/build/attribute-filter.js:29
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:11
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:9
 #: packages/woocommerce-blocks/build/stock-filter.js:13
 msgid "%s filter removed."
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:337
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
+#: packages/woocommerce-blocks/build/attribute-filter.js:29
+msgid "Please select an attribute to use this filter!"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/block.js:353
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:27
+#: packages/woocommerce-blocks/build/attribute-filter.js:29
+msgid "The selected attribute does not have any term assigned to products."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/edit.js:79
@@ -40719,8 +40589,6 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/express-payment/cart-express-payment.js:70
 #: packages/woocommerce-blocks/build/attribute-filter.js:33
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:39
 msgid "Or"
 msgstr ""
 
@@ -40823,150 +40691,75 @@ msgstr ""
 msgid "Filter by attribute"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/block.js:79
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/frontend.js:55
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/block.js:74
 msgid "Something went wrong…"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/block.js:80
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/frontend.js:56
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/block.js:75
 msgid "The cart has encountered an unexpected error. If the error persists, please get in touch with us for help."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/block.js:86
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/frontend.js:63
-#: packages/woocommerce-blocks/build/cart-frontend.js:37
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/block.js:81
 msgid "Reload the page"
 msgstr ""
 
-#. translators: %s is the link to the store product directory.
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/empty-cart-edit/index.js:22
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/empty-cart-edit/index.js:22
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "<a href=\"%s\">Browse store</a>."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/empty-cart-edit/index.js:46
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/empty-cart-edit/index.js:46
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Your cart is currently empty!"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/empty-cart-edit/index.js:65
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/empty-cart-edit/index.js:65
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "New in store"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/index.js:20
-msgid "Cart i2"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart-i2/index.js:27
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:27
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Shopping cart."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:54
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:61
 msgid "If you would like to use this block as your default cart you must update your <a>page settings in WooCommerce</a>."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:75
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Shipping rates"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:81
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Shipping calculator"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:85
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Allow customers to estimate shipping by entering their address."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:105
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Show rate after tax name"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:109
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Show the percentage rate alongside each tax line in the summary."
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:131
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Proceed to Checkout button"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:135
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "WooCommerce Checkout Page"
-msgstr ""
-
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:142
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:80
 msgid "Style"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:144
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:82
 msgid "Dark mode inputs"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:148
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:86
 msgid "Inputs styled specifically for use on dark background colors."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:190
-#: packages/woocommerce-blocks/build/cart.js:45
-msgid "Full Cart"
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:110
+msgid "Filled Cart"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:194
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:115
 msgid "Empty Cart"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:203
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:137
 msgid "Cart Block Error"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:207
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:141
 msgid "There was an error whilst rendering the cart block. If this problem continues, try re-creating the block."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:212
-#: packages/woocommerce-blocks/build/cart.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:146
 msgid "Error message:"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:49
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/index.js:29
+msgid "Shopping cart."
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:50
 msgid "There was a problem checking out. Please try again. If the problem persists, please get in touch with us so we can assist."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:77
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:78
 msgid "Checkout error"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:80
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:81
 msgid "There is a problem with your cart"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:104
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:105
 msgid "Please edit your cart and try again."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:124
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/checkout-order-error/index.js:125
 msgid "Edit your cart"
 msgstr ""
 
@@ -41002,6 +40795,30 @@ msgstr ""
 msgid "Configure Shipping Options"
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:8
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:12
+#: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:1
+msgid "Terms and Conditions"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:15
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:19
+#: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:1
+msgid "Privacy Policy"
+msgstr ""
+
+#. translators: %1$s terms page link, %2$s privacy page link.
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:23
+#: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:3
+msgid "By proceeding with your purchase you agree to our %1$s and %2$s"
+msgstr ""
+
+#. translators: %1$s terms page link, %2$s privacy page link.
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/inner-blocks/checkout-terms-block/constants.js:33
+#: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:5
+msgid "You must accept our %1$s and %2$s to continue with your purchase."
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/order-notes/index.js:26
 #: packages/woocommerce-blocks/build/checkout-blocks/order-note-frontend.js:1
 msgid "Add a note to your order"
@@ -41009,8 +40826,6 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/express-payment-methods.js:141
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:27
-#: packages/woocommerce-blocks/build/cart.js:7
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:1
 msgid "No registered Payment Methods"
 msgstr ""
@@ -41052,15 +40867,11 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/payment-method-error-boundary.js:25
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:27
-#: packages/woocommerce-blocks/build/cart.js:5
 msgid "This site is experiencing difficulties with this payment method. Please contact the owner of the site for assistance."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/payment-method-error-boundary.js:33
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:27
-#: packages/woocommerce-blocks/build/cart.js:5
 msgid "There was an error with this payment method. Please verify it's configured correctly."
 msgstr ""
 
@@ -41074,76 +40885,94 @@ msgstr ""
 msgid "Other available payment methods"
 msgstr ""
 
+#. translators: %1$s is referring to the payment method brand, %2$s is referring to the last 4 digits of the payment card, %3$s is referring to the expiry date.
+#: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/saved-payment-method-options.js:41
+#: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:3
+msgid "%1$s ending in %2$s (expires %3$s)"
+msgstr ""
+
 #. translators: %s is the name of the payment method gateway.
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/payment-methods/saved-payment-method-options.js:80
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
 msgid "Saved token for %s"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:138
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:188
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:114
+#: packages/woocommerce-blocks/build/featured-category.js:1
+msgid "Edit selected category"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:141
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:191
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Show description"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:149
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:211
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:152
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:214
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Overlay"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:154
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:216
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:157
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:219
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Overlay Color"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:164
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:226
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:167
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:229
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Background Opacity"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:197
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:181
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:243
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:5
+msgid "Focal Point Picker"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:203
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:90
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Showing Featured Product block preview."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:207
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:355
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:213
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:361
 #: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:22
 #: packages/woocommerce-blocks/build/featured-category.js:1
 msgid "Featured Category"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:213
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:219
 #: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:29
 #: packages/woocommerce-blocks/build/featured-category.js:1
 msgid "Visually highlight a product category and encourage prompt action."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:269
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:275
 #: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:113
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:373
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:379
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/index.js:113
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Shop now"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:360
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:366
 #: packages/woocommerce-blocks/build/featured-category.js:1
 msgid "No product category is selected."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:102
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:391
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:397
 #: packages/woocommerce-blocks/assets/js/blocks/featured-product/index.js:22
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Featured Product"
@@ -41154,12 +40983,21 @@ msgstr ""
 msgid "Visually highlight a product or variation and encourage prompt action"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:199
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:164
+#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/edit.js:165
+#: packages/woocommerce-blocks/assets/js/blocks/single-product/edit/editor-block-controls.js:22
+#: packages/woocommerce-blocks/build/featured-product.js:5
+#: packages/woocommerce-blocks/build/reviews-by-product.js:17
+#: packages/woocommerce-blocks/build/single-product.js:5
+msgid "Edit selected product"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:202
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "Show price"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:396
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:402
 #: packages/woocommerce-blocks/build/featured-product.js:5
 msgid "No product is selected."
 msgstr ""
@@ -41212,6 +41050,11 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/index.js:26
 #: packages/woocommerce-blocks/build/handpicked-products.js:3
 msgid "Display a selection of hand-picked products in a grid."
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:172
+#: packages/woocommerce-blocks/build/handpicked-products.js:3
+msgid "Edit selected products"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/index.js:23
@@ -41381,6 +41224,13 @@ msgstr ""
 msgid "Select at least one category to display its products."
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/blocks/product-category/block.js:293
+#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:142
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/reviews-by-category.js:7
+msgid "Edit selected categories"
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/blocks/product-new/index.js:18
 #: packages/woocommerce-blocks/build/product-new.js:1
 msgid "Newest Products"
@@ -41422,6 +41272,16 @@ msgstr ""
 msgid "Label is hidden."
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js:88
+#: packages/woocommerce-blocks/build/product-search.js:1
+msgid "Search Label"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js:107
+#: packages/woocommerce-blocks/build/product-search.js:1
+msgid "Enter search placeholder text"
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/index.js:57
 #: packages/woocommerce-blocks/build/product-search.js:1
 msgid "A search box to allow customers to search for products by keyword."
@@ -41440,7 +41300,7 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:188
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:244
-#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:293
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:296
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/index.js:19
 #: packages/woocommerce-blocks/build/product-tag.js:5
 msgid "Products by Tag"
@@ -41456,7 +41316,12 @@ msgstr ""
 msgid "This block displays products from selected tags. Select at least one tag to display its products."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:299
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:275
+#: packages/woocommerce-blocks/build/product-tag.js:5
+msgid "Edit selected tags"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:302
 #: packages/woocommerce-blocks/build/product-tag.js:5
 msgid "This block displays products from selected tags. In order to preview this you'll first need to create a product and assign it some tags."
 msgstr ""
@@ -41497,6 +41362,11 @@ msgstr ""
 msgid "Display a grid of products from your selected attributes."
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/block.js:173
+#: packages/woocommerce-blocks/build/products-by-attribute.js:11
+msgid "Edit selected attribute"
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/index.js:25
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Display a grid of products with selected attributes."
@@ -41517,24 +41387,29 @@ msgstr ""
 msgid "Content Settings"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:201
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:151
+#: packages/woocommerce-blocks/build/all-products.js:29
+msgid "Edit inner product layout"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:204
 #: packages/woocommerce-blocks/build/all-products.js:29
 msgid "Display all products from your store as a grid."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:207
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:210
 #: packages/woocommerce-blocks/build/all-products.js:29
 msgid "Edit the blocks inside the preview below to change the content displayed for each product within the product grid."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:246
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:249
 #: packages/woocommerce-blocks/assets/js/blocks/single-product/edit/layout-editor.js:60
 #: packages/woocommerce-blocks/build/all-products.js:29
 #: packages/woocommerce-blocks/build/single-product.js:5
 msgid "Reset layout to default"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:252
+#: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:255
 #: packages/woocommerce-blocks/build/all-products.js:29
 msgid "Reset Layout"
 msgstr ""
@@ -41598,7 +41473,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 #: packages/woocommerce-blocks/build/reviews-by-category.js:1
@@ -41709,7 +41584,7 @@ msgid "Showing Reviews by Category block preview."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:111
-#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:154
+#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:159
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/index.js:21
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/no-reviews-placeholder.js:17
 #: packages/woocommerce-blocks/build/reviews-by-category.js:7
@@ -41767,7 +41642,7 @@ msgid "Showing Reviews by Product block preview."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/edit.js:130
-#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/edit.js:177
+#: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/edit.js:182
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/index.js:21
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-product/no-reviews-placeholder.js:48
 #: packages/woocommerce-blocks/build/reviews-by-product.js:13
@@ -41823,7 +41698,6 @@ msgstr ""
 msgid "Allow customers to filter the grid by products stock status. Works in combination with the All Products block."
 msgstr ""
 
-#. translators: %s: heading level e.g: "2", "3", "4"
 #: packages/woocommerce-blocks/assets/js/editor-components/block-title/index.js:28
 #: packages/woocommerce-blocks/build/active-filters.js:3
 #: packages/woocommerce-blocks/build/attribute-filter.js:5
@@ -41832,21 +41706,20 @@ msgstr ""
 msgid "Block title"
 msgstr ""
 
-#. translators: %s: heading level e.g: "2", "3", "4"
 #: packages/woocommerce-blocks/assets/js/editor-components/edit-product-link/index.js:33
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:3
 #: packages/woocommerce-blocks/build/single-product.js:1
 msgid "Edit this product's details"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/edit-product-link/index.js:41
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:3
 #: packages/woocommerce-blocks/build/single-product.js:1
 msgid "Edit details such as title, price, description and more."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/error-placeholder/error-message.js:10
-#: packages/woocommerce-blocks/build/all-products.js:21
+#: packages/woocommerce-blocks/build/all-products.js:19
 #: packages/woocommerce-blocks/build/all-reviews.js:7
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
@@ -41864,7 +41737,7 @@ msgid "An unknown error occurred which prevented the block from being updated."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/error-placeholder/error-message.js:19
-#: packages/woocommerce-blocks/build/all-products.js:21
+#: packages/woocommerce-blocks/build/all-products.js:19
 #: packages/woocommerce-blocks/build/all-reviews.js:7
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
@@ -41882,7 +41755,7 @@ msgid "The following error was returned"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/error-placeholder/error-message.js:32
-#: packages/woocommerce-blocks/build/all-products.js:21
+#: packages/woocommerce-blocks/build/all-products.js:19
 #: packages/woocommerce-blocks/build/all-reviews.js:7
 #: packages/woocommerce-blocks/build/featured-category.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:5
@@ -41910,17 +41783,14 @@ msgid "Sorry, an error occurred"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/feedback-prompt/index.js:28
-#: packages/woocommerce-blocks/build/cart.js:7
 msgid "Feedback?"
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/feedback-prompt/index.js:37
-#: packages/woocommerce-blocks/build/cart.js:7
 msgid "Give us your feedback."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/feedback-prompt/index.js:56
-#: packages/woocommerce-blocks/build/cart.js:7
 msgid "We are currently working on improving our cart and checkout blocks to provide merchants with the tools and customization options they need."
 msgstr ""
 
@@ -41930,7 +41800,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product title is visible."
@@ -41942,7 +41812,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product title is hidden."
@@ -41954,7 +41824,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product price"
@@ -41966,7 +41836,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product price is visible."
@@ -41978,7 +41848,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product price is hidden."
@@ -41990,7 +41860,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product rating is visible."
@@ -42002,7 +41872,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Product rating is hidden."
@@ -42014,7 +41884,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Add to Cart button"
@@ -42026,7 +41896,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Add to Cart button is visible."
@@ -42038,7 +41908,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-category.js:1
 #: packages/woocommerce-blocks/build/product-new.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
-#: packages/woocommerce-blocks/build/product-tag.js:5
+#: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/build/product-top-rated.js:1
 #: packages/woocommerce-blocks/build/products-by-attribute.js:11
 msgid "Add to Cart button is hidden."
@@ -42092,8 +41962,17 @@ msgstr ""
 msgid "The last inner block will follow other content."
 msgstr ""
 
+#. translators: %s: heading level e.g: "2", "3", "4"
+#: packages/woocommerce-blocks/assets/js/editor-components/heading-toolbar/index.js:26
+#: packages/woocommerce-blocks/build/active-filters.js:3
+#: packages/woocommerce-blocks/build/all-products.js:3
+#: packages/woocommerce-blocks/build/attribute-filter.js:3
+#: packages/woocommerce-blocks/build/price-filter.js:3
+#: packages/woocommerce-blocks/build/stock-filter.js:3
+msgid "Heading %d"
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/editor-components/page-selector/index.js:26
-#: packages/woocommerce-blocks/build/cart.js:7
 msgid "Link to"
 msgstr ""
 
@@ -42263,7 +42142,7 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:25
 #: packages/woocommerce-blocks/assets/js/editor-components/products-control/index.js:37
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/featured-product.js:1
 #: packages/woocommerce-blocks/build/handpicked-products.js:1
 #: packages/woocommerce-blocks/build/reviews-by-product.js:1
@@ -42272,7 +42151,7 @@ msgid "Your store doesn't have any products."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:29
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/featured-product.js:1
 #: packages/woocommerce-blocks/build/reviews-by-product.js:1
 #: packages/woocommerce-blocks/build/single-product.js:1
@@ -42281,7 +42160,7 @@ msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:33
 #: packages/woocommerce-blocks/assets/js/editor-components/products-control/index.js:56
-#: packages/woocommerce-blocks/build/all-products.js:7
+#: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/featured-product.js:1
 #: packages/woocommerce-blocks/build/handpicked-products.js:3
 #: packages/woocommerce-blocks/build/reviews-by-product.js:1
@@ -42291,7 +42170,7 @@ msgstr ""
 
 #. translators: %1$d is the number of variations of a product product.
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:92
-#: packages/woocommerce-blocks/build/all-products.js:9
+#: packages/woocommerce-blocks/build/all-products.js:7
 #: packages/woocommerce-blocks/build/featured-product.js:3
 #: packages/woocommerce-blocks/build/reviews-by-product.js:3
 #: packages/woocommerce-blocks/build/single-product.js:3
@@ -42300,7 +42179,7 @@ msgstr ""
 
 #. translators: %1$s is the product name, %2$d is the number of variations of that product.
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:103
-#: packages/woocommerce-blocks/build/all-products.js:11
+#: packages/woocommerce-blocks/build/all-products.js:9
 #: packages/woocommerce-blocks/build/featured-product.js:5
 #: packages/woocommerce-blocks/build/reviews-by-product.js:5
 #: packages/woocommerce-blocks/build/single-product.js:5
@@ -42466,9 +42345,34 @@ msgstr ""
 msgid "Credit Card Information"
 msgstr ""
 
+#: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/credit-card/elements.js:124
+#: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
+msgid "Card Number"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/credit-card/elements.js:141
+#: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
+msgid "Expiry Date"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/credit-card/elements.js:155
+#: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
+msgid "CVV/CVC"
+msgstr ""
+
 #: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/credit-card/index.js:54
 #: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
 msgid "Stripe Credit Card payment method"
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/stripe-utils/utils.js:236
+#: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
+msgid "Invalid email address, please correct and try again."
+msgstr ""
+
+#: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/stripe/stripe-utils/utils.js:241
+#: packages/woocommerce-blocks/build/wc-payment-method-stripe.js:1
+msgid "Unable to process this payment, please try again or use alternative method."
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/previews/categories.js:10
@@ -42544,20 +42448,41 @@ msgstr ""
 
 #. translators: %s Field label.
 #: packages/woocommerce-blocks/build/all-products-frontend.js:3
-#: packages/woocommerce-blocks/build/all-products.js:3
+#: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/atomic-block-components/add-to-cart--atomic-block-components/button--atomic-block-components/image---a7e2bb9b.js:3
-#: packages/woocommerce-blocks/build/cart-frontend.js:3
-#: packages/woocommerce-blocks/build/cart.js:3
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:3
 #: packages/woocommerce-blocks/build/single-product-frontend.js:3
 msgid "%s (optional)"
 msgstr ""
 
+#: packages/woocommerce-blocks/build/all-products.js:19
+#: packages/woocommerce-blocks/build/atomic-block-components/category-list-frontend.js:1
+#: packages/woocommerce-blocks/build/atomic-block-components/category-list.js:1
+msgid "Categories:"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/all-products.js:21
+msgid "Display the title of a product."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/all-products.js:21
+msgid "Choose a product to display its title."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/all-products.js:21
+msgid "Product Category List"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/all-products.js:21
+msgid "Display a list of categories belonging to a product."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/all-products.js:21
+msgid "Choose a product to display its categories."
+msgstr ""
+
 #: packages/woocommerce-blocks/build/blocks-checkout.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:19
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
 #: packages/woocommerce-blocks/build/wc-blocks-data.js:1
-#: packages/woocommerce-blocks/build/wc-blocks-middleware.js:1
 msgid "Unable to get cart data from the API."
 msgstr ""
 
@@ -42572,129 +42497,101 @@ msgid "The type returned by checkout filters must be the same as the type they r
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/checkout-button-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:31
-#: packages/woocommerce-blocks/build/cart.js:37
 msgid "Proceed to Checkout"
 msgstr ""
 
 #. translators: %s coupon code.
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:3
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:15
-#: packages/woocommerce-blocks/build/cart-frontend.js:29
-#: packages/woocommerce-blocks/build/cart.js:17
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:17
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:19
 msgid "Coupon code \"%s\" has been applied to your cart."
 msgstr ""
 
 #. translators: %s coupon code.
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:17
-#: packages/woocommerce-blocks/build/cart-frontend.js:31
-#: packages/woocommerce-blocks/build/cart.js:19
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:19
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:21
 msgid "Coupon code \"%s\" has been removed from your cart."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment--checkout-blocks/express-payment--checkout-blocks/payment-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:29
 msgid "Taxes:"
 msgstr ""
 
 #. translators: %s refers to the item name in the cart.
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:7
-#: packages/woocommerce-blocks/build/cart.js:25
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:7
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:9
 msgid "Quantity of %s in your cart."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:5
-#: packages/woocommerce-blocks/build/cart-frontend.js:7
-#: packages/woocommerce-blocks/build/cart.js:25
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:7
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:9
 msgid "Reduce quantity"
 msgstr ""
 
 #. translators: %s refers to the item name in the cart.
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:7
-#: packages/woocommerce-blocks/build/cart-frontend.js:9
-#: packages/woocommerce-blocks/build/cart.js:27
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:9
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:11
 msgid "Quantity reduced to %s."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:7
-#: packages/woocommerce-blocks/build/cart-frontend.js:9
-#: packages/woocommerce-blocks/build/cart.js:27
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:9
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:11
 msgid "Increase quantity"
 msgstr ""
 
 #. translators: %s refers to the item name in the cart.
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:9
-#: packages/woocommerce-blocks/build/cart-frontend.js:11
-#: packages/woocommerce-blocks/build/cart.js:29
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:11
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
 msgid "Quantity increased to %s."
 msgstr ""
 
 #. translators: %s will be replaced by the discount amount
-#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:35
-#: packages/woocommerce-blocks/build/cart.js:39
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
+#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:11
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:15
 msgid "Save %s"
 msgstr ""
 
+#. translators: %s refers to the item name in the cart.
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:13
-#: packages/woocommerce-blocks/build/cart.js:43
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
+msgid "%s has been removed from your cart."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
 msgid "Remove item"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/line-items-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:13
-#: packages/woocommerce-blocks/build/cart.js:43
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
 msgid "Details"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary--checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:33
-#: packages/woocommerce-blocks/build/cart.js:29
 #: packages/woocommerce-blocks/build/checkout-blocks/contact-information-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:21
 msgid "Invalid value."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary--checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Please select a country."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary--checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Please select a state."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary--checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "Please select a country to calculate rates."
 msgstr ""
 
 #. translators: %1$s name of the product (ie: Sunglasses), %2$d number of units in the current cart package
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:7
-#: packages/woocommerce-blocks/build/cart-frontend.js:21
-#: packages/woocommerce-blocks/build/cart.js:9
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:9
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:11
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:3
 msgid "%1$s (%2$d unit)"
 msgid_plural "%1$s (%2$d units)"
@@ -42703,9 +42600,7 @@ msgstr[1] ""
 
 #. translators: %d number of shipping options found.
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:9
-#: packages/woocommerce-blocks/build/cart-frontend.js:23
-#: packages/woocommerce-blocks/build/cart.js:11
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:11
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:13
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:5
 msgid "%d shipping option was found."
 msgid_plural "%d shipping options were found."
@@ -42714,9 +42609,7 @@ msgstr[1] ""
 
 #. translators: %d number of shipping packages packages.
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:11
-#: packages/woocommerce-blocks/build/cart-frontend.js:25
-#: packages/woocommerce-blocks/build/cart.js:13
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:13
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:15
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:7
 msgid "Shipping option searched for %d package."
 msgid_plural "Shipping options searched for %d packages."
@@ -42725,9 +42618,7 @@ msgstr[1] ""
 
 #. translators: %d number of shipping options available.
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:27
-#: packages/woocommerce-blocks/build/cart.js:15
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:15
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:17
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:9
 msgid "%d shipping option was found"
 msgid_plural "%d shipping options were found"
@@ -42735,121 +42626,42 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:13
-#: packages/woocommerce-blocks/build/cart-frontend.js:27
-#: packages/woocommerce-blocks/build/cart.js:15
-#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:15
+#: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:17
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:9
 msgid "Loading shipping rates…"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
-#: packages/woocommerce-blocks/build/cart-frontend.js:41
-#: packages/woocommerce-blocks/build/cart.js:35
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:25
 msgid "via"
 msgstr ""
 
 #. translators: %s location.
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:27
 msgid "Shipping to %s"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:27
 msgid "Calculate"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:27
 msgid "(change address)"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:23
-#: packages/woocommerce-blocks/build/cart-frontend.js:43
-#: packages/woocommerce-blocks/build/cart.js:37
 #: packages/woocommerce-blocks/build/checkout-blocks/order-summary-frontend.js:27
 msgid "Calculated during checkout"
-msgstr ""
-
-#. translators: %s refers to the item name in the cart.
-#: packages/woocommerce-blocks/build/cart-frontend.js:13
-#: packages/woocommerce-blocks/build/cart.js:43
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:13
-msgid "%s has been removed from your cart."
-msgstr ""
-
-#. translators: %s the id of the payment method being registered (bank transfer, Stripe...)
-#: packages/woocommerce-blocks/build/cart-frontend.js:15
-#: packages/woocommerce-blocks/build/cart.js:7
-msgid "There was an error registering the payment method with id '%s': "
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Compatibility notice"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Got it!"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "This block may not be compatible with <em>all</em> checkout extensions and integrations."
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "We recommend reviewing our <a>expanding list</a> of compatible extensions prior to using this block on a live store."
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgctxt "example product in Cart Block"
-msgid "Beanie with Logo"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgctxt "example product in Cart Block"
-msgid "Beanie"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Beanie"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Warm hat for winter"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Yellow"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Cap"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Lightweight baseball cap"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Orange"
-msgstr ""
-
-#: packages/woocommerce-blocks/build/cart.js:37
-msgid "Sales tax"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/checkout-blocks/billing-address-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/contact-information-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-address-frontend.js:1
-#: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:9
+#: packages/woocommerce-blocks/build/checkout-blocks/shipping-methods-frontend.js:1
 msgid "Step description text."
 msgstr ""
 
@@ -42894,9 +42706,42 @@ msgstr ""
 msgid "Shipping options will be displayed here after entering your full shipping address."
 msgstr ""
 
-#. translators: %1$s terms page link, %2$s privacy page link.
 #: packages/woocommerce-blocks/build/checkout-blocks/terms-frontend.js:5
 msgid "Please read and accept the terms and conditions."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "WooCommerce Single Product Template"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "WooCommerce Product Archive Template"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "WooCommerce Product Taxonomy Template"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "WooCommerce Product Tag Template"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "WooCommerce Legacy Template"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/legacy-template.js:1
+msgid "Renders legacy WooCommerce PHP templates."
+msgstr ""
+
+#. translators: %s is the template title
+#: packages/woocommerce-blocks/build/legacy-template.js:3
+msgid "This is an editor placeholder for the %s. On your store this will be replaced by the template and display with your product image(s), title, price, etc. You can move this placeholder around and add further blocks around it to extend the template."
+msgstr ""
+
+#. translators: %s the id of the payment method being registered (bank transfer, Stripe...)
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:7
+msgid "There was an error registering the payment method with id '%s': "
 msgstr ""
 
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:17
@@ -42904,11 +42749,39 @@ msgid "Close mini cart"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
+msgid "Shipping, taxes, and discounts calculated at checkout."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
+msgid "View my cart"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
+msgid "Go to checkout"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "Cart is empty"
 msgstr ""
 
-#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
+#: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "Your cart"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Compatibility notice"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Got it!"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "This block may not be compatible with <em>all</em> checkout extensions and integrations."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "We recommend reviewing our <a>expanding list</a> of compatible extensions prior to using this block on a live store."
 msgstr ""
 
 #: packages/woocommerce-blocks/build/mini-cart.js:1
