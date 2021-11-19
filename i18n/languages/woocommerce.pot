@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-19T16:08:56+00:00\n"
+"POT-Creation-Date: 2021-11-19T17:28:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -1260,6 +1260,7 @@ msgid "Neuquén"
 msgstr ""
 
 #: i18n/states.php:54
+#: i18n/states.php:1851
 msgid "Río Negro"
 msgstr ""
 
@@ -1793,7 +1794,7 @@ msgstr ""
 
 #: i18n/states.php:204
 #: i18n/states.php:1192
-#: i18n/states.php:1864
+#: i18n/states.php:1885
 msgid "Amazonas"
 msgstr ""
 
@@ -2883,12 +2884,12 @@ msgstr ""
 
 #: i18n/states.php:504
 #: i18n/states.php:1330
-#: i18n/states.php:1881
+#: i18n/states.php:1902
 msgid "Central"
 msgstr ""
 
 #: i18n/states.php:505
-#: i18n/states.php:1882
+#: i18n/states.php:1903
 msgid "Eastern"
 msgstr ""
 
@@ -2901,7 +2902,7 @@ msgid "North East"
 msgstr ""
 
 #: i18n/states.php:508
-#: i18n/states.php:1884
+#: i18n/states.php:1905
 msgid "Northern"
 msgstr ""
 
@@ -2926,7 +2927,7 @@ msgid "Volta"
 msgstr ""
 
 #: i18n/states.php:514
-#: i18n/states.php:1880
+#: i18n/states.php:1901
 msgid "Western"
 msgstr ""
 
@@ -7635,6 +7636,7 @@ msgid "District Of Columbia"
 msgstr ""
 
 #: i18n/states.php:1793
+#: i18n/states.php:1846
 msgid "Florida"
 msgstr ""
 
@@ -7808,158 +7810,226 @@ msgid "Armed Forces (AP)"
 msgstr ""
 
 #: i18n/states.php:1840
-msgid "Capital"
+msgid "Artigas"
 msgstr ""
 
 #: i18n/states.php:1841
-msgid "Anzoátegui"
+msgid "Canelones"
 msgstr ""
 
 #: i18n/states.php:1842
-msgid "Apure"
+msgid "Cerro Largo"
 msgstr ""
 
 #: i18n/states.php:1843
-msgid "Aragua"
+msgid "Colonia"
 msgstr ""
 
 #: i18n/states.php:1844
-msgid "Barinas"
+msgid "Durazno"
 msgstr ""
 
 #: i18n/states.php:1845
-msgid "Bolívar"
-msgstr ""
-
-#: i18n/states.php:1846
-msgid "Carabobo"
+msgid "Flores"
 msgstr ""
 
 #: i18n/states.php:1847
-msgid "Cojedes"
+msgid "Lavalleja"
 msgstr ""
 
 #: i18n/states.php:1848
-msgid "Falcón"
+msgid "Maldonado"
 msgstr ""
 
 #: i18n/states.php:1849
-msgid "Guárico"
+msgid "Montevideo"
 msgstr ""
 
 #: i18n/states.php:1850
-msgid "Lara"
-msgstr ""
-
-#: i18n/states.php:1851
-msgid "Mérida"
+msgid "Paysandú"
 msgstr ""
 
 #: i18n/states.php:1852
-msgid "Miranda"
+msgid "Rivera"
 msgstr ""
 
 #: i18n/states.php:1853
-msgid "Monagas"
+msgid "Rocha"
 msgstr ""
 
 #: i18n/states.php:1854
-msgid "Nueva Esparta"
+msgid "Salto"
 msgstr ""
 
 #: i18n/states.php:1855
-msgid "Portuguesa"
+msgid "San José"
 msgstr ""
 
 #: i18n/states.php:1856
-msgid "Sucre"
+msgid "Soriano"
 msgstr ""
 
 #: i18n/states.php:1857
-msgid "Táchira"
+msgid "Tacuarembó"
 msgstr ""
 
 #: i18n/states.php:1858
-msgid "Trujillo"
-msgstr ""
-
-#: i18n/states.php:1859
-msgid "Yaracuy"
-msgstr ""
-
-#: i18n/states.php:1860
-msgid "Zulia"
+msgid "Treinta y Tres"
 msgstr ""
 
 #: i18n/states.php:1861
-msgid "Federal Dependencies"
+msgid "Capital"
 msgstr ""
 
 #: i18n/states.php:1862
-msgid "La Guaira (Vargas)"
+msgid "Anzoátegui"
 msgstr ""
 
 #: i18n/states.php:1863
-msgid "Delta Amacuro"
+msgid "Apure"
+msgstr ""
+
+#: i18n/states.php:1864
+msgid "Aragua"
+msgstr ""
+
+#: i18n/states.php:1865
+msgid "Barinas"
+msgstr ""
+
+#: i18n/states.php:1866
+msgid "Bolívar"
+msgstr ""
+
+#: i18n/states.php:1867
+msgid "Carabobo"
+msgstr ""
+
+#: i18n/states.php:1868
+msgid "Cojedes"
 msgstr ""
 
 #: i18n/states.php:1869
-msgid "Eastern Cape"
+msgid "Falcón"
 msgstr ""
 
 #: i18n/states.php:1870
-msgid "Free State"
+msgid "Guárico"
 msgstr ""
 
 #: i18n/states.php:1871
-msgid "Gauteng"
+msgid "Lara"
 msgstr ""
 
 #: i18n/states.php:1872
-msgid "KwaZulu-Natal"
+msgid "Mérida"
 msgstr ""
 
 #: i18n/states.php:1873
-msgid "Limpopo"
+msgid "Miranda"
 msgstr ""
 
 #: i18n/states.php:1874
-msgid "Mpumalanga"
+msgid "Monagas"
 msgstr ""
 
 #: i18n/states.php:1875
-msgid "Northern Cape"
+msgid "Nueva Esparta"
 msgstr ""
 
 #: i18n/states.php:1876
-msgid "North West"
+msgid "Portuguesa"
 msgstr ""
 
 #: i18n/states.php:1877
-msgid "Western Cape"
+msgid "Sucre"
+msgstr ""
+
+#: i18n/states.php:1878
+msgid "Táchira"
+msgstr ""
+
+#: i18n/states.php:1879
+msgid "Trujillo"
+msgstr ""
+
+#: i18n/states.php:1880
+msgid "Yaracuy"
+msgstr ""
+
+#: i18n/states.php:1881
+msgid "Zulia"
+msgstr ""
+
+#: i18n/states.php:1882
+msgid "Federal Dependencies"
 msgstr ""
 
 #: i18n/states.php:1883
+msgid "La Guaira (Vargas)"
+msgstr ""
+
+#: i18n/states.php:1884
+msgid "Delta Amacuro"
+msgstr ""
+
+#: i18n/states.php:1890
+msgid "Eastern Cape"
+msgstr ""
+
+#: i18n/states.php:1891
+msgid "Free State"
+msgstr ""
+
+#: i18n/states.php:1892
+msgid "Gauteng"
+msgstr ""
+
+#: i18n/states.php:1893
+msgid "KwaZulu-Natal"
+msgstr ""
+
+#: i18n/states.php:1894
+msgid "Limpopo"
+msgstr ""
+
+#: i18n/states.php:1895
+msgid "Mpumalanga"
+msgstr ""
+
+#: i18n/states.php:1896
+msgid "Northern Cape"
+msgstr ""
+
+#: i18n/states.php:1897
+msgid "North West"
+msgstr ""
+
+#: i18n/states.php:1898
+msgid "Western Cape"
+msgstr ""
+
+#: i18n/states.php:1904
 msgid "Luapula"
 msgstr ""
 
-#: i18n/states.php:1885
+#: i18n/states.php:1906
 msgid "North-Western"
 msgstr ""
 
-#: i18n/states.php:1886
+#: i18n/states.php:1907
 msgid "Southern"
 msgstr ""
 
-#: i18n/states.php:1887
+#: i18n/states.php:1908
 msgid "Copperbelt"
 msgstr ""
 
-#: i18n/states.php:1888
+#: i18n/states.php:1909
 msgid "Lusaka"
 msgstr ""
 
-#: i18n/states.php:1889
+#: i18n/states.php:1910
 msgid "Muchinga"
 msgstr ""
 
@@ -10218,7 +10288,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:385
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:88
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:137
-#: includes/class-wc-countries.php:1526
+#: includes/class-wc-countries.php:1531
 #: includes/customizer/class-wc-shop-customizer.php:726
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:78
 #: packages/woocommerce-blocks/build/checkout-blocks/billing-address-frontend.js:1
@@ -10229,7 +10299,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:90
 #: includes/admin/class-wc-admin-setup-wizard.php:2238
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:85
-#: includes/class-wc-countries.php:1536
+#: includes/class-wc-countries.php:1541
 #: includes/class-wc-form-handler.php:271
 #: templates/myaccount/form-edit-account.php:43
 #: templates/myaccount/form-login.php:86
@@ -18711,7 +18781,7 @@ msgstr ""
 #: includes/class-wc-countries.php:1214
 #: includes/class-wc-countries.php:1348
 #: includes/class-wc-countries.php:1391
-#: includes/class-wc-countries.php:1463
+#: includes/class-wc-countries.php:1468
 msgid "Province"
 msgstr ""
 
@@ -18722,7 +18792,7 @@ msgstr ""
 #: includes/class-wc-countries.php:838
 #: includes/class-wc-countries.php:1228
 #: includes/class-wc-countries.php:1238
-#: includes/class-wc-countries.php:1418
+#: includes/class-wc-countries.php:1423
 msgid "Postcode"
 msgstr ""
 
@@ -18734,7 +18804,7 @@ msgstr ""
 #: includes/class-wc-countries.php:868
 #: includes/class-wc-countries.php:1306
 #: includes/class-wc-countries.php:1404
-#: includes/class-wc-countries.php:1431
+#: includes/class-wc-countries.php:1436
 msgid "District"
 msgstr ""
 
@@ -18756,6 +18826,7 @@ msgid "Region"
 msgstr ""
 
 #: includes/class-wc-countries.php:1036
+#: includes/class-wc-countries.php:1418
 msgid "Department"
 msgstr ""
 
@@ -18766,7 +18837,7 @@ msgstr ""
 #: includes/class-wc-countries.php:1073
 #: includes/class-wc-countries.php:1087
 #: includes/class-wc-countries.php:1294
-#: includes/class-wc-countries.php:1421
+#: includes/class-wc-countries.php:1426
 msgid "County"
 msgstr ""
 
