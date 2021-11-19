@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-19T17:33:19+00:00\n"
+"POT-Creation-Date: 2021-11-19T17:39:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10338,7 +10338,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:385
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:88
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:137
-#: includes/class-wc-countries.php:1536
+#: includes/class-wc-countries.php:1541
 #: includes/customizer/class-wc-shop-customizer.php:726
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:78
 #: packages/woocommerce-blocks/build/checkout-blocks/billing-address-frontend.js:1
@@ -10349,7 +10349,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:90
 #: includes/admin/class-wc-admin-setup-wizard.php:2238
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:85
-#: includes/class-wc-countries.php:1546
+#: includes/class-wc-countries.php:1551
 #: includes/class-wc-form-handler.php:271
 #: templates/myaccount/form-edit-account.php:43
 #: templates/myaccount/form-login.php:86
@@ -10667,7 +10667,7 @@ msgstr ""
 #: includes/class-wc-countries.php:841
 #: includes/class-wc-countries.php:1119
 #: includes/class-wc-countries.php:1233
-#: includes/class-wc-countries.php:1418
+#: includes/class-wc-countries.php:1423
 msgid "State"
 msgstr ""
 
@@ -18829,9 +18829,9 @@ msgstr ""
 #: includes/class-wc-countries.php:1078
 #: includes/class-wc-countries.php:1128
 #: includes/class-wc-countries.php:1214
-#: includes/class-wc-countries.php:1353
-#: includes/class-wc-countries.php:1396
-#: includes/class-wc-countries.php:1473
+#: includes/class-wc-countries.php:1358
+#: includes/class-wc-countries.php:1401
+#: includes/class-wc-countries.php:1478
 msgid "Province"
 msgstr ""
 
@@ -18842,7 +18842,7 @@ msgstr ""
 #: includes/class-wc-countries.php:838
 #: includes/class-wc-countries.php:1228
 #: includes/class-wc-countries.php:1238
-#: includes/class-wc-countries.php:1428
+#: includes/class-wc-countries.php:1433
 msgid "Postcode"
 msgstr ""
 
@@ -18852,9 +18852,9 @@ msgid "Canton"
 msgstr ""
 
 #: includes/class-wc-countries.php:868
-#: includes/class-wc-countries.php:1306
-#: includes/class-wc-countries.php:1409
-#: includes/class-wc-countries.php:1441
+#: includes/class-wc-countries.php:1311
+#: includes/class-wc-countries.php:1414
+#: includes/class-wc-countries.php:1446
 msgid "District"
 msgstr ""
 
@@ -18876,8 +18876,9 @@ msgid "Region"
 msgstr ""
 
 #: includes/class-wc-countries.php:1036
-#: includes/class-wc-countries.php:1345
-#: includes/class-wc-countries.php:1423
+#: includes/class-wc-countries.php:1288
+#: includes/class-wc-countries.php:1350
+#: includes/class-wc-countries.php:1428
 msgid "Department"
 msgstr ""
 
@@ -18887,8 +18888,8 @@ msgstr ""
 
 #: includes/class-wc-countries.php:1073
 #: includes/class-wc-countries.php:1087
-#: includes/class-wc-countries.php:1294
-#: includes/class-wc-countries.php:1431
+#: includes/class-wc-countries.php:1299
+#: includes/class-wc-countries.php:1436
 msgid "County"
 msgstr ""
 
@@ -18919,7 +18920,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:1186
 #: includes/class-wc-countries.php:1273
-#: includes/class-wc-countries.php:1361
+#: includes/class-wc-countries.php:1366
 msgid "Municipality"
 msgstr ""
 
@@ -18927,15 +18928,15 @@ msgstr ""
 msgid "State / Zone"
 msgstr ""
 
-#: includes/class-wc-countries.php:1379
+#: includes/class-wc-countries.php:1384
 msgid "Municipality / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:1405
+#: includes/class-wc-countries.php:1410
 msgid "Town / Village"
 msgstr ""
 
-#: includes/class-wc-countries.php:1415
+#: includes/class-wc-countries.php:1420
 msgid "ZIP Code"
 msgstr ""
 
