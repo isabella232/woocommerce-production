@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-22T16:07:35+00:00\n"
+"POT-Creation-Date: 2021-11-22T17:47:19+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -21530,26 +21530,26 @@ msgstr ""
 msgid "Email heading (paid)"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:60
+#: includes/emails/class-wc-email-customer-new-account.php:67
 #: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:59
 msgid "New account"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:61
+#: includes/emails/class-wc-email-customer-new-account.php:68
 msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account pages."
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:76
+#: includes/emails/class-wc-email-customer-new-account.php:83
 #: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:76
 msgid "Your {site_title} account has been created!"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:86
+#: includes/emails/class-wc-email-customer-new-account.php:93
 #: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:86
 msgid "Welcome to {site_title}"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:167
+#: includes/emails/class-wc-email-customer-new-account.php:177
 #: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:174
 msgid "We look forward to seeing you soon."
 msgstr ""
@@ -34961,10 +34961,13 @@ msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can ac
 msgstr ""
 
 #: packages/woocommerce-blocks/templates/emails/customer-new-account-blocks.php:21
+#: templates/emails/customer-new-account.php:28
 msgid "Click here to set your new password."
 msgstr ""
 
+#. translators: URL follows
 #: packages/woocommerce-blocks/templates/emails/plain/customer-new-account-blocks.php:24
+#: templates/emails/plain/customer-new-account.php:32
 msgid "To set your password, visit the following address: "
 msgstr ""
 
@@ -35362,13 +35365,6 @@ msgstr ""
 msgid "Here are the details of your order placed on %s:"
 msgstr ""
 
-#. translators: %s: Auto generated password
-#. translators: %s: Auto generated password
-#: templates/emails/customer-new-account.php:28
-#: templates/emails/plain/customer-new-account.php:31
-msgid "Your password has been automatically generated: %s"
-msgstr ""
-
 #: templates/emails/customer-note.php:29
 #: templates/emails/plain/customer-note.php:26
 msgid "The following note has been added to your order:"
@@ -35586,7 +35582,7 @@ msgid "Register"
 msgstr ""
 
 #: templates/myaccount/form-login.php:99
-msgid "A password will be sent to your email address."
+msgid "A link to set a new password will be sent to your email address."
 msgstr ""
 
 #: templates/myaccount/form-lost-password.php:25
