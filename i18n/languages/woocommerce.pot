@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-23T17:52:36+00:00\n"
+"POT-Creation-Date: 2021-11-23T17:59:07+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -487,7 +487,7 @@ msgid "Guam"
 msgstr ""
 
 #: i18n/countries.php:107
-#: i18n/states.php:594
+#: i18n/states.php:620
 msgid "Guatemala"
 msgstr ""
 
@@ -760,7 +760,7 @@ msgid "Nicaragua"
 msgstr ""
 
 #: i18n/countries.php:175
-#: i18n/states.php:1215
+#: i18n/states.php:1241
 msgid "Niger"
 msgstr ""
 
@@ -1218,7 +1218,7 @@ msgstr ""
 
 #: i18n/states.php:44
 #: i18n/states.php:337
-#: i18n/states.php:513
+#: i18n/states.php:539
 msgid "Córdoba"
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgid "La Pampa"
 msgstr ""
 
 #: i18n/states.php:50
-#: i18n/states.php:522
+#: i18n/states.php:548
 msgid "La Rioja"
 msgstr ""
 
@@ -1252,7 +1252,7 @@ msgid "Mendoza"
 msgstr ""
 
 #: i18n/states.php:52
-#: i18n/states.php:1416
+#: i18n/states.php:1442
 msgid "Misiones"
 msgstr ""
 
@@ -1261,7 +1261,7 @@ msgid "Neuquén"
 msgstr ""
 
 #: i18n/states.php:54
-#: i18n/states.php:1956
+#: i18n/states.php:1982
 msgid "Río Negro"
 msgstr ""
 
@@ -1620,7 +1620,7 @@ msgid "Lovech"
 msgstr ""
 
 #: i18n/states.php:152
-#: i18n/states.php:1915
+#: i18n/states.php:1941
 msgid "Montana"
 msgstr ""
 
@@ -1741,7 +1741,7 @@ msgid "Ouémé"
 msgstr ""
 
 #: i18n/states.php:186
-#: i18n/states.php:1220
+#: i18n/states.php:1246
 msgid "Plateau"
 msgstr ""
 
@@ -1762,8 +1762,8 @@ msgid "Cochabamba"
 msgstr ""
 
 #: i18n/states.php:193
-#: i18n/states.php:629
-#: i18n/states.php:1482
+#: i18n/states.php:655
+#: i18n/states.php:1508
 msgid "La Paz"
 msgstr ""
 
@@ -1797,8 +1797,8 @@ msgstr ""
 
 #: i18n/states.php:204
 #: i18n/states.php:325
-#: i18n/states.php:1281
-#: i18n/states.php:1990
+#: i18n/states.php:1307
+#: i18n/states.php:2016
 msgid "Amazonas"
 msgstr ""
 
@@ -2087,6 +2087,7 @@ msgid "Los Lagos"
 msgstr ""
 
 #: i18n/states.php:282
+#: i18n/states.php:479
 msgid "Los Ríos"
 msgstr ""
 
@@ -2255,7 +2256,8 @@ msgid "Atlántico"
 msgstr ""
 
 #: i18n/states.php:329
-#: i18n/states.php:1971
+#: i18n/states.php:468
+#: i18n/states.php:1997
 msgid "Bolívar"
 msgstr ""
 
@@ -2348,7 +2350,7 @@ msgid "San Andrés & Providencia"
 msgstr ""
 
 #: i18n/states.php:353
-#: i18n/states.php:1982
+#: i18n/states.php:2008
 msgid "Sucre"
 msgstr ""
 
@@ -2393,7 +2395,7 @@ msgid "Puntarenas"
 msgstr ""
 
 #: i18n/states.php:366
-#: i18n/states.php:1960
+#: i18n/states.php:1986
 msgid "San José"
 msgstr ""
 
@@ -2754,5635 +2756,5723 @@ msgid "Relizane"
 msgstr ""
 
 #: i18n/states.php:467
-msgid "Alexandria"
-msgstr ""
-
-#: i18n/states.php:468
-msgid "Aswan"
+msgid "Azuay"
 msgstr ""
 
 #: i18n/states.php:469
-msgid "Asyut"
+msgid "Cañar"
 msgstr ""
 
 #: i18n/states.php:470
-msgid "Red Sea"
+msgid "Carchi"
 msgstr ""
 
 #: i18n/states.php:471
-msgid "Beheira"
+msgid "Chimborazo"
 msgstr ""
 
 #: i18n/states.php:472
-msgid "Beni Suef"
+msgid "Cotopaxi"
 msgstr ""
 
 #: i18n/states.php:473
-msgid "Cairo"
+msgid "El Oro"
 msgstr ""
 
 #: i18n/states.php:474
-msgid "Dakahlia"
+msgid "Esmeraldas"
 msgstr ""
 
 #: i18n/states.php:475
-msgid "Damietta"
+msgid "Galápagos"
 msgstr ""
 
 #: i18n/states.php:476
-msgid "Faiyum"
+msgid "Guayas"
 msgstr ""
 
 #: i18n/states.php:477
-msgid "Gharbia"
+msgid "Imbabura"
 msgstr ""
 
 #: i18n/states.php:478
-msgid "Giza"
-msgstr ""
-
-#: i18n/states.php:479
-msgid "Ismailia"
+msgid "Loja"
 msgstr ""
 
 #: i18n/states.php:480
-msgid "South Sinai"
+msgid "Manabí"
 msgstr ""
 
 #: i18n/states.php:481
-msgid "Qalyubia"
+msgid "Morona-Santiago"
 msgstr ""
 
 #: i18n/states.php:482
-msgid "Kafr el-Sheikh"
+msgid "Napo"
 msgstr ""
 
 #: i18n/states.php:483
-msgid "Qena"
+msgid "Orellana"
 msgstr ""
 
 #: i18n/states.php:484
-msgid "Luxor"
+msgid "Pastaza"
 msgstr ""
 
 #: i18n/states.php:485
-msgid "Minya"
+msgid "Pichincha"
 msgstr ""
 
 #: i18n/states.php:486
-msgid "Monufia"
+msgid "Santa Elena"
 msgstr ""
 
 #: i18n/states.php:487
-msgid "Matrouh"
+msgid "Santo Domingo de los Tsáchilas"
 msgstr ""
 
 #: i18n/states.php:488
-msgid "Port Said"
+msgid "Sucumbíos"
 msgstr ""
 
 #: i18n/states.php:489
-msgid "Sohag"
+msgid "Tungurahua"
 msgstr ""
 
 #: i18n/states.php:490
-msgid "Al Sharqia"
-msgstr ""
-
-#: i18n/states.php:491
-msgid "North Sinai"
-msgstr ""
-
-#: i18n/states.php:492
-msgid "Suez"
+msgid "Zamora-Chinchipe"
 msgstr ""
 
 #: i18n/states.php:493
-msgid "New Valley"
+msgid "Alexandria"
+msgstr ""
+
+#: i18n/states.php:494
+msgid "Aswan"
+msgstr ""
+
+#: i18n/states.php:495
+msgid "Asyut"
 msgstr ""
 
 #: i18n/states.php:496
-msgid "A Coruña"
+msgid "Red Sea"
 msgstr ""
 
 #: i18n/states.php:497
-msgid "Araba/Álava"
+msgid "Beheira"
 msgstr ""
 
 #: i18n/states.php:498
-msgid "Albacete"
+msgid "Beni Suef"
 msgstr ""
 
 #: i18n/states.php:499
-msgid "Alicante"
+msgid "Cairo"
 msgstr ""
 
 #: i18n/states.php:500
-msgid "Almería"
+msgid "Dakahlia"
 msgstr ""
 
 #: i18n/states.php:501
-msgid "Asturias"
+msgid "Damietta"
 msgstr ""
 
 #: i18n/states.php:502
-msgid "Ávila"
+msgid "Faiyum"
 msgstr ""
 
 #: i18n/states.php:503
-msgid "Badajoz"
+msgid "Gharbia"
 msgstr ""
 
 #: i18n/states.php:504
-msgid "Baleares"
+msgid "Giza"
 msgstr ""
 
 #: i18n/states.php:505
-msgid "Barcelona"
+msgid "Ismailia"
 msgstr ""
 
 #: i18n/states.php:506
-msgid "Burgos"
+msgid "South Sinai"
 msgstr ""
 
 #: i18n/states.php:507
-msgid "Cáceres"
+msgid "Qalyubia"
 msgstr ""
 
 #: i18n/states.php:508
-msgid "Cádiz"
+msgid "Kafr el-Sheikh"
 msgstr ""
 
 #: i18n/states.php:509
-msgid "Cantabria"
+msgid "Qena"
 msgstr ""
 
 #: i18n/states.php:510
-msgid "Castellón"
+msgid "Luxor"
 msgstr ""
 
 #: i18n/states.php:511
-msgid "Ceuta"
+msgid "Minya"
 msgstr ""
 
 #: i18n/states.php:512
-msgid "Ciudad Real"
+msgid "Monufia"
+msgstr ""
+
+#: i18n/states.php:513
+msgid "Matrouh"
 msgstr ""
 
 #: i18n/states.php:514
-msgid "Cuenca"
+msgid "Port Said"
 msgstr ""
 
 #: i18n/states.php:515
-msgid "Girona"
+msgid "Sohag"
 msgstr ""
 
 #: i18n/states.php:516
-msgid "Granada"
+msgid "Al Sharqia"
 msgstr ""
 
 #: i18n/states.php:517
-msgid "Guadalajara"
+msgid "North Sinai"
 msgstr ""
 
 #: i18n/states.php:518
-msgid "Gipuzkoa"
+msgid "Suez"
 msgstr ""
 
 #: i18n/states.php:519
-msgid "Huelva"
+msgid "New Valley"
 msgstr ""
 
-#: i18n/states.php:520
-msgid "Huesca"
-msgstr ""
-
-#: i18n/states.php:521
-msgid "Jaén"
+#: i18n/states.php:522
+msgid "A Coruña"
 msgstr ""
 
 #: i18n/states.php:523
-msgid "Las Palmas"
+msgid "Araba/Álava"
 msgstr ""
 
 #: i18n/states.php:524
-msgid "León"
+msgid "Albacete"
 msgstr ""
 
 #: i18n/states.php:525
-msgid "Lleida"
+msgid "Alicante"
 msgstr ""
 
 #: i18n/states.php:526
-msgid "Lugo"
+msgid "Almería"
 msgstr ""
 
 #: i18n/states.php:527
-msgid "Madrid"
+msgid "Asturias"
 msgstr ""
 
 #: i18n/states.php:528
-msgid "Málaga"
+msgid "Ávila"
 msgstr ""
 
 #: i18n/states.php:529
-msgid "Melilla"
+msgid "Badajoz"
 msgstr ""
 
 #: i18n/states.php:530
-msgid "Murcia"
+msgid "Baleares"
 msgstr ""
 
 #: i18n/states.php:531
-msgid "Navarra"
+msgid "Barcelona"
 msgstr ""
 
 #: i18n/states.php:532
-msgid "Ourense"
+msgid "Burgos"
 msgstr ""
 
 #: i18n/states.php:533
-msgid "Palencia"
+msgid "Cáceres"
 msgstr ""
 
 #: i18n/states.php:534
-msgid "Pontevedra"
+msgid "Cádiz"
 msgstr ""
 
 #: i18n/states.php:535
-msgid "Salamanca"
+msgid "Cantabria"
 msgstr ""
 
 #: i18n/states.php:536
-msgid "Santa Cruz de Tenerife"
+msgid "Castellón"
 msgstr ""
 
 #: i18n/states.php:537
-msgid "Segovia"
+msgid "Ceuta"
 msgstr ""
 
 #: i18n/states.php:538
-msgid "Sevilla"
-msgstr ""
-
-#: i18n/states.php:539
-msgid "Soria"
+msgid "Ciudad Real"
 msgstr ""
 
 #: i18n/states.php:540
-msgid "Tarragona"
+msgid "Cuenca"
 msgstr ""
 
 #: i18n/states.php:541
-msgid "Teruel"
+msgid "Girona"
 msgstr ""
 
 #: i18n/states.php:542
-msgid "Toledo"
+msgid "Granada"
 msgstr ""
 
 #: i18n/states.php:543
-msgid "Valencia"
+msgid "Guadalajara"
 msgstr ""
 
 #: i18n/states.php:544
-msgid "Valladolid"
+msgid "Gipuzkoa"
 msgstr ""
 
 #: i18n/states.php:545
-msgid "Biscay"
+msgid "Huelva"
 msgstr ""
 
 #: i18n/states.php:546
-msgid "Zamora"
+msgid "Huesca"
 msgstr ""
 
 #: i18n/states.php:547
-msgid "Zaragoza"
+msgid "Jaén"
+msgstr ""
+
+#: i18n/states.php:549
+msgid "Las Palmas"
+msgstr ""
+
+#: i18n/states.php:550
+msgid "León"
+msgstr ""
+
+#: i18n/states.php:551
+msgid "Lleida"
+msgstr ""
+
+#: i18n/states.php:552
+msgid "Lugo"
 msgstr ""
 
 #: i18n/states.php:553
-msgid "Ahafo"
+msgid "Madrid"
 msgstr ""
 
 #: i18n/states.php:554
-msgid "Ashanti"
+msgid "Málaga"
 msgstr ""
 
 #: i18n/states.php:555
-msgid "Brong-Ahafo"
+msgid "Melilla"
 msgstr ""
 
 #: i18n/states.php:556
-msgid "Bono"
+msgid "Murcia"
 msgstr ""
 
 #: i18n/states.php:557
-msgid "Bono East"
+msgid "Navarra"
 msgstr ""
 
 #: i18n/states.php:558
-#: i18n/states.php:1419
-#: i18n/states.php:2007
-msgid "Central"
+msgid "Ourense"
 msgstr ""
 
 #: i18n/states.php:559
-#: i18n/states.php:2008
-msgid "Eastern"
+msgid "Palencia"
 msgstr ""
 
 #: i18n/states.php:560
-msgid "Greater Accra"
+msgid "Pontevedra"
 msgstr ""
 
 #: i18n/states.php:561
-msgid "North East"
+msgid "Salamanca"
 msgstr ""
 
 #: i18n/states.php:562
-#: i18n/states.php:2010
-msgid "Northern"
+msgid "Santa Cruz de Tenerife"
 msgstr ""
 
 #: i18n/states.php:563
-msgid "Oti"
+msgid "Segovia"
 msgstr ""
 
 #: i18n/states.php:564
-msgid "Savannah"
+msgid "Sevilla"
 msgstr ""
 
 #: i18n/states.php:565
-msgid "Upper East"
+msgid "Soria"
 msgstr ""
 
 #: i18n/states.php:566
-msgid "Upper West"
+msgid "Tarragona"
 msgstr ""
 
 #: i18n/states.php:567
-msgid "Volta"
+msgid "Teruel"
 msgstr ""
 
 #: i18n/states.php:568
-#: i18n/states.php:2006
-msgid "Western"
+msgid "Toledo"
 msgstr ""
 
 #: i18n/states.php:569
-msgid "Western North"
+msgid "Valencia"
+msgstr ""
+
+#: i18n/states.php:570
+msgid "Valladolid"
+msgstr ""
+
+#: i18n/states.php:571
+msgid "Biscay"
+msgstr ""
+
+#: i18n/states.php:572
+msgid "Zamora"
 msgstr ""
 
 #: i18n/states.php:573
-msgid "Attica"
-msgstr ""
-
-#: i18n/states.php:574
-msgid "East Macedonia and Thrace"
-msgstr ""
-
-#: i18n/states.php:575
-msgid "Central Macedonia"
-msgstr ""
-
-#: i18n/states.php:576
-msgid "West Macedonia"
-msgstr ""
-
-#: i18n/states.php:577
-msgid "Epirus"
-msgstr ""
-
-#: i18n/states.php:578
-msgid "Thessaly"
+msgid "Zaragoza"
 msgstr ""
 
 #: i18n/states.php:579
-msgid "Ionian Islands"
+msgid "Ahafo"
 msgstr ""
 
 #: i18n/states.php:580
-msgid "West Greece"
+msgid "Ashanti"
 msgstr ""
 
 #: i18n/states.php:581
-msgid "Central Greece"
+msgid "Brong-Ahafo"
 msgstr ""
 
 #: i18n/states.php:582
-msgid "Peloponnese"
+msgid "Bono"
 msgstr ""
 
 #: i18n/states.php:583
-msgid "North Aegean"
+msgid "Bono East"
 msgstr ""
 
 #: i18n/states.php:584
-msgid "South Aegean"
+#: i18n/states.php:1445
+#: i18n/states.php:2033
+msgid "Central"
 msgstr ""
 
 #: i18n/states.php:585
-msgid "Crete"
+#: i18n/states.php:2034
+msgid "Eastern"
+msgstr ""
+
+#: i18n/states.php:586
+msgid "Greater Accra"
+msgstr ""
+
+#: i18n/states.php:587
+msgid "North East"
 msgstr ""
 
 #: i18n/states.php:588
-msgid "Alta Verapaz"
+#: i18n/states.php:2036
+msgid "Northern"
 msgstr ""
 
 #: i18n/states.php:589
-msgid "Baja Verapaz"
+msgid "Oti"
 msgstr ""
 
 #: i18n/states.php:590
-msgid "Chimaltenango"
+msgid "Savannah"
 msgstr ""
 
 #: i18n/states.php:591
-msgid "Chiquimula"
+msgid "Upper East"
 msgstr ""
 
 #: i18n/states.php:592
-msgid "El Progreso"
+msgid "Upper West"
 msgstr ""
 
 #: i18n/states.php:593
-msgid "Escuintla"
+msgid "Volta"
+msgstr ""
+
+#: i18n/states.php:594
+#: i18n/states.php:2032
+msgid "Western"
 msgstr ""
 
 #: i18n/states.php:595
-msgid "Huehuetenango"
-msgstr ""
-
-#: i18n/states.php:596
-msgid "Izabal"
-msgstr ""
-
-#: i18n/states.php:597
-msgid "Jalapa"
-msgstr ""
-
-#: i18n/states.php:598
-msgid "Jutiapa"
+msgid "Western North"
 msgstr ""
 
 #: i18n/states.php:599
-msgid "Petén"
+msgid "Attica"
 msgstr ""
 
 #: i18n/states.php:600
-msgid "Quetzaltenango"
+msgid "East Macedonia and Thrace"
 msgstr ""
 
 #: i18n/states.php:601
-msgid "Quiché"
+msgid "Central Macedonia"
 msgstr ""
 
 #: i18n/states.php:602
-msgid "Retalhuleu"
+msgid "West Macedonia"
 msgstr ""
 
 #: i18n/states.php:603
-msgid "Sacatepéquez"
+msgid "Epirus"
 msgstr ""
 
 #: i18n/states.php:604
-msgid "San Marcos"
+msgid "Thessaly"
 msgstr ""
 
 #: i18n/states.php:605
-msgid "Santa Rosa"
+msgid "Ionian Islands"
 msgstr ""
 
 #: i18n/states.php:606
-msgid "Sololá"
+msgid "West Greece"
 msgstr ""
 
 #: i18n/states.php:607
-msgid "Suchitepéquez"
+msgid "Central Greece"
 msgstr ""
 
 #: i18n/states.php:608
-msgid "Totonicapán"
+msgid "Peloponnese"
 msgstr ""
 
 #: i18n/states.php:609
-msgid "Zacapa"
+msgid "North Aegean"
 msgstr ""
 
-#: i18n/states.php:612
-msgid "Hong Kong Island"
+#: i18n/states.php:610
+msgid "South Aegean"
 msgstr ""
 
-#: i18n/states.php:613
-msgid "Kowloon"
+#: i18n/states.php:611
+msgid "Crete"
 msgstr ""
 
 #: i18n/states.php:614
-msgid "New Territories"
+msgid "Alta Verapaz"
+msgstr ""
+
+#: i18n/states.php:615
+msgid "Baja Verapaz"
+msgstr ""
+
+#: i18n/states.php:616
+msgid "Chimaltenango"
 msgstr ""
 
 #: i18n/states.php:617
-msgid "Atlántida"
+msgid "Chiquimula"
 msgstr ""
 
 #: i18n/states.php:618
-msgid "Bay Islands"
+msgid "El Progreso"
 msgstr ""
 
 #: i18n/states.php:619
-msgid "Choluteca"
-msgstr ""
-
-#: i18n/states.php:620
-#: i18n/states.php:1266
-msgid "Colón"
+msgid "Escuintla"
 msgstr ""
 
 #: i18n/states.php:621
-msgid "Comayagua"
+msgid "Huehuetenango"
 msgstr ""
 
 #: i18n/states.php:622
-msgid "Copán"
+msgid "Izabal"
 msgstr ""
 
 #: i18n/states.php:623
-msgid "Cortés"
+msgid "Jalapa"
 msgstr ""
 
 #: i18n/states.php:624
-msgid "El Paraíso"
+msgid "Jutiapa"
 msgstr ""
 
 #: i18n/states.php:625
-msgid "Francisco Morazán"
+msgid "Petén"
 msgstr ""
 
 #: i18n/states.php:626
-msgid "Gracias a Dios"
+msgid "Quetzaltenango"
 msgstr ""
 
 #: i18n/states.php:627
-msgid "Intibucá"
+msgid "Quiché"
 msgstr ""
 
 #: i18n/states.php:628
-msgid "Lempira"
+msgid "Retalhuleu"
+msgstr ""
+
+#: i18n/states.php:629
+msgid "Sacatepéquez"
 msgstr ""
 
 #: i18n/states.php:630
-msgid "Ocotepeque"
+msgid "San Marcos"
 msgstr ""
 
 #: i18n/states.php:631
-msgid "Olancho"
+msgid "Santa Rosa"
 msgstr ""
 
 #: i18n/states.php:632
-msgid "Santa Bárbara"
+msgid "Sololá"
 msgstr ""
 
 #: i18n/states.php:633
-msgid "Valle"
+msgid "Suchitepéquez"
 msgstr ""
 
 #: i18n/states.php:634
-msgid "Yoro"
+msgid "Totonicapán"
 msgstr ""
 
-#: i18n/states.php:637
-msgid "Bács-Kiskun"
+#: i18n/states.php:635
+msgid "Zacapa"
 msgstr ""
 
 #: i18n/states.php:638
-msgid "Békés"
+msgid "Hong Kong Island"
 msgstr ""
 
 #: i18n/states.php:639
-msgid "Baranya"
+msgid "Kowloon"
 msgstr ""
 
 #: i18n/states.php:640
-msgid "Borsod-Abaúj-Zemplén"
-msgstr ""
-
-#: i18n/states.php:641
-msgid "Budapest"
-msgstr ""
-
-#: i18n/states.php:642
-msgid "Csongrád-Csanád"
+msgid "New Territories"
 msgstr ""
 
 #: i18n/states.php:643
-msgid "Fejér"
+msgid "Atlántida"
 msgstr ""
 
 #: i18n/states.php:644
-msgid "Győr-Moson-Sopron"
+msgid "Bay Islands"
 msgstr ""
 
 #: i18n/states.php:645
-msgid "Hajdú-Bihar"
+msgid "Choluteca"
 msgstr ""
 
 #: i18n/states.php:646
-msgid "Heves"
+#: i18n/states.php:1292
+msgid "Colón"
 msgstr ""
 
 #: i18n/states.php:647
-msgid "Jász-Nagykun-Szolnok"
+msgid "Comayagua"
 msgstr ""
 
 #: i18n/states.php:648
-msgid "Komárom-Esztergom"
+msgid "Copán"
 msgstr ""
 
 #: i18n/states.php:649
-msgid "Nógrád"
+msgid "Cortés"
 msgstr ""
 
 #: i18n/states.php:650
-msgid "Pest"
+msgid "El Paraíso"
 msgstr ""
 
 #: i18n/states.php:651
-msgid "Somogy"
+msgid "Francisco Morazán"
 msgstr ""
 
 #: i18n/states.php:652
-msgid "Szabolcs-Szatmár-Bereg"
+msgid "Gracias a Dios"
 msgstr ""
 
 #: i18n/states.php:653
-msgid "Tolna"
+msgid "Intibucá"
 msgstr ""
 
 #: i18n/states.php:654
-msgid "Vas"
-msgstr ""
-
-#: i18n/states.php:655
-msgid "Veszprém"
+msgid "Lempira"
 msgstr ""
 
 #: i18n/states.php:656
-msgid "Zala"
+msgid "Ocotepeque"
+msgstr ""
+
+#: i18n/states.php:657
+msgid "Olancho"
+msgstr ""
+
+#: i18n/states.php:658
+msgid "Santa Bárbara"
 msgstr ""
 
 #: i18n/states.php:659
-msgid "Daerah Istimewa Aceh"
+msgid "Valle"
 msgstr ""
 
 #: i18n/states.php:660
-msgid "Sumatera Utara"
-msgstr ""
-
-#: i18n/states.php:661
-msgid "Sumatera Barat"
-msgstr ""
-
-#: i18n/states.php:662
-msgid "Riau"
+msgid "Yoro"
 msgstr ""
 
 #: i18n/states.php:663
-msgid "Kepulauan Riau"
+msgid "Bács-Kiskun"
 msgstr ""
 
 #: i18n/states.php:664
-msgid "Jambi"
+msgid "Békés"
 msgstr ""
 
 #: i18n/states.php:665
-msgid "Sumatera Selatan"
+msgid "Baranya"
 msgstr ""
 
 #: i18n/states.php:666
-msgid "Bangka Belitung"
+msgid "Borsod-Abaúj-Zemplén"
 msgstr ""
 
 #: i18n/states.php:667
-msgid "Bengkulu"
+msgid "Budapest"
 msgstr ""
 
 #: i18n/states.php:668
-msgid "Lampung"
+msgid "Csongrád-Csanád"
 msgstr ""
 
 #: i18n/states.php:669
-msgid "DKI Jakarta"
+msgid "Fejér"
 msgstr ""
 
 #: i18n/states.php:670
-msgid "Jawa Barat"
+msgid "Győr-Moson-Sopron"
 msgstr ""
 
 #: i18n/states.php:671
-msgid "Banten"
+msgid "Hajdú-Bihar"
 msgstr ""
 
 #: i18n/states.php:672
-msgid "Jawa Tengah"
+msgid "Heves"
 msgstr ""
 
 #: i18n/states.php:673
-msgid "Jawa Timur"
+msgid "Jász-Nagykun-Szolnok"
 msgstr ""
 
 #: i18n/states.php:674
-msgid "Daerah Istimewa Yogyakarta"
+msgid "Komárom-Esztergom"
 msgstr ""
 
 #: i18n/states.php:675
-msgid "Bali"
+msgid "Nógrád"
 msgstr ""
 
 #: i18n/states.php:676
-msgid "Nusa Tenggara Barat"
+msgid "Pest"
 msgstr ""
 
 #: i18n/states.php:677
-msgid "Nusa Tenggara Timur"
+msgid "Somogy"
 msgstr ""
 
 #: i18n/states.php:678
-msgid "Kalimantan Barat"
+msgid "Szabolcs-Szatmár-Bereg"
 msgstr ""
 
 #: i18n/states.php:679
-msgid "Kalimantan Tengah"
+msgid "Tolna"
 msgstr ""
 
 #: i18n/states.php:680
-msgid "Kalimantan Timur"
+msgid "Vas"
 msgstr ""
 
 #: i18n/states.php:681
-msgid "Kalimantan Selatan"
+msgid "Veszprém"
 msgstr ""
 
 #: i18n/states.php:682
-msgid "Kalimantan Utara"
-msgstr ""
-
-#: i18n/states.php:683
-msgid "Sulawesi Utara"
-msgstr ""
-
-#: i18n/states.php:684
-msgid "Sulawesi Tengah"
+msgid "Zala"
 msgstr ""
 
 #: i18n/states.php:685
-msgid "Sulawesi Tenggara"
+msgid "Daerah Istimewa Aceh"
 msgstr ""
 
 #: i18n/states.php:686
-msgid "Sulawesi Barat"
+msgid "Sumatera Utara"
 msgstr ""
 
 #: i18n/states.php:687
-msgid "Sulawesi Selatan"
+msgid "Sumatera Barat"
 msgstr ""
 
 #: i18n/states.php:688
-msgid "Gorontalo"
+msgid "Riau"
 msgstr ""
 
 #: i18n/states.php:689
-msgid "Maluku"
+msgid "Kepulauan Riau"
 msgstr ""
 
 #: i18n/states.php:690
-msgid "Maluku Utara"
+msgid "Jambi"
 msgstr ""
 
 #: i18n/states.php:691
-msgid "Papua"
+msgid "Sumatera Selatan"
 msgstr ""
 
 #: i18n/states.php:692
-msgid "Papua Barat"
+msgid "Bangka Belitung"
+msgstr ""
+
+#: i18n/states.php:693
+msgid "Bengkulu"
+msgstr ""
+
+#: i18n/states.php:694
+msgid "Lampung"
 msgstr ""
 
 #: i18n/states.php:695
-msgid "Carlow"
+msgid "DKI Jakarta"
 msgstr ""
 
 #: i18n/states.php:696
-msgid "Cavan"
+msgid "Jawa Barat"
 msgstr ""
 
 #: i18n/states.php:697
-msgid "Clare"
+msgid "Banten"
 msgstr ""
 
 #: i18n/states.php:698
-msgid "Cork"
+msgid "Jawa Tengah"
 msgstr ""
 
 #: i18n/states.php:699
-msgid "Donegal"
+msgid "Jawa Timur"
 msgstr ""
 
 #: i18n/states.php:700
-msgid "Dublin"
+msgid "Daerah Istimewa Yogyakarta"
 msgstr ""
 
 #: i18n/states.php:701
-msgid "Galway"
+msgid "Bali"
 msgstr ""
 
 #: i18n/states.php:702
-msgid "Kerry"
+msgid "Nusa Tenggara Barat"
 msgstr ""
 
 #: i18n/states.php:703
-msgid "Kildare"
+msgid "Nusa Tenggara Timur"
 msgstr ""
 
 #: i18n/states.php:704
-msgid "Kilkenny"
+msgid "Kalimantan Barat"
 msgstr ""
 
 #: i18n/states.php:705
-msgid "Laois"
+msgid "Kalimantan Tengah"
 msgstr ""
 
 #: i18n/states.php:706
-msgid "Leitrim"
+msgid "Kalimantan Timur"
 msgstr ""
 
 #: i18n/states.php:707
-msgid "Limerick"
+msgid "Kalimantan Selatan"
 msgstr ""
 
 #: i18n/states.php:708
-msgid "Longford"
+msgid "Kalimantan Utara"
 msgstr ""
 
 #: i18n/states.php:709
-msgid "Louth"
+msgid "Sulawesi Utara"
 msgstr ""
 
 #: i18n/states.php:710
-msgid "Mayo"
+msgid "Sulawesi Tengah"
 msgstr ""
 
 #: i18n/states.php:711
-msgid "Meath"
+msgid "Sulawesi Tenggara"
 msgstr ""
 
 #: i18n/states.php:712
-msgid "Monaghan"
+msgid "Sulawesi Barat"
 msgstr ""
 
 #: i18n/states.php:713
-msgid "Offaly"
+msgid "Sulawesi Selatan"
 msgstr ""
 
 #: i18n/states.php:714
-msgid "Roscommon"
+msgid "Gorontalo"
 msgstr ""
 
 #: i18n/states.php:715
-msgid "Sligo"
+msgid "Maluku"
 msgstr ""
 
 #: i18n/states.php:716
-msgid "Tipperary"
+msgid "Maluku Utara"
 msgstr ""
 
 #: i18n/states.php:717
-msgid "Waterford"
+msgid "Papua"
 msgstr ""
 
 #: i18n/states.php:718
-msgid "Westmeath"
+msgid "Papua Barat"
 msgstr ""
 
-#: i18n/states.php:719
-msgid "Wexford"
+#: i18n/states.php:721
+msgid "Carlow"
 msgstr ""
 
-#: i18n/states.php:720
-msgid "Wicklow"
+#: i18n/states.php:722
+msgid "Cavan"
 msgstr ""
 
 #: i18n/states.php:723
-msgid "Andhra Pradesh"
+msgid "Clare"
 msgstr ""
 
 #: i18n/states.php:724
-msgid "Arunachal Pradesh"
+msgid "Cork"
 msgstr ""
 
 #: i18n/states.php:725
-msgid "Assam"
+msgid "Donegal"
 msgstr ""
 
 #: i18n/states.php:726
-msgid "Bihar"
+msgid "Dublin"
 msgstr ""
 
 #: i18n/states.php:727
-msgid "Chhattisgarh"
+msgid "Galway"
 msgstr ""
 
 #: i18n/states.php:728
-msgid "Goa"
+msgid "Kerry"
 msgstr ""
 
 #: i18n/states.php:729
-msgid "Gujarat"
+msgid "Kildare"
 msgstr ""
 
 #: i18n/states.php:730
-msgid "Haryana"
+msgid "Kilkenny"
 msgstr ""
 
 #: i18n/states.php:731
-msgid "Himachal Pradesh"
+msgid "Laois"
 msgstr ""
 
 #: i18n/states.php:732
-msgid "Jammu and Kashmir"
+msgid "Leitrim"
 msgstr ""
 
 #: i18n/states.php:733
-msgid "Jharkhand"
+msgid "Limerick"
 msgstr ""
 
 #: i18n/states.php:734
-msgid "Karnataka"
+msgid "Longford"
 msgstr ""
 
 #: i18n/states.php:735
-msgid "Kerala"
+msgid "Louth"
 msgstr ""
 
 #: i18n/states.php:736
-msgid "Ladakh"
+msgid "Mayo"
 msgstr ""
 
 #: i18n/states.php:737
-msgid "Madhya Pradesh"
+msgid "Meath"
 msgstr ""
 
 #: i18n/states.php:738
-msgid "Maharashtra"
+msgid "Monaghan"
 msgstr ""
 
 #: i18n/states.php:739
-msgid "Manipur"
+msgid "Offaly"
 msgstr ""
 
 #: i18n/states.php:740
-msgid "Meghalaya"
+msgid "Roscommon"
 msgstr ""
 
 #: i18n/states.php:741
-msgid "Mizoram"
+msgid "Sligo"
 msgstr ""
 
 #: i18n/states.php:742
-msgid "Nagaland"
+msgid "Tipperary"
 msgstr ""
 
 #: i18n/states.php:743
-msgid "Odisha"
+msgid "Waterford"
 msgstr ""
 
 #: i18n/states.php:744
-#: i18n/states.php:1401
-msgid "Punjab"
+msgid "Westmeath"
 msgstr ""
 
 #: i18n/states.php:745
-msgid "Rajasthan"
+msgid "Wexford"
 msgstr ""
 
 #: i18n/states.php:746
-msgid "Sikkim"
-msgstr ""
-
-#: i18n/states.php:747
-msgid "Tamil Nadu"
-msgstr ""
-
-#: i18n/states.php:748
-msgid "Telangana"
+msgid "Wicklow"
 msgstr ""
 
 #: i18n/states.php:749
-msgid "Tripura"
+msgid "Andhra Pradesh"
 msgstr ""
 
 #: i18n/states.php:750
-msgid "Uttarakhand"
+msgid "Arunachal Pradesh"
 msgstr ""
 
 #: i18n/states.php:751
-msgid "Uttar Pradesh"
+msgid "Assam"
 msgstr ""
 
 #: i18n/states.php:752
-msgid "West Bengal"
+msgid "Bihar"
 msgstr ""
 
 #: i18n/states.php:753
-msgid "Andaman and Nicobar Islands"
+msgid "Chhattisgarh"
 msgstr ""
 
 #: i18n/states.php:754
-msgid "Chandigarh"
+msgid "Goa"
 msgstr ""
 
 #: i18n/states.php:755
-msgid "Dadra and Nagar Haveli"
+msgid "Gujarat"
 msgstr ""
 
 #: i18n/states.php:756
-msgid "Daman and Diu"
+msgid "Haryana"
 msgstr ""
 
 #: i18n/states.php:757
-msgid "Delhi"
+msgid "Himachal Pradesh"
 msgstr ""
 
 #: i18n/states.php:758
-msgid "Lakshadeep"
+msgid "Jammu and Kashmir"
 msgstr ""
 
 #: i18n/states.php:759
-msgid "Pondicherry (Puducherry)"
+msgid "Jharkhand"
+msgstr ""
+
+#: i18n/states.php:760
+msgid "Karnataka"
+msgstr ""
+
+#: i18n/states.php:761
+msgid "Kerala"
 msgstr ""
 
 #: i18n/states.php:762
-msgid "Khuzestan (خوزستان)"
+msgid "Ladakh"
 msgstr ""
 
 #: i18n/states.php:763
-msgid "Tehran (تهران)"
+msgid "Madhya Pradesh"
 msgstr ""
 
 #: i18n/states.php:764
-msgid "Ilaam (ایلام)"
+msgid "Maharashtra"
 msgstr ""
 
 #: i18n/states.php:765
-msgid "Bushehr (بوشهر)"
+msgid "Manipur"
 msgstr ""
 
 #: i18n/states.php:766
-msgid "Ardabil (اردبیل)"
+msgid "Meghalaya"
 msgstr ""
 
 #: i18n/states.php:767
-msgid "Isfahan (اصفهان)"
+msgid "Mizoram"
 msgstr ""
 
 #: i18n/states.php:768
-msgid "Yazd (یزد)"
+msgid "Nagaland"
 msgstr ""
 
 #: i18n/states.php:769
-msgid "Kermanshah (کرمانشاه)"
+msgid "Odisha"
 msgstr ""
 
 #: i18n/states.php:770
-msgid "Kerman (کرمان)"
+#: i18n/states.php:1427
+msgid "Punjab"
 msgstr ""
 
 #: i18n/states.php:771
-msgid "Hamadan (همدان)"
+msgid "Rajasthan"
 msgstr ""
 
 #: i18n/states.php:772
-msgid "Ghazvin (قزوین)"
+msgid "Sikkim"
 msgstr ""
 
 #: i18n/states.php:773
-msgid "Zanjan (زنجان)"
+msgid "Tamil Nadu"
 msgstr ""
 
 #: i18n/states.php:774
-msgid "Luristan (لرستان)"
+msgid "Telangana"
 msgstr ""
 
 #: i18n/states.php:775
-msgid "Alborz (البرز)"
+msgid "Tripura"
 msgstr ""
 
 #: i18n/states.php:776
-msgid "East Azarbaijan (آذربایجان شرقی)"
+msgid "Uttarakhand"
 msgstr ""
 
 #: i18n/states.php:777
-msgid "West Azarbaijan (آذربایجان غربی)"
+msgid "Uttar Pradesh"
 msgstr ""
 
 #: i18n/states.php:778
-msgid "Chaharmahal and Bakhtiari (چهارمحال و بختیاری)"
+msgid "West Bengal"
 msgstr ""
 
 #: i18n/states.php:779
-msgid "South Khorasan (خراسان جنوبی)"
+msgid "Andaman and Nicobar Islands"
 msgstr ""
 
 #: i18n/states.php:780
-msgid "Razavi Khorasan (خراسان رضوی)"
+msgid "Chandigarh"
 msgstr ""
 
 #: i18n/states.php:781
-msgid "North Khorasan (خراسان شمالی)"
+msgid "Dadra and Nagar Haveli"
 msgstr ""
 
 #: i18n/states.php:782
-msgid "Semnan (سمنان)"
+msgid "Daman and Diu"
 msgstr ""
 
 #: i18n/states.php:783
-msgid "Fars (فارس)"
+msgid "Delhi"
 msgstr ""
 
 #: i18n/states.php:784
-msgid "Qom (قم)"
+msgid "Lakshadeep"
 msgstr ""
 
 #: i18n/states.php:785
-msgid "Kurdistan / کردستان)"
-msgstr ""
-
-#: i18n/states.php:786
-msgid "Kohgiluyeh and BoyerAhmad (کهگیلوییه و بویراحمد)"
-msgstr ""
-
-#: i18n/states.php:787
-msgid "Golestan (گلستان)"
+msgid "Pondicherry (Puducherry)"
 msgstr ""
 
 #: i18n/states.php:788
-msgid "Gilan (گیلان)"
+msgid "Khuzestan (خوزستان)"
 msgstr ""
 
 #: i18n/states.php:789
-msgid "Mazandaran (مازندران)"
+msgid "Tehran (تهران)"
 msgstr ""
 
 #: i18n/states.php:790
-msgid "Markazi (مرکزی)"
+msgid "Ilaam (ایلام)"
 msgstr ""
 
 #: i18n/states.php:791
-msgid "Hormozgan (هرمزگان)"
+msgid "Bushehr (بوشهر)"
 msgstr ""
 
 #: i18n/states.php:792
-msgid "Sistan and Baluchestan (سیستان و بلوچستان)"
+msgid "Ardabil (اردبیل)"
+msgstr ""
+
+#: i18n/states.php:793
+msgid "Isfahan (اصفهان)"
+msgstr ""
+
+#: i18n/states.php:794
+msgid "Yazd (یزد)"
+msgstr ""
+
+#: i18n/states.php:795
+msgid "Kermanshah (کرمانشاه)"
 msgstr ""
 
 #: i18n/states.php:796
-msgid "Agrigento"
+msgid "Kerman (کرمان)"
 msgstr ""
 
 #: i18n/states.php:797
-msgid "Alessandria"
+msgid "Hamadan (همدان)"
 msgstr ""
 
 #: i18n/states.php:798
-msgid "Ancona"
+msgid "Ghazvin (قزوین)"
 msgstr ""
 
 #: i18n/states.php:799
-msgid "Aosta"
+msgid "Zanjan (زنجان)"
 msgstr ""
 
 #: i18n/states.php:800
-msgid "Arezzo"
+msgid "Luristan (لرستان)"
 msgstr ""
 
 #: i18n/states.php:801
-msgid "Ascoli Piceno"
+msgid "Alborz (البرز)"
 msgstr ""
 
 #: i18n/states.php:802
-msgid "Asti"
+msgid "East Azarbaijan (آذربایجان شرقی)"
 msgstr ""
 
 #: i18n/states.php:803
-msgid "Avellino"
+msgid "West Azarbaijan (آذربایجان غربی)"
 msgstr ""
 
 #: i18n/states.php:804
-msgid "Bari"
+msgid "Chaharmahal and Bakhtiari (چهارمحال و بختیاری)"
 msgstr ""
 
 #: i18n/states.php:805
-msgid "Barletta-Andria-Trani"
+msgid "South Khorasan (خراسان جنوبی)"
 msgstr ""
 
 #: i18n/states.php:806
-msgid "Belluno"
+msgid "Razavi Khorasan (خراسان رضوی)"
 msgstr ""
 
 #: i18n/states.php:807
-msgid "Benevento"
+msgid "North Khorasan (خراسان شمالی)"
 msgstr ""
 
 #: i18n/states.php:808
-msgid "Bergamo"
+msgid "Semnan (سمنان)"
 msgstr ""
 
 #: i18n/states.php:809
-msgid "Biella"
+msgid "Fars (فارس)"
 msgstr ""
 
 #: i18n/states.php:810
-msgid "Bologna"
+msgid "Qom (قم)"
 msgstr ""
 
 #: i18n/states.php:811
-msgid "Bolzano"
+msgid "Kurdistan / کردستان)"
 msgstr ""
 
 #: i18n/states.php:812
-msgid "Brescia"
+msgid "Kohgiluyeh and BoyerAhmad (کهگیلوییه و بویراحمد)"
 msgstr ""
 
 #: i18n/states.php:813
-msgid "Brindisi"
+msgid "Golestan (گلستان)"
 msgstr ""
 
 #: i18n/states.php:814
-msgid "Cagliari"
+msgid "Gilan (گیلان)"
 msgstr ""
 
 #: i18n/states.php:815
-msgid "Caltanissetta"
+msgid "Mazandaran (مازندران)"
 msgstr ""
 
 #: i18n/states.php:816
-msgid "Campobasso"
+msgid "Markazi (مرکزی)"
 msgstr ""
 
 #: i18n/states.php:817
-msgid "Caserta"
+msgid "Hormozgan (هرمزگان)"
 msgstr ""
 
 #: i18n/states.php:818
-msgid "Catania"
-msgstr ""
-
-#: i18n/states.php:819
-msgid "Catanzaro"
-msgstr ""
-
-#: i18n/states.php:820
-msgid "Chieti"
-msgstr ""
-
-#: i18n/states.php:821
-msgid "Como"
+msgid "Sistan and Baluchestan (سیستان و بلوچستان)"
 msgstr ""
 
 #: i18n/states.php:822
-msgid "Cosenza"
+msgid "Agrigento"
 msgstr ""
 
 #: i18n/states.php:823
-msgid "Cremona"
+msgid "Alessandria"
 msgstr ""
 
 #: i18n/states.php:824
-msgid "Crotone"
+msgid "Ancona"
 msgstr ""
 
 #: i18n/states.php:825
-msgid "Cuneo"
+msgid "Aosta"
 msgstr ""
 
 #: i18n/states.php:826
-msgid "Enna"
+msgid "Arezzo"
 msgstr ""
 
 #: i18n/states.php:827
-msgid "Fermo"
+msgid "Ascoli Piceno"
 msgstr ""
 
 #: i18n/states.php:828
-msgid "Ferrara"
+msgid "Asti"
 msgstr ""
 
 #: i18n/states.php:829
-msgid "Firenze"
+msgid "Avellino"
 msgstr ""
 
 #: i18n/states.php:830
-msgid "Foggia"
+msgid "Bari"
 msgstr ""
 
 #: i18n/states.php:831
-msgid "Forlì-Cesena"
+msgid "Barletta-Andria-Trani"
 msgstr ""
 
 #: i18n/states.php:832
-msgid "Frosinone"
+msgid "Belluno"
 msgstr ""
 
 #: i18n/states.php:833
-msgid "Genova"
+msgid "Benevento"
 msgstr ""
 
 #: i18n/states.php:834
-msgid "Gorizia"
+msgid "Bergamo"
 msgstr ""
 
 #: i18n/states.php:835
-msgid "Grosseto"
+msgid "Biella"
 msgstr ""
 
 #: i18n/states.php:836
-msgid "Imperia"
+msgid "Bologna"
 msgstr ""
 
 #: i18n/states.php:837
-msgid "Isernia"
+msgid "Bolzano"
 msgstr ""
 
 #: i18n/states.php:838
-msgid "La Spezia"
+msgid "Brescia"
 msgstr ""
 
 #: i18n/states.php:839
-msgid "L'Aquila"
+msgid "Brindisi"
 msgstr ""
 
 #: i18n/states.php:840
-msgid "Latina"
+msgid "Cagliari"
 msgstr ""
 
 #: i18n/states.php:841
-msgid "Lecce"
+msgid "Caltanissetta"
 msgstr ""
 
 #: i18n/states.php:842
-msgid "Lecco"
+msgid "Campobasso"
 msgstr ""
 
 #: i18n/states.php:843
-msgid "Livorno"
+msgid "Caserta"
 msgstr ""
 
 #: i18n/states.php:844
-msgid "Lodi"
+msgid "Catania"
 msgstr ""
 
 #: i18n/states.php:845
-msgid "Lucca"
+msgid "Catanzaro"
 msgstr ""
 
 #: i18n/states.php:846
-msgid "Macerata"
+msgid "Chieti"
 msgstr ""
 
 #: i18n/states.php:847
-msgid "Mantova"
+msgid "Como"
 msgstr ""
 
 #: i18n/states.php:848
-msgid "Massa-Carrara"
+msgid "Cosenza"
 msgstr ""
 
 #: i18n/states.php:849
-msgid "Matera"
+msgid "Cremona"
 msgstr ""
 
 #: i18n/states.php:850
-msgid "Messina"
+msgid "Crotone"
 msgstr ""
 
 #: i18n/states.php:851
-msgid "Milano"
+msgid "Cuneo"
 msgstr ""
 
 #: i18n/states.php:852
-msgid "Modena"
+msgid "Enna"
 msgstr ""
 
 #: i18n/states.php:853
-msgid "Monza e della Brianza"
+msgid "Fermo"
 msgstr ""
 
 #: i18n/states.php:854
-msgid "Napoli"
+msgid "Ferrara"
 msgstr ""
 
 #: i18n/states.php:855
-msgid "Novara"
+msgid "Firenze"
 msgstr ""
 
 #: i18n/states.php:856
-msgid "Nuoro"
+msgid "Foggia"
 msgstr ""
 
 #: i18n/states.php:857
-msgid "Oristano"
+msgid "Forlì-Cesena"
 msgstr ""
 
 #: i18n/states.php:858
-msgid "Padova"
+msgid "Frosinone"
 msgstr ""
 
 #: i18n/states.php:859
-msgid "Palermo"
+msgid "Genova"
 msgstr ""
 
 #: i18n/states.php:860
-msgid "Parma"
+msgid "Gorizia"
 msgstr ""
 
 #: i18n/states.php:861
-msgid "Pavia"
+msgid "Grosseto"
 msgstr ""
 
 #: i18n/states.php:862
-msgid "Perugia"
+msgid "Imperia"
 msgstr ""
 
 #: i18n/states.php:863
-msgid "Pesaro e Urbino"
+msgid "Isernia"
 msgstr ""
 
 #: i18n/states.php:864
-msgid "Pescara"
+msgid "La Spezia"
 msgstr ""
 
 #: i18n/states.php:865
-msgid "Piacenza"
+msgid "L'Aquila"
 msgstr ""
 
 #: i18n/states.php:866
-msgid "Pisa"
+msgid "Latina"
 msgstr ""
 
 #: i18n/states.php:867
-msgid "Pistoia"
+msgid "Lecce"
 msgstr ""
 
 #: i18n/states.php:868
-msgid "Pordenone"
+msgid "Lecco"
 msgstr ""
 
 #: i18n/states.php:869
-msgid "Potenza"
+msgid "Livorno"
 msgstr ""
 
 #: i18n/states.php:870
-msgid "Prato"
+msgid "Lodi"
 msgstr ""
 
 #: i18n/states.php:871
-msgid "Ragusa"
+msgid "Lucca"
 msgstr ""
 
 #: i18n/states.php:872
-msgid "Ravenna"
+msgid "Macerata"
 msgstr ""
 
 #: i18n/states.php:873
-msgid "Reggio Calabria"
+msgid "Mantova"
 msgstr ""
 
 #: i18n/states.php:874
-msgid "Reggio Emilia"
+msgid "Massa-Carrara"
 msgstr ""
 
 #: i18n/states.php:875
-msgid "Rieti"
+msgid "Matera"
 msgstr ""
 
 #: i18n/states.php:876
-msgid "Rimini"
+msgid "Messina"
 msgstr ""
 
 #: i18n/states.php:877
-msgid "Roma"
+msgid "Milano"
 msgstr ""
 
 #: i18n/states.php:878
-msgid "Rovigo"
+msgid "Modena"
 msgstr ""
 
 #: i18n/states.php:879
-msgid "Salerno"
+msgid "Monza e della Brianza"
 msgstr ""
 
 #: i18n/states.php:880
-msgid "Sassari"
+msgid "Napoli"
 msgstr ""
 
 #: i18n/states.php:881
-msgid "Savona"
+msgid "Novara"
 msgstr ""
 
 #: i18n/states.php:882
-msgid "Siena"
+msgid "Nuoro"
 msgstr ""
 
 #: i18n/states.php:883
-msgid "Siracusa"
+msgid "Oristano"
 msgstr ""
 
 #: i18n/states.php:884
-msgid "Sondrio"
+msgid "Padova"
 msgstr ""
 
 #: i18n/states.php:885
-msgid "Sud Sardegna"
+msgid "Palermo"
 msgstr ""
 
 #: i18n/states.php:886
-msgid "Taranto"
+msgid "Parma"
 msgstr ""
 
 #: i18n/states.php:887
-msgid "Teramo"
+msgid "Pavia"
 msgstr ""
 
 #: i18n/states.php:888
-msgid "Terni"
+msgid "Perugia"
 msgstr ""
 
 #: i18n/states.php:889
-msgid "Torino"
+msgid "Pesaro e Urbino"
 msgstr ""
 
 #: i18n/states.php:890
-msgid "Trapani"
+msgid "Pescara"
 msgstr ""
 
 #: i18n/states.php:891
-msgid "Trento"
+msgid "Piacenza"
 msgstr ""
 
 #: i18n/states.php:892
-msgid "Treviso"
+msgid "Pisa"
 msgstr ""
 
 #: i18n/states.php:893
-msgid "Trieste"
+msgid "Pistoia"
 msgstr ""
 
 #: i18n/states.php:894
-msgid "Udine"
+msgid "Pordenone"
 msgstr ""
 
 #: i18n/states.php:895
-msgid "Varese"
+msgid "Potenza"
 msgstr ""
 
 #: i18n/states.php:896
-msgid "Venezia"
+msgid "Prato"
 msgstr ""
 
 #: i18n/states.php:897
-msgid "Verbano-Cusio-Ossola"
+msgid "Ragusa"
 msgstr ""
 
 #: i18n/states.php:898
-msgid "Vercelli"
+msgid "Ravenna"
 msgstr ""
 
 #: i18n/states.php:899
-msgid "Verona"
+msgid "Reggio Calabria"
 msgstr ""
 
 #: i18n/states.php:900
-msgid "Vibo Valentia"
+msgid "Reggio Emilia"
 msgstr ""
 
 #: i18n/states.php:901
-msgid "Vicenza"
+msgid "Rieti"
 msgstr ""
 
 #: i18n/states.php:902
-msgid "Viterbo"
+msgid "Rimini"
+msgstr ""
+
+#: i18n/states.php:903
+msgid "Roma"
+msgstr ""
+
+#: i18n/states.php:904
+msgid "Rovigo"
+msgstr ""
+
+#: i18n/states.php:905
+msgid "Salerno"
+msgstr ""
+
+#: i18n/states.php:906
+msgid "Sassari"
 msgstr ""
 
 #: i18n/states.php:907
-msgid "Kingston"
+msgid "Savona"
 msgstr ""
 
 #: i18n/states.php:908
-msgid "Saint Andrew"
+msgid "Siena"
 msgstr ""
 
 #: i18n/states.php:909
-msgid "Saint Thomas"
+msgid "Siracusa"
 msgstr ""
 
 #: i18n/states.php:910
-msgid "Portland"
+msgid "Sondrio"
 msgstr ""
 
 #: i18n/states.php:911
-msgid "Saint Mary"
+msgid "Sud Sardegna"
 msgstr ""
 
 #: i18n/states.php:912
-msgid "Saint Ann"
+msgid "Taranto"
 msgstr ""
 
 #: i18n/states.php:913
-msgid "Trelawny"
+msgid "Teramo"
 msgstr ""
 
 #: i18n/states.php:914
-msgid "Saint James"
+msgid "Terni"
 msgstr ""
 
 #: i18n/states.php:915
-msgid "Hanover"
+msgid "Torino"
 msgstr ""
 
 #: i18n/states.php:916
-msgid "Westmoreland"
+msgid "Trapani"
 msgstr ""
 
 #: i18n/states.php:917
-msgid "Saint Elizabeth"
+msgid "Trento"
 msgstr ""
 
 #: i18n/states.php:918
-msgid "Manchester"
+msgid "Treviso"
 msgstr ""
 
 #: i18n/states.php:919
-msgid "Clarendon"
+msgid "Trieste"
 msgstr ""
 
 #: i18n/states.php:920
-msgid "Saint Catherine"
+msgid "Udine"
 msgstr ""
 
-#: i18n/states.php:930
-msgid "Hokkaido"
+#: i18n/states.php:921
+msgid "Varese"
 msgstr ""
 
-#: i18n/states.php:931
-msgid "Aomori"
+#: i18n/states.php:922
+msgid "Venezia"
 msgstr ""
 
-#: i18n/states.php:932
-msgid "Iwate"
+#: i18n/states.php:923
+msgid "Verbano-Cusio-Ossola"
+msgstr ""
+
+#: i18n/states.php:924
+msgid "Vercelli"
+msgstr ""
+
+#: i18n/states.php:925
+msgid "Verona"
+msgstr ""
+
+#: i18n/states.php:926
+msgid "Vibo Valentia"
+msgstr ""
+
+#: i18n/states.php:927
+msgid "Vicenza"
+msgstr ""
+
+#: i18n/states.php:928
+msgid "Viterbo"
 msgstr ""
 
 #: i18n/states.php:933
-msgid "Miyagi"
+msgid "Kingston"
 msgstr ""
 
 #: i18n/states.php:934
-msgid "Akita"
+msgid "Saint Andrew"
 msgstr ""
 
 #: i18n/states.php:935
-msgid "Yamagata"
+msgid "Saint Thomas"
 msgstr ""
 
 #: i18n/states.php:936
-msgid "Fukushima"
+msgid "Portland"
 msgstr ""
 
 #: i18n/states.php:937
-msgid "Ibaraki"
+msgid "Saint Mary"
 msgstr ""
 
 #: i18n/states.php:938
-msgid "Tochigi"
+msgid "Saint Ann"
 msgstr ""
 
 #: i18n/states.php:939
-msgid "Gunma"
+msgid "Trelawny"
 msgstr ""
 
 #: i18n/states.php:940
-msgid "Saitama"
+msgid "Saint James"
 msgstr ""
 
 #: i18n/states.php:941
-msgid "Chiba"
+msgid "Hanover"
 msgstr ""
 
 #: i18n/states.php:942
-msgid "Tokyo"
+msgid "Westmoreland"
 msgstr ""
 
 #: i18n/states.php:943
-msgid "Kanagawa"
+msgid "Saint Elizabeth"
 msgstr ""
 
 #: i18n/states.php:944
-msgid "Niigata"
+msgid "Manchester"
 msgstr ""
 
 #: i18n/states.php:945
-msgid "Toyama"
+msgid "Clarendon"
 msgstr ""
 
 #: i18n/states.php:946
-msgid "Ishikawa"
-msgstr ""
-
-#: i18n/states.php:947
-msgid "Fukui"
-msgstr ""
-
-#: i18n/states.php:948
-msgid "Yamanashi"
-msgstr ""
-
-#: i18n/states.php:949
-msgid "Nagano"
-msgstr ""
-
-#: i18n/states.php:950
-msgid "Gifu"
-msgstr ""
-
-#: i18n/states.php:951
-msgid "Shizuoka"
-msgstr ""
-
-#: i18n/states.php:952
-msgid "Aichi"
-msgstr ""
-
-#: i18n/states.php:953
-msgid "Mie"
-msgstr ""
-
-#: i18n/states.php:954
-msgid "Shiga"
-msgstr ""
-
-#: i18n/states.php:955
-msgid "Kyoto"
+msgid "Saint Catherine"
 msgstr ""
 
 #: i18n/states.php:956
-msgid "Osaka"
+msgid "Hokkaido"
 msgstr ""
 
 #: i18n/states.php:957
-msgid "Hyogo"
+msgid "Aomori"
 msgstr ""
 
 #: i18n/states.php:958
-msgid "Nara"
+msgid "Iwate"
 msgstr ""
 
 #: i18n/states.php:959
-msgid "Wakayama"
+msgid "Miyagi"
 msgstr ""
 
 #: i18n/states.php:960
-msgid "Tottori"
+msgid "Akita"
 msgstr ""
 
 #: i18n/states.php:961
-msgid "Shimane"
+msgid "Yamagata"
 msgstr ""
 
 #: i18n/states.php:962
-msgid "Okayama"
+msgid "Fukushima"
 msgstr ""
 
 #: i18n/states.php:963
-msgid "Hiroshima"
+msgid "Ibaraki"
 msgstr ""
 
 #: i18n/states.php:964
-msgid "Yamaguchi"
+msgid "Tochigi"
 msgstr ""
 
 #: i18n/states.php:965
-msgid "Tokushima"
+msgid "Gunma"
 msgstr ""
 
 #: i18n/states.php:966
-msgid "Kagawa"
+msgid "Saitama"
 msgstr ""
 
 #: i18n/states.php:967
-msgid "Ehime"
+msgid "Chiba"
 msgstr ""
 
 #: i18n/states.php:968
-msgid "Kochi"
+msgid "Tokyo"
 msgstr ""
 
 #: i18n/states.php:969
-msgid "Fukuoka"
+msgid "Kanagawa"
 msgstr ""
 
 #: i18n/states.php:970
-msgid "Saga"
+msgid "Niigata"
 msgstr ""
 
 #: i18n/states.php:971
-msgid "Nagasaki"
+msgid "Toyama"
 msgstr ""
 
 #: i18n/states.php:972
-msgid "Kumamoto"
+msgid "Ishikawa"
 msgstr ""
 
 #: i18n/states.php:973
-msgid "Oita"
+msgid "Fukui"
 msgstr ""
 
 #: i18n/states.php:974
-msgid "Miyazaki"
+msgid "Yamanashi"
 msgstr ""
 
 #: i18n/states.php:975
-msgid "Kagoshima"
+msgid "Nagano"
 msgstr ""
 
 #: i18n/states.php:976
-msgid "Okinawa"
+msgid "Gifu"
+msgstr ""
+
+#: i18n/states.php:977
+msgid "Shizuoka"
+msgstr ""
+
+#: i18n/states.php:978
+msgid "Aichi"
 msgstr ""
 
 #: i18n/states.php:979
-msgid "Baringo"
+msgid "Mie"
 msgstr ""
 
 #: i18n/states.php:980
-msgid "Bomet"
+msgid "Shiga"
 msgstr ""
 
 #: i18n/states.php:981
-msgid "Bungoma"
+msgid "Kyoto"
 msgstr ""
 
 #: i18n/states.php:982
-#: i18n/states.php:1772
-msgid "Busia"
+msgid "Osaka"
 msgstr ""
 
 #: i18n/states.php:983
-msgid "Elgeyo-Marakwet"
+msgid "Hyogo"
 msgstr ""
 
 #: i18n/states.php:984
-msgid "Embu"
+msgid "Nara"
 msgstr ""
 
 #: i18n/states.php:985
-msgid "Garissa"
+msgid "Wakayama"
 msgstr ""
 
 #: i18n/states.php:986
-msgid "Homa Bay"
+msgid "Tottori"
 msgstr ""
 
 #: i18n/states.php:987
-msgid "Isiolo"
+msgid "Shimane"
 msgstr ""
 
 #: i18n/states.php:988
-msgid "Kajiado"
+msgid "Okayama"
 msgstr ""
 
 #: i18n/states.php:989
-msgid "Kakamega"
+msgid "Hiroshima"
 msgstr ""
 
 #: i18n/states.php:990
-msgid "Kericho"
+msgid "Yamaguchi"
 msgstr ""
 
 #: i18n/states.php:991
-msgid "Kiambu"
+msgid "Tokushima"
 msgstr ""
 
 #: i18n/states.php:992
-msgid "Kilifi"
+msgid "Kagawa"
 msgstr ""
 
 #: i18n/states.php:993
-msgid "Kirinyaga"
+msgid "Ehime"
 msgstr ""
 
 #: i18n/states.php:994
-msgid "Kisii"
+msgid "Kochi"
 msgstr ""
 
 #: i18n/states.php:995
-msgid "Kisumu"
+msgid "Fukuoka"
 msgstr ""
 
 #: i18n/states.php:996
-msgid "Kitui"
+msgid "Saga"
 msgstr ""
 
 #: i18n/states.php:997
-msgid "Kwale"
+msgid "Nagasaki"
 msgstr ""
 
 #: i18n/states.php:998
-msgid "Laikipia"
+msgid "Kumamoto"
 msgstr ""
 
 #: i18n/states.php:999
-msgid "Lamu"
+msgid "Oita"
 msgstr ""
 
 #: i18n/states.php:1000
-msgid "Machakos"
+msgid "Miyazaki"
 msgstr ""
 
 #: i18n/states.php:1001
-msgid "Makueni"
+msgid "Kagoshima"
 msgstr ""
 
 #: i18n/states.php:1002
-msgid "Mandera"
-msgstr ""
-
-#: i18n/states.php:1003
-msgid "Marsabit"
-msgstr ""
-
-#: i18n/states.php:1004
-msgid "Meru"
+msgid "Okinawa"
 msgstr ""
 
 #: i18n/states.php:1005
-msgid "Migori"
+msgid "Baringo"
 msgstr ""
 
 #: i18n/states.php:1006
-msgid "Mombasa"
+msgid "Bomet"
 msgstr ""
 
 #: i18n/states.php:1007
-msgid "Murang’a"
+msgid "Bungoma"
 msgstr ""
 
 #: i18n/states.php:1008
-msgid "Nairobi County"
+#: i18n/states.php:1798
+msgid "Busia"
 msgstr ""
 
 #: i18n/states.php:1009
-msgid "Nakuru"
+msgid "Elgeyo-Marakwet"
 msgstr ""
 
 #: i18n/states.php:1010
-msgid "Nandi"
+msgid "Embu"
 msgstr ""
 
 #: i18n/states.php:1011
-msgid "Narok"
+msgid "Garissa"
 msgstr ""
 
 #: i18n/states.php:1012
-msgid "Nyamira"
+msgid "Homa Bay"
 msgstr ""
 
 #: i18n/states.php:1013
-msgid "Nyandarua"
+msgid "Isiolo"
 msgstr ""
 
 #: i18n/states.php:1014
-msgid "Nyeri"
+msgid "Kajiado"
 msgstr ""
 
 #: i18n/states.php:1015
-msgid "Samburu"
+msgid "Kakamega"
 msgstr ""
 
 #: i18n/states.php:1016
-msgid "Siaya"
+msgid "Kericho"
 msgstr ""
 
 #: i18n/states.php:1017
-msgid "Taita-Taveta"
+msgid "Kiambu"
 msgstr ""
 
 #: i18n/states.php:1018
-msgid "Tana River"
+msgid "Kilifi"
 msgstr ""
 
 #: i18n/states.php:1019
-msgid "Tharaka-Nithi"
+msgid "Kirinyaga"
 msgstr ""
 
 #: i18n/states.php:1020
-msgid "Trans Nzoia"
+msgid "Kisii"
 msgstr ""
 
 #: i18n/states.php:1021
-msgid "Turkana"
+msgid "Kisumu"
 msgstr ""
 
 #: i18n/states.php:1022
-msgid "Uasin Gishu"
+msgid "Kitui"
 msgstr ""
 
 #: i18n/states.php:1023
-msgid "Vihiga"
+msgid "Kwale"
 msgstr ""
 
 #: i18n/states.php:1024
-msgid "Wajir"
+msgid "Laikipia"
 msgstr ""
 
 #: i18n/states.php:1025
-msgid "West Pokot"
+msgid "Lamu"
+msgstr ""
+
+#: i18n/states.php:1026
+msgid "Machakos"
+msgstr ""
+
+#: i18n/states.php:1027
+msgid "Makueni"
+msgstr ""
+
+#: i18n/states.php:1028
+msgid "Mandera"
+msgstr ""
+
+#: i18n/states.php:1029
+msgid "Marsabit"
 msgstr ""
 
 #: i18n/states.php:1030
-msgid "Attapeu"
+msgid "Meru"
 msgstr ""
 
 #: i18n/states.php:1031
-msgid "Bokeo"
+msgid "Migori"
 msgstr ""
 
 #: i18n/states.php:1032
-msgid "Bolikhamsai"
+msgid "Mombasa"
 msgstr ""
 
 #: i18n/states.php:1033
-msgid "Champasak"
+msgid "Murang’a"
 msgstr ""
 
 #: i18n/states.php:1034
-msgid "Houaphanh"
+msgid "Nairobi County"
 msgstr ""
 
 #: i18n/states.php:1035
-msgid "Khammouane"
+msgid "Nakuru"
 msgstr ""
 
 #: i18n/states.php:1036
-msgid "Luang Namtha"
+msgid "Nandi"
 msgstr ""
 
 #: i18n/states.php:1037
-msgid "Luang Prabang"
+msgid "Narok"
 msgstr ""
 
 #: i18n/states.php:1038
-msgid "Oudomxay"
+msgid "Nyamira"
 msgstr ""
 
 #: i18n/states.php:1039
-msgid "Phongsaly"
+msgid "Nyandarua"
 msgstr ""
 
 #: i18n/states.php:1040
-msgid "Salavan"
+msgid "Nyeri"
 msgstr ""
 
 #: i18n/states.php:1041
-msgid "Savannakhet"
+msgid "Samburu"
 msgstr ""
 
 #: i18n/states.php:1042
-msgid "Vientiane Province"
+msgid "Siaya"
 msgstr ""
 
 #: i18n/states.php:1043
-msgid "Vientiane"
+msgid "Taita-Taveta"
 msgstr ""
 
 #: i18n/states.php:1044
-msgid "Sainyabuli"
+msgid "Tana River"
 msgstr ""
 
 #: i18n/states.php:1045
-msgid "Sekong"
+msgid "Tharaka-Nithi"
 msgstr ""
 
 #: i18n/states.php:1046
-msgid "Xiangkhouang"
+msgid "Trans Nzoia"
 msgstr ""
 
 #: i18n/states.php:1047
-msgid "Xaisomboun"
+msgid "Turkana"
+msgstr ""
+
+#: i18n/states.php:1048
+msgid "Uasin Gishu"
+msgstr ""
+
+#: i18n/states.php:1049
+msgid "Vihiga"
+msgstr ""
+
+#: i18n/states.php:1050
+msgid "Wajir"
 msgstr ""
 
 #: i18n/states.php:1051
-msgid "Bomi"
-msgstr ""
-
-#: i18n/states.php:1052
-msgid "Bong"
-msgstr ""
-
-#: i18n/states.php:1053
-msgid "Gbarpolu"
-msgstr ""
-
-#: i18n/states.php:1054
-msgid "Grand Bassa"
-msgstr ""
-
-#: i18n/states.php:1055
-msgid "Grand Cape Mount"
+msgid "West Pokot"
 msgstr ""
 
 #: i18n/states.php:1056
-msgid "Grand Gedeh"
+msgid "Attapeu"
 msgstr ""
 
 #: i18n/states.php:1057
-msgid "Grand Kru"
+msgid "Bokeo"
 msgstr ""
 
 #: i18n/states.php:1058
-msgid "Lofa"
+msgid "Bolikhamsai"
 msgstr ""
 
 #: i18n/states.php:1059
-msgid "Margibi"
+msgid "Champasak"
 msgstr ""
 
 #: i18n/states.php:1060
-#: i18n/states.php:1909
-msgid "Maryland"
+msgid "Houaphanh"
 msgstr ""
 
 #: i18n/states.php:1061
-msgid "Montserrado"
+msgid "Khammouane"
 msgstr ""
 
 #: i18n/states.php:1062
-msgid "Nimba"
+msgid "Luang Namtha"
 msgstr ""
 
 #: i18n/states.php:1063
-msgid "Rivercess"
+msgid "Luang Prabang"
 msgstr ""
 
 #: i18n/states.php:1064
-msgid "River Gee"
+msgid "Oudomxay"
 msgstr ""
 
 #: i18n/states.php:1065
-msgid "Sinoe"
+msgid "Phongsaly"
+msgstr ""
+
+#: i18n/states.php:1066
+msgid "Salavan"
+msgstr ""
+
+#: i18n/states.php:1067
+msgid "Savannakhet"
+msgstr ""
+
+#: i18n/states.php:1068
+msgid "Vientiane Province"
 msgstr ""
 
 #: i18n/states.php:1069
-msgid "Chișinău"
+msgid "Vientiane"
 msgstr ""
 
 #: i18n/states.php:1070
-msgid "Bălți"
+msgid "Sainyabuli"
 msgstr ""
 
 #: i18n/states.php:1071
-msgid "Anenii Noi"
+msgid "Sekong"
 msgstr ""
 
 #: i18n/states.php:1072
-msgid "Basarabeasca"
+msgid "Xiangkhouang"
 msgstr ""
 
 #: i18n/states.php:1073
-msgid "Briceni"
-msgstr ""
-
-#: i18n/states.php:1074
-msgid "Cahul"
-msgstr ""
-
-#: i18n/states.php:1075
-msgid "Cantemir"
-msgstr ""
-
-#: i18n/states.php:1076
-#: i18n/states.php:1440
-msgid "Călărași"
+msgid "Xaisomboun"
 msgstr ""
 
 #: i18n/states.php:1077
-msgid "Căușeni"
+msgid "Bomi"
 msgstr ""
 
 #: i18n/states.php:1078
-msgid "Cimișlia"
+msgid "Bong"
 msgstr ""
 
 #: i18n/states.php:1079
-msgid "Criuleni"
+msgid "Gbarpolu"
 msgstr ""
 
 #: i18n/states.php:1080
-msgid "Dondușeni"
+msgid "Grand Bassa"
 msgstr ""
 
 #: i18n/states.php:1081
-msgid "Drochia"
+msgid "Grand Cape Mount"
 msgstr ""
 
 #: i18n/states.php:1082
-msgid "Dubăsari"
+msgid "Grand Gedeh"
 msgstr ""
 
 #: i18n/states.php:1083
-msgid "Edineț"
+msgid "Grand Kru"
 msgstr ""
 
 #: i18n/states.php:1084
-msgid "Fălești"
+msgid "Lofa"
 msgstr ""
 
 #: i18n/states.php:1085
-msgid "Florești"
+msgid "Margibi"
 msgstr ""
 
 #: i18n/states.php:1086
-msgid "UTA Găgăuzia"
+#: i18n/states.php:1935
+msgid "Maryland"
 msgstr ""
 
 #: i18n/states.php:1087
-msgid "Glodeni"
+msgid "Montserrado"
 msgstr ""
 
 #: i18n/states.php:1088
-msgid "Hîncești"
+msgid "Nimba"
 msgstr ""
 
 #: i18n/states.php:1089
-msgid "Ialoveni"
+msgid "Rivercess"
 msgstr ""
 
 #: i18n/states.php:1090
-msgid "Leova"
+msgid "River Gee"
 msgstr ""
 
 #: i18n/states.php:1091
-msgid "Nisporeni"
-msgstr ""
-
-#: i18n/states.php:1092
-msgid "Ocnița"
-msgstr ""
-
-#: i18n/states.php:1093
-msgid "Orhei"
-msgstr ""
-
-#: i18n/states.php:1094
-msgid "Rezina"
+msgid "Sinoe"
 msgstr ""
 
 #: i18n/states.php:1095
-msgid "Rîșcani"
+msgid "Chișinău"
 msgstr ""
 
 #: i18n/states.php:1096
-msgid "Sîngerei"
+msgid "Bălți"
 msgstr ""
 
 #: i18n/states.php:1097
-msgid "Soroca"
+msgid "Anenii Noi"
 msgstr ""
 
 #: i18n/states.php:1098
-msgid "Strășeni"
+msgid "Basarabeasca"
 msgstr ""
 
 #: i18n/states.php:1099
-msgid "Șoldănești"
+msgid "Briceni"
 msgstr ""
 
 #: i18n/states.php:1100
-msgid "Ștefan Vodă"
+msgid "Cahul"
 msgstr ""
 
 #: i18n/states.php:1101
-msgid "Taraclia"
+msgid "Cantemir"
 msgstr ""
 
 #: i18n/states.php:1102
-msgid "Telenești"
+#: i18n/states.php:1466
+msgid "Călărași"
 msgstr ""
 
 #: i18n/states.php:1103
-msgid "Ungheni"
+msgid "Căușeni"
+msgstr ""
+
+#: i18n/states.php:1104
+msgid "Cimișlia"
+msgstr ""
+
+#: i18n/states.php:1105
+msgid "Criuleni"
+msgstr ""
+
+#: i18n/states.php:1106
+msgid "Dondușeni"
+msgstr ""
+
+#: i18n/states.php:1107
+msgid "Drochia"
 msgstr ""
 
 #: i18n/states.php:1108
-msgid "Ciudad de México"
+msgid "Dubăsari"
 msgstr ""
 
 #: i18n/states.php:1109
-msgid "Jalisco"
+msgid "Edineț"
 msgstr ""
 
 #: i18n/states.php:1110
-msgid "Nuevo León"
+msgid "Fălești"
 msgstr ""
 
 #: i18n/states.php:1111
-msgid "Aguascalientes"
+msgid "Florești"
 msgstr ""
 
 #: i18n/states.php:1112
-msgid "Baja California"
+msgid "UTA Găgăuzia"
 msgstr ""
 
 #: i18n/states.php:1113
-msgid "Baja California Sur"
+msgid "Glodeni"
 msgstr ""
 
 #: i18n/states.php:1114
-msgid "Campeche"
+msgid "Hîncești"
 msgstr ""
 
 #: i18n/states.php:1115
-msgid "Chiapas"
+msgid "Ialoveni"
 msgstr ""
 
 #: i18n/states.php:1116
-msgid "Chihuahua"
+msgid "Leova"
 msgstr ""
 
 #: i18n/states.php:1117
-msgid "Coahuila"
+msgid "Nisporeni"
 msgstr ""
 
 #: i18n/states.php:1118
-msgid "Colima"
+msgid "Ocnița"
 msgstr ""
 
 #: i18n/states.php:1119
-msgid "Durango"
+msgid "Orhei"
 msgstr ""
 
 #: i18n/states.php:1120
-msgid "Guanajuato"
+msgid "Rezina"
 msgstr ""
 
 #: i18n/states.php:1121
-msgid "Guerrero"
+msgid "Rîșcani"
 msgstr ""
 
 #: i18n/states.php:1122
-msgid "Hidalgo"
+msgid "Sîngerei"
 msgstr ""
 
 #: i18n/states.php:1123
-msgid "Estado de México"
+msgid "Soroca"
 msgstr ""
 
 #: i18n/states.php:1124
-msgid "Michoacán"
+msgid "Strășeni"
 msgstr ""
 
 #: i18n/states.php:1125
-msgid "Morelos"
+msgid "Șoldănești"
 msgstr ""
 
 #: i18n/states.php:1126
-msgid "Nayarit"
+msgid "Ștefan Vodă"
 msgstr ""
 
 #: i18n/states.php:1127
-msgid "Oaxaca"
+msgid "Taraclia"
 msgstr ""
 
 #: i18n/states.php:1128
-msgid "Puebla"
+msgid "Telenești"
 msgstr ""
 
 #: i18n/states.php:1129
-msgid "Querétaro"
-msgstr ""
-
-#: i18n/states.php:1130
-msgid "Quintana Roo"
-msgstr ""
-
-#: i18n/states.php:1131
-msgid "San Luis Potosí"
-msgstr ""
-
-#: i18n/states.php:1132
-msgid "Sinaloa"
-msgstr ""
-
-#: i18n/states.php:1133
-msgid "Sonora"
+msgid "Ungheni"
 msgstr ""
 
 #: i18n/states.php:1134
-msgid "Tabasco"
+msgid "Ciudad de México"
 msgstr ""
 
 #: i18n/states.php:1135
-msgid "Tamaulipas"
+msgid "Jalisco"
 msgstr ""
 
 #: i18n/states.php:1136
-msgid "Tlaxcala"
+msgid "Nuevo León"
 msgstr ""
 
 #: i18n/states.php:1137
-msgid "Veracruz"
+msgid "Aguascalientes"
 msgstr ""
 
 #: i18n/states.php:1138
-msgid "Yucatán"
+msgid "Baja California"
 msgstr ""
 
 #: i18n/states.php:1139
-msgid "Zacatecas"
+msgid "Baja California Sur"
+msgstr ""
+
+#: i18n/states.php:1140
+msgid "Campeche"
+msgstr ""
+
+#: i18n/states.php:1141
+msgid "Chiapas"
 msgstr ""
 
 #: i18n/states.php:1142
-msgid "Johor"
+msgid "Chihuahua"
 msgstr ""
 
 #: i18n/states.php:1143
-msgid "Kedah"
+msgid "Coahuila"
 msgstr ""
 
 #: i18n/states.php:1144
-msgid "Kelantan"
+msgid "Colima"
 msgstr ""
 
 #: i18n/states.php:1145
-msgid "Labuan"
+msgid "Durango"
 msgstr ""
 
 #: i18n/states.php:1146
-msgid "Malacca (Melaka)"
+msgid "Guanajuato"
 msgstr ""
 
 #: i18n/states.php:1147
-msgid "Negeri Sembilan"
+msgid "Guerrero"
 msgstr ""
 
 #: i18n/states.php:1148
-msgid "Pahang"
+msgid "Hidalgo"
 msgstr ""
 
 #: i18n/states.php:1149
-msgid "Penang (Pulau Pinang)"
+msgid "Estado de México"
 msgstr ""
 
 #: i18n/states.php:1150
-msgid "Perak"
+msgid "Michoacán"
 msgstr ""
 
 #: i18n/states.php:1151
-msgid "Perlis"
+msgid "Morelos"
 msgstr ""
 
 #: i18n/states.php:1152
-msgid "Sabah"
+msgid "Nayarit"
 msgstr ""
 
 #: i18n/states.php:1153
-msgid "Sarawak"
+msgid "Oaxaca"
 msgstr ""
 
 #: i18n/states.php:1154
-msgid "Selangor"
+msgid "Puebla"
 msgstr ""
 
 #: i18n/states.php:1155
-msgid "Terengganu"
+msgid "Querétaro"
 msgstr ""
 
 #: i18n/states.php:1156
-msgid "Putrajaya"
+msgid "Quintana Roo"
 msgstr ""
 
 #: i18n/states.php:1157
-msgid "Kuala Lumpur"
+msgid "San Luis Potosí"
+msgstr ""
+
+#: i18n/states.php:1158
+msgid "Sinaloa"
+msgstr ""
+
+#: i18n/states.php:1159
+msgid "Sonora"
 msgstr ""
 
 #: i18n/states.php:1160
-msgid "Cabo Delgado"
+msgid "Tabasco"
 msgstr ""
 
 #: i18n/states.php:1161
-msgid "Gaza"
+msgid "Tamaulipas"
 msgstr ""
 
 #: i18n/states.php:1162
-msgid "Inhambane"
+msgid "Tlaxcala"
 msgstr ""
 
 #: i18n/states.php:1163
-msgid "Manica"
+msgid "Veracruz"
 msgstr ""
 
 #: i18n/states.php:1164
-msgid "Maputo Province"
+msgid "Yucatán"
 msgstr ""
 
 #: i18n/states.php:1165
-msgid "Maputo"
-msgstr ""
-
-#: i18n/states.php:1166
-msgid "Nampula"
-msgstr ""
-
-#: i18n/states.php:1167
-msgid "Niassa"
+msgid "Zacatecas"
 msgstr ""
 
 #: i18n/states.php:1168
-msgid "Sofala"
+msgid "Johor"
 msgstr ""
 
 #: i18n/states.php:1169
-msgid "Tete"
+msgid "Kedah"
 msgstr ""
 
 #: i18n/states.php:1170
-msgid "Zambézia"
+msgid "Kelantan"
+msgstr ""
+
+#: i18n/states.php:1171
+msgid "Labuan"
+msgstr ""
+
+#: i18n/states.php:1172
+msgid "Malacca (Melaka)"
 msgstr ""
 
 #: i18n/states.php:1173
-msgid "Erongo"
+msgid "Negeri Sembilan"
 msgstr ""
 
 #: i18n/states.php:1174
-msgid "Hardap"
+msgid "Pahang"
 msgstr ""
 
 #: i18n/states.php:1175
-msgid "Karas"
+msgid "Penang (Pulau Pinang)"
 msgstr ""
 
 #: i18n/states.php:1176
-msgid "Kavango East"
+msgid "Perak"
 msgstr ""
 
 #: i18n/states.php:1177
-msgid "Kavango West"
+msgid "Perlis"
 msgstr ""
 
 #: i18n/states.php:1178
-msgid "Khomas"
+msgid "Sabah"
 msgstr ""
 
 #: i18n/states.php:1179
-msgid "Kunene"
+msgid "Sarawak"
 msgstr ""
 
 #: i18n/states.php:1180
-msgid "Ohangwena"
+msgid "Selangor"
 msgstr ""
 
 #: i18n/states.php:1181
-msgid "Omaheke"
+msgid "Terengganu"
 msgstr ""
 
 #: i18n/states.php:1182
-msgid "Omusati"
+msgid "Putrajaya"
 msgstr ""
 
 #: i18n/states.php:1183
-msgid "Oshana"
-msgstr ""
-
-#: i18n/states.php:1184
-msgid "Oshikoto"
-msgstr ""
-
-#: i18n/states.php:1185
-msgid "Otjozondjupa"
+msgid "Kuala Lumpur"
 msgstr ""
 
 #: i18n/states.php:1186
-msgid "Zambezi"
+msgid "Cabo Delgado"
+msgstr ""
+
+#: i18n/states.php:1187
+msgid "Gaza"
+msgstr ""
+
+#: i18n/states.php:1188
+msgid "Inhambane"
 msgstr ""
 
 #: i18n/states.php:1189
-msgid "Abia"
+msgid "Manica"
 msgstr ""
 
 #: i18n/states.php:1190
-msgid "Abuja"
+msgid "Maputo Province"
 msgstr ""
 
 #: i18n/states.php:1191
-msgid "Adamawa"
+msgid "Maputo"
 msgstr ""
 
 #: i18n/states.php:1192
-msgid "Akwa Ibom"
+msgid "Nampula"
 msgstr ""
 
 #: i18n/states.php:1193
-msgid "Anambra"
+msgid "Niassa"
 msgstr ""
 
 #: i18n/states.php:1194
-msgid "Bauchi"
+msgid "Sofala"
 msgstr ""
 
 #: i18n/states.php:1195
-msgid "Bayelsa"
+msgid "Tete"
 msgstr ""
 
 #: i18n/states.php:1196
-msgid "Benue"
-msgstr ""
-
-#: i18n/states.php:1197
-msgid "Borno"
-msgstr ""
-
-#: i18n/states.php:1198
-msgid "Cross River"
+msgid "Zambézia"
 msgstr ""
 
 #: i18n/states.php:1199
-msgid "Delta"
+msgid "Erongo"
 msgstr ""
 
 #: i18n/states.php:1200
-msgid "Ebonyi"
+msgid "Hardap"
 msgstr ""
 
 #: i18n/states.php:1201
-msgid "Edo"
+msgid "Karas"
 msgstr ""
 
 #: i18n/states.php:1202
-msgid "Ekiti"
+msgid "Kavango East"
 msgstr ""
 
 #: i18n/states.php:1203
-msgid "Enugu"
+msgid "Kavango West"
 msgstr ""
 
 #: i18n/states.php:1204
-msgid "Gombe"
+msgid "Khomas"
 msgstr ""
 
 #: i18n/states.php:1205
-msgid "Imo"
+msgid "Kunene"
 msgstr ""
 
 #: i18n/states.php:1206
-msgid "Jigawa"
+msgid "Ohangwena"
 msgstr ""
 
 #: i18n/states.php:1207
-msgid "Kaduna"
+msgid "Omaheke"
 msgstr ""
 
 #: i18n/states.php:1208
-msgid "Kano"
+msgid "Omusati"
 msgstr ""
 
 #: i18n/states.php:1209
-msgid "Katsina"
+msgid "Oshana"
 msgstr ""
 
 #: i18n/states.php:1210
-msgid "Kebbi"
+msgid "Oshikoto"
 msgstr ""
 
 #: i18n/states.php:1211
-msgid "Kogi"
+msgid "Otjozondjupa"
 msgstr ""
 
 #: i18n/states.php:1212
-msgid "Kwara"
+msgid "Zambezi"
 msgstr ""
 
-#: i18n/states.php:1213
-msgid "Lagos"
-msgstr ""
-
-#: i18n/states.php:1214
-msgid "Nasarawa"
+#: i18n/states.php:1215
+msgid "Abia"
 msgstr ""
 
 #: i18n/states.php:1216
-msgid "Ogun"
+msgid "Abuja"
 msgstr ""
 
 #: i18n/states.php:1217
-msgid "Ondo"
+msgid "Adamawa"
 msgstr ""
 
 #: i18n/states.php:1218
-msgid "Osun"
+msgid "Akwa Ibom"
 msgstr ""
 
 #: i18n/states.php:1219
-msgid "Oyo"
+msgid "Anambra"
+msgstr ""
+
+#: i18n/states.php:1220
+msgid "Bauchi"
 msgstr ""
 
 #: i18n/states.php:1221
-msgid "Rivers"
+msgid "Bayelsa"
 msgstr ""
 
 #: i18n/states.php:1222
-msgid "Sokoto"
+msgid "Benue"
 msgstr ""
 
 #: i18n/states.php:1223
-msgid "Taraba"
+msgid "Borno"
 msgstr ""
 
 #: i18n/states.php:1224
-msgid "Yobe"
+msgid "Cross River"
 msgstr ""
 
 #: i18n/states.php:1225
-msgid "Zamfara"
+msgid "Delta"
+msgstr ""
+
+#: i18n/states.php:1226
+msgid "Ebonyi"
+msgstr ""
+
+#: i18n/states.php:1227
+msgid "Edo"
+msgstr ""
+
+#: i18n/states.php:1228
+msgid "Ekiti"
+msgstr ""
+
+#: i18n/states.php:1229
+msgid "Enugu"
 msgstr ""
 
 #: i18n/states.php:1230
-msgid "Bagmati"
+msgid "Gombe"
 msgstr ""
 
 #: i18n/states.php:1231
-msgid "Bheri"
+msgid "Imo"
 msgstr ""
 
 #: i18n/states.php:1232
-msgid "Dhaulagiri"
+msgid "Jigawa"
 msgstr ""
 
 #: i18n/states.php:1233
-msgid "Gandaki"
+msgid "Kaduna"
 msgstr ""
 
 #: i18n/states.php:1234
-msgid "Janakpur"
+msgid "Kano"
 msgstr ""
 
 #: i18n/states.php:1235
-msgid "Karnali"
+msgid "Katsina"
 msgstr ""
 
 #: i18n/states.php:1236
-msgid "Koshi"
+msgid "Kebbi"
 msgstr ""
 
 #: i18n/states.php:1237
-msgid "Lumbini"
+msgid "Kogi"
 msgstr ""
 
 #: i18n/states.php:1238
-msgid "Mahakali"
+msgid "Kwara"
 msgstr ""
 
 #: i18n/states.php:1239
-msgid "Mechi"
+msgid "Lagos"
 msgstr ""
 
 #: i18n/states.php:1240
-msgid "Narayani"
-msgstr ""
-
-#: i18n/states.php:1241
-msgid "Rapti"
+msgid "Nasarawa"
 msgstr ""
 
 #: i18n/states.php:1242
-msgid "Sagarmatha"
+msgid "Ogun"
 msgstr ""
 
 #: i18n/states.php:1243
-msgid "Seti"
+msgid "Ondo"
 msgstr ""
 
-#: i18n/states.php:1246
-msgid "Northland"
+#: i18n/states.php:1244
+msgid "Osun"
+msgstr ""
+
+#: i18n/states.php:1245
+msgid "Oyo"
 msgstr ""
 
 #: i18n/states.php:1247
-msgid "Auckland"
+msgid "Rivers"
 msgstr ""
 
 #: i18n/states.php:1248
-msgid "Waikato"
+msgid "Sokoto"
 msgstr ""
 
 #: i18n/states.php:1249
-msgid "Bay of Plenty"
+msgid "Taraba"
 msgstr ""
 
 #: i18n/states.php:1250
-msgid "Taranaki"
+msgid "Yobe"
 msgstr ""
 
 #: i18n/states.php:1251
-msgid "Gisborne"
-msgstr ""
-
-#: i18n/states.php:1252
-msgid "Hawke’s Bay"
-msgstr ""
-
-#: i18n/states.php:1253
-msgid "Manawatu-Wanganui"
-msgstr ""
-
-#: i18n/states.php:1254
-msgid "Wellington"
-msgstr ""
-
-#: i18n/states.php:1255
-msgid "Nelson"
+msgid "Zamfara"
 msgstr ""
 
 #: i18n/states.php:1256
-msgid "Marlborough"
+msgid "Bagmati"
 msgstr ""
 
 #: i18n/states.php:1257
-msgid "Tasman"
+msgid "Bheri"
 msgstr ""
 
 #: i18n/states.php:1258
-msgid "West Coast"
+msgid "Dhaulagiri"
 msgstr ""
 
 #: i18n/states.php:1259
-msgid "Canterbury"
+msgid "Gandaki"
 msgstr ""
 
 #: i18n/states.php:1260
-msgid "Otago"
+msgid "Janakpur"
 msgstr ""
 
 #: i18n/states.php:1261
-msgid "Southland"
+msgid "Karnali"
+msgstr ""
+
+#: i18n/states.php:1262
+msgid "Koshi"
+msgstr ""
+
+#: i18n/states.php:1263
+msgid "Lumbini"
 msgstr ""
 
 #: i18n/states.php:1264
-msgid "Bocas del Toro"
+msgid "Mahakali"
 msgstr ""
 
 #: i18n/states.php:1265
-msgid "Coclé"
+msgid "Mechi"
+msgstr ""
+
+#: i18n/states.php:1266
+msgid "Narayani"
 msgstr ""
 
 #: i18n/states.php:1267
-msgid "Chiriquí"
+msgid "Rapti"
 msgstr ""
 
 #: i18n/states.php:1268
-msgid "Darién"
+msgid "Sagarmatha"
 msgstr ""
 
 #: i18n/states.php:1269
-msgid "Herrera"
-msgstr ""
-
-#: i18n/states.php:1270
-msgid "Los Santos"
-msgstr ""
-
-#: i18n/states.php:1271
-msgid "Panamá"
+msgid "Seti"
 msgstr ""
 
 #: i18n/states.php:1272
-msgid "Veraguas"
+msgid "Northland"
 msgstr ""
 
 #: i18n/states.php:1273
-msgid "West Panamá"
+msgid "Auckland"
 msgstr ""
 
 #: i18n/states.php:1274
-msgid "Emberá"
+msgid "Waikato"
 msgstr ""
 
 #: i18n/states.php:1275
-msgid "Guna Yala"
+msgid "Bay of Plenty"
 msgstr ""
 
 #: i18n/states.php:1276
-msgid "Ngöbe-Buglé"
+msgid "Taranaki"
+msgstr ""
+
+#: i18n/states.php:1277
+msgid "Gisborne"
+msgstr ""
+
+#: i18n/states.php:1278
+msgid "Hawke’s Bay"
 msgstr ""
 
 #: i18n/states.php:1279
-msgid "El Callao"
+msgid "Manawatu-Wanganui"
 msgstr ""
 
 #: i18n/states.php:1280
-msgid "Municipalidad Metropolitana de Lima"
+msgid "Wellington"
+msgstr ""
+
+#: i18n/states.php:1281
+msgid "Nelson"
 msgstr ""
 
 #: i18n/states.php:1282
-msgid "Ancash"
+msgid "Marlborough"
 msgstr ""
 
 #: i18n/states.php:1283
-msgid "Apurímac"
+msgid "Tasman"
 msgstr ""
 
 #: i18n/states.php:1284
-msgid "Arequipa"
+msgid "West Coast"
 msgstr ""
 
 #: i18n/states.php:1285
-msgid "Ayacucho"
+msgid "Canterbury"
 msgstr ""
 
 #: i18n/states.php:1286
-msgid "Cajamarca"
+msgid "Otago"
 msgstr ""
 
 #: i18n/states.php:1287
-msgid "Cusco"
-msgstr ""
-
-#: i18n/states.php:1288
-msgid "Huancavelica"
-msgstr ""
-
-#: i18n/states.php:1289
-msgid "Huánuco"
+msgid "Southland"
 msgstr ""
 
 #: i18n/states.php:1290
-msgid "Ica"
+msgid "Bocas del Toro"
 msgstr ""
 
 #: i18n/states.php:1291
-msgid "Junín"
-msgstr ""
-
-#: i18n/states.php:1292
-#: i18n/states.php:1480
-msgid "La Libertad"
+msgid "Coclé"
 msgstr ""
 
 #: i18n/states.php:1293
-msgid "Lambayeque"
+msgid "Chiriquí"
 msgstr ""
 
 #: i18n/states.php:1294
-msgid "Lima"
+msgid "Darién"
 msgstr ""
 
 #: i18n/states.php:1295
-msgid "Loreto"
+msgid "Herrera"
 msgstr ""
 
 #: i18n/states.php:1296
-msgid "Madre de Dios"
+msgid "Los Santos"
 msgstr ""
 
 #: i18n/states.php:1297
-msgid "Moquegua"
+msgid "Panamá"
 msgstr ""
 
 #: i18n/states.php:1298
-msgid "Pasco"
+msgid "Veraguas"
 msgstr ""
 
 #: i18n/states.php:1299
-msgid "Piura"
+msgid "West Panamá"
 msgstr ""
 
 #: i18n/states.php:1300
-msgid "Puno"
+msgid "Emberá"
 msgstr ""
 
 #: i18n/states.php:1301
-msgid "San Martín"
+msgid "Guna Yala"
 msgstr ""
 
 #: i18n/states.php:1302
-msgid "Tacna"
+msgid "Ngöbe-Buglé"
 msgstr ""
 
-#: i18n/states.php:1303
-msgid "Tumbes"
+#: i18n/states.php:1305
+msgid "El Callao"
 msgstr ""
 
-#: i18n/states.php:1304
-msgid "Ucayali"
+#: i18n/states.php:1306
+msgid "Municipalidad Metropolitana de Lima"
+msgstr ""
+
+#: i18n/states.php:1308
+msgid "Ancash"
+msgstr ""
+
+#: i18n/states.php:1309
+msgid "Apurímac"
+msgstr ""
+
+#: i18n/states.php:1310
+msgid "Arequipa"
 msgstr ""
 
 #: i18n/states.php:1311
-msgid "Abra"
+msgid "Ayacucho"
 msgstr ""
 
 #: i18n/states.php:1312
-msgid "Agusan del Norte"
+msgid "Cajamarca"
 msgstr ""
 
 #: i18n/states.php:1313
-msgid "Agusan del Sur"
+msgid "Cusco"
 msgstr ""
 
 #: i18n/states.php:1314
-msgid "Aklan"
+msgid "Huancavelica"
 msgstr ""
 
 #: i18n/states.php:1315
-msgid "Albay"
+msgid "Huánuco"
 msgstr ""
 
 #: i18n/states.php:1316
-msgid "Antique"
+msgid "Ica"
 msgstr ""
 
 #: i18n/states.php:1317
-msgid "Apayao"
+msgid "Junín"
 msgstr ""
 
 #: i18n/states.php:1318
-msgid "Aurora"
+#: i18n/states.php:1506
+msgid "La Libertad"
 msgstr ""
 
 #: i18n/states.php:1319
-msgid "Basilan"
+msgid "Lambayeque"
 msgstr ""
 
 #: i18n/states.php:1320
-msgid "Bataan"
+msgid "Lima"
 msgstr ""
 
 #: i18n/states.php:1321
-msgid "Batanes"
+msgid "Loreto"
 msgstr ""
 
 #: i18n/states.php:1322
-msgid "Batangas"
+msgid "Madre de Dios"
 msgstr ""
 
 #: i18n/states.php:1323
-msgid "Benguet"
+msgid "Moquegua"
 msgstr ""
 
 #: i18n/states.php:1324
-msgid "Biliran"
+msgid "Pasco"
 msgstr ""
 
 #: i18n/states.php:1325
-msgid "Bohol"
+msgid "Piura"
 msgstr ""
 
 #: i18n/states.php:1326
-msgid "Bukidnon"
+msgid "Puno"
 msgstr ""
 
 #: i18n/states.php:1327
-msgid "Bulacan"
+msgid "San Martín"
 msgstr ""
 
 #: i18n/states.php:1328
-msgid "Cagayan"
+msgid "Tacna"
 msgstr ""
 
 #: i18n/states.php:1329
-msgid "Camarines Norte"
+msgid "Tumbes"
 msgstr ""
 
 #: i18n/states.php:1330
-msgid "Camarines Sur"
-msgstr ""
-
-#: i18n/states.php:1331
-msgid "Camiguin"
-msgstr ""
-
-#: i18n/states.php:1332
-msgid "Capiz"
-msgstr ""
-
-#: i18n/states.php:1333
-msgid "Catanduanes"
-msgstr ""
-
-#: i18n/states.php:1334
-msgid "Cavite"
-msgstr ""
-
-#: i18n/states.php:1335
-msgid "Cebu"
-msgstr ""
-
-#: i18n/states.php:1336
-msgid "Compostela Valley"
+msgid "Ucayali"
 msgstr ""
 
 #: i18n/states.php:1337
-msgid "Cotabato"
+msgid "Abra"
 msgstr ""
 
 #: i18n/states.php:1338
-msgid "Davao del Norte"
+msgid "Agusan del Norte"
 msgstr ""
 
 #: i18n/states.php:1339
-msgid "Davao del Sur"
+msgid "Agusan del Sur"
 msgstr ""
 
 #: i18n/states.php:1340
-msgid "Davao Occidental"
+msgid "Aklan"
 msgstr ""
 
 #: i18n/states.php:1341
-msgid "Davao Oriental"
+msgid "Albay"
 msgstr ""
 
 #: i18n/states.php:1342
-msgid "Dinagat Islands"
+msgid "Antique"
 msgstr ""
 
 #: i18n/states.php:1343
-msgid "Eastern Samar"
+msgid "Apayao"
 msgstr ""
 
 #: i18n/states.php:1344
-msgid "Guimaras"
+msgid "Aurora"
 msgstr ""
 
 #: i18n/states.php:1345
-msgid "Ifugao"
+msgid "Basilan"
 msgstr ""
 
 #: i18n/states.php:1346
-msgid "Ilocos Norte"
+msgid "Bataan"
 msgstr ""
 
 #: i18n/states.php:1347
-msgid "Ilocos Sur"
+msgid "Batanes"
 msgstr ""
 
 #: i18n/states.php:1348
-msgid "Iloilo"
+msgid "Batangas"
 msgstr ""
 
 #: i18n/states.php:1349
-msgid "Isabela"
+msgid "Benguet"
 msgstr ""
 
 #: i18n/states.php:1350
-msgid "Kalinga"
+msgid "Biliran"
 msgstr ""
 
 #: i18n/states.php:1351
-msgid "La Union"
+msgid "Bohol"
 msgstr ""
 
 #: i18n/states.php:1352
-msgid "Laguna"
+msgid "Bukidnon"
 msgstr ""
 
 #: i18n/states.php:1353
-msgid "Lanao del Norte"
+msgid "Bulacan"
 msgstr ""
 
 #: i18n/states.php:1354
-msgid "Lanao del Sur"
+msgid "Cagayan"
 msgstr ""
 
 #: i18n/states.php:1355
-msgid "Leyte"
+msgid "Camarines Norte"
 msgstr ""
 
 #: i18n/states.php:1356
-msgid "Maguindanao"
+msgid "Camarines Sur"
 msgstr ""
 
 #: i18n/states.php:1357
-msgid "Marinduque"
+msgid "Camiguin"
 msgstr ""
 
 #: i18n/states.php:1358
-msgid "Masbate"
+msgid "Capiz"
 msgstr ""
 
 #: i18n/states.php:1359
-msgid "Misamis Occidental"
+msgid "Catanduanes"
 msgstr ""
 
 #: i18n/states.php:1360
-msgid "Misamis Oriental"
+msgid "Cavite"
 msgstr ""
 
 #: i18n/states.php:1361
-msgid "Mountain Province"
+msgid "Cebu"
 msgstr ""
 
 #: i18n/states.php:1362
-msgid "Negros Occidental"
+msgid "Compostela Valley"
 msgstr ""
 
 #: i18n/states.php:1363
-msgid "Negros Oriental"
+msgid "Cotabato"
 msgstr ""
 
 #: i18n/states.php:1364
-msgid "Northern Samar"
+msgid "Davao del Norte"
 msgstr ""
 
 #: i18n/states.php:1365
-msgid "Nueva Ecija"
+msgid "Davao del Sur"
 msgstr ""
 
 #: i18n/states.php:1366
-msgid "Nueva Vizcaya"
+msgid "Davao Occidental"
 msgstr ""
 
 #: i18n/states.php:1367
-msgid "Occidental Mindoro"
+msgid "Davao Oriental"
 msgstr ""
 
 #: i18n/states.php:1368
-msgid "Oriental Mindoro"
+msgid "Dinagat Islands"
 msgstr ""
 
 #: i18n/states.php:1369
-msgid "Palawan"
+msgid "Eastern Samar"
 msgstr ""
 
 #: i18n/states.php:1370
-msgid "Pampanga"
+msgid "Guimaras"
 msgstr ""
 
 #: i18n/states.php:1371
-msgid "Pangasinan"
+msgid "Ifugao"
 msgstr ""
 
 #: i18n/states.php:1372
-msgid "Quezon"
+msgid "Ilocos Norte"
 msgstr ""
 
 #: i18n/states.php:1373
-msgid "Quirino"
+msgid "Ilocos Sur"
 msgstr ""
 
 #: i18n/states.php:1374
-msgid "Rizal"
+msgid "Iloilo"
 msgstr ""
 
 #: i18n/states.php:1375
-msgid "Romblon"
+msgid "Isabela"
 msgstr ""
 
 #: i18n/states.php:1376
-msgid "Samar"
+msgid "Kalinga"
 msgstr ""
 
 #: i18n/states.php:1377
-msgid "Sarangani"
+msgid "La Union"
 msgstr ""
 
 #: i18n/states.php:1378
-msgid "Siquijor"
+msgid "Laguna"
 msgstr ""
 
 #: i18n/states.php:1379
-msgid "Sorsogon"
+msgid "Lanao del Norte"
 msgstr ""
 
 #: i18n/states.php:1380
-msgid "South Cotabato"
+msgid "Lanao del Sur"
 msgstr ""
 
 #: i18n/states.php:1381
-msgid "Southern Leyte"
+msgid "Leyte"
 msgstr ""
 
 #: i18n/states.php:1382
-msgid "Sultan Kudarat"
+msgid "Maguindanao"
 msgstr ""
 
 #: i18n/states.php:1383
-msgid "Sulu"
+msgid "Marinduque"
 msgstr ""
 
 #: i18n/states.php:1384
-msgid "Surigao del Norte"
+msgid "Masbate"
 msgstr ""
 
 #: i18n/states.php:1385
-msgid "Surigao del Sur"
+msgid "Misamis Occidental"
 msgstr ""
 
 #: i18n/states.php:1386
-msgid "Tarlac"
+msgid "Misamis Oriental"
 msgstr ""
 
 #: i18n/states.php:1387
-msgid "Tawi-Tawi"
+msgid "Mountain Province"
 msgstr ""
 
 #: i18n/states.php:1388
-msgid "Zambales"
+msgid "Negros Occidental"
 msgstr ""
 
 #: i18n/states.php:1389
-msgid "Zamboanga del Norte"
+msgid "Negros Oriental"
 msgstr ""
 
 #: i18n/states.php:1390
-msgid "Zamboanga del Sur"
+msgid "Northern Samar"
 msgstr ""
 
 #: i18n/states.php:1391
-msgid "Zamboanga Sibugay"
+msgid "Nueva Ecija"
 msgstr ""
 
 #: i18n/states.php:1392
-msgid "Metro Manila"
+msgid "Nueva Vizcaya"
+msgstr ""
+
+#: i18n/states.php:1393
+msgid "Occidental Mindoro"
+msgstr ""
+
+#: i18n/states.php:1394
+msgid "Oriental Mindoro"
 msgstr ""
 
 #: i18n/states.php:1395
-msgid "Azad Kashmir"
+msgid "Palawan"
 msgstr ""
 
 #: i18n/states.php:1396
-msgid "Balochistan"
+msgid "Pampanga"
 msgstr ""
 
 #: i18n/states.php:1397
-msgid "FATA"
+msgid "Pangasinan"
 msgstr ""
 
 #: i18n/states.php:1398
-msgid "Gilgit Baltistan"
+msgid "Quezon"
 msgstr ""
 
 #: i18n/states.php:1399
-msgid "Islamabad Capital Territory"
+msgid "Quirino"
 msgstr ""
 
 #: i18n/states.php:1400
-msgid "Khyber Pakhtunkhwa"
+msgid "Rizal"
+msgstr ""
+
+#: i18n/states.php:1401
+msgid "Romblon"
 msgstr ""
 
 #: i18n/states.php:1402
-msgid "Sindh"
+msgid "Samar"
+msgstr ""
+
+#: i18n/states.php:1403
+msgid "Sarangani"
+msgstr ""
+
+#: i18n/states.php:1404
+msgid "Siquijor"
+msgstr ""
+
+#: i18n/states.php:1405
+msgid "Sorsogon"
+msgstr ""
+
+#: i18n/states.php:1406
+msgid "South Cotabato"
+msgstr ""
+
+#: i18n/states.php:1407
+msgid "Southern Leyte"
 msgstr ""
 
 #: i18n/states.php:1408
-msgid "Asunción"
+msgid "Sultan Kudarat"
 msgstr ""
 
 #: i18n/states.php:1409
-msgid "Concepción"
+msgid "Sulu"
 msgstr ""
 
 #: i18n/states.php:1410
-msgid "San Pedro"
+msgid "Surigao del Norte"
 msgstr ""
 
 #: i18n/states.php:1411
-msgid "Cordillera"
+msgid "Surigao del Sur"
 msgstr ""
 
 #: i18n/states.php:1412
-msgid "Guairá"
+msgid "Tarlac"
 msgstr ""
 
 #: i18n/states.php:1413
-msgid "Caaguazú"
+msgid "Tawi-Tawi"
 msgstr ""
 
 #: i18n/states.php:1414
-msgid "Caazapá"
+msgid "Zambales"
 msgstr ""
 
 #: i18n/states.php:1415
-msgid "Itapúa"
+msgid "Zamboanga del Norte"
+msgstr ""
+
+#: i18n/states.php:1416
+msgid "Zamboanga del Sur"
 msgstr ""
 
 #: i18n/states.php:1417
-msgid "Paraguarí"
+msgid "Zamboanga Sibugay"
 msgstr ""
 
 #: i18n/states.php:1418
-msgid "Alto Paraná"
-msgstr ""
-
-#: i18n/states.php:1420
-msgid "Ñeembucú"
+msgid "Metro Manila"
 msgstr ""
 
 #: i18n/states.php:1421
-msgid "Amambay"
+msgid "Azad Kashmir"
 msgstr ""
 
 #: i18n/states.php:1422
-msgid "Canindeyú"
+msgid "Balochistan"
 msgstr ""
 
 #: i18n/states.php:1423
-msgid "Presidente Hayes"
+msgid "FATA"
 msgstr ""
 
 #: i18n/states.php:1424
-msgid "Alto Paraguay"
+msgid "Gilgit Baltistan"
 msgstr ""
 
 #: i18n/states.php:1425
-msgid "Boquerón"
+msgid "Islamabad Capital Territory"
 msgstr ""
 
-#: i18n/states.php:1429
-msgid "Alba"
+#: i18n/states.php:1426
+msgid "Khyber Pakhtunkhwa"
 msgstr ""
 
-#: i18n/states.php:1430
-msgid "Arad"
-msgstr ""
-
-#: i18n/states.php:1431
-msgid "Argeș"
-msgstr ""
-
-#: i18n/states.php:1432
-msgid "Bacău"
-msgstr ""
-
-#: i18n/states.php:1433
-msgid "Bihor"
+#: i18n/states.php:1428
+msgid "Sindh"
 msgstr ""
 
 #: i18n/states.php:1434
-msgid "Bistrița-Năsăud"
+msgid "Asunción"
 msgstr ""
 
 #: i18n/states.php:1435
-msgid "Botoșani"
+msgid "Concepción"
 msgstr ""
 
 #: i18n/states.php:1436
-msgid "Brăila"
+msgid "San Pedro"
 msgstr ""
 
 #: i18n/states.php:1437
-msgid "Brașov"
+msgid "Cordillera"
 msgstr ""
 
 #: i18n/states.php:1438
-msgid "București"
+msgid "Guairá"
 msgstr ""
 
 #: i18n/states.php:1439
-msgid "Buzău"
+msgid "Caaguazú"
+msgstr ""
+
+#: i18n/states.php:1440
+msgid "Caazapá"
 msgstr ""
 
 #: i18n/states.php:1441
-msgid "Caraș-Severin"
-msgstr ""
-
-#: i18n/states.php:1442
-msgid "Cluj"
+msgid "Itapúa"
 msgstr ""
 
 #: i18n/states.php:1443
-msgid "Constanța"
+msgid "Paraguarí"
 msgstr ""
 
 #: i18n/states.php:1444
-msgid "Covasna"
-msgstr ""
-
-#: i18n/states.php:1445
-msgid "Dâmbovița"
+msgid "Alto Paraná"
 msgstr ""
 
 #: i18n/states.php:1446
-msgid "Dolj"
+msgid "Ñeembucú"
 msgstr ""
 
 #: i18n/states.php:1447
-msgid "Galați"
+msgid "Amambay"
 msgstr ""
 
 #: i18n/states.php:1448
-msgid "Giurgiu"
+msgid "Canindeyú"
 msgstr ""
 
 #: i18n/states.php:1449
-msgid "Gorj"
+msgid "Presidente Hayes"
 msgstr ""
 
 #: i18n/states.php:1450
-msgid "Harghita"
+msgid "Alto Paraguay"
 msgstr ""
 
 #: i18n/states.php:1451
-msgid "Hunedoara"
-msgstr ""
-
-#: i18n/states.php:1452
-msgid "Ialomița"
-msgstr ""
-
-#: i18n/states.php:1453
-msgid "Iași"
-msgstr ""
-
-#: i18n/states.php:1454
-msgid "Ilfov"
+msgid "Boquerón"
 msgstr ""
 
 #: i18n/states.php:1455
-msgid "Maramureș"
+msgid "Alba"
 msgstr ""
 
 #: i18n/states.php:1456
-msgid "Mehedinți"
+msgid "Arad"
 msgstr ""
 
 #: i18n/states.php:1457
-msgid "Mureș"
+msgid "Argeș"
 msgstr ""
 
 #: i18n/states.php:1458
-msgid "Neamț"
+msgid "Bacău"
 msgstr ""
 
 #: i18n/states.php:1459
-msgid "Olt"
+msgid "Bihor"
 msgstr ""
 
 #: i18n/states.php:1460
-msgid "Prahova"
+msgid "Bistrița-Năsăud"
 msgstr ""
 
 #: i18n/states.php:1461
-msgid "Sălaj"
+msgid "Botoșani"
 msgstr ""
 
 #: i18n/states.php:1462
-msgid "Satu Mare"
+msgid "Brăila"
 msgstr ""
 
 #: i18n/states.php:1463
-msgid "Sibiu"
+msgid "Brașov"
 msgstr ""
 
 #: i18n/states.php:1464
-msgid "Suceava"
+msgid "București"
 msgstr ""
 
 #: i18n/states.php:1465
-msgid "Teleorman"
-msgstr ""
-
-#: i18n/states.php:1466
-msgid "Timiș"
+msgid "Buzău"
 msgstr ""
 
 #: i18n/states.php:1467
-msgid "Tulcea"
+msgid "Caraș-Severin"
 msgstr ""
 
 #: i18n/states.php:1468
-msgid "Vâlcea"
+msgid "Cluj"
 msgstr ""
 
 #: i18n/states.php:1469
-msgid "Vaslui"
+msgid "Constanța"
 msgstr ""
 
 #: i18n/states.php:1470
-msgid "Vrancea"
+msgid "Covasna"
+msgstr ""
+
+#: i18n/states.php:1471
+msgid "Dâmbovița"
+msgstr ""
+
+#: i18n/states.php:1472
+msgid "Dolj"
+msgstr ""
+
+#: i18n/states.php:1473
+msgid "Galați"
+msgstr ""
+
+#: i18n/states.php:1474
+msgid "Giurgiu"
+msgstr ""
+
+#: i18n/states.php:1475
+msgid "Gorj"
 msgstr ""
 
 #: i18n/states.php:1476
-msgid "Ahuachapán"
+msgid "Harghita"
 msgstr ""
 
 #: i18n/states.php:1477
-msgid "Cabañas"
+msgid "Hunedoara"
 msgstr ""
 
 #: i18n/states.php:1478
-msgid "Chalatenango"
+msgid "Ialomița"
 msgstr ""
 
 #: i18n/states.php:1479
-msgid "Cuscatlán"
+msgid "Iași"
+msgstr ""
+
+#: i18n/states.php:1480
+msgid "Ilfov"
 msgstr ""
 
 #: i18n/states.php:1481
-msgid "Morazán"
+msgid "Maramureș"
+msgstr ""
+
+#: i18n/states.php:1482
+msgid "Mehedinți"
 msgstr ""
 
 #: i18n/states.php:1483
-msgid "Santa Ana"
+msgid "Mureș"
 msgstr ""
 
 #: i18n/states.php:1484
-msgid "San Miguel"
+msgid "Neamț"
 msgstr ""
 
 #: i18n/states.php:1485
-msgid "Sonsonate"
+msgid "Olt"
 msgstr ""
 
 #: i18n/states.php:1486
-msgid "San Salvador"
+msgid "Prahova"
 msgstr ""
 
 #: i18n/states.php:1487
-msgid "San Vicente"
+msgid "Sălaj"
 msgstr ""
 
 #: i18n/states.php:1488
-msgid "La Unión"
+msgid "Satu Mare"
 msgstr ""
 
 #: i18n/states.php:1489
-msgid "Usulután"
+msgid "Sibiu"
+msgstr ""
+
+#: i18n/states.php:1490
+msgid "Suceava"
+msgstr ""
+
+#: i18n/states.php:1491
+msgid "Teleorman"
 msgstr ""
 
 #: i18n/states.php:1492
-msgid "Amnat Charoen"
+msgid "Timiș"
 msgstr ""
 
 #: i18n/states.php:1493
-msgid "Ang Thong"
+msgid "Tulcea"
 msgstr ""
 
 #: i18n/states.php:1494
-msgid "Ayutthaya"
+msgid "Vâlcea"
 msgstr ""
 
 #: i18n/states.php:1495
-msgid "Bangkok"
+msgid "Vaslui"
 msgstr ""
 
 #: i18n/states.php:1496
-msgid "Bueng Kan"
-msgstr ""
-
-#: i18n/states.php:1497
-msgid "Buri Ram"
-msgstr ""
-
-#: i18n/states.php:1498
-msgid "Chachoengsao"
-msgstr ""
-
-#: i18n/states.php:1499
-msgid "Chai Nat"
-msgstr ""
-
-#: i18n/states.php:1500
-msgid "Chaiyaphum"
-msgstr ""
-
-#: i18n/states.php:1501
-msgid "Chanthaburi"
+msgid "Vrancea"
 msgstr ""
 
 #: i18n/states.php:1502
-msgid "Chiang Mai"
+msgid "Ahuachapán"
 msgstr ""
 
 #: i18n/states.php:1503
-msgid "Chiang Rai"
+msgid "Cabañas"
 msgstr ""
 
 #: i18n/states.php:1504
-msgid "Chonburi"
+msgid "Chalatenango"
 msgstr ""
 
 #: i18n/states.php:1505
-msgid "Chumphon"
-msgstr ""
-
-#: i18n/states.php:1506
-msgid "Kalasin"
+msgid "Cuscatlán"
 msgstr ""
 
 #: i18n/states.php:1507
-msgid "Kamphaeng Phet"
-msgstr ""
-
-#: i18n/states.php:1508
-msgid "Kanchanaburi"
+msgid "Morazán"
 msgstr ""
 
 #: i18n/states.php:1509
-msgid "Khon Kaen"
+msgid "Santa Ana"
 msgstr ""
 
 #: i18n/states.php:1510
-msgid "Krabi"
+msgid "San Miguel"
 msgstr ""
 
 #: i18n/states.php:1511
-msgid "Lampang"
+msgid "Sonsonate"
 msgstr ""
 
 #: i18n/states.php:1512
-msgid "Lamphun"
+msgid "San Salvador"
 msgstr ""
 
 #: i18n/states.php:1513
-msgid "Loei"
+msgid "San Vicente"
 msgstr ""
 
 #: i18n/states.php:1514
-msgid "Lopburi"
+msgid "La Unión"
 msgstr ""
 
 #: i18n/states.php:1515
-msgid "Mae Hong Son"
-msgstr ""
-
-#: i18n/states.php:1516
-msgid "Maha Sarakham"
-msgstr ""
-
-#: i18n/states.php:1517
-msgid "Mukdahan"
+msgid "Usulután"
 msgstr ""
 
 #: i18n/states.php:1518
-msgid "Nakhon Nayok"
+msgid "Amnat Charoen"
 msgstr ""
 
 #: i18n/states.php:1519
-msgid "Nakhon Pathom"
+msgid "Ang Thong"
 msgstr ""
 
 #: i18n/states.php:1520
-msgid "Nakhon Phanom"
+msgid "Ayutthaya"
 msgstr ""
 
 #: i18n/states.php:1521
-msgid "Nakhon Ratchasima"
+msgid "Bangkok"
 msgstr ""
 
 #: i18n/states.php:1522
-msgid "Nakhon Sawan"
+msgid "Bueng Kan"
 msgstr ""
 
 #: i18n/states.php:1523
-msgid "Nakhon Si Thammarat"
+msgid "Buri Ram"
 msgstr ""
 
 #: i18n/states.php:1524
-msgid "Nan"
+msgid "Chachoengsao"
 msgstr ""
 
 #: i18n/states.php:1525
-msgid "Narathiwat"
+msgid "Chai Nat"
 msgstr ""
 
 #: i18n/states.php:1526
-msgid "Nong Bua Lam Phu"
+msgid "Chaiyaphum"
 msgstr ""
 
 #: i18n/states.php:1527
-msgid "Nong Khai"
+msgid "Chanthaburi"
 msgstr ""
 
 #: i18n/states.php:1528
-msgid "Nonthaburi"
+msgid "Chiang Mai"
 msgstr ""
 
 #: i18n/states.php:1529
-msgid "Pathum Thani"
+msgid "Chiang Rai"
 msgstr ""
 
 #: i18n/states.php:1530
-msgid "Pattani"
+msgid "Chonburi"
 msgstr ""
 
 #: i18n/states.php:1531
-msgid "Phang Nga"
+msgid "Chumphon"
 msgstr ""
 
 #: i18n/states.php:1532
-msgid "Phatthalung"
+msgid "Kalasin"
 msgstr ""
 
 #: i18n/states.php:1533
-msgid "Phayao"
+msgid "Kamphaeng Phet"
 msgstr ""
 
 #: i18n/states.php:1534
-msgid "Phetchabun"
+msgid "Kanchanaburi"
 msgstr ""
 
 #: i18n/states.php:1535
-msgid "Phetchaburi"
+msgid "Khon Kaen"
 msgstr ""
 
 #: i18n/states.php:1536
-msgid "Phichit"
+msgid "Krabi"
 msgstr ""
 
 #: i18n/states.php:1537
-msgid "Phitsanulok"
+msgid "Lampang"
 msgstr ""
 
 #: i18n/states.php:1538
-msgid "Phrae"
+msgid "Lamphun"
 msgstr ""
 
 #: i18n/states.php:1539
-msgid "Phuket"
+msgid "Loei"
 msgstr ""
 
 #: i18n/states.php:1540
-msgid "Prachin Buri"
+msgid "Lopburi"
 msgstr ""
 
 #: i18n/states.php:1541
-msgid "Prachuap Khiri Khan"
+msgid "Mae Hong Son"
 msgstr ""
 
 #: i18n/states.php:1542
-msgid "Ranong"
+msgid "Maha Sarakham"
 msgstr ""
 
 #: i18n/states.php:1543
-msgid "Ratchaburi"
+msgid "Mukdahan"
 msgstr ""
 
 #: i18n/states.php:1544
-msgid "Rayong"
+msgid "Nakhon Nayok"
 msgstr ""
 
 #: i18n/states.php:1545
-msgid "Roi Et"
+msgid "Nakhon Pathom"
 msgstr ""
 
 #: i18n/states.php:1546
-msgid "Sa Kaeo"
+msgid "Nakhon Phanom"
 msgstr ""
 
 #: i18n/states.php:1547
-msgid "Sakon Nakhon"
+msgid "Nakhon Ratchasima"
 msgstr ""
 
 #: i18n/states.php:1548
-msgid "Samut Prakan"
+msgid "Nakhon Sawan"
 msgstr ""
 
 #: i18n/states.php:1549
-msgid "Samut Sakhon"
+msgid "Nakhon Si Thammarat"
 msgstr ""
 
 #: i18n/states.php:1550
-msgid "Samut Songkhram"
+msgid "Nan"
 msgstr ""
 
 #: i18n/states.php:1551
-msgid "Saraburi"
+msgid "Narathiwat"
 msgstr ""
 
 #: i18n/states.php:1552
-msgid "Satun"
+msgid "Nong Bua Lam Phu"
 msgstr ""
 
 #: i18n/states.php:1553
-msgid "Sing Buri"
+msgid "Nong Khai"
 msgstr ""
 
 #: i18n/states.php:1554
-msgid "Sisaket"
+msgid "Nonthaburi"
 msgstr ""
 
 #: i18n/states.php:1555
-msgid "Songkhla"
+msgid "Pathum Thani"
 msgstr ""
 
 #: i18n/states.php:1556
-msgid "Sukhothai"
+msgid "Pattani"
 msgstr ""
 
 #: i18n/states.php:1557
-msgid "Suphan Buri"
+msgid "Phang Nga"
 msgstr ""
 
 #: i18n/states.php:1558
-msgid "Surat Thani"
+msgid "Phatthalung"
 msgstr ""
 
 #: i18n/states.php:1559
-msgid "Surin"
+msgid "Phayao"
 msgstr ""
 
 #: i18n/states.php:1560
-msgid "Tak"
+msgid "Phetchabun"
 msgstr ""
 
 #: i18n/states.php:1561
-msgid "Trang"
+msgid "Phetchaburi"
 msgstr ""
 
 #: i18n/states.php:1562
-msgid "Trat"
+msgid "Phichit"
 msgstr ""
 
 #: i18n/states.php:1563
-msgid "Ubon Ratchathani"
+msgid "Phitsanulok"
 msgstr ""
 
 #: i18n/states.php:1564
-msgid "Udon Thani"
+msgid "Phrae"
 msgstr ""
 
 #: i18n/states.php:1565
-msgid "Uthai Thani"
+msgid "Phuket"
 msgstr ""
 
 #: i18n/states.php:1566
-msgid "Uttaradit"
+msgid "Prachin Buri"
 msgstr ""
 
 #: i18n/states.php:1567
-msgid "Yala"
+msgid "Prachuap Khiri Khan"
 msgstr ""
 
 #: i18n/states.php:1568
-msgid "Yasothon"
+msgid "Ranong"
+msgstr ""
+
+#: i18n/states.php:1569
+msgid "Ratchaburi"
+msgstr ""
+
+#: i18n/states.php:1570
+msgid "Rayong"
 msgstr ""
 
 #: i18n/states.php:1571
-msgid "Adana"
+msgid "Roi Et"
 msgstr ""
 
 #: i18n/states.php:1572
-msgid "Adıyaman"
+msgid "Sa Kaeo"
 msgstr ""
 
 #: i18n/states.php:1573
-msgid "Afyon"
+msgid "Sakon Nakhon"
 msgstr ""
 
 #: i18n/states.php:1574
-msgid "Ağrı"
+msgid "Samut Prakan"
 msgstr ""
 
 #: i18n/states.php:1575
-msgid "Amasya"
+msgid "Samut Sakhon"
 msgstr ""
 
 #: i18n/states.php:1576
-msgid "Ankara"
+msgid "Samut Songkhram"
 msgstr ""
 
 #: i18n/states.php:1577
-msgid "Antalya"
+msgid "Saraburi"
 msgstr ""
 
 #: i18n/states.php:1578
-msgid "Artvin"
+msgid "Satun"
 msgstr ""
 
 #: i18n/states.php:1579
-msgid "Aydın"
+msgid "Sing Buri"
 msgstr ""
 
 #: i18n/states.php:1580
-msgid "Balıkesir"
+msgid "Sisaket"
 msgstr ""
 
 #: i18n/states.php:1581
-msgid "Bilecik"
+msgid "Songkhla"
 msgstr ""
 
 #: i18n/states.php:1582
-msgid "Bingöl"
+msgid "Sukhothai"
 msgstr ""
 
 #: i18n/states.php:1583
-msgid "Bitlis"
+msgid "Suphan Buri"
 msgstr ""
 
 #: i18n/states.php:1584
-msgid "Bolu"
+msgid "Surat Thani"
 msgstr ""
 
 #: i18n/states.php:1585
-msgid "Burdur"
+msgid "Surin"
 msgstr ""
 
 #: i18n/states.php:1586
-msgid "Bursa"
+msgid "Tak"
 msgstr ""
 
 #: i18n/states.php:1587
-msgid "Çanakkale"
+msgid "Trang"
 msgstr ""
 
 #: i18n/states.php:1588
-msgid "Çankırı"
+msgid "Trat"
 msgstr ""
 
 #: i18n/states.php:1589
-msgid "Çorum"
+msgid "Ubon Ratchathani"
 msgstr ""
 
 #: i18n/states.php:1590
-msgid "Denizli"
+msgid "Udon Thani"
 msgstr ""
 
 #: i18n/states.php:1591
-msgid "Diyarbakır"
+msgid "Uthai Thani"
 msgstr ""
 
 #: i18n/states.php:1592
-msgid "Edirne"
+msgid "Uttaradit"
 msgstr ""
 
 #: i18n/states.php:1593
-msgid "Elazığ"
+msgid "Yala"
 msgstr ""
 
 #: i18n/states.php:1594
-msgid "Erzincan"
-msgstr ""
-
-#: i18n/states.php:1595
-msgid "Erzurum"
-msgstr ""
-
-#: i18n/states.php:1596
-msgid "Eskişehir"
+msgid "Yasothon"
 msgstr ""
 
 #: i18n/states.php:1597
-msgid "Gaziantep"
+msgid "Adana"
 msgstr ""
 
 #: i18n/states.php:1598
-msgid "Giresun"
+msgid "Adıyaman"
 msgstr ""
 
 #: i18n/states.php:1599
-msgid "Gümüşhane"
+msgid "Afyon"
 msgstr ""
 
 #: i18n/states.php:1600
-msgid "Hakkari"
+msgid "Ağrı"
 msgstr ""
 
 #: i18n/states.php:1601
-msgid "Hatay"
+msgid "Amasya"
 msgstr ""
 
 #: i18n/states.php:1602
-msgid "Isparta"
+msgid "Ankara"
 msgstr ""
 
 #: i18n/states.php:1603
-msgid "İçel"
+msgid "Antalya"
 msgstr ""
 
 #: i18n/states.php:1604
-msgid "İstanbul"
+msgid "Artvin"
 msgstr ""
 
 #: i18n/states.php:1605
-msgid "İzmir"
+msgid "Aydın"
 msgstr ""
 
 #: i18n/states.php:1606
-msgid "Kars"
+msgid "Balıkesir"
 msgstr ""
 
 #: i18n/states.php:1607
-msgid "Kastamonu"
+msgid "Bilecik"
 msgstr ""
 
 #: i18n/states.php:1608
-msgid "Kayseri"
+msgid "Bingöl"
 msgstr ""
 
 #: i18n/states.php:1609
-msgid "Kırklareli"
+msgid "Bitlis"
 msgstr ""
 
 #: i18n/states.php:1610
-msgid "Kırşehir"
+msgid "Bolu"
 msgstr ""
 
 #: i18n/states.php:1611
-msgid "Kocaeli"
+msgid "Burdur"
 msgstr ""
 
 #: i18n/states.php:1612
-msgid "Konya"
+msgid "Bursa"
 msgstr ""
 
 #: i18n/states.php:1613
-msgid "Kütahya"
+msgid "Çanakkale"
 msgstr ""
 
 #: i18n/states.php:1614
-msgid "Malatya"
+msgid "Çankırı"
 msgstr ""
 
 #: i18n/states.php:1615
-msgid "Manisa"
+msgid "Çorum"
 msgstr ""
 
 #: i18n/states.php:1616
-msgid "Kahramanmaraş"
+msgid "Denizli"
 msgstr ""
 
 #: i18n/states.php:1617
-msgid "Mardin"
+msgid "Diyarbakır"
 msgstr ""
 
 #: i18n/states.php:1618
-msgid "Muğla"
+msgid "Edirne"
 msgstr ""
 
 #: i18n/states.php:1619
-msgid "Muş"
+msgid "Elazığ"
 msgstr ""
 
 #: i18n/states.php:1620
-msgid "Nevşehir"
+msgid "Erzincan"
 msgstr ""
 
 #: i18n/states.php:1621
-msgid "Niğde"
+msgid "Erzurum"
 msgstr ""
 
 #: i18n/states.php:1622
-msgid "Ordu"
+msgid "Eskişehir"
 msgstr ""
 
 #: i18n/states.php:1623
-msgid "Rize"
+msgid "Gaziantep"
 msgstr ""
 
 #: i18n/states.php:1624
-msgid "Sakarya"
+msgid "Giresun"
 msgstr ""
 
 #: i18n/states.php:1625
-msgid "Samsun"
+msgid "Gümüşhane"
 msgstr ""
 
 #: i18n/states.php:1626
-msgid "Siirt"
+msgid "Hakkari"
 msgstr ""
 
 #: i18n/states.php:1627
-msgid "Sinop"
+msgid "Hatay"
 msgstr ""
 
 #: i18n/states.php:1628
-msgid "Sivas"
+msgid "Isparta"
 msgstr ""
 
 #: i18n/states.php:1629
-msgid "Tekirdağ"
+msgid "İçel"
 msgstr ""
 
 #: i18n/states.php:1630
-msgid "Tokat"
+msgid "İstanbul"
 msgstr ""
 
 #: i18n/states.php:1631
-msgid "Trabzon"
+msgid "İzmir"
 msgstr ""
 
 #: i18n/states.php:1632
-msgid "Tunceli"
+msgid "Kars"
 msgstr ""
 
 #: i18n/states.php:1633
-msgid "Şanlıurfa"
+msgid "Kastamonu"
 msgstr ""
 
 #: i18n/states.php:1634
-msgid "Uşak"
+msgid "Kayseri"
 msgstr ""
 
 #: i18n/states.php:1635
-msgid "Van"
+msgid "Kırklareli"
 msgstr ""
 
 #: i18n/states.php:1636
-msgid "Yozgat"
+msgid "Kırşehir"
 msgstr ""
 
 #: i18n/states.php:1637
-msgid "Zonguldak"
+msgid "Kocaeli"
 msgstr ""
 
 #: i18n/states.php:1638
-msgid "Aksaray"
+msgid "Konya"
 msgstr ""
 
 #: i18n/states.php:1639
-msgid "Bayburt"
+msgid "Kütahya"
 msgstr ""
 
 #: i18n/states.php:1640
-msgid "Karaman"
+msgid "Malatya"
 msgstr ""
 
 #: i18n/states.php:1641
-msgid "Kırıkkale"
+msgid "Manisa"
 msgstr ""
 
 #: i18n/states.php:1642
-msgid "Batman"
+msgid "Kahramanmaraş"
 msgstr ""
 
 #: i18n/states.php:1643
-msgid "Şırnak"
+msgid "Mardin"
 msgstr ""
 
 #: i18n/states.php:1644
-msgid "Bartın"
+msgid "Muğla"
 msgstr ""
 
 #: i18n/states.php:1645
-msgid "Ardahan"
+msgid "Muş"
 msgstr ""
 
 #: i18n/states.php:1646
-msgid "Iğdır"
+msgid "Nevşehir"
 msgstr ""
 
 #: i18n/states.php:1647
-msgid "Yalova"
+msgid "Niğde"
 msgstr ""
 
 #: i18n/states.php:1648
-msgid "Karabük"
+msgid "Ordu"
 msgstr ""
 
 #: i18n/states.php:1649
-msgid "Kilis"
+msgid "Rize"
 msgstr ""
 
 #: i18n/states.php:1650
-msgid "Osmaniye"
+msgid "Sakarya"
 msgstr ""
 
 #: i18n/states.php:1651
-msgid "Düzce"
+msgid "Samsun"
+msgstr ""
+
+#: i18n/states.php:1652
+msgid "Siirt"
+msgstr ""
+
+#: i18n/states.php:1653
+msgid "Sinop"
 msgstr ""
 
 #: i18n/states.php:1654
-msgid "Arusha"
+msgid "Sivas"
 msgstr ""
 
 #: i18n/states.php:1655
-msgid "Dar es Salaam"
+msgid "Tekirdağ"
 msgstr ""
 
 #: i18n/states.php:1656
-msgid "Dodoma"
+msgid "Tokat"
 msgstr ""
 
 #: i18n/states.php:1657
-msgid "Iringa"
+msgid "Trabzon"
 msgstr ""
 
 #: i18n/states.php:1658
-msgid "Kagera"
+msgid "Tunceli"
 msgstr ""
 
 #: i18n/states.php:1659
-msgid "Pemba North"
+msgid "Şanlıurfa"
 msgstr ""
 
 #: i18n/states.php:1660
-msgid "Zanzibar North"
+msgid "Uşak"
 msgstr ""
 
 #: i18n/states.php:1661
-msgid "Kigoma"
+msgid "Van"
 msgstr ""
 
 #: i18n/states.php:1662
-msgid "Kilimanjaro"
+msgid "Yozgat"
 msgstr ""
 
 #: i18n/states.php:1663
-msgid "Pemba South"
+msgid "Zonguldak"
 msgstr ""
 
 #: i18n/states.php:1664
-msgid "Zanzibar South"
+msgid "Aksaray"
 msgstr ""
 
 #: i18n/states.php:1665
-msgid "Lindi"
+msgid "Bayburt"
 msgstr ""
 
 #: i18n/states.php:1666
-msgid "Mara"
+msgid "Karaman"
 msgstr ""
 
 #: i18n/states.php:1667
-msgid "Mbeya"
+msgid "Kırıkkale"
 msgstr ""
 
 #: i18n/states.php:1668
-msgid "Zanzibar West"
+msgid "Batman"
 msgstr ""
 
 #: i18n/states.php:1669
-msgid "Morogoro"
+msgid "Şırnak"
 msgstr ""
 
 #: i18n/states.php:1670
-msgid "Mtwara"
+msgid "Bartın"
 msgstr ""
 
 #: i18n/states.php:1671
-msgid "Mwanza"
+msgid "Ardahan"
 msgstr ""
 
 #: i18n/states.php:1672
-msgid "Coast"
+msgid "Iğdır"
 msgstr ""
 
 #: i18n/states.php:1673
-msgid "Rukwa"
+msgid "Yalova"
 msgstr ""
 
 #: i18n/states.php:1674
-msgid "Ruvuma"
+msgid "Karabük"
 msgstr ""
 
 #: i18n/states.php:1675
-msgid "Shinyanga"
+msgid "Kilis"
 msgstr ""
 
 #: i18n/states.php:1676
-msgid "Singida"
+msgid "Osmaniye"
 msgstr ""
 
 #: i18n/states.php:1677
-msgid "Tabora"
-msgstr ""
-
-#: i18n/states.php:1678
-msgid "Tanga"
-msgstr ""
-
-#: i18n/states.php:1679
-msgid "Manyara"
+msgid "Düzce"
 msgstr ""
 
 #: i18n/states.php:1680
-msgid "Geita"
+msgid "Arusha"
 msgstr ""
 
 #: i18n/states.php:1681
-msgid "Katavi"
+msgid "Dar es Salaam"
 msgstr ""
 
 #: i18n/states.php:1682
-msgid "Njombe"
+msgid "Dodoma"
 msgstr ""
 
 #: i18n/states.php:1683
-msgid "Simiyu"
+msgid "Iringa"
+msgstr ""
+
+#: i18n/states.php:1684
+msgid "Kagera"
+msgstr ""
+
+#: i18n/states.php:1685
+msgid "Pemba North"
+msgstr ""
+
+#: i18n/states.php:1686
+msgid "Zanzibar North"
 msgstr ""
 
 #: i18n/states.php:1687
-msgctxt "district"
-msgid "Belgrade"
+msgid "Kigoma"
 msgstr ""
 
 #: i18n/states.php:1688
-msgctxt "district"
-msgid "Bor"
+msgid "Kilimanjaro"
 msgstr ""
 
 #: i18n/states.php:1689
-msgctxt "district"
-msgid "Braničevo"
+msgid "Pemba South"
 msgstr ""
 
 #: i18n/states.php:1690
-msgctxt "district"
-msgid "Central Banat"
+msgid "Zanzibar South"
 msgstr ""
 
 #: i18n/states.php:1691
-msgctxt "district"
-msgid "Danube"
+msgid "Lindi"
 msgstr ""
 
 #: i18n/states.php:1692
-msgctxt "district"
-msgid "Jablanica"
+msgid "Mara"
 msgstr ""
 
 #: i18n/states.php:1693
-msgctxt "district"
-msgid "Kolubara"
+msgid "Mbeya"
 msgstr ""
 
 #: i18n/states.php:1694
-msgctxt "district"
-msgid "Mačva"
+msgid "Zanzibar West"
 msgstr ""
 
 #: i18n/states.php:1695
-msgctxt "district"
-msgid "Morava"
+msgid "Morogoro"
 msgstr ""
 
 #: i18n/states.php:1696
-msgctxt "district"
-msgid "Nišava"
+msgid "Mtwara"
 msgstr ""
 
 #: i18n/states.php:1697
-msgctxt "district"
-msgid "North Bačka"
+msgid "Mwanza"
 msgstr ""
 
 #: i18n/states.php:1698
-msgctxt "district"
-msgid "North Banat"
+msgid "Coast"
 msgstr ""
 
 #: i18n/states.php:1699
-msgctxt "district"
-msgid "Pčinja"
+msgid "Rukwa"
 msgstr ""
 
 #: i18n/states.php:1700
-msgctxt "district"
-msgid "Pirot"
+msgid "Ruvuma"
 msgstr ""
 
 #: i18n/states.php:1701
-msgctxt "district"
-msgid "Pomoravlje"
+msgid "Shinyanga"
 msgstr ""
 
 #: i18n/states.php:1702
-msgctxt "district"
-msgid "Rasina"
+msgid "Singida"
 msgstr ""
 
 #: i18n/states.php:1703
-msgctxt "district"
-msgid "Raška"
+msgid "Tabora"
 msgstr ""
 
 #: i18n/states.php:1704
-msgctxt "district"
-msgid "South Bačka"
+msgid "Tanga"
 msgstr ""
 
 #: i18n/states.php:1705
-msgctxt "district"
-msgid "South Banat"
+msgid "Manyara"
 msgstr ""
 
 #: i18n/states.php:1706
-msgctxt "district"
-msgid "Srem"
+msgid "Geita"
 msgstr ""
 
 #: i18n/states.php:1707
-msgctxt "district"
-msgid "Šumadija"
+msgid "Katavi"
 msgstr ""
 
 #: i18n/states.php:1708
-msgctxt "district"
-msgid "Toplica"
+msgid "Njombe"
 msgstr ""
 
 #: i18n/states.php:1709
-msgctxt "district"
-msgid "West Bačka"
-msgstr ""
-
-#: i18n/states.php:1710
-msgctxt "district"
-msgid "Zaječar"
-msgstr ""
-
-#: i18n/states.php:1711
-msgctxt "district"
-msgid "Zlatibor"
-msgstr ""
-
-#: i18n/states.php:1712
-msgctxt "district"
-msgid "Kosovo"
+msgid "Simiyu"
 msgstr ""
 
 #: i18n/states.php:1713
 msgctxt "district"
-msgid "Peć"
+msgid "Belgrade"
 msgstr ""
 
 #: i18n/states.php:1714
 msgctxt "district"
-msgid "Prizren"
+msgid "Bor"
 msgstr ""
 
 #: i18n/states.php:1715
 msgctxt "district"
-msgid "Kosovska Mitrovica"
+msgid "Braničevo"
 msgstr ""
 
 #: i18n/states.php:1716
 msgctxt "district"
-msgid "Kosovo-Pomoravlje"
+msgid "Central Banat"
 msgstr ""
 
 #: i18n/states.php:1717
 msgctxt "district"
-msgid "Kosovo-Metohija"
+msgid "Danube"
 msgstr ""
 
 #: i18n/states.php:1718
 msgctxt "district"
-msgid "Vojvodina"
+msgid "Jablanica"
+msgstr ""
+
+#: i18n/states.php:1719
+msgctxt "district"
+msgid "Kolubara"
+msgstr ""
+
+#: i18n/states.php:1720
+msgctxt "district"
+msgid "Mačva"
+msgstr ""
+
+#: i18n/states.php:1721
+msgctxt "district"
+msgid "Morava"
 msgstr ""
 
 #: i18n/states.php:1722
-msgid "Vinnytsia Oblast"
+msgctxt "district"
+msgid "Nišava"
 msgstr ""
 
 #: i18n/states.php:1723
-msgid "Volyn Oblast"
+msgctxt "district"
+msgid "North Bačka"
 msgstr ""
 
 #: i18n/states.php:1724
-msgid "Dnipropetrovsk Oblast"
+msgctxt "district"
+msgid "North Banat"
 msgstr ""
 
 #: i18n/states.php:1725
-msgid "Donetsk Oblast"
+msgctxt "district"
+msgid "Pčinja"
 msgstr ""
 
 #: i18n/states.php:1726
-msgid "Zhytomyr Oblast"
+msgctxt "district"
+msgid "Pirot"
 msgstr ""
 
 #: i18n/states.php:1727
-msgid "Zakarpattia Oblast"
+msgctxt "district"
+msgid "Pomoravlje"
 msgstr ""
 
 #: i18n/states.php:1728
-msgid "Zaporizhzhia Oblast"
+msgctxt "district"
+msgid "Rasina"
 msgstr ""
 
 #: i18n/states.php:1729
-msgid "Ivano-Frankivsk Oblast"
+msgctxt "district"
+msgid "Raška"
 msgstr ""
 
 #: i18n/states.php:1730
-msgid "Kyiv Oblast"
+msgctxt "district"
+msgid "South Bačka"
 msgstr ""
 
 #: i18n/states.php:1731
-msgid "Kirovohrad Oblast"
+msgctxt "district"
+msgid "South Banat"
 msgstr ""
 
 #: i18n/states.php:1732
-msgid "Luhansk Oblast"
+msgctxt "district"
+msgid "Srem"
 msgstr ""
 
 #: i18n/states.php:1733
-msgid "Lviv Oblast"
+msgctxt "district"
+msgid "Šumadija"
 msgstr ""
 
 #: i18n/states.php:1734
-msgid "Mykolaiv Oblast"
+msgctxt "district"
+msgid "Toplica"
 msgstr ""
 
 #: i18n/states.php:1735
-msgid "Odessa Oblast"
+msgctxt "district"
+msgid "West Bačka"
 msgstr ""
 
 #: i18n/states.php:1736
-msgid "Poltava Oblast"
+msgctxt "district"
+msgid "Zaječar"
 msgstr ""
 
 #: i18n/states.php:1737
-msgid "Rivne Oblast"
+msgctxt "district"
+msgid "Zlatibor"
 msgstr ""
 
 #: i18n/states.php:1738
-msgid "Sumy Oblast"
+msgctxt "district"
+msgid "Kosovo"
 msgstr ""
 
 #: i18n/states.php:1739
-msgid "Ternopil Oblast"
+msgctxt "district"
+msgid "Peć"
 msgstr ""
 
 #: i18n/states.php:1740
-msgid "Kharkiv Oblast"
+msgctxt "district"
+msgid "Prizren"
 msgstr ""
 
 #: i18n/states.php:1741
-msgid "Kherson Oblast"
+msgctxt "district"
+msgid "Kosovska Mitrovica"
 msgstr ""
 
 #: i18n/states.php:1742
-msgid "Khmelnytskyi Oblast"
+msgctxt "district"
+msgid "Kosovo-Pomoravlje"
 msgstr ""
 
 #: i18n/states.php:1743
-msgid "Cherkasy Oblast"
+msgctxt "district"
+msgid "Kosovo-Metohija"
 msgstr ""
 
 #: i18n/states.php:1744
-msgid "Chernihiv Oblast"
-msgstr ""
-
-#: i18n/states.php:1745
-msgid "Chernivtsi Oblast"
+msgctxt "district"
+msgid "Vojvodina"
 msgstr ""
 
 #: i18n/states.php:1748
-msgid "Abim"
+msgid "Vinnytsia Oblast"
 msgstr ""
 
 #: i18n/states.php:1749
-msgid "Adjumani"
+msgid "Volyn Oblast"
 msgstr ""
 
 #: i18n/states.php:1750
-msgid "Agago"
+msgid "Dnipropetrovsk Oblast"
 msgstr ""
 
 #: i18n/states.php:1751
-msgid "Alebtong"
+msgid "Donetsk Oblast"
 msgstr ""
 
 #: i18n/states.php:1752
-msgid "Amolatar"
+msgid "Zhytomyr Oblast"
 msgstr ""
 
 #: i18n/states.php:1753
-msgid "Amudat"
+msgid "Zakarpattia Oblast"
 msgstr ""
 
 #: i18n/states.php:1754
-msgid "Amuria"
+msgid "Zaporizhzhia Oblast"
 msgstr ""
 
 #: i18n/states.php:1755
-msgid "Amuru"
+msgid "Ivano-Frankivsk Oblast"
 msgstr ""
 
 #: i18n/states.php:1756
-msgid "Apac"
+msgid "Kyiv Oblast"
 msgstr ""
 
 #: i18n/states.php:1757
-msgid "Arua"
+msgid "Kirovohrad Oblast"
 msgstr ""
 
 #: i18n/states.php:1758
-msgid "Budaka"
+msgid "Luhansk Oblast"
 msgstr ""
 
 #: i18n/states.php:1759
-msgid "Bududa"
+msgid "Lviv Oblast"
 msgstr ""
 
 #: i18n/states.php:1760
-msgid "Bugiri"
+msgid "Mykolaiv Oblast"
 msgstr ""
 
 #: i18n/states.php:1761
-msgid "Bugweri"
+msgid "Odessa Oblast"
 msgstr ""
 
 #: i18n/states.php:1762
-msgid "Buhweju"
+msgid "Poltava Oblast"
 msgstr ""
 
 #: i18n/states.php:1763
-msgid "Buikwe"
+msgid "Rivne Oblast"
 msgstr ""
 
 #: i18n/states.php:1764
-msgid "Bukedea"
+msgid "Sumy Oblast"
 msgstr ""
 
 #: i18n/states.php:1765
-msgid "Bukomansimbi"
+msgid "Ternopil Oblast"
 msgstr ""
 
 #: i18n/states.php:1766
-msgid "Bukwa"
+msgid "Kharkiv Oblast"
 msgstr ""
 
 #: i18n/states.php:1767
-msgid "Bulambuli"
+msgid "Kherson Oblast"
 msgstr ""
 
 #: i18n/states.php:1768
-msgid "Buliisa"
+msgid "Khmelnytskyi Oblast"
 msgstr ""
 
 #: i18n/states.php:1769
-msgid "Bundibugyo"
+msgid "Cherkasy Oblast"
 msgstr ""
 
 #: i18n/states.php:1770
-msgid "Bunyangabu"
+msgid "Chernihiv Oblast"
 msgstr ""
 
 #: i18n/states.php:1771
-msgid "Bushenyi"
-msgstr ""
-
-#: i18n/states.php:1773
-msgid "Butaleja"
+msgid "Chernivtsi Oblast"
 msgstr ""
 
 #: i18n/states.php:1774
-msgid "Butambala"
+msgid "Abim"
 msgstr ""
 
 #: i18n/states.php:1775
-msgid "Butebo"
+msgid "Adjumani"
 msgstr ""
 
 #: i18n/states.php:1776
-msgid "Buvuma"
+msgid "Agago"
 msgstr ""
 
 #: i18n/states.php:1777
-msgid "Buyende"
+msgid "Alebtong"
 msgstr ""
 
 #: i18n/states.php:1778
-msgid "Dokolo"
+msgid "Amolatar"
 msgstr ""
 
 #: i18n/states.php:1779
-msgid "Gomba"
+msgid "Amudat"
 msgstr ""
 
 #: i18n/states.php:1780
-msgid "Gulu"
+msgid "Amuria"
 msgstr ""
 
 #: i18n/states.php:1781
-msgid "Hoima"
+msgid "Amuru"
 msgstr ""
 
 #: i18n/states.php:1782
-msgid "Ibanda"
+msgid "Apac"
 msgstr ""
 
 #: i18n/states.php:1783
-msgid "Iganga"
+msgid "Arua"
 msgstr ""
 
 #: i18n/states.php:1784
-msgid "Isingiro"
+msgid "Budaka"
 msgstr ""
 
 #: i18n/states.php:1785
-msgid "Jinja"
+msgid "Bududa"
 msgstr ""
 
 #: i18n/states.php:1786
-msgid "Kaabong"
+msgid "Bugiri"
 msgstr ""
 
 #: i18n/states.php:1787
-msgid "Kabale"
+msgid "Bugweri"
 msgstr ""
 
 #: i18n/states.php:1788
-msgid "Kabarole"
+msgid "Buhweju"
 msgstr ""
 
 #: i18n/states.php:1789
-msgid "Kaberamaido"
+msgid "Buikwe"
 msgstr ""
 
 #: i18n/states.php:1790
-msgid "Kagadi"
+msgid "Bukedea"
 msgstr ""
 
 #: i18n/states.php:1791
-msgid "Kakumiro"
+msgid "Bukomansimbi"
 msgstr ""
 
 #: i18n/states.php:1792
-msgid "Kalangala"
+msgid "Bukwa"
 msgstr ""
 
 #: i18n/states.php:1793
-msgid "Kaliro"
+msgid "Bulambuli"
 msgstr ""
 
 #: i18n/states.php:1794
-msgid "Kalungu"
+msgid "Buliisa"
 msgstr ""
 
 #: i18n/states.php:1795
-msgid "Kampala"
+msgid "Bundibugyo"
 msgstr ""
 
 #: i18n/states.php:1796
-msgid "Kamuli"
+msgid "Bunyangabu"
 msgstr ""
 
 #: i18n/states.php:1797
-msgid "Kamwenge"
-msgstr ""
-
-#: i18n/states.php:1798
-msgid "Kanungu"
+msgid "Bushenyi"
 msgstr ""
 
 #: i18n/states.php:1799
-msgid "Kapchorwa"
+msgid "Butaleja"
 msgstr ""
 
 #: i18n/states.php:1800
-msgid "Kapelebyong"
+msgid "Butambala"
 msgstr ""
 
 #: i18n/states.php:1801
-msgid "Kasanda"
+msgid "Butebo"
 msgstr ""
 
 #: i18n/states.php:1802
-msgid "Kasese"
+msgid "Buvuma"
 msgstr ""
 
 #: i18n/states.php:1803
-msgid "Katakwi"
+msgid "Buyende"
 msgstr ""
 
 #: i18n/states.php:1804
-msgid "Kayunga"
+msgid "Dokolo"
 msgstr ""
 
 #: i18n/states.php:1805
-msgid "Kibaale"
+msgid "Gomba"
 msgstr ""
 
 #: i18n/states.php:1806
-msgid "Kiboga"
+msgid "Gulu"
 msgstr ""
 
 #: i18n/states.php:1807
-msgid "Kibuku"
+msgid "Hoima"
 msgstr ""
 
 #: i18n/states.php:1808
-msgid "Kikuube"
+msgid "Ibanda"
 msgstr ""
 
 #: i18n/states.php:1809
-msgid "Kiruhura"
+msgid "Iganga"
 msgstr ""
 
 #: i18n/states.php:1810
-msgid "Kiryandongo"
+msgid "Isingiro"
 msgstr ""
 
 #: i18n/states.php:1811
-msgid "Kisoro"
+msgid "Jinja"
 msgstr ""
 
 #: i18n/states.php:1812
-msgid "Kitgum"
+msgid "Kaabong"
 msgstr ""
 
 #: i18n/states.php:1813
-msgid "Koboko"
+msgid "Kabale"
 msgstr ""
 
 #: i18n/states.php:1814
-msgid "Kole"
+msgid "Kabarole"
 msgstr ""
 
 #: i18n/states.php:1815
-msgid "Kotido"
+msgid "Kaberamaido"
 msgstr ""
 
 #: i18n/states.php:1816
-msgid "Kumi"
+msgid "Kagadi"
 msgstr ""
 
 #: i18n/states.php:1817
-msgid "Kwania"
+msgid "Kakumiro"
 msgstr ""
 
 #: i18n/states.php:1818
-msgid "Kween"
+msgid "Kalangala"
 msgstr ""
 
 #: i18n/states.php:1819
-msgid "Kyankwanzi"
+msgid "Kaliro"
 msgstr ""
 
 #: i18n/states.php:1820
-msgid "Kyegegwa"
+msgid "Kalungu"
 msgstr ""
 
 #: i18n/states.php:1821
-msgid "Kyenjojo"
+msgid "Kampala"
 msgstr ""
 
 #: i18n/states.php:1822
-msgid "Kyotera"
+msgid "Kamuli"
 msgstr ""
 
 #: i18n/states.php:1823
-msgid "Lamwo"
+msgid "Kamwenge"
 msgstr ""
 
 #: i18n/states.php:1824
-msgid "Lira"
+msgid "Kanungu"
 msgstr ""
 
 #: i18n/states.php:1825
-msgid "Luuka"
+msgid "Kapchorwa"
 msgstr ""
 
 #: i18n/states.php:1826
-msgid "Luwero"
+msgid "Kapelebyong"
 msgstr ""
 
 #: i18n/states.php:1827
-msgid "Lwengo"
+msgid "Kasanda"
 msgstr ""
 
 #: i18n/states.php:1828
-msgid "Lyantonde"
+msgid "Kasese"
 msgstr ""
 
 #: i18n/states.php:1829
-msgid "Manafwa"
+msgid "Katakwi"
 msgstr ""
 
 #: i18n/states.php:1830
-msgid "Maracha"
+msgid "Kayunga"
 msgstr ""
 
 #: i18n/states.php:1831
-msgid "Masaka"
+msgid "Kibaale"
 msgstr ""
 
 #: i18n/states.php:1832
-msgid "Masindi"
+msgid "Kiboga"
 msgstr ""
 
 #: i18n/states.php:1833
-msgid "Mayuge"
+msgid "Kibuku"
 msgstr ""
 
 #: i18n/states.php:1834
-msgid "Mbale"
+msgid "Kikuube"
 msgstr ""
 
 #: i18n/states.php:1835
-msgid "Mbarara"
+msgid "Kiruhura"
 msgstr ""
 
 #: i18n/states.php:1836
-msgid "Mitooma"
+msgid "Kiryandongo"
 msgstr ""
 
 #: i18n/states.php:1837
-msgid "Mityana"
+msgid "Kisoro"
 msgstr ""
 
 #: i18n/states.php:1838
-msgid "Moroto"
+msgid "Kitgum"
 msgstr ""
 
 #: i18n/states.php:1839
-msgid "Moyo"
+msgid "Koboko"
 msgstr ""
 
 #: i18n/states.php:1840
-msgid "Mpigi"
+msgid "Kole"
 msgstr ""
 
 #: i18n/states.php:1841
-msgid "Mubende"
+msgid "Kotido"
 msgstr ""
 
 #: i18n/states.php:1842
-msgid "Mukono"
+msgid "Kumi"
 msgstr ""
 
 #: i18n/states.php:1843
-msgid "Nabilatuk"
+msgid "Kwania"
 msgstr ""
 
 #: i18n/states.php:1844
-msgid "Nakapiripirit"
+msgid "Kween"
 msgstr ""
 
 #: i18n/states.php:1845
-msgid "Nakaseke"
+msgid "Kyankwanzi"
 msgstr ""
 
 #: i18n/states.php:1846
-msgid "Nakasongola"
+msgid "Kyegegwa"
 msgstr ""
 
 #: i18n/states.php:1847
-msgid "Namayingo"
+msgid "Kyenjojo"
 msgstr ""
 
 #: i18n/states.php:1848
-msgid "Namisindwa"
+msgid "Kyotera"
 msgstr ""
 
 #: i18n/states.php:1849
-msgid "Namutumba"
+msgid "Lamwo"
 msgstr ""
 
 #: i18n/states.php:1850
-msgid "Napak"
+msgid "Lira"
 msgstr ""
 
 #: i18n/states.php:1851
-msgid "Nebbi"
+msgid "Luuka"
 msgstr ""
 
 #: i18n/states.php:1852
-msgid "Ngora"
+msgid "Luwero"
 msgstr ""
 
 #: i18n/states.php:1853
-msgid "Ntoroko"
+msgid "Lwengo"
 msgstr ""
 
 #: i18n/states.php:1854
-msgid "Ntungamo"
+msgid "Lyantonde"
 msgstr ""
 
 #: i18n/states.php:1855
-msgid "Nwoya"
+msgid "Manafwa"
 msgstr ""
 
 #: i18n/states.php:1856
-msgid "Omoro"
+msgid "Maracha"
 msgstr ""
 
 #: i18n/states.php:1857
-msgid "Otuke"
+msgid "Masaka"
 msgstr ""
 
 #: i18n/states.php:1858
-msgid "Oyam"
+msgid "Masindi"
 msgstr ""
 
 #: i18n/states.php:1859
-msgid "Pader"
+msgid "Mayuge"
 msgstr ""
 
 #: i18n/states.php:1860
-msgid "Pakwach"
+msgid "Mbale"
 msgstr ""
 
 #: i18n/states.php:1861
-msgid "Pallisa"
+msgid "Mbarara"
 msgstr ""
 
 #: i18n/states.php:1862
-msgid "Rakai"
+msgid "Mitooma"
 msgstr ""
 
 #: i18n/states.php:1863
-msgid "Rubanda"
+msgid "Mityana"
 msgstr ""
 
 #: i18n/states.php:1864
-msgid "Rubirizi"
+msgid "Moroto"
 msgstr ""
 
 #: i18n/states.php:1865
-msgid "Rukiga"
+msgid "Moyo"
 msgstr ""
 
 #: i18n/states.php:1866
-msgid "Rukungiri"
+msgid "Mpigi"
 msgstr ""
 
 #: i18n/states.php:1867
-msgid "Sembabule"
+msgid "Mubende"
 msgstr ""
 
 #: i18n/states.php:1868
-msgid "Serere"
+msgid "Mukono"
 msgstr ""
 
 #: i18n/states.php:1869
-msgid "Sheema"
+msgid "Nabilatuk"
 msgstr ""
 
 #: i18n/states.php:1870
-msgid "Sironko"
+msgid "Nakapiripirit"
 msgstr ""
 
 #: i18n/states.php:1871
-msgid "Soroti"
+msgid "Nakaseke"
 msgstr ""
 
 #: i18n/states.php:1872
-msgid "Tororo"
+msgid "Nakasongola"
 msgstr ""
 
 #: i18n/states.php:1873
-msgid "Wakiso"
+msgid "Namayingo"
 msgstr ""
 
 #: i18n/states.php:1874
-msgid "Yumbe"
+msgid "Namisindwa"
 msgstr ""
 
 #: i18n/states.php:1875
-msgid "Zombo"
+msgid "Namutumba"
+msgstr ""
+
+#: i18n/states.php:1876
+msgid "Napak"
+msgstr ""
+
+#: i18n/states.php:1877
+msgid "Nebbi"
 msgstr ""
 
 #: i18n/states.php:1878
-msgid "Baker Island"
+msgid "Ngora"
 msgstr ""
 
 #: i18n/states.php:1879
-msgid "Howland Island"
+msgid "Ntoroko"
 msgstr ""
 
 #: i18n/states.php:1880
-msgid "Jarvis Island"
+msgid "Ntungamo"
 msgstr ""
 
 #: i18n/states.php:1881
-msgid "Johnston Atoll"
+msgid "Nwoya"
 msgstr ""
 
 #: i18n/states.php:1882
-msgid "Kingman Reef"
+msgid "Omoro"
 msgstr ""
 
 #: i18n/states.php:1883
-msgid "Midway Atoll"
+msgid "Otuke"
 msgstr ""
 
 #: i18n/states.php:1884
-msgid "Navassa Island"
+msgid "Oyam"
 msgstr ""
 
 #: i18n/states.php:1885
-msgid "Palmyra Atoll"
+msgid "Pader"
 msgstr ""
 
 #: i18n/states.php:1886
-msgid "Wake Island"
+msgid "Pakwach"
+msgstr ""
+
+#: i18n/states.php:1887
+msgid "Pallisa"
+msgstr ""
+
+#: i18n/states.php:1888
+msgid "Rakai"
 msgstr ""
 
 #: i18n/states.php:1889
-msgid "Alabama"
+msgid "Rubanda"
 msgstr ""
 
 #: i18n/states.php:1890
-msgid "Alaska"
+msgid "Rubirizi"
 msgstr ""
 
 #: i18n/states.php:1891
-msgid "Arizona"
+msgid "Rukiga"
 msgstr ""
 
 #: i18n/states.php:1892
-msgid "Arkansas"
+msgid "Rukungiri"
 msgstr ""
 
 #: i18n/states.php:1893
-msgid "California"
+msgid "Sembabule"
 msgstr ""
 
 #: i18n/states.php:1894
-msgid "Colorado"
+msgid "Serere"
 msgstr ""
 
 #: i18n/states.php:1895
-msgid "Connecticut"
+msgid "Sheema"
 msgstr ""
 
 #: i18n/states.php:1896
-msgid "Delaware"
+msgid "Sironko"
 msgstr ""
 
 #: i18n/states.php:1897
-msgid "District Of Columbia"
+msgid "Soroti"
 msgstr ""
 
 #: i18n/states.php:1898
-#: i18n/states.php:1951
-msgid "Florida"
+msgid "Tororo"
 msgstr ""
 
 #: i18n/states.php:1899
+msgid "Wakiso"
+msgstr ""
+
+#: i18n/states.php:1900
+msgid "Yumbe"
+msgstr ""
+
+#: i18n/states.php:1901
+msgid "Zombo"
+msgstr ""
+
+#: i18n/states.php:1904
+msgid "Baker Island"
+msgstr ""
+
+#: i18n/states.php:1905
+msgid "Howland Island"
+msgstr ""
+
+#: i18n/states.php:1906
+msgid "Jarvis Island"
+msgstr ""
+
+#: i18n/states.php:1907
+msgid "Johnston Atoll"
+msgstr ""
+
+#: i18n/states.php:1908
+msgid "Kingman Reef"
+msgstr ""
+
+#: i18n/states.php:1909
+msgid "Midway Atoll"
+msgstr ""
+
+#: i18n/states.php:1910
+msgid "Navassa Island"
+msgstr ""
+
+#: i18n/states.php:1911
+msgid "Palmyra Atoll"
+msgstr ""
+
+#: i18n/states.php:1912
+msgid "Wake Island"
+msgstr ""
+
+#: i18n/states.php:1915
+msgid "Alabama"
+msgstr ""
+
+#: i18n/states.php:1916
+msgid "Alaska"
+msgstr ""
+
+#: i18n/states.php:1917
+msgid "Arizona"
+msgstr ""
+
+#: i18n/states.php:1918
+msgid "Arkansas"
+msgstr ""
+
+#: i18n/states.php:1919
+msgid "California"
+msgstr ""
+
+#: i18n/states.php:1920
+msgid "Colorado"
+msgstr ""
+
+#: i18n/states.php:1921
+msgid "Connecticut"
+msgstr ""
+
+#: i18n/states.php:1922
+msgid "Delaware"
+msgstr ""
+
+#: i18n/states.php:1923
+msgid "District Of Columbia"
+msgstr ""
+
+#: i18n/states.php:1924
+#: i18n/states.php:1977
+msgid "Florida"
+msgstr ""
+
+#: i18n/states.php:1925
 msgctxt "US state of Georgia"
 msgid "Georgia"
 msgstr ""
 
-#: i18n/states.php:1900
+#: i18n/states.php:1926
 msgid "Hawaii"
 msgstr ""
 
-#: i18n/states.php:1901
+#: i18n/states.php:1927
 msgid "Idaho"
 msgstr ""
 
-#: i18n/states.php:1902
+#: i18n/states.php:1928
 msgid "Illinois"
 msgstr ""
 
-#: i18n/states.php:1903
+#: i18n/states.php:1929
 msgid "Indiana"
 msgstr ""
 
-#: i18n/states.php:1904
+#: i18n/states.php:1930
 msgid "Iowa"
 msgstr ""
 
-#: i18n/states.php:1905
+#: i18n/states.php:1931
 msgid "Kansas"
 msgstr ""
 
-#: i18n/states.php:1906
+#: i18n/states.php:1932
 msgid "Kentucky"
 msgstr ""
 
-#: i18n/states.php:1907
+#: i18n/states.php:1933
 msgid "Louisiana"
 msgstr ""
 
-#: i18n/states.php:1908
+#: i18n/states.php:1934
 msgid "Maine"
 msgstr ""
 
-#: i18n/states.php:1910
+#: i18n/states.php:1936
 msgid "Massachusetts"
 msgstr ""
 
-#: i18n/states.php:1911
+#: i18n/states.php:1937
 msgid "Michigan"
 msgstr ""
 
-#: i18n/states.php:1912
+#: i18n/states.php:1938
 msgid "Minnesota"
 msgstr ""
 
-#: i18n/states.php:1913
+#: i18n/states.php:1939
 msgid "Mississippi"
 msgstr ""
 
-#: i18n/states.php:1914
+#: i18n/states.php:1940
 msgid "Missouri"
 msgstr ""
 
-#: i18n/states.php:1916
+#: i18n/states.php:1942
 msgid "Nebraska"
 msgstr ""
 
-#: i18n/states.php:1917
+#: i18n/states.php:1943
 msgid "Nevada"
 msgstr ""
 
-#: i18n/states.php:1918
+#: i18n/states.php:1944
 msgid "New Hampshire"
 msgstr ""
 
-#: i18n/states.php:1919
+#: i18n/states.php:1945
 msgid "New Jersey"
 msgstr ""
 
-#: i18n/states.php:1920
+#: i18n/states.php:1946
 msgid "New Mexico"
 msgstr ""
 
-#: i18n/states.php:1921
+#: i18n/states.php:1947
 msgid "New York"
 msgstr ""
 
-#: i18n/states.php:1922
+#: i18n/states.php:1948
 msgid "North Carolina"
 msgstr ""
 
-#: i18n/states.php:1923
+#: i18n/states.php:1949
 msgid "North Dakota"
 msgstr ""
 
-#: i18n/states.php:1924
+#: i18n/states.php:1950
 msgid "Ohio"
 msgstr ""
 
-#: i18n/states.php:1925
+#: i18n/states.php:1951
 msgid "Oklahoma"
 msgstr ""
 
-#: i18n/states.php:1926
+#: i18n/states.php:1952
 msgid "Oregon"
 msgstr ""
 
-#: i18n/states.php:1927
+#: i18n/states.php:1953
 msgid "Pennsylvania"
 msgstr ""
 
-#: i18n/states.php:1928
+#: i18n/states.php:1954
 msgid "Rhode Island"
 msgstr ""
 
-#: i18n/states.php:1929
+#: i18n/states.php:1955
 msgid "South Carolina"
 msgstr ""
 
-#: i18n/states.php:1930
+#: i18n/states.php:1956
 msgid "South Dakota"
 msgstr ""
 
-#: i18n/states.php:1931
+#: i18n/states.php:1957
 msgid "Tennessee"
 msgstr ""
 
-#: i18n/states.php:1932
+#: i18n/states.php:1958
 msgid "Texas"
 msgstr ""
 
-#: i18n/states.php:1933
+#: i18n/states.php:1959
 msgid "Utah"
 msgstr ""
 
-#: i18n/states.php:1934
+#: i18n/states.php:1960
 msgid "Vermont"
 msgstr ""
 
-#: i18n/states.php:1935
+#: i18n/states.php:1961
 msgid "Virginia"
 msgstr ""
 
-#: i18n/states.php:1936
+#: i18n/states.php:1962
 msgid "Washington"
 msgstr ""
 
-#: i18n/states.php:1937
+#: i18n/states.php:1963
 msgid "West Virginia"
 msgstr ""
 
-#: i18n/states.php:1938
+#: i18n/states.php:1964
 msgid "Wisconsin"
 msgstr ""
 
-#: i18n/states.php:1939
+#: i18n/states.php:1965
 msgid "Wyoming"
 msgstr ""
 
-#: i18n/states.php:1940
+#: i18n/states.php:1966
 msgid "Armed Forces (AA)"
 msgstr ""
 
-#: i18n/states.php:1941
+#: i18n/states.php:1967
 msgid "Armed Forces (AE)"
 msgstr ""
 
-#: i18n/states.php:1942
+#: i18n/states.php:1968
 msgid "Armed Forces (AP)"
 msgstr ""
 
-#: i18n/states.php:1945
+#: i18n/states.php:1971
 msgid "Artigas"
 msgstr ""
 
-#: i18n/states.php:1946
+#: i18n/states.php:1972
 msgid "Canelones"
 msgstr ""
 
-#: i18n/states.php:1947
+#: i18n/states.php:1973
 msgid "Cerro Largo"
 msgstr ""
 
-#: i18n/states.php:1948
+#: i18n/states.php:1974
 msgid "Colonia"
 msgstr ""
 
-#: i18n/states.php:1949
+#: i18n/states.php:1975
 msgid "Durazno"
 msgstr ""
 
-#: i18n/states.php:1950
+#: i18n/states.php:1976
 msgid "Flores"
 msgstr ""
 
-#: i18n/states.php:1952
+#: i18n/states.php:1978
 msgid "Lavalleja"
 msgstr ""
 
-#: i18n/states.php:1953
+#: i18n/states.php:1979
 msgid "Maldonado"
 msgstr ""
 
-#: i18n/states.php:1954
+#: i18n/states.php:1980
 msgid "Montevideo"
 msgstr ""
 
-#: i18n/states.php:1955
+#: i18n/states.php:1981
 msgid "Paysandú"
 msgstr ""
 
-#: i18n/states.php:1957
+#: i18n/states.php:1983
 msgid "Rivera"
 msgstr ""
 
-#: i18n/states.php:1958
+#: i18n/states.php:1984
 msgid "Rocha"
 msgstr ""
 
-#: i18n/states.php:1959
+#: i18n/states.php:1985
 msgid "Salto"
 msgstr ""
 
-#: i18n/states.php:1961
+#: i18n/states.php:1987
 msgid "Soriano"
 msgstr ""
 
-#: i18n/states.php:1962
+#: i18n/states.php:1988
 msgid "Tacuarembó"
 msgstr ""
 
-#: i18n/states.php:1963
+#: i18n/states.php:1989
 msgid "Treinta y Tres"
 msgstr ""
 
-#: i18n/states.php:1966
+#: i18n/states.php:1992
 msgid "Capital"
 msgstr ""
 
-#: i18n/states.php:1967
+#: i18n/states.php:1993
 msgid "Anzoátegui"
 msgstr ""
 
-#: i18n/states.php:1968
+#: i18n/states.php:1994
 msgid "Apure"
 msgstr ""
 
-#: i18n/states.php:1969
+#: i18n/states.php:1995
 msgid "Aragua"
 msgstr ""
 
-#: i18n/states.php:1970
+#: i18n/states.php:1996
 msgid "Barinas"
 msgstr ""
 
-#: i18n/states.php:1972
+#: i18n/states.php:1998
 msgid "Carabobo"
 msgstr ""
 
-#: i18n/states.php:1973
+#: i18n/states.php:1999
 msgid "Cojedes"
 msgstr ""
 
-#: i18n/states.php:1974
+#: i18n/states.php:2000
 msgid "Falcón"
 msgstr ""
 
-#: i18n/states.php:1975
+#: i18n/states.php:2001
 msgid "Guárico"
 msgstr ""
 
-#: i18n/states.php:1976
+#: i18n/states.php:2002
 msgid "Lara"
 msgstr ""
 
-#: i18n/states.php:1977
+#: i18n/states.php:2003
 msgid "Mérida"
 msgstr ""
 
-#: i18n/states.php:1978
+#: i18n/states.php:2004
 msgid "Miranda"
 msgstr ""
 
-#: i18n/states.php:1979
+#: i18n/states.php:2005
 msgid "Monagas"
 msgstr ""
 
-#: i18n/states.php:1980
+#: i18n/states.php:2006
 msgid "Nueva Esparta"
 msgstr ""
 
-#: i18n/states.php:1981
+#: i18n/states.php:2007
 msgid "Portuguesa"
 msgstr ""
 
-#: i18n/states.php:1983
+#: i18n/states.php:2009
 msgid "Táchira"
 msgstr ""
 
-#: i18n/states.php:1984
+#: i18n/states.php:2010
 msgid "Trujillo"
 msgstr ""
 
-#: i18n/states.php:1985
+#: i18n/states.php:2011
 msgid "Yaracuy"
 msgstr ""
 
-#: i18n/states.php:1986
+#: i18n/states.php:2012
 msgid "Zulia"
 msgstr ""
 
-#: i18n/states.php:1987
+#: i18n/states.php:2013
 msgid "Federal Dependencies"
 msgstr ""
 
-#: i18n/states.php:1988
+#: i18n/states.php:2014
 msgid "La Guaira (Vargas)"
 msgstr ""
 
-#: i18n/states.php:1989
+#: i18n/states.php:2015
 msgid "Delta Amacuro"
 msgstr ""
 
-#: i18n/states.php:1995
+#: i18n/states.php:2021
 msgid "Eastern Cape"
 msgstr ""
 
-#: i18n/states.php:1996
+#: i18n/states.php:2022
 msgid "Free State"
 msgstr ""
 
-#: i18n/states.php:1997
+#: i18n/states.php:2023
 msgid "Gauteng"
 msgstr ""
 
-#: i18n/states.php:1998
+#: i18n/states.php:2024
 msgid "KwaZulu-Natal"
 msgstr ""
 
-#: i18n/states.php:1999
+#: i18n/states.php:2025
 msgid "Limpopo"
 msgstr ""
 
-#: i18n/states.php:2000
+#: i18n/states.php:2026
 msgid "Mpumalanga"
 msgstr ""
 
-#: i18n/states.php:2001
+#: i18n/states.php:2027
 msgid "Northern Cape"
 msgstr ""
 
-#: i18n/states.php:2002
+#: i18n/states.php:2028
 msgid "North West"
 msgstr ""
 
-#: i18n/states.php:2003
+#: i18n/states.php:2029
 msgid "Western Cape"
 msgstr ""
 
-#: i18n/states.php:2009
+#: i18n/states.php:2035
 msgid "Luapula"
 msgstr ""
 
-#: i18n/states.php:2011
+#: i18n/states.php:2037
 msgid "North-Western"
 msgstr ""
 
-#: i18n/states.php:2012
+#: i18n/states.php:2038
 msgid "Southern"
 msgstr ""
 
-#: i18n/states.php:2013
+#: i18n/states.php:2039
 msgid "Copperbelt"
 msgstr ""
 
-#: i18n/states.php:2014
+#: i18n/states.php:2040
 msgid "Lusaka"
 msgstr ""
 
-#: i18n/states.php:2015
+#: i18n/states.php:2041
 msgid "Muchinga"
 msgstr ""
 
@@ -10665,7 +10755,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:385
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:88
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:137
-#: includes/class-wc-countries.php:1567
+#: includes/class-wc-countries.php:1572
 #: includes/customizer/class-wc-shop-customizer.php:726
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:78
 #: packages/woocommerce-blocks/build/checkout-blocks/billing-address-frontend.js:1
@@ -10676,7 +10766,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:90
 #: includes/admin/class-wc-admin-setup-wizard.php:2238
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:85
-#: includes/class-wc-countries.php:1577
+#: includes/class-wc-countries.php:1582
 #: includes/class-wc-form-handler.php:271
 #: templates/myaccount/form-edit-account.php:43
 #: templates/myaccount/form-login.php:86
@@ -10992,9 +11082,9 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:524
 #: includes/admin/class-wc-admin-setup-wizard.php:526
 #: includes/class-wc-countries.php:841
-#: includes/class-wc-countries.php:1140
-#: includes/class-wc-countries.php:1254
-#: includes/class-wc-countries.php:1449
+#: includes/class-wc-countries.php:1145
+#: includes/class-wc-countries.php:1259
+#: includes/class-wc-countries.php:1454
 msgid "State"
 msgstr ""
 
@@ -19155,13 +19245,14 @@ msgstr ""
 #: includes/class-wc-countries.php:940
 #: includes/class-wc-countries.php:953
 #: includes/class-wc-countries.php:991
-#: includes/class-wc-countries.php:1099
-#: includes/class-wc-countries.php:1149
-#: includes/class-wc-countries.php:1235
-#: includes/class-wc-countries.php:1285
-#: includes/class-wc-countries.php:1384
-#: includes/class-wc-countries.php:1427
-#: includes/class-wc-countries.php:1504
+#: includes/class-wc-countries.php:996
+#: includes/class-wc-countries.php:1104
+#: includes/class-wc-countries.php:1154
+#: includes/class-wc-countries.php:1240
+#: includes/class-wc-countries.php:1290
+#: includes/class-wc-countries.php:1389
+#: includes/class-wc-countries.php:1432
+#: includes/class-wc-countries.php:1509
 msgid "Province"
 msgstr ""
 
@@ -19170,9 +19261,9 @@ msgid "Suburb"
 msgstr ""
 
 #: includes/class-wc-countries.php:838
-#: includes/class-wc-countries.php:1249
-#: includes/class-wc-countries.php:1259
-#: includes/class-wc-countries.php:1459
+#: includes/class-wc-countries.php:1254
+#: includes/class-wc-countries.php:1264
+#: includes/class-wc-countries.php:1464
 msgid "Postcode"
 msgstr ""
 
@@ -19182,19 +19273,19 @@ msgid "Canton"
 msgstr ""
 
 #: includes/class-wc-countries.php:868
-#: includes/class-wc-countries.php:1337
-#: includes/class-wc-countries.php:1440
-#: includes/class-wc-countries.php:1472
+#: includes/class-wc-countries.php:1342
+#: includes/class-wc-countries.php:1445
+#: includes/class-wc-countries.php:1477
 msgid "District"
 msgstr ""
 
 #: includes/class-wc-countries.php:901
 #: includes/class-wc-countries.php:948
-#: includes/class-wc-countries.php:1052
-#: includes/class-wc-countries.php:1068
-#: includes/class-wc-countries.php:1314
-#: includes/class-wc-countries.php:1376
-#: includes/class-wc-countries.php:1454
+#: includes/class-wc-countries.php:1057
+#: includes/class-wc-countries.php:1073
+#: includes/class-wc-countries.php:1319
+#: includes/class-wc-countries.php:1381
+#: includes/class-wc-countries.php:1459
 msgid "Department"
 msgstr ""
 
@@ -19207,69 +19298,69 @@ msgid "Postal code"
 msgstr ""
 
 #: includes/class-wc-countries.php:935
-#: includes/class-wc-countries.php:1026
-#: includes/class-wc-countries.php:1063
-#: includes/class-wc-countries.php:1263
+#: includes/class-wc-countries.php:1031
+#: includes/class-wc-countries.php:1068
+#: includes/class-wc-countries.php:1268
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:596
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.js:1
 msgid "Region"
 msgstr ""
 
-#: includes/class-wc-countries.php:1060
+#: includes/class-wc-countries.php:1065
 msgid "Town / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:1094
-#: includes/class-wc-countries.php:1108
-#: includes/class-wc-countries.php:1325
-#: includes/class-wc-countries.php:1462
+#: includes/class-wc-countries.php:1099
+#: includes/class-wc-countries.php:1113
+#: includes/class-wc-countries.php:1330
+#: includes/class-wc-countries.php:1467
 msgid "County"
 msgstr ""
 
-#: includes/class-wc-countries.php:1105
+#: includes/class-wc-countries.php:1110
 msgid "Eircode"
 msgstr ""
 
-#: includes/class-wc-countries.php:1137
+#: includes/class-wc-countries.php:1142
 msgid "PIN"
 msgstr ""
 
-#: includes/class-wc-countries.php:1154
+#: includes/class-wc-countries.php:1159
 msgid "Town / City / Post Office"
 msgstr ""
 
-#: includes/class-wc-countries.php:1158
+#: includes/class-wc-countries.php:1163
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:597
 msgid "Postal Code"
 msgstr ""
 
-#: includes/class-wc-countries.php:1162
+#: includes/class-wc-countries.php:1167
 msgid "Parish"
 msgstr ""
 
-#: includes/class-wc-countries.php:1179
+#: includes/class-wc-countries.php:1184
 msgid "Prefecture"
 msgstr ""
 
-#: includes/class-wc-countries.php:1207
-#: includes/class-wc-countries.php:1299
-#: includes/class-wc-countries.php:1392
+#: includes/class-wc-countries.php:1212
+#: includes/class-wc-countries.php:1304
+#: includes/class-wc-countries.php:1397
 msgid "Municipality"
 msgstr ""
 
-#: includes/class-wc-countries.php:1277
+#: includes/class-wc-countries.php:1282
 msgid "State / Zone"
 msgstr ""
 
-#: includes/class-wc-countries.php:1410
+#: includes/class-wc-countries.php:1415
 msgid "Municipality / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:1436
+#: includes/class-wc-countries.php:1441
 msgid "Town / Village"
 msgstr ""
 
-#: includes/class-wc-countries.php:1446
+#: includes/class-wc-countries.php:1451
 msgid "ZIP Code"
 msgstr ""
 
