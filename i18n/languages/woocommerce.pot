@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-23T21:57:15+00:00\n"
+"POT-Creation-Date: 2021-11-24T22:53:01+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -23938,7 +23938,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1739
 #: includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php:297
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:67
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:627
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:634
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhook-deliveries-v1-controller.php:67
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhook-deliveries-v1-controller.php:226
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:78
@@ -24355,7 +24355,7 @@ msgid "Sorry, you are not allowed to batch manipulate this resource."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:327
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:395
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:402
 msgid "Cannot create existing resource."
 msgstr ""
 
@@ -24365,9 +24365,9 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:307
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:240
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:321
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:431
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:451
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:494
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:438
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:458
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:501
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhook-deliveries-v1-controller.php:153
 msgid "Invalid resource ID."
 msgstr ""
@@ -24395,7 +24395,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:495
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:403
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:503
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:510
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:565
 msgid "The resource cannot be deleted."
 msgstr ""
@@ -24533,7 +24533,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:816
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1060
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1123
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:648
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:655
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:225
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:288
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1122
@@ -24620,7 +24620,7 @@ msgid "Limit result set to specific IDs."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:883
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:726
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:733
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:729
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:630
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:654
@@ -24632,7 +24632,7 @@ msgid "Offset the result set by a specific number of items."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:890
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:733
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:740
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:735
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:636
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:660
@@ -24661,7 +24661,7 @@ msgid "Order sort attribute ascending or descending."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:898
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:741
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:748
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:742
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:643
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:667
@@ -25879,7 +25879,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1940
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2399
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:686
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:693
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:796
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1884
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:569
@@ -26443,7 +26443,7 @@ msgid "Unique slug for the resource."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php:212
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:488
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:495
 msgid "Taxes do not support trashing."
 msgstr ""
 
@@ -26451,47 +26451,47 @@ msgstr ""
 msgid "Tax class name."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:633
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:640
 msgid "Country ISO 3166 code."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:638
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:645
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php:329
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php:226
 msgid "State code."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:643
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:650
 msgid "Postcode / ZIP."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:653
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:660
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:169
 msgid "Tax rate."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:658
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:665
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:163
 msgid "Tax rate name."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:663
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:670
 msgid "Tax priority."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:669
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:676
 msgid "Whether or not this is a compound rate."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:675
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:682
 msgid "Whether or not this tax rate also gets applied to shipping."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:681
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:688
 msgid "Indicates the order that will appear in queries."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:709
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:716
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:559
 #: packages/woocommerce-admin/src/API/Leaderboards.php:447
 #: packages/woocommerce-admin/src/API/Notes.php:600
@@ -26518,7 +26518,7 @@ msgstr ""
 msgid "Current page of the collection."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:717
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:724
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:567
 #: packages/woocommerce-admin/src/API/Leaderboards.php:455
 #: packages/woocommerce-admin/src/API/Notes.php:608
@@ -26542,7 +26542,7 @@ msgstr ""
 msgid "Maximum number of items to be returned in result set."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:752
+#: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:759
 msgid "Sort by tax class."
 msgstr ""
 
