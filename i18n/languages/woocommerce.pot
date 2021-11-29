@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-26T19:26:16+00:00\n"
+"POT-Creation-Date: 2021-11-29T09:20:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10028,7 +10028,7 @@ msgstr ""
 
 #. translators: Filter: verb "to filter"
 #: includes/admin/class-wc-admin-log-table-list.php:204
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:467
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
 #: templates/content-widget-price-filter.php:30
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/wc-blocks-vendors.js:9
@@ -17610,7 +17610,7 @@ msgstr ""
 #. translators: search keyword.
 #. translators: %s: search query
 #: includes/admin/views/html-admin-page-addons.php:81
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:567
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
 msgid "Search results for \"%s\""
 msgstr ""
 
@@ -18530,7 +18530,7 @@ msgstr ""
 
 #: includes/admin/views/html-bulk-edit-product.php:189
 #: includes/admin/views/html-quick-edit-product.php:147
-#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:672
+#: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:755
 #: packages/woocommerce-blocks/src/BlockTypes/ProductSearch.php:42
 #: packages/woocommerce-blocks/src/BlockTypes/ProductSearch.php:110
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.js:1
@@ -30150,7 +30150,7 @@ msgid "action created"
 msgstr ""
 
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:138
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
 msgid "action canceled"
 msgstr ""
 
@@ -30430,71 +30430,71 @@ msgid_plural "%s seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:201
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:224
 msgid "Now!"
 msgstr ""
 
 #. translators: %s: time interval
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:237
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:260
 msgid "Every %s"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:243
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:266
 msgid "Non-repeating"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:341
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:364
 msgid "It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
 msgstr ""
 
 #. translators: %s: amount of claims
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:357
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:380
 msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
 msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: process URL
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:374
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:397
 msgid "A new queue has begun processing. <a href=\"%s\">View actions in-progress &raquo;</a>"
 msgstr ""
 
 #. translators: %d: seconds
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:377
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:400
 msgid "The next queue will begin processing in approximately %d seconds."
 msgstr ""
 
 #. translators: %s: action HTML
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:398
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:421
 msgid "Successfully executed action: %s"
 msgstr ""
 
 #. translators: %s: action HTML
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:402
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:425
 msgid "Successfully canceled action: %s"
 msgstr ""
 
 #. translators: %s: action HTML
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:406
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:429
 msgid "Successfully processed change for action: %s"
 msgstr ""
 
 #. translators: 1: action HTML 2: action ID 3: error message
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:412
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:435
 msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
 msgstr ""
 
 #. translators: %s: date interval
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:458
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:481
 msgid " (%s ago)"
 msgstr ""
 
 #. translators: %s: date interval
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:461
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:484
 msgid " (%s)"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:610
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:634
 msgid "Search hook, args and claim ID"
 msgstr ""
 
@@ -30502,35 +30502,35 @@ msgstr ""
 msgid "Every minute"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
 msgid "Action Scheduler"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
 msgid "This section shows details of Action Scheduler."
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:105
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
 msgid "Version:"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:109
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
 msgid "Data store:"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:113
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
 msgid "Action Status"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:115
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
 msgid "Count"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:116
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
 msgid "Oldest Scheduled Date"
 msgstr ""
 
-#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:117
+#: packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
 msgid "Newest Scheduled Date"
 msgstr ""
 
@@ -30549,73 +30549,80 @@ msgid "Database error."
 msgstr ""
 
 #. translators: %s: error message
+#. translators: %s: action error message
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:35
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
 #: packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
 msgid "Error saving action: %s"
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:243
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:246
 msgid "Invalid value for select or count parameter. Cannot query actions."
 msgstr ""
 
 #. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:444
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:535
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:567
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:421
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:432
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:459
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:752
+#. translators: %s is the action ID
+#. translators: %s is the action ID
+#. translators: %s is the action ID
+#. translators: %s is the action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:451
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:543
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:574
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:797
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
 msgid "Unidentified action %s"
 msgstr ""
 
 #. translators: %s: group name
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:651
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:593
+#. translators: %s is the group name
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:663
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
 msgid "The group \"%s\" does not exist."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:665
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:573
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:683
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
 msgid "Unable to claim actions. Database error."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:719
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:861
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
 msgid "Invalid action ID. No status found."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:863
 msgid "Unknown status found for action."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:72
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
 msgid "Unable to save action."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:238
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
 msgid "Invalid schedule. Cannot save action."
 msgstr ""
 
 #. translators: %s: claim ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:668
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
 msgid "Unable to unlock claim %s. Database error."
 msgstr ""
 
 #. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:683
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
 msgid "Unable to unlock claim on action %s. Database error."
 msgstr ""
 
 #. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:695
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
 msgid "Unable to mark failure on action %s. Database error."
 msgstr ""
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:819
+#. translators: %s is the error message
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1046
 msgid "%s Support for strings longer than this will be removed in a future version."
 msgstr ""
 
