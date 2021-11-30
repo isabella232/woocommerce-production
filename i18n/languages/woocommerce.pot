@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-30T01:20:46+00:00\n"
+"POT-Creation-Date: 2021-11-30T04:45:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -34084,7 +34084,7 @@ msgstr ""
 
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:227
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:262
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "%1$d item in cart, total price of %2$s"
 msgid_plural "%1$d items in cart, total price of %2$s"
@@ -34093,7 +34093,7 @@ msgstr[1] ""
 
 #. translators: %d is the count of items in the cart.
 #. translators: %d is the count of items in the cart.
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:238
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:273
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
 msgid "Your cart (%d item)"
 msgid_plural "Your cart (%d items)"
@@ -43602,6 +43602,14 @@ msgstr ""
 
 #: packages/woocommerce-blocks/build/mini-cart.js:1
 msgid "Display a mini cart widget."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Button style"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Use transparent button"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/wc-blocks-data.js:1
