@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 6.0.0-beta.1\n"
+"Project-Id-Version: WooCommerce 6.0.0-rc.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-22T00:26:28+00:00\n"
+"POT-Creation-Date: 2021-11-30T05:23:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -23636,7 +23636,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:170
 #: includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zones-controller-base.php:83
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:161
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:233
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:220
 msgid "Sorry, you are not allowed to create resources."
 msgstr ""
 
@@ -30467,143 +30467,119 @@ msgstr ""
 msgid "Store email address."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:105
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:92
 msgid "Product template name."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:178
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:165
 msgid "Time period to snooze the task."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:185
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:172
 msgid "Optional parameter to query specific task list."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:247
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:234
 msgid "Sorry, you are not allowed to create new pages."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:261
-msgid "Sorry, you are not allowed to retrieve onboarding status."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:275
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:248
 msgid "Sorry, you are not allowed to retrieve onboarding tasks."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:289
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:262
 msgid "Sorry, you are not allowed to hide task lists."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:303
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:276
 msgid "Sorry, you are not allowed to snooze onboarding tasks."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:332
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:305
 msgid "Sorry, the sample products data file was not found."
 msgstr ""
 
 #. translators: %s is template name
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:366
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:339
 msgid "Sorry, creating the product with template failed."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:437
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:452
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:410
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:425
 msgid "Write title…"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:438
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:453
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:411
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:426
 msgid "Welcome to the store"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:442
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:457
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:415
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:430
 msgid "Write a short welcome message here"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:446
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:461
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:419
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:434
 msgid "Go shopping"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:479
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:486
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:452
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:459
 msgid "Content…"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:505
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:478
 msgid "Shop by Category"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:511
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:484
 msgid "New In"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:515
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:488
 msgid "Fan Favorites"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:519
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:492
 msgid "On Sale"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:523
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:496
 msgid "Best Sellers"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:542
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:515
 msgid "New Products"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:642
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:615
 msgid "Homepage"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:670
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:643
 msgid "Homepage created"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:692
-msgid "Country codes that support Automated Taxes."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:701
-msgid "If the store has a homepage created."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:707
-msgid "If the store has any products."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:713
-msgid "If the store has the TaxJar extension active."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:719
-msgid "Active theme modifications."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:737
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:660
 msgid "List of extended deprecated tasks from the client side filter."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:811
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:846
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:723
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:758
 msgid "Sorry, no dismissable task with that ID was found."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:886
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:921
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:798
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:833
 msgid "Sorry, no snoozeable task with that ID was found."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:947
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:859
 msgid "Sorry, that task list was not found"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/OnboardingTasks.php:983
+#: packages/woocommerce-admin/src/API/OnboardingTasks.php:895
 msgid "Sorry, no task with that ID was found."
 msgstr ""
 
@@ -32295,7 +32271,7 @@ msgid "If you need to enable or disable the extended task lists, please click on
 msgstr ""
 
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Task.php:172
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:33
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:34
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Shipping.php:27
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/StoreDetails.php:26
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Tax.php:70
@@ -32321,17 +32297,17 @@ msgstr ""
 msgid "Task list ID does not exist"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:28
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:29
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/chunks/two-column-tasks.js:1
 msgid "Personalize my store"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:29
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:30
 msgid "Add your logo, create a homepage, and start designing your store."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:36
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:37
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Payments.php:33
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:49
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:32
@@ -33442,7 +33418,7 @@ msgstr ""
 
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:227
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:262
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:19
 msgid "%1$d item in cart, total price of %2$s"
 msgid_plural "%1$d items in cart, total price of %2$s"
@@ -33451,7 +33427,7 @@ msgstr[1] ""
 
 #. translators: %d is the count of items in the cart.
 #. translators: %d is the count of items in the cart.
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:238
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:273
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:21
 msgid "Your cart (%d item)"
 msgid_plural "Your cart (%d items)"
@@ -42964,6 +42940,14 @@ msgstr ""
 
 #: packages/woocommerce-blocks/build/mini-cart.js:1
 msgid "Display a mini cart widget."
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Button style"
+msgstr ""
+
+#: packages/woocommerce-blocks/build/mini-cart.js:1
+msgid "Use transparent button"
 msgstr ""
 
 #: packages/woocommerce-blocks/build/wc-blocks-data.js:1

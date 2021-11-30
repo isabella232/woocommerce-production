@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 2.9.0-rc.2\n"
+"Project-Id-Version: WooCommerce Admin 2.9.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2021-11-18 08:35:03+00:00\n"
+"POT-Creation-Date: 2021-11-29 23:28:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,7 +42,7 @@ msgid "Do action"
 msgstr ""
 
 #: docs/examples/extensions/add-task/woocommerce-admin-add-task-example.php:28
-#: src/Features/OnboardingTasks/Tasks/Appearance.php:36
+#: src/Features/OnboardingTasks/Tasks/Appearance.php:37
 #: src/Features/OnboardingTasks/Tasks/Payments.php:33
 #: src/Features/OnboardingTasks/Tasks/Purchase.php:49
 #: src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:32
@@ -123,8 +123,10 @@ msgstr ""
 #: src/API/Reports/Taxes/Controller.php:307
 #: src/API/Reports/Variations/Controller.php:416 src/Features/Analytics.php:228
 #: src/Features/Navigation/CoreMenu.php:95 src/ReportCSVEmail.php:36
-#: client/analytics/report/revenue/table.js:65
+#: client/analytics/report/customers/table.js:59
 #: client/analytics/report/get-reports.js:78
+#: client/analytics/report/orders/config.js:26
+#: client/analytics/report/revenue/table.js:65
 #: client/analytics/report/taxes/config.js:47
 #: client/analytics/report/taxes/table.js:58
 #: client/analytics/report/variations/config.js:44
@@ -687,140 +689,116 @@ msgstr ""
 msgid "Invalid email address"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:105
+#: src/API/OnboardingTasks.php:92
 msgid "Product template name."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:178
+#: src/API/OnboardingTasks.php:165
 msgid "Time period to snooze the task."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:185
+#: src/API/OnboardingTasks.php:172
 msgid "Optional parameter to query specific task list."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:233
+#: src/API/OnboardingTasks.php:220
 msgid "Sorry, you are not allowed to create resources."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:247
+#: src/API/OnboardingTasks.php:234
 msgid "Sorry, you are not allowed to create new pages."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:261
-msgid "Sorry, you are not allowed to retrieve onboarding status."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:275
+#: src/API/OnboardingTasks.php:248
 msgid "Sorry, you are not allowed to retrieve onboarding tasks."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:289
+#: src/API/OnboardingTasks.php:262
 msgid "Sorry, you are not allowed to hide task lists."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:303
+#: src/API/OnboardingTasks.php:276
 msgid "Sorry, you are not allowed to snooze onboarding tasks."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:332
+#: src/API/OnboardingTasks.php:305
 msgid "Sorry, the sample products data file was not found."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:366
+#: src/API/OnboardingTasks.php:339
 #. translators: %s is template name
 msgid "Sorry, creating the product with template failed."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:437 src/API/OnboardingTasks.php:452
+#: src/API/OnboardingTasks.php:410 src/API/OnboardingTasks.php:425
 msgid "Write title…"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:438 src/API/OnboardingTasks.php:453
+#: src/API/OnboardingTasks.php:411 src/API/OnboardingTasks.php:426
 msgid "Welcome to the store"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:442 src/API/OnboardingTasks.php:457
+#: src/API/OnboardingTasks.php:415 src/API/OnboardingTasks.php:430
 msgid "Write a short welcome message here"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:446 src/API/OnboardingTasks.php:461
+#: src/API/OnboardingTasks.php:419 src/API/OnboardingTasks.php:434
 msgid "Go shopping"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:479 src/API/OnboardingTasks.php:486
+#: src/API/OnboardingTasks.php:452 src/API/OnboardingTasks.php:459
 msgid "Content…"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:505
+#: src/API/OnboardingTasks.php:478
 msgid "Shop by Category"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:511
+#: src/API/OnboardingTasks.php:484
 msgid "New In"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:515
+#: src/API/OnboardingTasks.php:488
 msgid "Fan Favorites"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:519
+#: src/API/OnboardingTasks.php:492
 msgid "On Sale"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:523
+#: src/API/OnboardingTasks.php:496
 msgid "Best Sellers"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:542
+#: src/API/OnboardingTasks.php:515
 msgid "New Products"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:642
+#: src/API/OnboardingTasks.php:615
 msgid "Homepage"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:670
+#: src/API/OnboardingTasks.php:643
 msgid "Homepage created"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:692
-msgid "Country codes that support Automated Taxes."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:701
-msgid "If the store has a homepage created."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:707
-msgid "If the store has any products."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:713
-msgid "If the store has the TaxJar extension active."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:719
-msgid "Active theme modifications."
-msgstr ""
-
-#: src/API/OnboardingTasks.php:737
+#: src/API/OnboardingTasks.php:660
 msgid "List of extended deprecated tasks from the client side filter."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:811 src/API/OnboardingTasks.php:846
+#: src/API/OnboardingTasks.php:723 src/API/OnboardingTasks.php:758
 msgid "Sorry, no dismissable task with that ID was found."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:886 src/API/OnboardingTasks.php:921
+#: src/API/OnboardingTasks.php:798 src/API/OnboardingTasks.php:833
 msgid "Sorry, no snoozeable task with that ID was found."
 msgstr ""
 
-#: src/API/OnboardingTasks.php:947
+#: src/API/OnboardingTasks.php:859
 msgid "Sorry, that task list was not found"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:983
+#: src/API/OnboardingTasks.php:895
 msgid "Sorry, no task with that ID was found."
 msgstr ""
 
@@ -2933,7 +2911,7 @@ msgid ""
 msgstr ""
 
 #: src/Features/OnboardingTasks/Task.php:172
-#: src/Features/OnboardingTasks/Tasks/Appearance.php:33
+#: src/Features/OnboardingTasks/Tasks/Appearance.php:34
 #: src/Features/OnboardingTasks/Tasks/Shipping.php:27
 #: src/Features/OnboardingTasks/Tasks/StoreDetails.php:26
 #: src/Features/OnboardingTasks/Tasks/Tax.php:70
@@ -2943,7 +2921,7 @@ msgid "Let's go"
 msgstr ""
 
 #: src/Features/OnboardingTasks/TaskLists.php:79
-#: client/two-column-tasks/index.js:118
+#: client/two-column-tasks/index.js:117
 msgid "Get ready to start selling"
 msgstr ""
 
@@ -2960,13 +2938,13 @@ msgstr ""
 msgid "Task list ID does not exist"
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Appearance.php:28
+#: src/Features/OnboardingTasks/Tasks/Appearance.php:29
 #: client/store-management-links/index.js:52
 #: client/two-column-tasks/headers/appearance.js:18
 msgid "Personalize my store"
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Appearance.php:29
+#: src/Features/OnboardingTasks/Tasks/Appearance.php:30
 msgid "Add your logo, create a homepage, and start designing your store."
 msgstr ""
 
@@ -3086,7 +3064,7 @@ msgid ""
 msgstr ""
 
 #: src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:25
-#: client/header/activity-panel/index.js:244
+#: client/header/activity-panel/index.js:253
 #: client/marketing/overview/installed-extensions/row.js:112
 #: client/tasks/fills/PaymentGatewaySuggestions/components/Action.js:118
 msgid "Finish setup"
@@ -3431,7 +3409,7 @@ msgid "Add a product"
 msgstr ""
 
 #: src/Notes/AddingAndManangingProducts.php:58
-#: client/header/activity-panel/panels/help.js:204
+#: client/header/activity-panel/panels/help.js:203
 msgid "Adding and Managing Products"
 msgstr ""
 
@@ -5641,7 +5619,7 @@ msgid "Display stats:"
 msgstr ""
 
 #: client/header/activity-panel/display-options/icons/display.js:41
-#: client/tasks/tasks.tsx:136
+#: client/tasks/tasks.tsx:135
 #: client/two-column-tasks/extended-task.tsx:161
 msgid "Display"
 msgstr ""
@@ -5668,175 +5646,175 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: client/header/activity-panel/index.js:235
-#: client/header/activity-panel/panels/help.js:43
+#: client/header/activity-panel/index.js:244
+#: client/header/activity-panel/panels/help.js:42
 msgid "Inbox"
 msgstr ""
 
-#: client/header/activity-panel/index.js:277
+#: client/header/activity-panel/index.js:286
 msgid "Help"
 msgstr ""
 
-#: client/header/activity-panel/index.js:296
+#: client/header/activity-panel/index.js:305
 msgid "Preview site"
 msgstr ""
 
-#: client/header/activity-panel/index.js:373
+#: client/header/activity-panel/index.js:382
 msgid "Store Activity"
 msgstr ""
 
-#: client/header/activity-panel/index.js:408
+#: client/header/activity-panel/index.js:417
 msgid "We're here for help"
 msgstr ""
 
-#: client/header/activity-panel/index.js:409
+#: client/header/activity-panel/index.js:418
 msgid ""
 "If you have any questions, feel free to explore the WooCommerce docs listed "
 "here."
 msgstr ""
 
-#: client/header/activity-panel/index.js:413
+#: client/header/activity-panel/index.js:422
 #: client/navigation/components/favorites-tooltip/index.js:51
 msgid "Got it"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:103
+#: client/header/activity-panel/panels/help.js:102
 msgid "Set up Google Listing & Ads"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:108
+#: client/header/activity-panel/panels/help.js:107
 msgid "Connect Mailchimp for WooCommerce"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:116
+#: client/header/activity-panel/panels/help.js:115
 msgid "Set up Creative Mail for WooCommerce"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:130
+#: client/header/activity-panel/panels/help.js:129
 msgid "Which Payment Option is Right for Me?"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:138
+#: client/header/activity-panel/panels/help.js:137
 msgid "WooCommerce Payments Start Up Guide"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:146
+#: client/header/activity-panel/panels/help.js:145
 msgid "WooCommerce Payments FAQs"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:151
+#: client/header/activity-panel/panels/help.js:150
 msgid "Stripe Setup and Configuration"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:156
+#: client/header/activity-panel/panels/help.js:155
 msgid "PayPal Checkout Setup and Configuration"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:164
+#: client/header/activity-panel/panels/help.js:163
 msgid "Square - Get started"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:174
+#: client/header/activity-panel/panels/help.js:173
 msgid "Klarna - Introduction"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:179
+#: client/header/activity-panel/panels/help.js:178
 msgid "PayFast Setup and Configuration"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:184
+#: client/header/activity-panel/panels/help.js:183
 msgid "Eway Setup and Configuration"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:189
+#: client/header/activity-panel/panels/help.js:188
 msgid "Direct Bank Transfer (BACS)"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:194
+#: client/header/activity-panel/panels/help.js:193
 msgid "Cash on Delivery"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:209
+#: client/header/activity-panel/panels/help.js:208
 msgid "Import products using the CSV Importer and Exporter"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:217
+#: client/header/activity-panel/panels/help.js:216
 msgid "Migrate products using Cart2Cart"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:225
+#: client/header/activity-panel/panels/help.js:224
 msgid "Learn more about setting up products"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:241
+#: client/header/activity-panel/panels/help.js:240
 msgid "Setting up Shipping Zones"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:246
+#: client/header/activity-panel/panels/help.js:245
 msgid "Core Shipping Options"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:251
+#: client/header/activity-panel/panels/help.js:250
 msgid "Product Shipping Classes"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:256
+#: client/header/activity-panel/panels/help.js:255
 msgid "WooCommerce Shipping setup and configuration"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:264
+#: client/header/activity-panel/panels/help.js:263
 msgid "Learn more about configuring your shipping settings"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:287
+#: client/header/activity-panel/panels/help.js:295
 msgid "Setting up Taxes in WooCommerce"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:292
+#: client/header/activity-panel/panels/help.js:300
 msgid "Automated Tax calculation using WooCommerce Tax"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:33
+#: client/header/activity-panel/panels/help.js:32
 msgid "Get Support"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:340
+#: client/header/activity-panel/panels/help.js:348
 msgid "WooCommerce Docs"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:38
+#: client/header/activity-panel/panels/help.js:37
 msgid "Home Screen"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:401
+#: client/header/activity-panel/panels/help.js:409
 msgid "Documentation"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:48
+#: client/header/activity-panel/panels/help.js:47
 msgid "Stats Overview"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:53
+#: client/header/activity-panel/panels/help.js:52
 msgid "Store Management"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:58
+#: client/header/activity-panel/panels/help.js:57
 msgid "Store Setup Checklist"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:68
+#: client/header/activity-panel/panels/help.js:67
 msgid "Showcase your products and tailor your shopping experience using Blocks"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:76
+#: client/header/activity-panel/panels/help.js:75
 msgid "Manage Store Notice, Catalog View and Product Images"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:84
+#: client/header/activity-panel/panels/help.js:83
 msgid "How to choose and change a theme"
 msgstr ""
 
-#: client/header/activity-panel/panels/help.js:99
+#: client/header/activity-panel/panels/help.js:98
 msgid "Get started with Mailpoet"
 msgstr ""
 
@@ -6926,7 +6904,7 @@ msgid "Set up"
 msgstr ""
 
 #: client/tasks/fills/PaymentGatewaySuggestions/components/Setup/Configure.js:103
-#: client/tasks/fills/appearance.js:346
+#: client/tasks/fills/appearance.js:331
 #: client/tasks/fills/shipping/index.js:216
 #: packages/components/build-module/dynamic-form/dynamic-form.js:23
 msgid "Proceed"
@@ -7040,69 +7018,69 @@ msgstr ""
 msgid "All sample products have been imported"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:165
+#: client/tasks/fills/appearance.js:163
 msgid "Customize"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:217
+#: client/tasks/fills/appearance.js:208
 msgid "Store logo updated sucessfully"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:249
+#: client/tasks/fills/appearance.js:234
 msgid "🎨 Your store is looking great! Don't forget to continue personalizing it"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:272
+#: client/tasks/fills/appearance.js:257
 msgid "Import sample products"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:273
+#: client/tasks/fills/appearance.js:258
 msgid ""
 "We’ll add some products that will make it easier to see what your store "
 "looks like"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:284
+#: client/tasks/fills/appearance.js:269
 msgid "Import products"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:295
+#: client/tasks/fills/appearance.js:280
 msgid "Create a custom homepage"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:296
+#: client/tasks/fills/appearance.js:281
 msgid "Create a new homepage and customize it to suit your needs"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:307
+#: client/tasks/fills/appearance.js:292
 msgid "Create homepage"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:327
+#: client/tasks/fills/appearance.js:312
 msgid "Upload a logo"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:328
+#: client/tasks/fills/appearance.js:313
 msgid "Ensure your store is on-brand by adding your logo"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:352
+#: client/tasks/fills/appearance.js:337
 msgid "Skip"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:360
+#: client/tasks/fills/appearance.js:345
 msgid "Set a store notice"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:361
+#: client/tasks/fills/appearance.js:346
 msgid "Optionally display a prominent notice across all pages of your store"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:372
+#: client/tasks/fills/appearance.js:357
 msgid "Store notice text"
 msgstr ""
 
-#: client/tasks/fills/appearance.js:382
+#: client/tasks/fills/appearance.js:367
 #: client/tasks/fills/shipping/index.js:217
 msgid "Complete task"
 msgstr ""
@@ -7252,23 +7230,23 @@ msgstr ""
 msgid "Rest of the world"
 msgstr ""
 
-#: client/tasks/fills/shipping/rates.js:125
+#: client/tasks/fills/shipping/rates.js:116
 msgid "Your shipping rates have been updated"
 msgstr ""
 
-#: client/tasks/fills/shipping/rates.js:155
+#: client/tasks/fills/shipping/rates.js:146
 msgid "Free shipping"
 msgstr ""
 
-#: client/tasks/fills/shipping/rates.js:203
+#: client/tasks/fills/shipping/rates.js:194
 msgid "Shipping rates can not be negative numbers."
 msgstr ""
 
-#: client/tasks/fills/shipping/rates.js:285
+#: client/tasks/fills/shipping/rates.js:276
 msgid "Shipping cost"
 msgstr ""
 
-#: client/tasks/fills/shipping/rates.js:322
+#: client/tasks/fills/shipping/rates.js:313
 #: packages/components/build-module/date-range-filter-picker/content.js:64
 msgid "Update"
 msgstr ""
@@ -7334,7 +7312,7 @@ msgstr ""
 msgid "I don't charge sales tax"
 msgstr ""
 
-#: client/tasks/fills/tax/index.tsx:120
+#: client/tasks/fills/tax/index.tsx:113
 msgid "You're awesome! One less item on your to-do list ✅"
 msgstr ""
 
@@ -7456,7 +7434,7 @@ msgid_plural "Show %d more tasks."
 msgstr[0] ""
 msgstr[1] ""
 
-#: client/tasks/tasks.tsx:145
+#: client/tasks/tasks.tsx:144
 #: client/two-column-tasks/extended-task.tsx:170
 msgid "Show things to do next"
 msgstr ""
