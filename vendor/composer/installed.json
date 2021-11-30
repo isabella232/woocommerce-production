@@ -46,10 +46,7 @@
         "license": [
             "GPL-2.0-or-later"
         ],
-        "description": "Creates a custom autoloader for a plugin or theme.",
-        "support": {
-            "source": "https://github.com/Automattic/jetpack-autoloader/tree/2.10.1"
-        }
+        "description": "Creates a custom autoloader for a plugin or theme."
     },
     {
         "name": "automattic/jetpack-constants",
@@ -82,10 +79,7 @@
         "license": [
             "GPL-2.0-or-later"
         ],
-        "description": "A wrapper for defining constants in a more testable way.",
-        "support": {
-            "source": "https://github.com/Automattic/jetpack-constants/tree/v1.5.1"
-        }
+        "description": "A wrapper for defining constants in a more testable way."
     },
     {
         "name": "composer/installers",
@@ -221,10 +215,6 @@
             "zend",
             "zikula"
         ],
-        "support": {
-            "issues": "https://github.com/composer/installers/issues",
-            "source": "https://github.com/composer/installers/tree/v1.12.0"
-        },
         "funding": [
             {
                 "url": "https://packagist.com",
@@ -300,11 +290,7 @@
             "geoip2",
             "geolocation",
             "maxmind"
-        ],
-        "support": {
-            "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
-            "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.6.0"
-        }
+        ]
     },
     {
         "name": "pelago/emogrifier",
@@ -380,11 +366,7 @@
             "css",
             "email",
             "pre-processing"
-        ],
-        "support": {
-            "issues": "https://github.com/MyIntervals/emogrifier/issues",
-            "source": "https://github.com/MyIntervals/emogrifier"
-        }
+        ]
     },
     {
         "name": "psr/container",
@@ -435,11 +417,7 @@
             "container-interface",
             "container-interop",
             "psr"
-        ],
-        "support": {
-            "issues": "https://github.com/php-fig/container/issues",
-            "source": "https://github.com/php-fig/container/tree/master"
-        }
+        ]
     },
     {
         "name": "symfony/css-selector",
@@ -490,9 +468,6 @@
         ],
         "description": "Symfony CssSelector Component",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/css-selector/tree/v3.4.47"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -544,25 +519,21 @@
             "GPL-3.0-or-later"
         ],
         "description": "Action Scheduler for WordPress and WooCommerce",
-        "homepage": "https://actionscheduler.org/",
-        "support": {
-            "issues": "https://github.com/woocommerce/action-scheduler/issues",
-            "source": "https://github.com/woocommerce/action-scheduler/tree/3.4.0"
-        }
+        "homepage": "https://actionscheduler.org/"
     },
     {
         "name": "woocommerce/woocommerce-admin",
-        "version": "2.9.0-rc.2",
-        "version_normalized": "2.9.0.0-RC2",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/woocommerce/woocommerce-admin.git",
-            "reference": "6c81e761d9a19e6ed4484db82d6710331f375a3a"
+            "reference": "8040a6ac2af1b217324ae83a4137b0bfe3edbc23"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woocommerce/woocommerce-admin/zipball/6c81e761d9a19e6ed4484db82d6710331f375a3a",
-            "reference": "6c81e761d9a19e6ed4484db82d6710331f375a3a",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-admin/zipball/8040a6ac2af1b217324ae83a4137b0bfe3edbc23",
+            "reference": "8040a6ac2af1b217324ae83a4137b0bfe3edbc23",
             "shasum": ""
         },
         "require": {
@@ -577,7 +548,7 @@
             "woocommerce/woocommerce-sniffs": "0.1.0",
             "yoast/phpunit-polyfills": "^1.0"
         },
-        "time": "2021-11-18T08:35:56+00:00",
+        "time": "2021-11-29T23:28:44+00:00",
         "type": "wordpress-plugin",
         "extra": {
             "scripts-description": {
@@ -617,11 +588,7 @@
             "GPL-3.0-or-later"
         ],
         "description": "A modern, javascript-driven WooCommerce Admin experience.",
-        "homepage": "https://github.com/woocommerce/woocommerce-admin",
-        "support": {
-            "issues": "https://github.com/woocommerce/woocommerce-admin/issues",
-            "source": "https://github.com/woocommerce/woocommerce-admin/tree/v2.9.0-rc.2"
-        }
+        "homepage": "https://github.com/woocommerce/woocommerce-admin"
     },
     {
         "name": "woocommerce/woocommerce-blocks",
@@ -673,10 +640,6 @@
             "blocks",
             "gutenberg",
             "woocommerce"
-        ],
-        "support": {
-            "issues": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/issues",
-            "source": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/tree/v6.3.2"
-        }
+        ]
     }
 ]
