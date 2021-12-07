@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-12-07T17:32:29+00:00\n"
+"POT-Creation-Date: 2021-12-07T17:32:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -16399,8 +16399,7 @@ msgid "No location by default"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-general.php:178
-#: includes/admin/settings/views/settings-tax.php:41
-msgid "Shop base address"
+msgid "Shop country/region"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-general.php:179
@@ -17489,6 +17488,10 @@ msgstr ""
 
 #: includes/admin/settings/views/settings-tax.php:34
 msgid "This option determines which address is used to calculate tax."
+msgstr ""
+
+#: includes/admin/settings/views/settings-tax.php:41
+msgid "Shop base address"
 msgstr ""
 
 #: includes/admin/settings/views/settings-tax.php:46
