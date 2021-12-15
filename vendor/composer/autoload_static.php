@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba
+class ComposerStaticInit9147b65267d9bcf444843de192dcc55a
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -231,6 +231,7 @@ class ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba
         'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\Menu' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/Navigation/Menu.php',
         'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\Screen' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/Navigation/Screen.php',
         'Automattic\\WooCommerce\\Admin\\Features\\Onboarding' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/Onboarding.php',
+        'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\DeprecatedExtendedTask' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/DeprecatedExtendedTask.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\DeprecatedOptions' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/DeprecatedOptions.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Init' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Init.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Task' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Task.php',
@@ -365,7 +366,7 @@ class ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba
         'Automattic\\WooCommerce\\Admin\\Overrides\\ThemeUpgrader' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Overrides/ThemeUpgrader.php',
         'Automattic\\WooCommerce\\Admin\\Overrides\\ThemeUpgraderSkin' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Overrides/ThemeUpgraderSkin.php',
         'Automattic\\WooCommerce\\Admin\\PageController' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PageController.php',
-        'Automattic\\WooCommerce\\Admin\\PaymentPlugins' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PaymentPlugins.php',
+        'Automattic\\WooCommerce\\Admin\\PaymentMethodSuggestionsDataSourcePoller' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PaymentMethodSuggestionsDataSourcePoller.php',
         'Automattic\\WooCommerce\\Admin\\PluginsHelper' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PluginsHelper.php',
         'Automattic\\WooCommerce\\Admin\\PluginsInstaller' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PluginsInstaller.php',
         'Automattic\\WooCommerce\\Admin\\PluginsProvider\\PluginsProvider' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/PluginsProvider/PluginsProvider.php',
@@ -922,10 +923,10 @@ class ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitbad4ed201a33e8881ec0682ab87cc5ba::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9147b65267d9bcf444843de192dcc55a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9147b65267d9bcf444843de192dcc55a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9147b65267d9bcf444843de192dcc55a::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit9147b65267d9bcf444843de192dcc55a::$classMap;
 
         }, null, ClassLoader::class);
     }
