@@ -2,17 +2,23 @@
  * External dependencies
  */
 import { __ } from '@wordpress/i18n';
-import PropTypes from 'prop-types';
 import { useContainerWidthContext } from '@woocommerce/base-context';
 import { Panel } from '@woocommerce/blocks-checkout';
+import type { CartItem } from '@woocommerce/types';
 
 /**
  * Internal dependencies
  */
-import OrderSummaryItem from './order-summary-item.js';
+import OrderSummaryItem from './order-summary-item';
 import './style.scss';
 
-const OrderSummary = ( { cartItems = [] } ) => {
+interface OrderSummaryProps {
+	cartItems: CartItem[];
+}
+
+const OrderSummary = ( {
+	cartItems = [],
+}: OrderSummaryProps ): null | JSX.Element => {
 	const { isLarge, hasContainerWidth } = useContainerWidthContext();
 
 	if ( ! hasContainerWidth ) {
@@ -26,7 +32,7 @@ const OrderSummary = ( { cartItems = [] } ) => {
 			hasBorder={ false }
 			title={
 				<span className="wc-block-components-order-summary__button-text">
-					{ __( 'Order summary', 'woocommerce' ) }
+					{ __( 'Order summary', 'woo-gutenberg-products-block' ) }
 				</span>
 			}
 			titleTag="h2"
@@ -43,12 +49,6 @@ const OrderSummary = ( { cartItems = [] } ) => {
 			</div>
 		</Panel>
 	);
-};
-
-OrderSummary.propTypes = {
-	cartItems: PropTypes.arrayOf(
-		PropTypes.shape( { key: PropTypes.string.isRequired } )
-	),
 };
 
 export default OrderSummary;
