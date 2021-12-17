@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d
+class ComposerStaticInit1c3db7c818f453175c8db912099d0c78
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -446,6 +446,7 @@ class ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\HandpickedProducts' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/HandpickedProducts.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\LegacyTemplate' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/LegacyTemplate.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\MiniCart' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/MiniCart.php',
+        'Automattic\\WooCommerce\\Blocks\\BlockTypes\\MiniCartContents' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/MiniCartContents.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\PriceFilter' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/PriceFilter.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductBestSellers' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductBestSellers.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductCategories' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php',
@@ -563,6 +564,7 @@ class ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d
         'Automattic\\WooCommerce\\Blocks\\Utils\\ArrayUtils' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Utils/ArrayUtils.php',
         'Automattic\\WooCommerce\\Blocks\\Utils\\BlockTemplateUtils' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php',
         'Automattic\\WooCommerce\\Blocks\\Utils\\BlocksWpQuery' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Utils/BlocksWpQuery.php',
+        'Automattic\\WooCommerce\\Blocks\\Utils\\StyleAttributesUtils' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Utils/StyleAttributesUtils.php',
         'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStock' => __DIR__ . '/../..' . '/src/Checkout/Helpers/ReserveStock.php',
         'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStockException' => __DIR__ . '/../..' . '/src/Checkout/Helpers/ReserveStockException.php',
         'Automattic\\WooCommerce\\Container' => __DIR__ . '/../..' . '/src/Container.php',
@@ -923,10 +925,10 @@ class ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2242b0f2382e4c0697c149aecf38d33d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1c3db7c818f453175c8db912099d0c78::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1c3db7c818f453175c8db912099d0c78::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1c3db7c818f453175c8db912099d0c78::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit1c3db7c818f453175c8db912099d0c78::$classMap;
 
         }, null, ClassLoader::class);
     }
