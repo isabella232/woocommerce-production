@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-12-22T14:08:31+00:00\n"
+"POT-Creation-Date: 2021-12-22T20:28:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -34077,12 +34077,12 @@ msgstr ""
 msgid "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTemplatesController.php:453
+#: packages/woocommerce-blocks/src/BlockTemplatesController.php:467
 #: packages/woocommerce-blocks/build/mini-cart.js:1
 msgid "Mini Cart"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTemplatesController.php:454
+#: packages/woocommerce-blocks/src/BlockTemplatesController.php:468
 msgid "The Mini Cart template defines a page area that contains the content of the Mini Cart block."
 msgstr ""
 
@@ -35428,19 +35428,19 @@ msgstr ""
 msgid "No theme is defined for this template."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:184
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:221
 msgid "Single Product Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:186
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:223
 msgid "Product Archive Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:188
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:225
 msgid "Product Category Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:190
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:227
 msgid "Product Tag Page"
 msgstr ""
 
