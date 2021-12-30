@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-12-29T18:16:18+00:00\n"
+"POT-Creation-Date: 2021-12-30T20:51:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10419,7 +10419,7 @@ msgstr ""
 #: includes/admin/views/html-notice-uploads-directory-is-unprotected.php:15
 #: includes/admin/views/html-notice-wp-php-minimum-requirements.php:11
 #: includes/wc-template-functions.php:1062
-#: packages/woocommerce-admin/src/Features/WcPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php:50
+#: packages/woocommerce-admin/src/Features/WcPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php:53
 #: packages/woocommerce-admin/src/Notes/UnsecuredReportFiles.php:55
 #: packages/woocommerce-admin/dist/experimental/index.js:2
 #: packages/woocommerce-admin/dist/wp-admin-scripts/payment-method-promotions.js:2
@@ -33316,7 +33316,7 @@ msgstr ""
 msgid "Shipping Label"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/WcPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php:52
+#: packages/woocommerce-admin/src/Features/WcPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php:55
 msgid "Dismiss the gateway"
 msgstr ""
 
