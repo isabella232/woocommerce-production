@@ -458,6 +458,7 @@ return array(
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Schemas\\ShippingAddressSchema' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Schemas/ShippingAddressSchema.php',
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Schemas\\TermSchema' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Schemas/TermSchema.php',
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\CartController' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php',
+    'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\DraftOrderTrait' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Utilities/DraftOrderTrait.php',
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\InvalidStockLevelsInCartException' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Utilities/InvalidStockLevelsInCartException.php',
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\NotPurchasableException' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Utilities/NotPurchasableException.php',
     'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\NoticeHandler' => $baseDir . '/packages/woocommerce-blocks/src/StoreApi/Utilities/NoticeHandler.php',

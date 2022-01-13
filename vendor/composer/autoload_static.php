@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867
+class ComposerStaticInit7e5e09e5eb23d83704226b2c81a4536f
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -550,6 +550,7 @@ class ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Schemas\\ShippingAddressSchema' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Schemas/ShippingAddressSchema.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Schemas\\TermSchema' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Schemas/TermSchema.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\CartController' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php',
+        'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\DraftOrderTrait' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/DraftOrderTrait.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\InvalidStockLevelsInCartException' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/InvalidStockLevelsInCartException.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\NotPurchasableException' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/NotPurchasableException.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\NoticeHandler' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/NoticeHandler.php',
@@ -925,10 +926,10 @@ class ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitba59e4dd2e043e5f8c4b671b77db2867::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7e5e09e5eb23d83704226b2c81a4536f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7e5e09e5eb23d83704226b2c81a4536f::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit7e5e09e5eb23d83704226b2c81a4536f::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit7e5e09e5eb23d83704226b2c81a4536f::$classMap;
 
         }, null, ClassLoader::class);
     }
