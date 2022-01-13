@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-13T03:55:00+00:00\n"
+"POT-Creation-Date: 2022-01-13T09:18:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10171,7 +10171,11 @@ msgstr ""
 msgid "Reviews"
 msgstr ""
 
-#: includes/admin/class-wc-admin-notices.php:166
+#: includes/admin/class-wc-admin-notices.php:139
+msgid "<h4>PHP version requirements will change soon</h4><p>WooCommerce 6.5, scheduled for <b>May 2022</b>, will require PHP 7.2 or newer to work. Your server is currently running an older version of PHP, so this change will impact your store. Upgrading to at least PHP 7.4 is recommended. <b><a href=\"https://developer.woocommerce.com/2022/01/05/new-requirement-for-woocommerce-6-5-php-7-2/\">Learn more about this change.</a></b></p>"
+msgstr ""
+
+#: includes/admin/class-wc-admin-notices.php:203
 #: includes/admin/class-wc-admin-status.php:303
 #: includes/admin/class-wc-admin-status.php:322
 #: includes/admin/class-wc-admin-status.php:338
@@ -10179,12 +10183,12 @@ msgstr ""
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: includes/admin/class-wc-admin-notices.php:170
+#: includes/admin/class-wc-admin-notices.php:207
 #: includes/emails/class-wc-email.php:900
 msgid "You don&#8217;t have permission to do this."
 msgstr ""
 
-#: includes/admin/class-wc-admin-notices.php:278
+#: includes/admin/class-wc-admin-notices.php:315
 #: includes/tracks/events/class-wc-admin-setup-wizard-tracking.php:29
 #: includes/tracks/events/class-wc-admin-setup-wizard-tracking.php:39
 #: includes/tracks/events/class-wc-admin-setup-wizard-tracking.php:49
@@ -10204,17 +10208,17 @@ msgid "Onboarding is maintained in WooCommerce Admin."
 msgstr ""
 
 #. translators: 1: Minimum PHP version 2: Minimum WordPress version
-#: includes/admin/class-wc-admin-notices.php:427
+#: includes/admin/class-wc-admin-notices.php:464
 msgid "Update required: WooCommerce will soon require PHP version %1$s and WordPress version %2$s or newer."
 msgstr ""
 
 #. translators: %s: Minimum PHP version
-#: includes/admin/class-wc-admin-notices.php:434
+#: includes/admin/class-wc-admin-notices.php:471
 msgid "Update required: WooCommerce will soon require PHP version %s or newer."
 msgstr ""
 
 #. translators: %s: Minimum WordPress version
-#: includes/admin/class-wc-admin-notices.php:440
+#: includes/admin/class-wc-admin-notices.php:477
 msgid "Update required: WooCommerce will soon require WordPress version %s or newer."
 msgstr ""
 
