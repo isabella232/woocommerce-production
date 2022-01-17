@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-17T10:28:57+00:00\n"
+"POT-Creation-Date: 2022-01-17T11:02:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10235,14 +10235,14 @@ msgid "Product attribute base"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:74
-#: includes/wc-core-functions.php:2130
+#: includes/wc-core-functions.php:2134
 #: includes/wc-update-functions.php:60
 msgctxt "slug"
 msgid "product-category"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:83
-#: includes/wc-core-functions.php:2131
+#: includes/wc-core-functions.php:2135
 #: includes/wc-update-functions.php:61
 msgctxt "slug"
 msgid "product-tag"
@@ -10288,7 +10288,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:193
 #: includes/admin/class-wc-admin-permalink-settings.php:196
-#: includes/wc-core-functions.php:2129
+#: includes/wc-core-functions.php:2133
 #: includes/wc-update-functions.php:70
 msgctxt "slug"
 msgid "product"
@@ -29461,42 +29461,42 @@ msgstr ""
 msgid "Zambian kwacha"
 msgstr ""
 
-#: includes/wc-core-functions.php:1517
+#: includes/wc-core-functions.php:1521
 msgid "MasterCard"
 msgstr ""
 
-#: includes/wc-core-functions.php:1518
+#: includes/wc-core-functions.php:1522
 #: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:248
 msgid "Visa"
 msgstr ""
 
-#: includes/wc-core-functions.php:1519
+#: includes/wc-core-functions.php:1523
 #: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:263
 msgid "Discover"
 msgstr ""
 
-#: includes/wc-core-functions.php:1520
+#: includes/wc-core-functions.php:1524
 #: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:252
 msgid "American Express"
 msgstr ""
 
-#: includes/wc-core-functions.php:1521
+#: includes/wc-core-functions.php:1525
 #: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:271
 msgid "Diners"
 msgstr ""
 
-#: includes/wc-core-functions.php:1522
+#: includes/wc-core-functions.php:1526
 #: packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php:267
 msgid "JCB"
 msgstr ""
 
 #. translators: 1: class name 2: woocommerce_logging_class 3: WC_Logger_Interface
-#: includes/wc-core-functions.php:1970
+#: includes/wc-core-functions.php:1974
 msgid "The class %1$s provided by %2$s filter must implement %3$s."
 msgstr ""
 
 #. translators: 1: wc_load_cart 2: woocommerce_init
-#: includes/wc-core-functions.php:2510
+#: includes/wc-core-functions.php:2514
 msgid "%1$s should not be called before the %2$s action."
 msgstr ""
 
