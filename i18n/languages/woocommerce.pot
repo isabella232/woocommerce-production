@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-14T18:47:25+00:00\n"
+"POT-Creation-Date: 2022-01-17T10:28:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -15750,7 +15750,7 @@ msgid "When creating an account, automatically generate an account username for 
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:96
-msgid "When creating an account, automatically generate an account password"
+msgid "When creating an account, send the new user a link to set their password"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:104
