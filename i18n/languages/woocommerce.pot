@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-19T13:54:16+00:00\n"
+"POT-Creation-Date: 2022-01-19T15:00:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -19037,13 +19037,13 @@ msgid "%1$s has been removed from your cart because it has since been modified. 
 msgstr ""
 
 #. translators: %d item count
-#: includes/class-wc-cart-session.php:417
+#: includes/class-wc-cart-session.php:419
 msgid "%d item from your previous order is currently unavailable and could not be added to your cart."
 msgid_plural "%d items from your previous order are currently unavailable and could not be added to your cart."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-wc-cart-session.php:430
+#: includes/class-wc-cart-session.php:432
 msgid "The cart has been filled with the items from your previous order."
 msgstr ""
 
