@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0c563500cadf9b32758089e988403ed4
+class ComposerStaticInit15efe7274a929b71d003823739460d82
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -913,10 +913,10 @@ class ComposerStaticInit0c563500cadf9b32758089e988403ed4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0c563500cadf9b32758089e988403ed4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0c563500cadf9b32758089e988403ed4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit0c563500cadf9b32758089e988403ed4::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit0c563500cadf9b32758089e988403ed4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit15efe7274a929b71d003823739460d82::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit15efe7274a929b71d003823739460d82::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit15efe7274a929b71d003823739460d82::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit15efe7274a929b71d003823739460d82::$classMap;
 
         }, null, ClassLoader::class);
     }
