@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-24T20:30:57+00:00\n"
+"POT-Creation-Date: 2022-01-24T21:13:18+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -9600,7 +9600,6 @@ msgstr ""
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:78
 #: includes/wc-account-functions.php:360
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:92
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:319
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/experimental/index.js:2
 msgid "Delete"
@@ -10072,7 +10071,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-menus.php:84
 #: includes/admin/views/html-admin-page-status-report.php:737
-#: includes/class-wc-install.php:1417
+#: includes/class-wc-install.php:1421
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:34
 #: packages/woocommerce-admin/src/Features/Analytics.php:304
 #: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:124
@@ -10236,14 +10235,14 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:74
 #: includes/wc-core-functions.php:2134
-#: includes/wc-update-functions.php:60
+#: includes/wc-update-functions.php:62
 msgctxt "slug"
 msgid "product-category"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:83
 #: includes/wc-core-functions.php:2135
-#: includes/wc-update-functions.php:61
+#: includes/wc-update-functions.php:63
 msgctxt "slug"
 msgid "product-tag"
 msgstr ""
@@ -10289,7 +10288,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-permalink-settings.php:193
 #: includes/admin/class-wc-admin-permalink-settings.php:196
 #: includes/wc-core-functions.php:2133
-#: includes/wc-update-functions.php:70
+#: includes/wc-update-functions.php:72
 msgctxt "slug"
 msgid "product"
 msgstr ""
@@ -11963,8 +11962,8 @@ msgid "Product categories for your store can be managed here. To change the orde
 msgstr ""
 
 #: includes/admin/class-wc-admin-taxonomies.php:342
-#: includes/class-wc-install.php:711
-#: includes/class-wc-install.php:717
+#: includes/class-wc-install.php:715
+#: includes/class-wc-install.php:721
 msgctxt "Default category slug"
 msgid "Uncategorized"
 msgstr ""
@@ -11975,7 +11974,6 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:184
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:193
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:207
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:316
 #: templates/emails/email-order-details.php:80
 #: templates/emails/plain/email-order-details.php:46
 #: templates/order/order-details.php:93
@@ -13720,7 +13718,7 @@ msgstr ""
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:33
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:49
 #: includes/admin/reports/class-wc-report-sales-by-product.php:221
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:291
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:286
 msgid "Search for a product&hellip;"
 msgstr ""
 
@@ -13821,7 +13819,6 @@ msgid "Move to Trash"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:68
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:272
 msgid "Create"
 msgstr ""
 
@@ -19940,130 +19937,130 @@ msgstr ""
 msgid "Please enter a stronger password."
 msgstr ""
 
-#: includes/class-wc-install.php:526
+#: includes/class-wc-install.php:530
 msgid "Monthly"
 msgstr ""
 
-#: includes/class-wc-install.php:530
+#: includes/class-wc-install.php:534
 msgid "Every 15 Days"
 msgstr ""
 
-#: includes/class-wc-install.php:590
+#: includes/class-wc-install.php:594
 msgctxt "Page slug"
 msgid "shop"
 msgstr ""
 
-#: includes/class-wc-install.php:591
+#: includes/class-wc-install.php:595
 msgctxt "Page title"
 msgid "Shop"
 msgstr ""
 
-#: includes/class-wc-install.php:595
+#: includes/class-wc-install.php:599
 msgctxt "Page slug"
 msgid "cart"
 msgstr ""
 
-#: includes/class-wc-install.php:596
+#: includes/class-wc-install.php:600
 msgctxt "Page title"
 msgid "Cart"
 msgstr ""
 
-#: includes/class-wc-install.php:600
+#: includes/class-wc-install.php:604
 msgctxt "Page slug"
 msgid "checkout"
 msgstr ""
 
-#: includes/class-wc-install.php:601
+#: includes/class-wc-install.php:605
 msgctxt "Page title"
 msgid "Checkout"
 msgstr ""
 
-#: includes/class-wc-install.php:605
+#: includes/class-wc-install.php:609
 msgctxt "Page slug"
 msgid "my-account"
 msgstr ""
 
-#: includes/class-wc-install.php:606
+#: includes/class-wc-install.php:610
 msgctxt "Page title"
 msgid "My account"
 msgstr ""
 
-#: includes/class-wc-install.php:610
+#: includes/class-wc-install.php:614
 msgctxt "Page slug"
 msgid "refund_returns"
 msgstr ""
 
-#: includes/class-wc-install.php:611
+#: includes/class-wc-install.php:615
 msgctxt "Page title"
 msgid "Refund and Returns Policy"
 msgstr ""
 
-#: includes/class-wc-install.php:670
+#: includes/class-wc-install.php:674
 msgid "Reduced rate"
 msgstr ""
 
-#: includes/class-wc-install.php:671
+#: includes/class-wc-install.php:675
 msgid "Zero rate"
 msgstr ""
 
 #. translators: user role
-#: includes/class-wc-install.php:1162
+#: includes/class-wc-install.php:1166
 msgctxt "User role"
 msgid "Customer"
 msgstr ""
 
 #. translators: user role
-#: includes/class-wc-install.php:1164
+#: includes/class-wc-install.php:1168
 msgctxt "User role"
 msgid "Shop manager"
 msgstr ""
 
-#: includes/class-wc-install.php:1417
+#: includes/class-wc-install.php:1421
 msgid "View WooCommerce settings"
 msgstr ""
 
-#: includes/class-wc-install.php:1437
+#: includes/class-wc-install.php:1441
 msgid "View WooCommerce documentation"
 msgstr ""
 
-#: includes/class-wc-install.php:1437
+#: includes/class-wc-install.php:1441
 #: packages/woocommerce-admin/dist/chunks/marketing-overview.js:1
 msgid "Docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1438
+#: includes/class-wc-install.php:1442
 msgid "View WooCommerce API docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1438
+#: includes/class-wc-install.php:1442
 msgid "API docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1439
+#: includes/class-wc-install.php:1443
 msgid "Visit community forums"
 msgstr ""
 
-#: includes/class-wc-install.php:1439
+#: includes/class-wc-install.php:1443
 msgid "Community support"
 msgstr ""
 
-#: includes/class-wc-install.php:1443
+#: includes/class-wc-install.php:1447
 msgid "Visit premium customer support"
 msgstr ""
 
-#: includes/class-wc-install.php:1443
+#: includes/class-wc-install.php:1447
 msgid "Premium support"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message, 3: URL to install plugin manually.
 #. translators: 1: theme slug, 2: error message, 3: URL to install theme manually.
-#: includes/class-wc-install.php:1571
-#: includes/class-wc-install.php:1675
+#: includes/class-wc-install.php:1575
+#: includes/class-wc-install.php:1679
 msgid "%1$s could not be installed (%2$s). <a href=\"%3$s\">Please install it manually by clicking here.</a>"
 msgstr ""
 
 #. translators: 1: plugin name, 2: URL to WP plugin page.
-#: includes/class-wc-install.php:1599
+#: includes/class-wc-install.php:1603
 msgid "%1$s was installed but could not be activated. <a href=\"%2$s\">Please activate it manually by clicking here.</a>"
 msgstr ""
 
@@ -27314,7 +27311,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:148
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:199
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:267
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:298
 msgid "Regenerate"
 msgstr ""
 
@@ -29765,7 +29762,7 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
-#: includes/wc-update-functions.php:933
+#: includes/wc-update-functions.php:935
 msgid "Order fully refunded"
 msgstr ""
 
@@ -35396,49 +35393,25 @@ msgstr ""
 msgid "Not enough units of %s are available in stock to fulfil this order."
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:264
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:273
 msgid "Regenerate the product attributes lookup table"
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:265
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:274
 msgid "This tool will regenerate the product attributes lookup table data from existing product(s) data. This process may take a while."
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:266
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:278
 msgid "Product attributes lookup table data is regenerating"
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:269
-msgid "Create and fill product attributes lookup table"
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:270
-msgid "This tool will create the product attributes lookup table data and fill it with existing products data. This process may take a while."
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:271
-msgid "Product attributes lookup table is being filled"
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:287
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:282
 msgid "Select a product to regenerate the data for, or leave empty for a full table regeneration:"
 msgstr ""
 
 #. translators: %d: How many products have been processed so far.
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:298
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:293
 msgid "Filling in progress (%d)"
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:313
-msgid "Delete the product attributes lookup table"
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:317
-msgid "This will delete the product attributes lookup table. You can create it again with the \"Create and fill product attributes lookup table\" tool."
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:323
-msgid "Product attributes lookup table has been deleted."
 msgstr ""
 
 #: src/Internal/ProductAttributesLookup/LookupDataStore.php:74
@@ -35449,19 +35422,27 @@ msgstr ""
 msgid "These settings are not available while the lookup table regeneration is in progress."
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/LookupDataStore.php:88
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:91
+msgid "WARNING: The product attributes lookup table regeneration process was aborted."
+msgstr ""
+
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:92
+msgid "This means that the table is probably in an inconsistent state. It's recommended to run a new regeneration process (Status - Tools - Regenerate the product attributes lookup table) before enabling the table usage."
+msgstr ""
+
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:96
 msgid "Enable table usage"
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/LookupDataStore.php:89
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:97
 msgid "Use the product attributes lookup table for catalog filtering."
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/LookupDataStore.php:97
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:106
 msgid "Direct updates"
 msgstr ""
 
-#: src/Internal/ProductAttributesLookup/LookupDataStore.php:98
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:107
 msgid "Update the table directly upon product changes, instead of scheduling a deferred update."
 msgstr ""
 
