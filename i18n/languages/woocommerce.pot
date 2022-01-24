@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-24T17:02:31+00:00\n"
+"POT-Creation-Date: 2022-01-24T18:04:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -10875,7 +10875,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:385
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:88
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:137
-#: includes/class-wc-countries.php:1582
+#: includes/class-wc-countries.php:1581
 #: includes/customizer/class-wc-shop-customizer.php:689
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractAddressSchema.php:78
 #: packages/woocommerce-blocks/build/checkout-blocks/billing-address--checkout-blocks/shipping-address-frontend.js:1
@@ -10885,7 +10885,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:90
 #: includes/admin/class-wc-admin-setup-wizard.php:2238
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:85
-#: includes/class-wc-countries.php:1592
+#: includes/class-wc-countries.php:1591
 #: includes/class-wc-form-handler.php:271
 #: templates/myaccount/form-edit-account.php:43
 #: templates/myaccount/form-login.php:86
@@ -11200,9 +11200,9 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:524
 #: includes/admin/class-wc-admin-setup-wizard.php:526
 #: includes/class-wc-countries.php:846
-#: includes/class-wc-countries.php:1150
-#: includes/class-wc-countries.php:1269
-#: includes/class-wc-countries.php:1464
+#: includes/class-wc-countries.php:1149
+#: includes/class-wc-countries.php:1268
+#: includes/class-wc-countries.php:1463
 msgid "State"
 msgstr ""
 
@@ -19343,10 +19343,10 @@ msgid "Town / City"
 msgstr ""
 
 #: includes/class-wc-countries.php:817
-#: includes/class-wc-countries.php:1104
-#: includes/class-wc-countries.php:1118
-#: includes/class-wc-countries.php:1340
-#: includes/class-wc-countries.php:1477
+#: includes/class-wc-countries.php:1103
+#: includes/class-wc-countries.php:1117
+#: includes/class-wc-countries.php:1339
+#: includes/class-wc-countries.php:1476
 msgid "County"
 msgstr ""
 
@@ -19356,13 +19356,13 @@ msgstr ""
 #: includes/class-wc-countries.php:958
 #: includes/class-wc-countries.php:996
 #: includes/class-wc-countries.php:1001
-#: includes/class-wc-countries.php:1109
-#: includes/class-wc-countries.php:1159
-#: includes/class-wc-countries.php:1245
-#: includes/class-wc-countries.php:1300
-#: includes/class-wc-countries.php:1399
-#: includes/class-wc-countries.php:1442
-#: includes/class-wc-countries.php:1519
+#: includes/class-wc-countries.php:1108
+#: includes/class-wc-countries.php:1158
+#: includes/class-wc-countries.php:1244
+#: includes/class-wc-countries.php:1299
+#: includes/class-wc-countries.php:1398
+#: includes/class-wc-countries.php:1441
+#: includes/class-wc-countries.php:1518
 msgid "Province"
 msgstr ""
 
@@ -19371,9 +19371,9 @@ msgid "Suburb"
 msgstr ""
 
 #: includes/class-wc-countries.php:843
-#: includes/class-wc-countries.php:1264
-#: includes/class-wc-countries.php:1274
-#: includes/class-wc-countries.php:1474
+#: includes/class-wc-countries.php:1263
+#: includes/class-wc-countries.php:1273
+#: includes/class-wc-countries.php:1473
 msgid "Postcode"
 msgstr ""
 
@@ -19383,20 +19383,20 @@ msgid "Canton"
 msgstr ""
 
 #: includes/class-wc-countries.php:873
-#: includes/class-wc-countries.php:1352
-#: includes/class-wc-countries.php:1455
-#: includes/class-wc-countries.php:1487
+#: includes/class-wc-countries.php:1351
+#: includes/class-wc-countries.php:1454
+#: includes/class-wc-countries.php:1486
 msgid "District"
 msgstr ""
 
 #: includes/class-wc-countries.php:906
 #: includes/class-wc-countries.php:953
-#: includes/class-wc-countries.php:1062
-#: includes/class-wc-countries.php:1078
-#: includes/class-wc-countries.php:1250
-#: includes/class-wc-countries.php:1329
-#: includes/class-wc-countries.php:1391
-#: includes/class-wc-countries.php:1469
+#: includes/class-wc-countries.php:1061
+#: includes/class-wc-countries.php:1077
+#: includes/class-wc-countries.php:1249
+#: includes/class-wc-countries.php:1328
+#: includes/class-wc-countries.php:1390
+#: includes/class-wc-countries.php:1468
 msgid "Department"
 msgstr ""
 
@@ -19410,61 +19410,61 @@ msgstr ""
 
 #: includes/class-wc-countries.php:940
 #: includes/class-wc-countries.php:1036
-#: includes/class-wc-countries.php:1073
-#: includes/class-wc-countries.php:1278
+#: includes/class-wc-countries.php:1072
+#: includes/class-wc-countries.php:1277
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:596
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.js:1
 msgid "Region"
 msgstr ""
 
-#: includes/class-wc-countries.php:1070
+#: includes/class-wc-countries.php:1069
 msgid "Town / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:1115
+#: includes/class-wc-countries.php:1114
 msgid "Eircode"
 msgstr ""
 
-#: includes/class-wc-countries.php:1147
+#: includes/class-wc-countries.php:1146
 msgid "PIN"
 msgstr ""
 
-#: includes/class-wc-countries.php:1164
+#: includes/class-wc-countries.php:1163
 msgid "Town / City / Post Office"
 msgstr ""
 
-#: includes/class-wc-countries.php:1168
+#: includes/class-wc-countries.php:1167
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:597
 msgid "Postal Code"
 msgstr ""
 
-#: includes/class-wc-countries.php:1172
+#: includes/class-wc-countries.php:1171
 msgid "Parish"
 msgstr ""
 
-#: includes/class-wc-countries.php:1189
+#: includes/class-wc-countries.php:1188
 msgid "Prefecture"
 msgstr ""
 
-#: includes/class-wc-countries.php:1217
-#: includes/class-wc-countries.php:1314
-#: includes/class-wc-countries.php:1407
+#: includes/class-wc-countries.php:1216
+#: includes/class-wc-countries.php:1313
+#: includes/class-wc-countries.php:1406
 msgid "Municipality"
 msgstr ""
 
-#: includes/class-wc-countries.php:1292
+#: includes/class-wc-countries.php:1291
 msgid "State / Zone"
 msgstr ""
 
-#: includes/class-wc-countries.php:1425
+#: includes/class-wc-countries.php:1424
 msgid "Municipality / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:1451
+#: includes/class-wc-countries.php:1450
 msgid "Town / Village"
 msgstr ""
 
-#: includes/class-wc-countries.php:1461
+#: includes/class-wc-countries.php:1460
 msgid "ZIP Code"
 msgstr ""
 
