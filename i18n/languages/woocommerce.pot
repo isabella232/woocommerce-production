@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-24T18:04:38+00:00\n"
+"POT-Creation-Date: 2022-01-24T18:55:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -8930,7 +8930,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:513
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:677
 #: includes/admin/list-tables/class-wc-admin-list-table-coupons.php:85
-#: includes/admin/meta-boxes/views/html-variation-admin.php:385
+#: includes/admin/meta-boxes/views/html-variation-admin.php:386
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:122
 #: includes/admin/settings/class-wc-settings-shipping.php:398
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:88
@@ -9323,7 +9323,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:117
 #: includes/admin/meta-boxes/views/html-product-attribute.php:18
 #: includes/admin/meta-boxes/views/html-product-data-general.php:84
-#: includes/admin/meta-boxes/views/html-variation-admin.php:399
+#: includes/admin/meta-boxes/views/html-variation-admin.php:400
 #: includes/admin/settings/views/html-webhooks-edit.php:22
 #: includes/admin/views/html-admin-page-status-report.php:871
 #: includes/export/class-wc-product-csv-exporter.php:108
@@ -12491,7 +12491,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:671
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:120
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:21
-#: includes/admin/meta-boxes/views/html-variation-admin.php:79
+#: includes/admin/meta-boxes/views/html-variation-admin.php:80
 #: includes/admin/views/html-quick-edit-product.php:21
 #: includes/export/class-wc-product-csv-exporter.php:107
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:389
@@ -12556,7 +12556,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:688
 #: includes/admin/meta-boxes/views/html-order-items.php:441
 #: includes/admin/meta-boxes/views/html-product-data-general.php:176
-#: includes/admin/meta-boxes/views/html-variation-admin.php:357
+#: includes/admin/meta-boxes/views/html-variation-admin.php:358
 #: includes/admin/settings/class-wc-settings-tax.php:235
 #: includes/admin/views/html-bulk-edit-product.php:89
 #: includes/admin/views/html-quick-edit-product.php:67
@@ -12597,7 +12597,7 @@ msgstr ""
 #. translators: %s: weight
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:524
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:695
-#: includes/admin/meta-boxes/views/html-variation-admin.php:274
+#: includes/admin/meta-boxes/views/html-variation-admin.php:275
 #: includes/export/class-wc-product-csv-exporter.php:124
 msgid "Weight (%s)"
 msgstr ""
@@ -12686,7 +12686,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:537
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:710
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:57
-#: includes/admin/meta-boxes/views/html-variation-admin.php:335
+#: includes/admin/meta-boxes/views/html-variation-admin.php:336
 #: includes/admin/settings/class-wc-settings-shipping.php:396
 #: includes/admin/views/html-bulk-edit-product.php:166
 #: includes/admin/views/html-quick-edit-product.php:123
@@ -12705,7 +12705,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:729
 #: includes/admin/meta-boxes/views/html-product-data-general.php:124
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:87
-#: includes/admin/meta-boxes/views/html-variation-admin.php:443
+#: includes/admin/meta-boxes/views/html-variation-admin.php:444
 #: includes/export/class-wc-product-csv-exporter.php:139
 msgid "Download limit"
 msgstr ""
@@ -13595,13 +13595,13 @@ msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:365
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:69
-#: includes/admin/meta-boxes/views/html-variation-admin.php:93
+#: includes/admin/meta-boxes/views/html-variation-admin.php:94
 msgid "Downloadable"
 msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:369
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:62
-#: includes/admin/meta-boxes/views/html-variation-admin.php:97
+#: includes/admin/meta-boxes/views/html-variation-admin.php:98
 msgid "Virtual"
 msgstr ""
 
@@ -14079,7 +14079,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:29
 #: includes/admin/meta-boxes/views/html-product-data-general.php:125
-#: includes/admin/meta-boxes/views/html-variation-admin.php:444
+#: includes/admin/meta-boxes/views/html-variation-admin.php:445
 msgid "Unlimited"
 msgstr ""
 
@@ -14090,7 +14090,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:33
 #: includes/admin/meta-boxes/views/html-product-data-general.php:140
-#: includes/admin/meta-boxes/views/html-variation-admin.php:462
+#: includes/admin/meta-boxes/views/html-variation-admin.php:463
 #: templates/emails/email-downloads.php:58
 #: templates/emails/plain/email-downloads.php:40
 #: templates/order/order-downloads.php:62
@@ -14460,7 +14460,7 @@ msgid "This text will be shown on the button linking to the external product."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:56
-#: includes/admin/meta-boxes/views/html-variation-admin.php:143
+#: includes/admin/meta-boxes/views/html-variation-admin.php:144
 msgid "Schedule"
 msgstr ""
 
@@ -14469,13 +14469,13 @@ msgid "Sale price dates"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:68
-#: includes/admin/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/meta-boxes/views/html-variation-admin.php:158
 msgctxt "placeholder"
 msgid "From&hellip;"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:69
-#: includes/admin/meta-boxes/views/html-variation-admin.php:161
+#: includes/admin/meta-boxes/views/html-variation-admin.php:162
 msgctxt "placeholder"
 msgid "To&hellip;"
 msgstr ""
@@ -14485,22 +14485,22 @@ msgid "The sale will start at 00:00:00 of \"From\" date and end at 23:59:59 of \
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:79
-#: includes/admin/meta-boxes/views/html-variation-admin.php:395
+#: includes/admin/meta-boxes/views/html-variation-admin.php:396
 msgid "Downloadable files"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:84
-#: includes/admin/meta-boxes/views/html-variation-admin.php:399
+#: includes/admin/meta-boxes/views/html-variation-admin.php:400
 msgid "This is the name of the download shown to the customer."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:85
-#: includes/admin/meta-boxes/views/html-variation-admin.php:400
+#: includes/admin/meta-boxes/views/html-variation-admin.php:401
 msgid "File URL"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:85
-#: includes/admin/meta-boxes/views/html-variation-admin.php:400
+#: includes/admin/meta-boxes/views/html-variation-admin.php:401
 msgid "This is the URL or absolute path to the file which customers will get access to. URLs entered here should already be encoded."
 msgstr ""
 
@@ -14509,18 +14509,18 @@ msgid "Add File"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:126
-#: includes/admin/meta-boxes/views/html-variation-admin.php:445
+#: includes/admin/meta-boxes/views/html-variation-admin.php:446
 msgid "Leave blank for unlimited re-downloads."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:139
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:88
-#: includes/admin/meta-boxes/views/html-variation-admin.php:461
+#: includes/admin/meta-boxes/views/html-variation-admin.php:462
 msgid "Download expiry"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:141
-#: includes/admin/meta-boxes/views/html-variation-admin.php:463
+#: includes/admin/meta-boxes/views/html-variation-admin.php:464
 msgid "Enter the number of days before a download link expires, or leave blank."
 msgstr ""
 
@@ -14554,22 +14554,22 @@ msgid "Define whether or not the entire product is taxable, or just the cost of 
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:179
-#: includes/admin/meta-boxes/views/html-variation-admin.php:360
+#: includes/admin/meta-boxes/views/html-variation-admin.php:361
 msgid "Choose a tax class for this product. Tax classes are used to apply different tax rates specific to certain types of product."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:21
-#: includes/admin/meta-boxes/views/html-variation-admin.php:79
+#: includes/admin/meta-boxes/views/html-variation-admin.php:80
 msgid "Stock Keeping Unit"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:23
-#: includes/admin/meta-boxes/views/html-variation-admin.php:81
+#: includes/admin/meta-boxes/views/html-variation-admin.php:82
 msgid "SKU refers to a Stock-keeping unit, a unique identifier for each distinct product and service that can be purchased."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:37
-#: includes/admin/meta-boxes/views/html-variation-admin.php:103
+#: includes/admin/meta-boxes/views/html-variation-admin.php:104
 #: includes/admin/views/html-bulk-edit-product.php:234
 #: includes/admin/views/html-quick-edit-product.php:168
 msgid "Manage stock?"
@@ -14580,7 +14580,7 @@ msgid "Enable stock management at product level"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:50
-#: includes/admin/meta-boxes/views/html-variation-admin.php:186
+#: includes/admin/meta-boxes/views/html-variation-admin.php:187
 msgid "Stock quantity"
 msgstr ""
 
@@ -14589,25 +14589,25 @@ msgid "Stock quantity. If this is a variable product this value will be used to 
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:67
-#: includes/admin/meta-boxes/views/html-variation-admin.php:205
+#: includes/admin/meta-boxes/views/html-variation-admin.php:206
 msgid "Allow backorders?"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:70
-#: includes/admin/meta-boxes/views/html-variation-admin.php:208
+#: includes/admin/meta-boxes/views/html-variation-admin.php:209
 msgid "If managing stock, this controls whether or not backorders are allowed. If enabled, stock quantity can go below 0."
 msgstr ""
 
 #. translators: %d: Amount of stock left
 #. translators: %d: Amount of stock left
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:80
-#: includes/admin/meta-boxes/views/html-variation-admin.php:221
+#: includes/admin/meta-boxes/views/html-variation-admin.php:222
 msgid "Store-wide threshold (%d)"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:83
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:78
-#: includes/admin/meta-boxes/views/html-variation-admin.php:231
+#: includes/admin/meta-boxes/views/html-variation-admin.php:232
 #: includes/admin/settings/class-wc-settings-products.php:285
 msgid "Low stock threshold"
 msgstr ""
@@ -14617,13 +14617,13 @@ msgid "When product stock reaches this amount you will be notified by email. It 
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:103
-#: includes/admin/meta-boxes/views/html-variation-admin.php:263
+#: includes/admin/meta-boxes/views/html-variation-admin.php:264
 #: includes/admin/reports/class-wc-report-stock.php:176
 msgid "Stock status"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:106
-#: includes/admin/meta-boxes/views/html-variation-admin.php:266
+#: includes/admin/meta-boxes/views/html-variation-admin.php:267
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1956
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1900
 msgid "Controls whether or not the product is listed as \"in stock\" or \"out of stock\" on the frontend."
@@ -14662,7 +14662,7 @@ msgid "Weight"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:17
-#: includes/admin/meta-boxes/views/html-variation-admin.php:286
+#: includes/admin/meta-boxes/views/html-variation-admin.php:287
 msgid "Weight in decimal form"
 msgstr ""
 
@@ -14673,21 +14673,21 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:30
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:81
-#: includes/admin/meta-boxes/views/html-variation-admin.php:312
+#: includes/admin/meta-boxes/views/html-variation-admin.php:313
 #: includes/admin/views/html-quick-edit-product.php:111
 msgid "Length"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:31
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:82
-#: includes/admin/meta-boxes/views/html-variation-admin.php:313
+#: includes/admin/meta-boxes/views/html-variation-admin.php:314
 #: includes/admin/views/html-quick-edit-product.php:112
 msgid "Width"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:32
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:83
-#: includes/admin/meta-boxes/views/html-variation-admin.php:314
+#: includes/admin/meta-boxes/views/html-variation-admin.php:315
 #: includes/admin/views/html-quick-edit-product.php:113
 msgid "Height"
 msgstr ""
@@ -14931,91 +14931,91 @@ msgstr ""
 msgid "Any %s&hellip;"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:67
+#: includes/admin/meta-boxes/views/html-variation-admin.php:68
 msgid "Remove this image"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:67
+#: includes/admin/meta-boxes/views/html-variation-admin.php:68
 msgid "Upload an image"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:89
+#: includes/admin/meta-boxes/views/html-variation-admin.php:90
 #: includes/admin/settings/class-wc-settings-emails.php:337
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:121
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:87
 msgid "Enabled"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:92
+#: includes/admin/meta-boxes/views/html-variation-admin.php:93
 msgid "Enable this option if access is given to a downloadable file upon purchase of a product"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:96
+#: includes/admin/meta-boxes/views/html-variation-admin.php:97
 msgid "Enable this option if a product is not shipped or there is no shipping cost"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:102
+#: includes/admin/meta-boxes/views/html-variation-admin.php:103
 msgid "Enable this option to enable stock management at variation level"
 msgstr ""
 
 #. translators: %s: currency symbol
-#: includes/admin/meta-boxes/views/html-variation-admin.php:115
+#: includes/admin/meta-boxes/views/html-variation-admin.php:116
 msgid "Regular price (%s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:127
+#: includes/admin/meta-boxes/views/html-variation-admin.php:128
 msgid "Variation price (required)"
 msgstr ""
 
 #. translators: %s: currency symbol
-#: includes/admin/meta-boxes/views/html-variation-admin.php:133
+#: includes/admin/meta-boxes/views/html-variation-admin.php:134
 msgid "Sale price (%s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:143
+#: includes/admin/meta-boxes/views/html-variation-admin.php:144
 msgid "Cancel schedule"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:156
+#: includes/admin/meta-boxes/views/html-variation-admin.php:157
 msgid "Sale start date"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:160
+#: includes/admin/meta-boxes/views/html-variation-admin.php:161
 msgid "Sale end date"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:188
+#: includes/admin/meta-boxes/views/html-variation-admin.php:189
 msgid "Enter a number to set stock quantity at the variation level. Use a variation's 'Manage stock?' check box above to enable/disable stock management at the variation level."
 msgstr ""
 
 #. translators: %d: Amount of stock left
-#: includes/admin/meta-boxes/views/html-variation-admin.php:216
+#: includes/admin/meta-boxes/views/html-variation-admin.php:217
 msgid "Parent product's threshold (%d)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:233
+#: includes/admin/meta-boxes/views/html-variation-admin.php:234
 msgid "When variation stock reaches this amount you will be notified by email. The default value for all variations can be set in the product Inventory tab. The shop default value can be set in Settings > Products > Inventory."
 msgstr ""
 
 #. translators: %s: dimension unit
-#: includes/admin/meta-boxes/views/html-variation-admin.php:305
+#: includes/admin/meta-boxes/views/html-variation-admin.php:306
 msgid "Dimensions (L&times;W&times;H) (%s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:310
+#: includes/admin/meta-boxes/views/html-variation-admin.php:311
 msgid "Length x width x height in decimal form"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:341
-#: includes/admin/meta-boxes/views/html-variation-admin.php:358
+#: includes/admin/meta-boxes/views/html-variation-admin.php:342
+#: includes/admin/meta-boxes/views/html-variation-admin.php:359
 msgid "Same as parent"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:387
+#: includes/admin/meta-boxes/views/html-variation-admin.php:388
 msgid "Enter an optional description for this variation."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:429
+#: includes/admin/meta-boxes/views/html-variation-admin.php:430
 msgid "Add file"
 msgstr ""
 
