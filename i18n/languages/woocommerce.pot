@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-28T03:24:40+00:00\n"
+"POT-Creation-Date: 2022-01-28T03:27:06+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -19912,6 +19912,7 @@ msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:535
 #: includes/wc-template-functions.php:2753
+#: templates/checkout/terms.php:31
 msgid "required"
 msgstr ""
 
