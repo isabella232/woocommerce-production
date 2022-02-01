@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-01T16:55:36+00:00\n"
+"POT-Creation-Date: 2022-02-01T17:44:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -19161,11 +19161,11 @@ msgstr ""
 msgid "Account username"
 msgstr ""
 
-#: includes/class-wc-checkout.php:260
+#: includes/class-wc-checkout.php:261
 msgid "Create account password"
 msgstr ""
 
-#: includes/class-wc-checkout.php:262
+#: includes/class-wc-checkout.php:263
 #: templates/auth/form-login.php:44
 #: templates/global/form-login.php:38
 #: templates/myaccount/form-login.php:43
@@ -19174,79 +19174,79 @@ msgid "Password"
 msgstr ""
 
 #. translators: ISO 3166-1 alpha-2 country code
-#: includes/class-wc-checkout.php:762
+#: includes/class-wc-checkout.php:764
 msgid "'%s' is not a valid country code."
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:768
+#: includes/class-wc-checkout.php:770
 msgctxt "checkout-validation"
 msgid "Shipping %s"
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:772
+#: includes/class-wc-checkout.php:774
 msgctxt "checkout-validation"
 msgid "Billing %s"
 msgstr ""
 
 #. translators: %1$s: field name, %2$s finder.eircode.ie URL
-#: includes/class-wc-checkout.php:784
+#: includes/class-wc-checkout.php:786
 msgid "%1$s is not valid. You can look up the correct Eircode <a target=\"_blank\" href=\"%2$s\">here</a>."
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:788
+#: includes/class-wc-checkout.php:790
 msgid "%s is not a valid postcode / ZIP."
 msgstr ""
 
 #. translators: %s: phone number
 #. translators: %s: Phone number.
-#: includes/class-wc-checkout.php:797
+#: includes/class-wc-checkout.php:799
 #: includes/class-wc-form-handler.php:158
 msgid "%s is not a valid phone number."
 msgstr ""
 
 #. translators: %s: email address
 #. translators: %s: Email address.
-#: includes/class-wc-checkout.php:807
+#: includes/class-wc-checkout.php:809
 #: includes/class-wc-form-handler.php:166
 msgid "%s is not a valid email address."
 msgstr ""
 
 #. translators: 1: state field 2: valid states
-#: includes/class-wc-checkout.php:827
+#: includes/class-wc-checkout.php:829
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
 msgstr ""
 
 #. translators: %s: field name
 #. translators: %s: Field name.
 #. translators: %s: Field name.
-#: includes/class-wc-checkout.php:834
+#: includes/class-wc-checkout.php:836
 #: includes/class-wc-form-handler.php:132
 #: includes/class-wc-form-handler.php:278
 msgid "%s is a required field."
 msgstr ""
 
-#: includes/class-wc-checkout.php:853
+#: includes/class-wc-checkout.php:855
 #: includes/class-wc-form-handler.php:412
 msgid "Please read and accept the terms and conditions to proceed with your order."
 msgstr ""
 
-#: includes/class-wc-checkout.php:860
+#: includes/class-wc-checkout.php:862
 msgid "Please enter an address to continue."
 msgstr ""
 
 #. translators: %s: shipping location (prefix e.g. 'to' + ISO 3166-1 alpha-2 country code)
-#: includes/class-wc-checkout.php:864
+#: includes/class-wc-checkout.php:866
 msgid "Unfortunately <strong>we do not ship %s</strong>. Please enter an alternative shipping address."
 msgstr ""
 
-#: includes/class-wc-checkout.php:871
+#: includes/class-wc-checkout.php:873
 msgid "No shipping method has been selected. Please double check your address, or contact us if you need any help."
 msgstr ""
 
-#: includes/class-wc-checkout.php:881
+#: includes/class-wc-checkout.php:883
 #: includes/class-wc-form-handler.php:422
 #: includes/class-wc-form-handler.php:429
 #: includes/class-wc-form-handler.php:558
@@ -19254,16 +19254,16 @@ msgstr ""
 msgid "Invalid payment method."
 msgstr ""
 
-#: includes/class-wc-checkout.php:1139
+#: includes/class-wc-checkout.php:1141
 msgid "We were unable to process your order, please try again."
 msgstr ""
 
 #. translators: %s: shop cart url
-#: includes/class-wc-checkout.php:1149
+#: includes/class-wc-checkout.php:1151
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
 msgstr ""
 
-#: includes/class-wc-checkout.php:1180
+#: includes/class-wc-checkout.php:1182
 msgid "Unable to create order."
 msgstr ""
 
