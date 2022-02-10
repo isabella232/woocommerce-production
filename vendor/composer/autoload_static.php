@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2
+class ComposerStaticInit30273a366c8ac4a0e13b6de6c2703db8
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -442,7 +442,10 @@ class ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductNew' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductNew.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductOnSale' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductOnSale.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductSearch' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductSearch.php',
+        'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductStockIndicator' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductStockIndicator.php',
+        'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductSummary' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductSummary.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductTag' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductTag.php',
+        'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductTitle' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductTitle.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductTopRated' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductTopRated.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ProductsByAttribute' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ProductsByAttribute.php',
         'Automattic\\WooCommerce\\Blocks\\BlockTypes\\ReviewsByCategory' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/BlockTypes/ReviewsByCategory.php',
@@ -469,7 +472,6 @@ class ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2
         'Automattic\\WooCommerce\\Blocks\\Payments\\Integrations\\CashOnDelivery' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/Integrations/CashOnDelivery.php',
         'Automattic\\WooCommerce\\Blocks\\Payments\\Integrations\\Cheque' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/Integrations/Cheque.php',
         'Automattic\\WooCommerce\\Blocks\\Payments\\Integrations\\PayPal' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/Integrations/PayPal.php',
-        'Automattic\\WooCommerce\\Blocks\\Payments\\Integrations\\Stripe' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/Integrations/Stripe.php',
         'Automattic\\WooCommerce\\Blocks\\Payments\\PaymentContext' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/PaymentContext.php',
         'Automattic\\WooCommerce\\Blocks\\Payments\\PaymentMethodRegistry' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/PaymentMethodRegistry.php',
         'Automattic\\WooCommerce\\Blocks\\Payments\\PaymentMethodTypeInterface' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Payments/PaymentMethodTypeInterface.php',
@@ -548,6 +550,7 @@ class ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\PartialOutOfStockException' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/PartialOutOfStockException.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\ProductQuery' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/ProductQuery.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\ProductQueryFilters' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/ProductQueryFilters.php',
+        'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\QuantityLimits' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/QuantityLimits.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\StockAvailabilityException' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/StockAvailabilityException.php',
         'Automattic\\WooCommerce\\Blocks\\StoreApi\\Utilities\\TooManyInCartException' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/Utilities/TooManyInCartException.php',
         'Automattic\\WooCommerce\\Blocks\\Utils\\ArrayUtils' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Utils/ArrayUtils.php',
@@ -914,10 +917,10 @@ class ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit663be7fbeb8a26d1ff79be9a651e33d2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit30273a366c8ac4a0e13b6de6c2703db8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit30273a366c8ac4a0e13b6de6c2703db8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit30273a366c8ac4a0e13b6de6c2703db8::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit30273a366c8ac4a0e13b6de6c2703db8::$classMap;
 
         }, null, ClassLoader::class);
     }
