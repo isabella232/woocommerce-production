@@ -194,6 +194,7 @@ return array(
     'Automattic\\WooCommerce\\Admin\\Notes\\InsightFirstSale' => $baseDir . '/packages/woocommerce-admin/src/Notes/InsightFirstSale.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\InstallJPAndWCSPlugins' => $baseDir . '/packages/woocommerce-admin/src/Notes/InstallJPAndWCSPlugins.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\LaunchChecklist' => $baseDir . '/packages/woocommerce-admin/src/Notes/LaunchChecklist.php',
+    'Automattic\\WooCommerce\\Admin\\Notes\\MagentoMigration' => $baseDir . '/packages/woocommerce-admin/src/Notes/MagentoMigration.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\ManageOrdersOnTheGo' => $baseDir . '/packages/woocommerce-admin/src/Notes/ManageOrdersOnTheGo.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\ManageStoreActivityFromHomeScreen' => $baseDir . '/packages/woocommerce-admin/src/Notes/ManageStoreActivityFromHomeScreen.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\MarketingJetpack' => $baseDir . '/packages/woocommerce-admin/src/Notes/MarketingJetpack.php',

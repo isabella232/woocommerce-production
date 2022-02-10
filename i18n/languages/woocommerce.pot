@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-10T12:32:26+00:00\n"
+"POT-Creation-Date: 2022-02-10T14:45:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -9005,7 +9005,7 @@ msgstr ""
 #: includes/gateways/cod/class-wc-gateway-cod.php:83
 #: includes/gateways/paypal/includes/settings-paypal.php:25
 #: includes/wc-template-functions.php:1845
-#: packages/woocommerce-admin/src/Features/Onboarding.php:425
+#: packages/woocommerce-admin/src/Features/Onboarding.php:411
 #: templates/single-product/tabs/description.php:22
 msgid "Description"
 msgstr ""
@@ -11345,7 +11345,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:786
 #: includes/admin/class-wc-admin-setup-wizard.php:826
-#: packages/woocommerce-admin/src/API/Plugins.php:489
+#: packages/woocommerce-admin/src/API/Plugins.php:494
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Jetpack"
@@ -12388,7 +12388,7 @@ msgid "WooCommerce Extensions"
 msgstr ""
 
 #: includes/admin/helper/views/html-main.php:18
-#: packages/woocommerce-admin/src/Features/Onboarding.php:446
+#: packages/woocommerce-admin/src/Features/Onboarding.php:432
 msgid "Subscriptions"
 msgstr ""
 
@@ -12936,7 +12936,7 @@ msgstr ""
 #: includes/wc-account-functions.php:101
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:144
 #: packages/woocommerce-admin/src/Features/Analytics.php:278
-#: packages/woocommerce-admin/src/Features/Onboarding.php:443
+#: packages/woocommerce-admin/src/Features/Onboarding.php:429
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:35
 #: templates/emails/email-downloads.php:22
 #: templates/emails/plain/email-downloads.php:20
@@ -13982,7 +13982,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:611
 #: includes/admin/meta-boxes/views/html-order-shipping.php:44
 #: includes/admin/meta-boxes/views/html-order-shipping.php:46
-#: packages/woocommerce-admin/src/Features/Onboarding.php:423
+#: packages/woocommerce-admin/src/Features/Onboarding.php:409
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 msgid "Other"
 msgstr ""
@@ -14780,6 +14780,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/Notes/EUVATNumber.php:53
 #: packages/woocommerce-admin/src/Notes/FirstDownlaodableProduct.php:62
 #: packages/woocommerce-admin/src/Notes/LaunchChecklist.php:54
+#: packages/woocommerce-admin/src/Notes/MagentoMigration.php:90
 #: packages/woocommerce-admin/src/Notes/ManageOrdersOnTheGo.php:55
 #: packages/woocommerce-admin/src/Notes/ManageStoreActivityFromHomeScreen.php:58
 #: packages/woocommerce-admin/src/Notes/MigrateFromShopify.php:70
@@ -28609,8 +28610,8 @@ msgstr ""
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:117
 #: includes/shipping/legacy-local-pickup/class-wc-shipping-legacy-local-pickup.php:96
-#: packages/woocommerce-admin/src/Features/Onboarding.php:812
-#: packages/woocommerce-admin/src/Features/Onboarding.php:821
+#: packages/woocommerce-admin/src/Features/Onboarding.php:798
+#: packages/woocommerce-admin/src/Features/Onboarding.php:807
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Enable"
 msgstr ""
@@ -30988,6 +30989,12 @@ msgstr ""
 msgid "Table cell value."
 msgstr ""
 
+#: packages/woocommerce-admin/src/API/Marketing.php:90
+#: packages/woocommerce-admin/src/API/MarketingOverview.php:113
+#: packages/woocommerce-admin/src/API/Plugins.php:193
+msgid "Sorry, you cannot manage plugins."
+msgstr ""
+
 #: packages/woocommerce-admin/src/API/MarketingOverview.php:86
 msgid "Invalid plugin."
 msgstr ""
@@ -30996,18 +31003,7 @@ msgstr ""
 msgid "The plugin could not be activated."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/MarketingOverview.php:113
-#: packages/woocommerce-admin/src/API/Plugins.php:193
-msgid "Sorry, you cannot manage plugins."
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/NavigationFavorites.php:173
-#: packages/woocommerce-admin/src/API/NavigationFavorites.php:225
-#: packages/woocommerce-admin/src/API/NavigationFavorites.php:266
-msgid "You must be authenticated to use this endpoint"
-msgstr ""
-
-#: packages/woocommerce-admin/src/API/NavigationFavorites.php:198
+#: packages/woocommerce-admin/src/API/NavigationFavorites.php:120
 msgid "Invalid user_id provided"
 msgstr ""
 
@@ -31344,23 +31340,23 @@ msgstr ""
 msgid "Theme status."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Options.php:73
+#: packages/woocommerce-admin/src/API/Options.php:75
 msgid "You must supply an array of options."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Options.php:78
+#: packages/woocommerce-admin/src/API/Options.php:80
 msgid "Sorry, you cannot view these options."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Options.php:112
+#: packages/woocommerce-admin/src/API/Options.php:116
 msgid "You must supply an array of options and values."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Options.php:117
+#: packages/woocommerce-admin/src/API/Options.php:121
 msgid "Sorry, you cannot manage these options."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Options.php:201
+#: packages/woocommerce-admin/src/API/Options.php:251
 msgid "Array of options with associated values."
 msgstr ""
 
@@ -31369,91 +31365,91 @@ msgid "Limit result set to orders matching part of an order number."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Plugins.php:244
-#: packages/woocommerce-admin/src/API/Plugins.php:388
+#: packages/woocommerce-admin/src/API/Plugins.php:393
 msgid "Plugins must be a non-empty array."
 msgstr ""
 
 #. translators: %s: plugin slug (example: woocommerce-services)
 #. translators: %s: plugin slug (example: woocommerce-services)
-#: packages/woocommerce-admin/src/API/Plugins.php:280
-#: packages/woocommerce-admin/src/API/Plugins.php:292
+#: packages/woocommerce-admin/src/API/Plugins.php:283
+#: packages/woocommerce-admin/src/API/Plugins.php:295
 msgid "The requested plugin `%s` could not be installed. Plugin API call failed."
 msgstr ""
 
 #. translators: %s: plugin slug (example: woocommerce-services)
-#: packages/woocommerce-admin/src/API/Plugins.php:307
+#: packages/woocommerce-admin/src/API/Plugins.php:311
 msgid "The requested plugin `%s` could not be installed."
 msgstr ""
 
 #. translators: %s: plugin slug (example: woocommerce-services)
-#: packages/woocommerce-admin/src/API/Plugins.php:321
+#: packages/woocommerce-admin/src/API/Plugins.php:325
 msgid "The requested plugin `%s` could not be installed. Upgrader install failed."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:339
+#: packages/woocommerce-admin/src/API/Plugins.php:344
 msgid "Plugins were successfully installed."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:340
+#: packages/woocommerce-admin/src/API/Plugins.php:345
 msgid "There was a problem installing some of the requested plugins."
 msgstr ""
 
 #. translators: %s: plugin slug (example: woocommerce-services)
-#: packages/woocommerce-admin/src/API/Plugins.php:411
+#: packages/woocommerce-admin/src/API/Plugins.php:416
 msgid "The requested plugin `%s`. is not yet installed."
 msgstr ""
 
 #. translators: %s: plugin slug (example: woocommerce-services)
-#: packages/woocommerce-admin/src/API/Plugins.php:423
+#: packages/woocommerce-admin/src/API/Plugins.php:428
 msgid "The requested plugin `%s` could not be activated."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:439
+#: packages/woocommerce-admin/src/API/Plugins.php:444
 msgid "Plugins were successfully activated."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:440
+#: packages/woocommerce-admin/src/API/Plugins.php:445
 msgid "There was a problem activating some of the requested plugins."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:478
+#: packages/woocommerce-admin/src/API/Plugins.php:483
 msgid "Jetpack is not installed or active."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:502
-#: packages/woocommerce-admin/src/API/Plugins.php:565
+#: packages/woocommerce-admin/src/API/Plugins.php:507
+#: packages/woocommerce-admin/src/API/Plugins.php:570
 msgid "There was an error loading the WooCommerce.com Helper API."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:519
 #: packages/woocommerce-admin/src/API/Plugins.php:524
-#: packages/woocommerce-admin/src/API/Plugins.php:581
+#: packages/woocommerce-admin/src/API/Plugins.php:529
 #: packages/woocommerce-admin/src/API/Plugins.php:586
-#: packages/woocommerce-admin/src/API/Plugins.php:602
+#: packages/woocommerce-admin/src/API/Plugins.php:591
+#: packages/woocommerce-admin/src/API/Plugins.php:607
 msgid "There was an error connecting to WooCommerce.com. Please try again."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:623
+#: packages/woocommerce-admin/src/API/Plugins.php:628
 msgid "There was an error connecting to Square."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:675
+#: packages/woocommerce-admin/src/API/Plugins.php:680
 msgid "There was an error communicating with the WooCommerce Payments plugin."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:703
+#: packages/woocommerce-admin/src/API/Plugins.php:708
 msgid "Plugin slug."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:709
+#: packages/woocommerce-admin/src/API/Plugins.php:714
 msgid "Plugin name."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:715
+#: packages/woocommerce-admin/src/API/Plugins.php:720
 msgid "Plugin status."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Plugins.php:735
+#: packages/woocommerce-admin/src/API/Plugins.php:740
 msgid "Action that should be completed to connect Jetpack."
 msgstr ""
 
@@ -31545,7 +31541,7 @@ msgstr ""
 msgid "Net Revenue"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php:271
+#: packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php:270
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php:335
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php:388
 #: packages/woocommerce-admin/src/API/Reports/Products/Stats/DataStore.php:186
@@ -32183,8 +32179,8 @@ msgstr ""
 msgid "Limit response to objects that don't have the specified customer ids."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/DataStore.php:118
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/DataStore.php:134
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/DataStore.php:120
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/DataStore.php:136
 msgid "Sorry, fetching downloads data failed."
 msgstr ""
 
@@ -32750,12 +32746,12 @@ msgid "A zip file of the theme to be uploaded."
 msgstr ""
 
 #. translators: 1: URL of WooCommerce plugin, 2: The minimum WooCommerce version number
-#: packages/woocommerce-admin/src/FeaturePlugin.php:225
+#: packages/woocommerce-admin/src/FeaturePlugin.php:227
 msgid "The WooCommerce Admin feature plugin requires <a href=\"%1$s\">WooCommerce</a> %2$s or greater to be installed and active."
 msgstr ""
 
 #. translators: 1: URL of WordPress.org, 2: The minimum WordPress version number
-#: packages/woocommerce-admin/src/FeaturePlugin.php:234
+#: packages/woocommerce-admin/src/FeaturePlugin.php:236
 msgid "The WooCommerce Admin feature plugin requires <a href=\"%1$s\">WordPress</a> %2$s or greater to be installed and active."
 msgstr ""
 
@@ -32862,17 +32858,11 @@ msgstr ""
 msgid "Import / Export"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:57
-#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:90
-#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:122
-msgid "Sorry, invalid request"
-msgstr ""
-
-#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:66
+#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:58
 msgid "Favorite already exists"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:99
+#: packages/woocommerce-admin/src/Features/Navigation/Favorites.php:82
 msgid "Favorite item not found"
 msgstr ""
 
@@ -32904,94 +32894,94 @@ msgstr ""
 msgid "The item ID %1$s attempted to register using an invalid option. The arguments `menuId` and `parent` are not allowed for add_setting_item()"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:388
+#: packages/woocommerce-admin/src/Features/Onboarding.php:374
 msgid "Fashion, apparel, and accessories"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:393
+#: packages/woocommerce-admin/src/Features/Onboarding.php:379
 msgid "Health and beauty"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:398
+#: packages/woocommerce-admin/src/Features/Onboarding.php:384
 msgid "Electronics and computers"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:403
+#: packages/woocommerce-admin/src/Features/Onboarding.php:389
 msgid "Food and drink"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:408
+#: packages/woocommerce-admin/src/Features/Onboarding.php:394
 msgid "Home, furniture, and garden"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:413
+#: packages/woocommerce-admin/src/Features/Onboarding.php:399
 msgid "CBD and other hemp-derived products"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:418
+#: packages/woocommerce-admin/src/Features/Onboarding.php:404
 msgid "Education and learning"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:439
+#: packages/woocommerce-admin/src/Features/Onboarding.php:425
 msgid "Physical products"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:449
+#: packages/woocommerce-admin/src/Features/Onboarding.php:435
 msgid "Memberships"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:453
+#: packages/woocommerce-admin/src/Features/Onboarding.php:439
 msgid "Bookings"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:457
+#: packages/woocommerce-admin/src/Features/Onboarding.php:443
 msgid "Bundles"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:461
+#: packages/woocommerce-admin/src/Features/Onboarding.php:447
 msgid "Customizable products"
 msgstr ""
 
 #. translators: site currency symbol (used to show that the product costs money)
-#: packages/woocommerce-admin/src/Features/Onboarding.php:634
+#: packages/woocommerce-admin/src/Features/Onboarding.php:620
 msgid " — %s"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:795
-#: packages/woocommerce-admin/src/Features/Onboarding.php:807
+#: packages/woocommerce-admin/src/Features/Onboarding.php:781
+#: packages/woocommerce-admin/src/Features/Onboarding.php:793
 msgid "Setup wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:803
+#: packages/woocommerce-admin/src/Features/Onboarding.php:789
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:805
+#: packages/woocommerce-admin/src/Features/Onboarding.php:791
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:806
+#: packages/woocommerce-admin/src/Features/Onboarding.php:792
 msgid "If you need to access the setup wizard again, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:809
+#: packages/woocommerce-admin/src/Features/Onboarding.php:795
 msgid "Task List"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:810
+#: packages/woocommerce-admin/src/Features/Onboarding.php:796
 msgid "If you need to enable or disable the task lists, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:813
-#: packages/woocommerce-admin/src/Features/Onboarding.php:822
+#: packages/woocommerce-admin/src/Features/Onboarding.php:799
+#: packages/woocommerce-admin/src/Features/Onboarding.php:808
 msgid "Disable"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:818
+#: packages/woocommerce-admin/src/Features/Onboarding.php:804
 msgid "Extended task List"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:819
+#: packages/woocommerce-admin/src/Features/Onboarding.php:805
 msgid "If you need to enable or disable the extended task lists, please click on the button below."
 msgstr ""
 
@@ -33015,11 +33005,11 @@ msgstr ""
 msgid "Things to do next"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php:146
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php:150
 msgid "Task list ID already exists"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php:164
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php:168
 msgid "Task list ID does not exist"
 msgstr ""
 
@@ -33587,6 +33577,14 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/Notes/LaunchChecklist.php:48
 msgid "Ready to launch your store?"
+msgstr ""
+
+#: packages/woocommerce-admin/src/Notes/MagentoMigration.php:82
+msgid "How to Migrate from Magento to WooCommerce"
+msgstr ""
+
+#: packages/woocommerce-admin/src/Notes/MagentoMigration.php:83
+msgid "Changing platforms might seem like a big hurdle to overcome, but it is easier than you might think to move your products, customers, and orders to WooCommerce. This article will help you with going through this process."
 msgstr ""
 
 #: packages/woocommerce-admin/src/Notes/ManageOrdersOnTheGo.php:47
@@ -37761,6 +37759,11 @@ msgstr[1] ""
 
 #: packages/woocommerce-admin/dist/chunks/analytics-report-revenue.js:1
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
+msgid "Full refunds are not deducted from tax or net sales totals"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/chunks/analytics-report-revenue.js:1
+#: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
 msgctxt "A sentence describing filters for Revenue. See screen shot for context: https://cloudup.com/cSsUY9VeCVJ"
 msgid "Revenue Matches {{select /}} Filters"
 msgstr ""
@@ -38285,15 +38288,15 @@ msgid "There was a problem saving your store location"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
+msgid "Shipping cost"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Your shipping rates have been updated"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Shipping rates can not be negative numbers."
-msgstr ""
-
-#: packages/woocommerce-admin/dist/chunks/homescreen.js:1
-msgid "Shipping cost"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
@@ -38435,6 +38438,10 @@ msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "All sample products have been imported"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/chunks/homescreen.js:1
+msgid "There was an error importing the sample products"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
@@ -39267,10 +39274,6 @@ msgid "There was a problem saving your store details"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
-msgid "Please add an email address"
-msgstr ""
-
-#: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 msgid ""
 "Manual setup is only recommended for\n"
 " experienced WooCommerce users or developers."
@@ -39294,6 +39297,14 @@ msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 msgid "Learn more about store details"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
+msgid "Email address (Optional)"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
+msgid "Please enter your email address to subscribe"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
@@ -40433,6 +40444,10 @@ msgstr ""
 
 #: packages/woocommerce-admin/dist/date/index.js:1
 msgid "Week of %B %-d, %Y"
+msgstr ""
+
+#: packages/woocommerce-admin/dist/date/index.js:1
+msgid "Week of"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/date/index.js:1
