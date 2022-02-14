@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-11T16:45:17+00:00\n"
+"POT-Creation-Date: 2022-02-14T14:05:01+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -9660,6 +9660,7 @@ msgstr ""
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:78
 #: includes/wc-account-functions.php:360
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:92
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:217
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/experimental/index.js:2
 msgid "Delete"
@@ -12026,6 +12027,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:184
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:193
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:207
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:214
 #: templates/emails/email-order-details.php:80
 #: templates/emails/plain/email-order-details.php:46
 #: templates/order/order-details.php:93
@@ -13872,6 +13874,7 @@ msgid "Move to Trash"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:68
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:180
 msgid "Create"
 msgstr ""
 
@@ -19165,7 +19168,7 @@ msgstr ""
 #: includes/class-wc-emails.php:63
 #: includes/class-wc-payment-gateways.php:54
 #: includes/class-wc-shipping.php:79
-#: includes/class-woocommerce.php:142
+#: includes/class-woocommerce.php:143
 msgid "Cloning is forbidden."
 msgstr ""
 
@@ -19173,7 +19176,7 @@ msgstr ""
 #: includes/class-wc-emails.php:72
 #: includes/class-wc-payment-gateways.php:63
 #: includes/class-wc-shipping.php:88
-#: includes/class-woocommerce.php:151
+#: includes/class-woocommerce.php:152
 #: includes/rest-api/Utilities/SingletonTrait.php:49
 msgid "Unserializing instances of this class is forbidden."
 msgstr ""
@@ -21416,16 +21419,16 @@ msgid "Error: Delivery URL returned response code: %s"
 msgstr ""
 
 #. translators: 1: error message 2: file name and path 3: line number
-#: includes/class-woocommerce.php:243
+#: includes/class-woocommerce.php:245
 msgid "%1$s in %2$s on line %3$s"
 msgstr ""
 
-#: includes/class-woocommerce.php:938
+#: includes/class-woocommerce.php:940
 msgid "You have installed a development version of WooCommerce which requires files to be built and minified. From the plugin directory, run <code>pnpm install</code> and then <code>pnpm nx build woocommerce-legacy-assets</code> to build and minify assets."
 msgstr ""
 
 #. translators: 1: URL of WordPress.org Repository 2: URL of the GitHub Repository release page
-#: includes/class-woocommerce.php:941
+#: includes/class-woocommerce.php:943
 msgid "Or you can download a pre-built version of the plugin from the <a href=\"%1$s\">WordPress.org repository</a> or by visiting <a href=\"%2$s\">the releases page in the GitHub repository</a>."
 msgstr ""
 
@@ -27293,6 +27296,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:148
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:199
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:175
 #: src/Internal/ProductAttributesLookup/DataRegenerator.php:342
 msgid "Regenerate"
 msgstr ""
@@ -35370,6 +35374,70 @@ msgstr ""
 msgid "Not enough units of %s are available in stock to fulfil this order."
 msgstr ""
 
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:172
+msgid "Regenerate the custom orders table"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:173
+msgid "This tool will regenerate the custom orders table data from existing orders data from the posts table. This process may take a while."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:174
+msgid "Custom orders table is being regenerated"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:177
+msgid "Create and fill custom orders table"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:178
+msgid "This tool will create the custom orders table and fill it with existing orders data from the posts table. This process may take a while."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:179
+msgid "Custom orders table is being filled"
+msgstr ""
+
+#. translators: %d: How many orders have been processed so far.
+#. translators: %d: How many products have been processed so far.
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:196
+#: src/Internal/ProductAttributesLookup/DataRegenerator.php:337
+msgid "Filling in progress (%d)"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:211
+msgid "Delete the custom orders table"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:215
+msgid "This will delete the custom orders table. You can create it again with the \"Create and fill custom orders table\" tool."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:221
+msgid "Custom orders table has been deleted."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:278
+msgid "Custom data stores"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:297
+msgid "Custom orders table"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:304
+msgid "These settings are not available while the orders table regeneration is in progress."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:311
+#: src/Internal/ProductAttributesLookup/LookupDataStore.php:96
+msgid "Enable table usage"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:312
+msgid "Use the custom orders table as the main orders data store."
+msgstr ""
+
 #: src/Internal/ProductAttributesLookup/DataRegenerator.php:317
 msgid "Regenerate the product attributes lookup table"
 msgstr ""
@@ -35386,11 +35454,6 @@ msgstr ""
 msgid "Select a product to regenerate the data for, or leave empty for a full table regeneration:"
 msgstr ""
 
-#. translators: %d: How many products have been processed so far.
-#: src/Internal/ProductAttributesLookup/DataRegenerator.php:337
-msgid "Filling in progress (%d)"
-msgstr ""
-
 #: src/Internal/ProductAttributesLookup/LookupDataStore.php:74
 msgid "Product attributes lookup table"
 msgstr ""
@@ -35405,10 +35468,6 @@ msgstr ""
 
 #: src/Internal/ProductAttributesLookup/LookupDataStore.php:92
 msgid "This means that the table is probably in an inconsistent state. It's recommended to run a new regeneration process (Status - Tools - Regenerate the product attributes lookup table) before enabling the table usage."
-msgstr ""
-
-#: src/Internal/ProductAttributesLookup/LookupDataStore.php:96
-msgid "Enable table usage"
 msgstr ""
 
 #: src/Internal/ProductAttributesLookup/LookupDataStore.php:97

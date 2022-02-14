@@ -2810,6 +2810,18 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Packages.php'
 	),
+	'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\DataSynchronizer' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DataStores/Orders/DataSynchronizer.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\CustomOrdersTableController' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DataStores/Orders/CustomOrdersTableController.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\OrdersTableDataStore' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DataStores/Orders/OrdersTableDataStore.php'
+	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\AssignDefaultCategoryServiceProvider' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/AssignDefaultCategoryServiceProvider.php'
@@ -2829,6 +2841,10 @@ return array(
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProxiesServiceProvider' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\OrdersDataStoreServiceProvider' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/OrdersDataStoreServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\AbstractServiceProvider' => array(
 		'version' => '9999999-dev',

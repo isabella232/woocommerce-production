@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097
+class ComposerStaticInit1efd8e6a24dc0b3f74d8fe4a14597e79
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -561,12 +561,16 @@ class ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097
         'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStockException' => __DIR__ . '/../..' . '/src/Checkout/Helpers/ReserveStockException.php',
         'Automattic\\WooCommerce\\Container' => __DIR__ . '/../..' . '/src/Container.php',
         'Automattic\\WooCommerce\\Internal\\AssignDefaultCategory' => __DIR__ . '/../..' . '/src/Internal/AssignDefaultCategory.php',
+        'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\CustomOrdersTableController' => __DIR__ . '/../..' . '/src/Internal/DataStores/Orders/CustomOrdersTableController.php',
+        'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\DataSynchronizer' => __DIR__ . '/../..' . '/src/Internal/DataStores/Orders/DataSynchronizer.php',
+        'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\OrdersTableDataStore' => __DIR__ . '/../..' . '/src/Internal/DataStores/Orders/OrdersTableDataStore.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\AbstractServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/AbstractServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ContainerException' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ContainerException.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\Definition' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/Definition.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ExtendedContainer' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ExtendedContainer.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\AssignDefaultCategoryServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/AssignDefaultCategoryServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\DownloadPermissionsAdjusterServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/DownloadPermissionsAdjusterServiceProvider.php',
+        'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\OrdersDataStoreServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/OrdersDataStoreServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProductAttributesLookupServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/ProductAttributesLookupServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProxiesServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\RestockRefundedItemsAdjusterServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/RestockRefundedItemsAdjusterServiceProvider.php',
@@ -917,10 +921,10 @@ class ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit4f6f7e7f3edddcd8cb951d7f7d53f097::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1efd8e6a24dc0b3f74d8fe4a14597e79::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1efd8e6a24dc0b3f74d8fe4a14597e79::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1efd8e6a24dc0b3f74d8fe4a14597e79::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit1efd8e6a24dc0b3f74d8fe4a14597e79::$classMap;
 
         }, null, ClassLoader::class);
     }
