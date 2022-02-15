@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654
+class ComposerStaticInit2e261f5a0be9248d69b4f1a83f0247ca
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -574,12 +574,14 @@ class ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProductAttributesLookupServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/ProductAttributesLookupServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProxiesServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\RestockRefundedItemsAdjusterServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/RestockRefundedItemsAdjusterServiceProvider.php',
+        'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\UtilsClassesServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/UtilsClassesServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DownloadPermissionsAdjuster' => __DIR__ . '/../..' . '/src/Internal/DownloadPermissionsAdjuster.php',
         'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\DataRegenerator' => __DIR__ . '/../..' . '/src/Internal/ProductAttributesLookup/DataRegenerator.php',
         'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\Filterer' => __DIR__ . '/../..' . '/src/Internal/ProductAttributesLookup/Filterer.php',
         'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\LookupDataStore' => __DIR__ . '/../..' . '/src/Internal/ProductAttributesLookup/LookupDataStore.php',
         'Automattic\\WooCommerce\\Internal\\RestApiUtil' => __DIR__ . '/../..' . '/src/Internal/RestApiUtil.php',
         'Automattic\\WooCommerce\\Internal\\RestockRefundedItemsAdjuster' => __DIR__ . '/../..' . '/src/Internal/RestockRefundedItemsAdjuster.php',
+        'Automattic\\WooCommerce\\Internal\\Utilities\\DatabaseUtil' => __DIR__ . '/../..' . '/src/Utilities/DatabaseUtil.php',
         'Automattic\\WooCommerce\\Internal\\WCCom\\ConnectionHelper' => __DIR__ . '/../..' . '/src/Internal/WCCom/ConnectionHelper.php',
         'Automattic\\WooCommerce\\Packages' => __DIR__ . '/../..' . '/src/Packages.php',
         'Automattic\\WooCommerce\\Proxies\\ActionsProxy' => __DIR__ . '/../..' . '/src/Proxies/ActionsProxy.php',
@@ -921,10 +923,10 @@ class ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit586477e0b0e7c3dd4cfb51920883f654::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2e261f5a0be9248d69b4f1a83f0247ca::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2e261f5a0be9248d69b4f1a83f0247ca::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit2e261f5a0be9248d69b4f1a83f0247ca::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit2e261f5a0be9248d69b4f1a83f0247ca::$classMap;
 
         }, null, ClassLoader::class);
     }

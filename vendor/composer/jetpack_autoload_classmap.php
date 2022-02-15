@@ -2846,6 +2846,10 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/OrdersDataStoreServiceProvider.php'
 	),
+	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\UtilsClassesServiceProvider' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/UtilsClassesServiceProvider.php'
+	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\AbstractServiceProvider' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/AbstractServiceProvider.php'
@@ -2897,6 +2901,10 @@ return array(
 	'Automattic\\WooCommerce\\Utilities\\StringUtil' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Utilities/StringUtil.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\Utilities\\DatabaseUtil' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Utilities/DatabaseUtil.php'
 	),
 	'Automattic\\WooCommerce\\Utilities\\NumberUtil' => array(
 		'version' => '9999999-dev',
