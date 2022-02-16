@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-16T20:51:42+00:00\n"
+"POT-Creation-Date: 2022-02-16T23:38:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8735,7 +8735,7 @@ msgid "Discount:"
 msgstr ""
 
 #: includes/abstracts/abstract-wc-order.php:2084
-#: includes/admin/meta-boxes/views/html-order-items.php:176
+#: includes/admin/meta-boxes/views/html-order-items.php:187
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
@@ -9836,7 +9836,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:469
 #: includes/admin/meta-boxes/views/html-order-item.php:125
 #: includes/admin/meta-boxes/views/html-order-item.php:173
-#: includes/admin/meta-boxes/views/html-order-items.php:33
+#: includes/admin/meta-boxes/views/html-order-items.php:44
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:218
 #: includes/wc-account-functions.php:199
 #: templates/cart/cart-totals.php:98
@@ -10735,8 +10735,8 @@ msgid "OK"
 msgstr ""
 
 #: includes/admin/class-wc-admin-post-types.php:706
-#: includes/admin/meta-boxes/views/html-order-items.php:308
-#: includes/admin/meta-boxes/views/html-order-items.php:374
+#: includes/admin/meta-boxes/views/html-order-items.php:319
+#: includes/admin/meta-boxes/views/html-order-items.php:385
 #: includes/admin/meta-boxes/views/html-product-data-general.php:70
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:123
 #: includes/admin/plugin-updates/views/html-notice-untested-extensions-modal.php:48
@@ -11277,7 +11277,7 @@ msgstr ""
 #. translators: 1: currency name 2: currency code
 #. translators: %1$s: tax item name %2$s: tax class name
 #: includes/admin/class-wc-admin-setup-wizard.php:554
-#: includes/admin/meta-boxes/views/html-order-items.php:41
+#: includes/admin/meta-boxes/views/html-order-items.php:52
 #: includes/admin/views/html-bulk-edit-product.php:134
 msgid "%1$s (%2$s)"
 msgstr ""
@@ -11356,7 +11356,7 @@ msgid "Set a fixed price to cover shipping costs."
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:866
-#: includes/admin/meta-boxes/views/html-order-items.php:31
+#: includes/admin/meta-boxes/views/html-order-items.php:42
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:31
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:63
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:97
@@ -12603,7 +12603,7 @@ msgstr ""
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:523
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:694
-#: includes/admin/meta-boxes/views/html-order-items.php:441
+#: includes/admin/meta-boxes/views/html-order-items.php:452
 #: includes/admin/meta-boxes/views/html-product-data-general.php:176
 #: includes/admin/meta-boxes/views/html-variation-admin.php:358
 #: includes/admin/settings/class-wc-settings-tax.php:235
@@ -13070,7 +13070,7 @@ msgstr ""
 #. translators: %s: Quantity.
 #: includes/admin/importers/mappings/generic.php:25
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:467
-#: includes/admin/meta-boxes/views/html-order-items.php:397
+#: includes/admin/meta-boxes/views/html-order-items.php:408
 #: templates/cart/cart.php:32
 #: templates/cart/cart.php:103
 #: templates/emails/email-order-details.php:43
@@ -13127,7 +13127,7 @@ msgstr ""
 
 #: includes/admin/importers/views/html-csv-import-done.php:69
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:466
-#: includes/admin/meta-boxes/views/html-order-items.php:396
+#: includes/admin/meta-boxes/views/html-order-items.php:407
 #: includes/admin/reports/class-wc-report-downloads.php:84
 #: includes/admin/reports/class-wc-report-downloads.php:219
 #: includes/admin/reports/class-wc-report-stock.php:173
@@ -13459,8 +13459,8 @@ msgid "Edit this order"
 msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:468
-#: includes/admin/meta-boxes/views/html-order-items.php:38
-#: includes/admin/meta-boxes/views/html-order-items.php:39
+#: includes/admin/meta-boxes/views/html-order-items.php:49
+#: includes/admin/meta-boxes/views/html-order-items.php:50
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:190
 #: includes/admin/settings/class-wc-settings-tax.php:27
 #: includes/class-wc-countries.php:438
@@ -13768,7 +13768,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:208
-#: includes/admin/meta-boxes/views/html-order-items.php:402
+#: includes/admin/meta-boxes/views/html-order-items.php:413
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:15
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:33
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:49
@@ -14043,8 +14043,8 @@ msgid "Note to customer"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:44
-#: includes/admin/meta-boxes/views/html-order-items.php:415
-#: includes/admin/meta-boxes/views/html-order-items.php:471
+#: includes/admin/meta-boxes/views/html-order-items.php:426
+#: includes/admin/meta-boxes/views/html-order-items.php:482
 #: includes/admin/meta-boxes/views/html-product-data-attributes.php:28
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
 #: templates/myaccount/my-address.php:63
@@ -14233,183 +14233,183 @@ msgid "Delete item"
 msgstr ""
 
 #. translators: %s: Item name.
-#: includes/admin/meta-boxes/views/html-order-items.php:29
+#: includes/admin/meta-boxes/views/html-order-items.php:40
 #: includes/class-wc-form-handler.php:623
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-request.php:495
 msgid "Item"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:32
+#: includes/admin/meta-boxes/views/html-order-items.php:43
 #: templates/checkout/form-pay.php:28
 msgid "Qty"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:107
+#: includes/admin/meta-boxes/views/html-order-items.php:118
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:541
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
 msgid "Coupon(s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:147
+#: includes/admin/meta-boxes/views/html-order-items.php:158
 msgid "Items Subtotal:"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:155
+#: includes/admin/meta-boxes/views/html-order-items.php:166
 msgid "Coupon(s):"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:164
+#: includes/admin/meta-boxes/views/html-order-items.php:175
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
 msgid "Fees:"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:204
+#: includes/admin/meta-boxes/views/html-order-items.php:215
 #: includes/class-wc-privacy-exporters.php:253
 msgid "Order Total"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:219
+#: includes/admin/meta-boxes/views/html-order-items.php:230
 msgid "Paid"
 msgstr ""
 
 #. translators: 1: payment date. 2: payment method
-#: includes/admin/meta-boxes/views/html-order-items.php:231
+#: includes/admin/meta-boxes/views/html-order-items.php:242
 msgid "%1$s via %2$s"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:249
+#: includes/admin/meta-boxes/views/html-order-items.php:260
 msgid "Refunded"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:257
+#: includes/admin/meta-boxes/views/html-order-items.php:268
 msgid "Net Payment"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:278
+#: includes/admin/meta-boxes/views/html-order-items.php:289
 msgid "Add item(s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:280
+#: includes/admin/meta-boxes/views/html-order-items.php:291
 #: templates/cart/cart.php:143
 #: templates/checkout/form-coupon.php:38
 msgid "Apply coupon"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:283
+#: includes/admin/meta-boxes/views/html-order-items.php:294
 msgid "To edit this order change the status back to \"Pending payment\""
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:283
+#: includes/admin/meta-boxes/views/html-order-items.php:294
 msgid "This order is no longer editable."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:286
+#: includes/admin/meta-boxes/views/html-order-items.php:297
 #: includes/class-wc-order.php:2075
 msgid "Refund"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:293
+#: includes/admin/meta-boxes/views/html-order-items.php:304
 msgid "Recalculate"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:298
+#: includes/admin/meta-boxes/views/html-order-items.php:309
 msgid "Add product(s)"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:299
+#: includes/admin/meta-boxes/views/html-order-items.php:310
 msgid "Add fee"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:300
+#: includes/admin/meta-boxes/views/html-order-items.php:311
 msgid "Add shipping"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:302
-#: includes/admin/meta-boxes/views/html-order-items.php:429
+#: includes/admin/meta-boxes/views/html-order-items.php:313
+#: includes/admin/meta-boxes/views/html-order-items.php:440
 msgid "Add tax"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:309
+#: includes/admin/meta-boxes/views/html-order-items.php:320
 #: templates/myaccount/form-reset-password.php:45
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/wp-admin-scripts/beta-features-tracking-modal.js:1
 msgid "Save"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:316
+#: includes/admin/meta-boxes/views/html-order-items.php:327
 msgid "Restock refunded items"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:321
+#: includes/admin/meta-boxes/views/html-order-items.php:332
 msgid "Amount already refunded"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:325
+#: includes/admin/meta-boxes/views/html-order-items.php:336
 msgid "Total available to refund"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:331
+#: includes/admin/meta-boxes/views/html-order-items.php:342
 msgid "Refund the line items above. This will show the total amount to be refunded"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:332
+#: includes/admin/meta-boxes/views/html-order-items.php:343
 #: includes/admin/reports/class-wc-report-sales-by-date.php:781
 msgid "Refund amount"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:351
+#: includes/admin/meta-boxes/views/html-order-items.php:362
 msgid "Note: the refund reason will be visible by the customer."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:352
+#: includes/admin/meta-boxes/views/html-order-items.php:363
 msgid "Reason for refund (optional):"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:365
+#: includes/admin/meta-boxes/views/html-order-items.php:376
 msgid "Payment gateway"
 msgstr ""
 
 #. translators: refund amount, gateway name
-#: includes/admin/meta-boxes/views/html-order-items.php:369
+#: includes/admin/meta-boxes/views/html-order-items.php:380
 msgid "Refund %1$s via %2$s"
 msgstr ""
 
 #. translators: refund amount
-#: includes/admin/meta-boxes/views/html-order-items.php:373
+#: includes/admin/meta-boxes/views/html-order-items.php:384
 msgid "You will need to manually issue a refund through your payment gateway after using this."
 msgstr ""
 
 #. translators: refund amount
-#: includes/admin/meta-boxes/views/html-order-items.php:373
+#: includes/admin/meta-boxes/views/html-order-items.php:384
 msgid "Refund %s manually"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:386
+#: includes/admin/meta-boxes/views/html-order-items.php:397
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 #: packages/woocommerce-admin/dist/chunks/two-column-tasks.js:1
 msgid "Add products"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:440
+#: includes/admin/meta-boxes/views/html-order-items.php:451
 msgid "Rate name"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:442
+#: includes/admin/meta-boxes/views/html-order-items.php:453
 msgid "Rate code"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:443
+#: includes/admin/meta-boxes/views/html-order-items.php:454
 #: includes/admin/settings/class-wc-settings-tax.php:230
 msgid "Rate %"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:463
+#: includes/admin/meta-boxes/views/html-order-items.php:474
 msgid "Or, enter tax rate ID:"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-items.php:464
+#: includes/admin/meta-boxes/views/html-order-items.php:475
 #: includes/customizer/class-wc-shop-customizer.php:711
 #: includes/gateways/paypal/includes/settings-paypal.php:122
 #: includes/gateways/paypal/includes/settings-paypal.php:136
