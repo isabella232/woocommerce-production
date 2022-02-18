@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-17T22:02:41+00:00\n"
+"POT-Creation-Date: 2022-02-18T11:24:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: includes/class-wc-order.php:1719
 #: includes/class-wc-privacy.php:52
 #: includes/customizer/class-wc-shop-customizer.php:38
-#: includes/wc-order-functions.php:975
+#: includes/wc-order-functions.php:990
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:62
 #: packages/woocommerce-admin/src/Features/Homescreen.php:84
 #: packages/woocommerce-admin/src/Loader.php:1080
@@ -24720,7 +24720,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-order-refunds-controller.php:44
 #: includes/wc-core-functions.php:149
 #: includes/wc-order-functions.php:514
-#: includes/wc-order-functions.php:1082
+#: includes/wc-order-functions.php:1097
 msgid "Invalid order ID."
 msgstr ""
 
@@ -29522,15 +29522,15 @@ msgstr ""
 msgid "Item #%1$s stock increased from %2$s to %3$s."
 msgstr ""
 
-#: includes/wc-order-functions.php:788
+#: includes/wc-order-functions.php:803
 msgid "Order fully refunded."
 msgstr ""
 
-#: includes/wc-order-functions.php:795
+#: includes/wc-order-functions.php:810
 msgid "Order status set to refunded. To return funds to the customer you will need to issue a refund through your payment gateway."
 msgstr ""
 
-#: includes/wc-order-functions.php:931
+#: includes/wc-order-functions.php:946
 msgid "Unpaid order cancelled - time limit reached."
 msgstr ""
 
