@@ -146,6 +146,7 @@ return array(
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskList' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskList.php',
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskLists' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php',
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskTraits' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskTraits.php',
+    'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\AdditionalPayments' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/AdditionalPayments.php',
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Appearance' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php',
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Marketing' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Marketing.php',
     'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Payments' => $baseDir . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Payments.php',

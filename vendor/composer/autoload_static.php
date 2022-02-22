@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit55cd497a44589c6be9a2c9f1839009df
+class ComposerStaticInit73ed9ff7395528287cb3b0d1569f88b0
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -238,6 +238,7 @@ class ComposerStaticInit55cd497a44589c6be9a2c9f1839009df
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskList' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskList.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskLists' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskLists.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskTraits' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/TaskTraits.php',
+        'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\AdditionalPayments' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/AdditionalPayments.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Appearance' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Marketing' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Marketing.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Payments' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Payments.php',
@@ -917,10 +918,10 @@ class ComposerStaticInit55cd497a44589c6be9a2c9f1839009df
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit55cd497a44589c6be9a2c9f1839009df::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit55cd497a44589c6be9a2c9f1839009df::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit55cd497a44589c6be9a2c9f1839009df::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit55cd497a44589c6be9a2c9f1839009df::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit73ed9ff7395528287cb3b0d1569f88b0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit73ed9ff7395528287cb3b0d1569f88b0::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit73ed9ff7395528287cb3b0d1569f88b0::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit73ed9ff7395528287cb3b0d1569f88b0::$classMap;
 
         }, null, ClassLoader::class);
     }
