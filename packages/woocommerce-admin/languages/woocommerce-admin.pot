@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 3.2.0-rc.1\n"
+"Project-Id-Version: WooCommerce Admin 3.2.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2022-02-09 15:32:57+00:00\n"
+"POT-Creation-Date: 2022-02-22 17:56:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: docs/examples/extensions/add-task/woocommerce-admin-add-task-example.php:28
 #: src/Features/OnboardingTasks/Tasks/Appearance.php:66
-#: src/Features/OnboardingTasks/Tasks/Payments.php:62
+#: src/Features/OnboardingTasks/Tasks/Payments.php:58
 #: src/Features/OnboardingTasks/Tasks/Purchase.php:116
 #: src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:58
 #: client/two-column-tasks/headers/woocommerce-payments.js:86
@@ -1130,12 +1130,12 @@ msgstr ""
 msgid "Net Revenue"
 msgstr ""
 
-#: src/API/Reports/Categories/DataStore.php:270
+#: src/API/Reports/Categories/DataStore.php:275
 #: src/API/Reports/Orders/Stats/DataStore.php:335
 #: src/API/Reports/Orders/Stats/DataStore.php:388
 #: src/API/Reports/Products/Stats/DataStore.php:186
 #: src/API/Reports/Products/Stats/DataStore.php:202
-#: src/API/Reports/Taxes/Stats/DataStore.php:189
+#: src/API/Reports/Taxes/Stats/DataStore.php:195
 #: src/API/Reports/Variations/Stats/DataStore.php:211
 #: src/API/Reports/Variations/Stats/DataStore.php:229
 msgid "Sorry, fetching revenue data failed."
@@ -1282,7 +1282,7 @@ msgid "Type"
 msgstr ""
 
 #: src/API/Reports/Coupons/Controller.php:327
-#: src/API/Reports/Coupons/DataStore.php:173
+#: src/API/Reports/Coupons/DataStore.php:178
 #: src/API/Reports/Products/Controller.php:436
 #: src/API/Reports/Products/Controller.php:437
 #: client/analytics/report/coupons/table.js:213
@@ -1292,7 +1292,7 @@ msgstr ""
 msgid "N/A"
 msgstr ""
 
-#: src/API/Reports/Coupons/DataStore.php:168
+#: src/API/Reports/Coupons/DataStore.php:173
 #: src/API/Reports/Products/DataStore.php:227
 #: client/analytics/report/downloads/table.js:98
 msgid "(Deleted)"
@@ -2570,7 +2570,7 @@ msgid ""
 "taxes taxonomy."
 msgstr ""
 
-#: src/API/Reports/Taxes/Stats/DataStore.php:223
+#: src/API/Reports/Taxes/Stats/DataStore.php:229
 msgid "Sorry, fetching tax data failed."
 msgstr ""
 
@@ -2911,54 +2911,54 @@ msgstr ""
 msgid "Customizable products"
 msgstr ""
 
-#: src/Features/Onboarding.php:620
+#: src/Features/Onboarding.php:627
 #. translators: site currency symbol (used to show that the product costs
 #. money)
 msgid " — %s"
 msgstr ""
 
-#: src/Features/Onboarding.php:781 src/Features/Onboarding.php:793
+#: src/Features/Onboarding.php:788 src/Features/Onboarding.php:800
 msgid "Setup wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:789
+#: src/Features/Onboarding.php:796
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: src/Features/Onboarding.php:791
+#: src/Features/Onboarding.php:798
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:792
+#: src/Features/Onboarding.php:799
 msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:795
+#: src/Features/Onboarding.php:802
 msgid "Task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:796
+#: src/Features/Onboarding.php:803
 msgid ""
 "If you need to enable or disable the task lists, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:798 src/Features/Onboarding.php:807
+#: src/Features/Onboarding.php:805 src/Features/Onboarding.php:814
 #: client/tasks/fills/PaymentGatewaySuggestions/components/Action.js:95
 msgid "Enable"
 msgstr ""
 
-#: src/Features/Onboarding.php:799 src/Features/Onboarding.php:808
+#: src/Features/Onboarding.php:806 src/Features/Onboarding.php:815
 msgid "Disable"
 msgstr ""
 
-#: src/Features/Onboarding.php:804
+#: src/Features/Onboarding.php:811
 msgid "Extended task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:805
+#: src/Features/Onboarding.php:812
 msgid ""
 "If you need to enable or disable the extended task lists, please click on "
 "the button below."
@@ -2975,22 +2975,27 @@ msgstr ""
 msgid "Task is not a subclass of `Task`"
 msgstr ""
 
-#: src/Features/OnboardingTasks/TaskLists.php:81
-#: client/two-column-tasks/index.js:117
+#: src/Features/OnboardingTasks/TaskLists.php:82
+#: client/two-column-tasks/index.js:121
 msgid "Get ready to start selling"
 msgstr ""
 
-#: src/Features/OnboardingTasks/TaskLists.php:88
+#: src/Features/OnboardingTasks/TaskLists.php:89
 #: client/activity-panel/panels/inbox/abbreviated-notifications-panel.js:74
 msgid "Things to do next"
 msgstr ""
 
-#: src/Features/OnboardingTasks/TaskLists.php:150
+#: src/Features/OnboardingTasks/TaskLists.php:151
 msgid "Task list ID already exists"
 msgstr ""
 
-#: src/Features/OnboardingTasks/TaskLists.php:168
+#: src/Features/OnboardingTasks/TaskLists.php:169
 msgid "Task list ID does not exist"
+msgstr ""
+
+#: src/Features/OnboardingTasks/Tasks/AdditionalPayments.php:30
+#: src/Notes/SetUpAdditionalPaymentTypes.php:96
+msgid "Set up additional payment providers"
 msgstr ""
 
 #: src/Features/OnboardingTasks/Tasks/Appearance.php:45
@@ -3019,18 +3024,13 @@ msgstr ""
 msgid "1 minute"
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Payments.php:40
-#: src/Notes/SetUpAdditionalPaymentTypes.php:96
-msgid "Set up additional payment providers"
-msgstr ""
-
-#: src/Features/OnboardingTasks/Tasks/Payments.php:41
+#: src/Features/OnboardingTasks/Tasks/Payments.php:37
 #: src/Notes/SetUpAdditionalPaymentTypes.php:104
 #: client/two-column-tasks/headers/payments.js:30
 msgid "Set up payments"
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Payments.php:50
+#: src/Features/OnboardingTasks/Tasks/Payments.php:46
 msgid "Choose payment providers and enable payment methods at checkout."
 msgstr ""
 
@@ -3293,7 +3293,7 @@ msgid ""
 "inventory in one place."
 msgstr ""
 
-#: src/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php:134
+#: src/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php:133
 #. translators: the title of the payment gateway
 msgid "%s connected successfully"
 msgstr ""
@@ -3839,61 +3839,61 @@ msgstr ""
 msgid "View report"
 msgstr ""
 
-#: src/Notes/Note.php:357
+#: src/Notes/Note.php:376
 msgid "The admin note name prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:370
+#: src/Notes/Note.php:389
 msgid "The admin note type prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:378
+#: src/Notes/Note.php:397
 #. translators: %s: admin note type.
 msgid "The admin note type prop (%s) is not one of the supported types."
 msgstr ""
 
-#: src/Notes/Note.php:394
+#: src/Notes/Note.php:413
 msgid "The admin note locale prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:407
+#: src/Notes/Note.php:426
 msgid "The admin note title prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:447
+#: src/Notes/Note.php:466
 msgid "The admin note content prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:464
+#: src/Notes/Note.php:483
 msgid "The admin note content_data prop must be an instance of stdClass."
 msgstr ""
 
-#: src/Notes/Note.php:477
+#: src/Notes/Note.php:496
 msgid "The admin note status prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:485
+#: src/Notes/Note.php:504
 #. translators: %s: admin note status property.
 msgid "The admin note status prop (%s) is not one of the supported statuses."
 msgstr ""
 
-#: src/Notes/Note.php:501
+#: src/Notes/Note.php:520
 msgid "The admin note source prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:514
+#: src/Notes/Note.php:533
 msgid "The admin note date prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:565
+#: src/Notes/Note.php:584
 msgid "The admin note layout has a wrong prop value."
 msgstr ""
 
-#: src/Notes/Note.php:622
+#: src/Notes/Note.php:641
 msgid "The admin note action name prop cannot be empty."
 msgstr ""
 
-#: src/Notes/Note.php:626
+#: src/Notes/Note.php:645
 msgid "The admin note action label prop cannot be empty."
 msgstr ""
 
@@ -3962,7 +3962,7 @@ msgstr ""
 
 #: src/Notes/PaymentsRemindMeLater.php:69
 msgid ""
-"Save up to 50% in fees by managing transactions in WooCommerce Payments. "
+"Save up to $800 in fees by managing transactions with WooCommerce Payments. "
 "With WooCommerce Payments, you can securely accept major cards, Apple Pay, "
 "and payments in over 100 currencies."
 msgstr ""
@@ -4299,8 +4299,8 @@ msgid "Got it"
 msgstr ""
 
 #: client/activity-panel/display-options/icons/display.js:41
-#: client/tasks/tasks.tsx:135
-#: client/two-column-tasks/extended-task.tsx:128
+#: client/tasks/tasks.tsx:142
+#: client/two-column-tasks/extended-task.tsx:136
 msgid "Display"
 msgstr ""
 
@@ -5671,7 +5671,7 @@ msgid "Buy now"
 msgstr ""
 
 #: client/dashboard/components/connect/index.js:77
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:600
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:603
 #: packages/components/build-module/plugins/index.js:62
 msgid "Retry"
 msgstr ""
@@ -6427,7 +6427,7 @@ msgid ""
 msgstr ""
 
 #: client/payments-welcome/strings.tsx:17
-msgid "50% transaction fee discount for up to $125,000 in payments or six months"
+msgid "No card transaction fees for up to 3 months (or $25,000 in payments)"
 msgstr ""
 
 #: client/payments-welcome/strings.tsx:173
@@ -6494,11 +6494,11 @@ msgstr ""
 
 #: client/payments-welcome/strings.tsx:28
 msgid ""
-"Save 50% on transaction fees by managing transactions with WooCommerce "
-"Payments. With WooCommerce Payments, you can securely accept major cards, "
-"Apple Pay, and payments in over 100 currencies. Track cash flow and manage "
-"recurring revenue directly from your store's dashboard - with no setup "
-"costs or monthly fees."
+"Save up to $800 in fees by managing transactions with WooCommerce Payments. "
+"With WooCommerce Payments, you can securely accept major cards, Apple Pay, "
+"and payments in over 100 currencies. Track cash flow and manage recurring "
+"revenue directly from your store's dashboard - with no setup costs or "
+"monthly fees."
 msgstr ""
 
 #: client/payments-welcome/strings.tsx:280
@@ -6732,27 +6732,27 @@ msgstr ""
 msgid "See more options"
 msgstr ""
 
-#: client/profile-wizard/index.js:103
+#: client/profile-wizard/index.js:105
 msgid "Store Details"
 msgstr ""
 
-#: client/profile-wizard/index.js:111
+#: client/profile-wizard/index.js:113
 msgid "Industry"
 msgstr ""
 
-#: client/profile-wizard/index.js:119
+#: client/profile-wizard/index.js:121
 msgid "Product Types"
 msgstr ""
 
-#: client/profile-wizard/index.js:127
+#: client/profile-wizard/index.js:129
 msgid "Business Details"
 msgstr ""
 
-#: client/profile-wizard/index.js:135
+#: client/profile-wizard/index.js:137
 msgid "Theme"
 msgstr ""
 
-#: client/profile-wizard/index.js:234
+#: client/profile-wizard/index.js:237
 msgid "There was a problem skipping the setup wizard"
 msgstr ""
 
@@ -6844,84 +6844,84 @@ msgstr ""
 msgid "Yes, on another platform and in person at physical stores and/or events"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:296
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:297
 msgid "There was a problem updating your business details"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:355
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:356
 msgid "This field is required"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:449
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:452
 msgid "Tell us about your business"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:455
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:458
 msgid ""
 "We'd love to know if you are just getting started or you already have a "
 "business in place."
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:465
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:468
 msgid "How many products do you plan to display?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:479
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:482
 msgid "Currently selling elsewhere?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:496
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:499
 msgid "How many employees do you have?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:514
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:517
 msgid "What's your current annual revenue?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:541
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:544
 msgid "Which platform is the store using?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:555
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:558
 msgid "What is the platform name?"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:574
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:577
 msgid "I'm setting up a store for a client"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:596
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:599
 #: client/profile-wizard/steps/business-details/flows/selective-bundle/selective-extensions-bundle/index.js:389
 #: client/profile-wizard/steps/industry.js:260
-#: client/profile-wizard/steps/product-types/index.js:274
+#: client/profile-wizard/steps/product-types/index.js:277
 #: client/profile-wizard/steps/store-details/index.js:395
 #: client/tasks/fills/steps/location.js:102
 #: packages/components/build-module/plugins/index.js:70
 msgid "Continue"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:614
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:617
 #: packages/components/build-module/plugins/index.js:63
 msgid "Continue without installing"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:644
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:647
 msgid "Included business features"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:650
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:653
 msgid "We recommend enhancing your store with these free extensions"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:656
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:659
 msgid "No commitment required - you can remove them at any time."
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:704
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:708
 msgid "Business details"
 msgstr ""
 
-#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:712
+#: client/profile-wizard/steps/business-details/flows/selective-bundle/index.js:716
 msgid "Free features"
 msgstr ""
 
@@ -6971,30 +6971,30 @@ msgid "In which industry does the store operate?"
 msgstr ""
 
 #: client/profile-wizard/steps/industry.js:217
-#: client/profile-wizard/steps/product-types/index.js:219
+#: client/profile-wizard/steps/product-types/index.js:222
 msgid "Choose any that apply"
 msgstr ""
 
-#: client/profile-wizard/steps/product-types/index.js:152
+#: client/profile-wizard/steps/product-types/index.js:155
 msgid "There was a problem updating your product types"
 msgstr ""
 
-#: client/profile-wizard/steps/product-types/index.js:213
+#: client/profile-wizard/steps/product-types/index.js:216
 msgid "What type of products will be listed?"
 msgstr ""
 
-#: client/profile-wizard/steps/product-types/index.js:282
+#: client/profile-wizard/steps/product-types/index.js:285
 msgid "Display monthly prices"
 msgstr ""
 
-#: client/profile-wizard/steps/product-types/index.js:299
+#: client/profile-wizard/steps/product-types/index.js:302
 msgid ""
 "Billing is annual. All purchases are covered by our 30 day money back "
 "guarantee and include access to support and updates. Extensions will be "
 "added to a cart for you to purchase later."
 msgstr ""
 
-#: client/profile-wizard/steps/product-types/index.js:315
+#: client/profile-wizard/steps/product-types/index.js:320
 msgid ""
 "The following extensions will be added to your site for free: WooCommerce "
 "Payments. An account is required to use this feature."
@@ -7808,8 +7808,8 @@ msgid_plural "Show %d more tasks."
 msgstr[0] ""
 msgstr[1] ""
 
-#: client/tasks/tasks.tsx:144
-#: client/two-column-tasks/extended-task.tsx:137
+#: client/tasks/tasks.tsx:151
+#: client/two-column-tasks/extended-task.tsx:145
 msgid "Show things to do next"
 msgstr ""
 

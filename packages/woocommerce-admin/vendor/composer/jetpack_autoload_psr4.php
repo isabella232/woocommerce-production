@@ -11,7 +11,7 @@ return array(
 		'path'    => array( $vendorDir . '/composer/installers/src/Composer/Installers' )
 	),
 	'Automattic\\WooCommerce\\Admin\\' => array(
-		'version' => '3.2.0.0-RC1',
+		'version' => '3.2.0.0',
 		'path'    => array( $baseDir . '/src' )
 	),
 	'Automattic\\Jetpack\\Autoloader\\' => array(
