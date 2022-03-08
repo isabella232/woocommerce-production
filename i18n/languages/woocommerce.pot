@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-04T16:48:18+00:00\n"
+"POT-Creation-Date: 2022-03-08T20:45:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -19283,16 +19283,16 @@ msgstr ""
 msgid "Invalid payment method."
 msgstr ""
 
-#: includes/class-wc-checkout.php:1141
-msgid "We were unable to process your order, please try again."
-msgstr ""
-
 #. translators: %s: shop cart url
-#: includes/class-wc-checkout.php:1151
+#: includes/class-wc-checkout.php:1140
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
 msgstr ""
 
-#: includes/class-wc-checkout.php:1182
+#: includes/class-wc-checkout.php:1151
+msgid "We were unable to process your order, please try again."
+msgstr ""
+
+#: includes/class-wc-checkout.php:1191
 msgid "Unable to create order."
 msgstr ""
 
