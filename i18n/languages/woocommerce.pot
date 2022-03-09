@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-09T20:29:10+00:00\n"
+"POT-Creation-Date: 2022-03-09T22:27:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -21494,8 +21494,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2159
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2204
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:717
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1231
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1276
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1237
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1282
 msgid "Attribute ID."
 msgstr ""
 
@@ -24958,7 +24958,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2257
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:295
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:753
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1330
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1336
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:195
 msgid "Meta key."
 msgstr ""
@@ -24984,7 +24984,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2262
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:300
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:758
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1335
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1341
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:201
 msgid "Meta value."
 msgstr ""
@@ -25349,8 +25349,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2164
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2209
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:722
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1236
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1281
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1242
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1287
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductAttributeSchema.php:39
 msgid "Attribute name."
 msgstr ""
@@ -26083,37 +26083,37 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:936
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2152
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:710
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1224
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1230
 msgid "List of attributes."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2213
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2169
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1241
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1247
 msgid "Attribute position."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2218
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2174
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1246
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1252
 msgid "Define if the attribute is visible on the \"Additional information\" tab in the product's page."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2224
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2180
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1252
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1258
 msgid "Define if the attribute can be used as variation."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2230
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2186
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1258
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1264
 msgid "List of available term names of the attribute."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2238
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2197
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1269
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1275
 msgid "Defaults variation attributes."
 msgstr ""
 
@@ -26122,7 +26122,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:953
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2214
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:727
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1286
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1292
 msgid "Selected attribute term name."
 msgstr ""
 
@@ -26257,7 +26257,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2555
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2231
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1303
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1309
 msgid "List of grouped products ID."
 msgstr ""
 
@@ -26265,7 +26265,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:961
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2239
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:735
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1312
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1318
 msgid "Menu order, used to custom sort products."
 msgstr ""
 
@@ -26738,7 +26738,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2244
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:282
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:740
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1317
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1323
 msgid "Meta data."
 msgstr ""
 
@@ -26756,7 +26756,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2251
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:289
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:747
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1324
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1330
 msgid "Meta ID."
 msgstr ""
 
@@ -27075,7 +27075,7 @@ msgid "List of up-sell products IDs."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2222
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1294
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1300
 msgid "List of variations IDs."
 msgstr ""
 
@@ -28146,13 +28146,17 @@ msgid "Low Stock amount for the variation."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:871
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1358
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1364
 #: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:311
 msgid "Limit result set to products with specified stock status."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:997
 msgid "Low Stock amount for the product."
+msgstr ""
+
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1224
+msgid "Shows if the product needs to be configured before it can be bought."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-report-coupons-totals-controller.php:127
