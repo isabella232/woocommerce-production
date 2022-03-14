@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-11T23:51:32+00:00\n"
+"POT-Creation-Date: 2022-03-14T21:26:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -10128,7 +10128,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-menus.php:84
 #: includes/admin/views/html-admin-page-status-report.php:737
-#: includes/class-wc-install.php:1423
+#: includes/class-wc-install.php:1430
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:34
 #: packages/woocommerce-admin/src/Features/Analytics.php:304
 #: packages/woocommerce-admin/src/Features/Navigation/CoreMenu.php:124
@@ -10292,14 +10292,14 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:74
 #: includes/wc-core-functions.php:2134
-#: includes/wc-update-functions.php:62
+#: includes/wc-update-functions.php:70
 msgctxt "slug"
 msgid "product-category"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:83
 #: includes/wc-core-functions.php:2135
-#: includes/wc-update-functions.php:63
+#: includes/wc-update-functions.php:71
 msgctxt "slug"
 msgid "product-tag"
 msgstr ""
@@ -10345,7 +10345,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-permalink-settings.php:193
 #: includes/admin/class-wc-admin-permalink-settings.php:196
 #: includes/wc-core-functions.php:2133
-#: includes/wc-update-functions.php:72
+#: includes/wc-update-functions.php:80
 msgctxt "slug"
 msgid "product"
 msgstr ""
@@ -12015,8 +12015,8 @@ msgid "Product categories for your store can be managed here. To change the orde
 msgstr ""
 
 #: includes/admin/class-wc-admin-taxonomies.php:342
-#: includes/class-wc-install.php:712
-#: includes/class-wc-install.php:718
+#: includes/class-wc-install.php:719
+#: includes/class-wc-install.php:725
 msgctxt "Default category slug"
 msgid "Uncategorized"
 msgstr ""
@@ -19967,130 +19967,130 @@ msgstr ""
 msgid "Please enter a stronger password."
 msgstr ""
 
-#: includes/class-wc-install.php:527
+#: includes/class-wc-install.php:534
 msgid "Monthly"
 msgstr ""
 
-#: includes/class-wc-install.php:531
+#: includes/class-wc-install.php:538
 msgid "Every 15 Days"
 msgstr ""
 
-#: includes/class-wc-install.php:591
+#: includes/class-wc-install.php:598
 msgctxt "Page slug"
 msgid "shop"
 msgstr ""
 
-#: includes/class-wc-install.php:592
+#: includes/class-wc-install.php:599
 msgctxt "Page title"
 msgid "Shop"
 msgstr ""
 
-#: includes/class-wc-install.php:596
+#: includes/class-wc-install.php:603
 msgctxt "Page slug"
 msgid "cart"
 msgstr ""
 
-#: includes/class-wc-install.php:597
+#: includes/class-wc-install.php:604
 msgctxt "Page title"
 msgid "Cart"
 msgstr ""
 
-#: includes/class-wc-install.php:601
+#: includes/class-wc-install.php:608
 msgctxt "Page slug"
 msgid "checkout"
 msgstr ""
 
-#: includes/class-wc-install.php:602
+#: includes/class-wc-install.php:609
 msgctxt "Page title"
 msgid "Checkout"
 msgstr ""
 
-#: includes/class-wc-install.php:606
+#: includes/class-wc-install.php:613
 msgctxt "Page slug"
 msgid "my-account"
 msgstr ""
 
-#: includes/class-wc-install.php:607
+#: includes/class-wc-install.php:614
 msgctxt "Page title"
 msgid "My account"
 msgstr ""
 
-#: includes/class-wc-install.php:611
+#: includes/class-wc-install.php:618
 msgctxt "Page slug"
 msgid "refund_returns"
 msgstr ""
 
-#: includes/class-wc-install.php:612
+#: includes/class-wc-install.php:619
 msgctxt "Page title"
 msgid "Refund and Returns Policy"
 msgstr ""
 
-#: includes/class-wc-install.php:671
+#: includes/class-wc-install.php:678
 msgid "Reduced rate"
 msgstr ""
 
-#: includes/class-wc-install.php:672
+#: includes/class-wc-install.php:679
 msgid "Zero rate"
 msgstr ""
 
 #. translators: user role
-#: includes/class-wc-install.php:1168
+#: includes/class-wc-install.php:1175
 msgctxt "User role"
 msgid "Customer"
 msgstr ""
 
 #. translators: user role
-#: includes/class-wc-install.php:1170
+#: includes/class-wc-install.php:1177
 msgctxt "User role"
 msgid "Shop manager"
 msgstr ""
 
-#: includes/class-wc-install.php:1423
+#: includes/class-wc-install.php:1430
 msgid "View WooCommerce settings"
 msgstr ""
 
-#: includes/class-wc-install.php:1443
+#: includes/class-wc-install.php:1450
 msgid "View WooCommerce documentation"
 msgstr ""
 
-#: includes/class-wc-install.php:1443
+#: includes/class-wc-install.php:1450
 #: packages/woocommerce-admin/dist/chunks/marketing-overview.js:1
 msgid "Docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1444
+#: includes/class-wc-install.php:1451
 msgid "View WooCommerce API docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1444
+#: includes/class-wc-install.php:1451
 msgid "API docs"
 msgstr ""
 
-#: includes/class-wc-install.php:1445
+#: includes/class-wc-install.php:1452
 msgid "Visit community forums"
 msgstr ""
 
-#: includes/class-wc-install.php:1445
+#: includes/class-wc-install.php:1452
 msgid "Community support"
 msgstr ""
 
-#: includes/class-wc-install.php:1449
+#: includes/class-wc-install.php:1456
 msgid "Visit premium customer support"
 msgstr ""
 
-#: includes/class-wc-install.php:1449
+#: includes/class-wc-install.php:1456
 msgid "Premium support"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message, 3: URL to install plugin manually.
 #. translators: 1: theme slug, 2: error message, 3: URL to install theme manually.
-#: includes/class-wc-install.php:1577
-#: includes/class-wc-install.php:1681
+#: includes/class-wc-install.php:1584
+#: includes/class-wc-install.php:1688
 msgid "%1$s could not be installed (%2$s). <a href=\"%3$s\">Please install it manually by clicking here.</a>"
 msgstr ""
 
 #. translators: 1: plugin name, 2: URL to WP plugin page.
-#: includes/class-wc-install.php:1605
+#: includes/class-wc-install.php:1612
 msgid "%1$s was installed but could not be activated. <a href=\"%2$s\">Please activate it manually by clicking here.</a>"
 msgstr ""
 
@@ -29753,7 +29753,7 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
-#: includes/wc-update-functions.php:933
+#: includes/wc-update-functions.php:941
 msgid "Order fully refunded"
 msgstr ""
 
