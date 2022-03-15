@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-14T21:26:14+00:00\n"
+"POT-Creation-Date: 2022-03-15T20:41:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -9966,7 +9966,7 @@ msgstr ""
 
 #. translators: 1: GitHub issues URL 2: GitHub contribution guide URL 3: System status report URL
 #: includes/admin/class-wc-admin-help.php:68
-msgid "If you find a bug within WooCommerce core you can create a ticket via <a href=\"%1$s\">Github issues</a>. Ensure you read the <a href=\"%2$s\">contribution guide</a> prior to submitting your report. To help us solve your issue, please be as descriptive as possible and include your <a href=\"%3$s\">system status report</a>."
+msgid "If you find a bug within WooCommerce core you can create a ticket via <a href=\"%1$s\">GitHub issues</a>. Ensure you read the <a href=\"%2$s\">contribution guide</a> prior to submitting your report. To help us solve your issue, please be as descriptive as possible and include your <a href=\"%3$s\">system status report</a>."
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:69
@@ -9986,7 +9986,7 @@ msgid "WordPress.org project"
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:78
-msgid "Github project"
+msgid "GitHub project"
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:79
