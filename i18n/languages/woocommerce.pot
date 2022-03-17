@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-17T22:15:20+00:00\n"
+"POT-Creation-Date: 2022-03-17T22:19:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8656,48 +8656,53 @@ msgid "Generic add/update/get meta methods should not be used for internal meta 
 msgstr ""
 
 #: includes/abstracts/abstract-wc-order.php:203
-msgid "Error saving order."
+msgid "(no ID)"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:529
+#. translators: 1: Order ID or "(no ID)" if not known.
+#: includes/abstracts/abstract-wc-order.php:208
+msgid "Error saving order ID %1$s."
+msgstr ""
+
+#: includes/abstracts/abstract-wc-order.php:538
 msgid "Invalid parent ID"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:584
+#: includes/abstracts/abstract-wc-order.php:593
 msgid "Invalid currency code"
 msgstr ""
 
 #. translators: Actual coupon code.
-#: includes/abstracts/abstract-wc-order.php:1053
-#: includes/abstracts/abstract-wc-order.php:1075
+#: includes/abstracts/abstract-wc-order.php:1062
+#: includes/abstracts/abstract-wc-order.php:1084
 msgid "An unexpected error happened while applying the Coupon %s."
 msgstr ""
 
 #. translators: Actual coupon code.
-#: includes/abstracts/abstract-wc-order.php:1056
+#: includes/abstracts/abstract-wc-order.php:1065
 msgid "Coupon %s was used in another transaction during this checkout, and coupon usage limit is reached. Please remove the coupon and try again."
 msgstr ""
 
 #. translators: Actual coupon code.
-#: includes/abstracts/abstract-wc-order.php:1078
+#: includes/abstracts/abstract-wc-order.php:1087
 msgid "You have used this coupon %s in another transaction during this checkout, and coupon usage limit is reached. Please remove the coupon and try again."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1119
+#: includes/abstracts/abstract-wc-order.php:1128
 #: includes/legacy/api/v1/class-wc-api-coupons.php:174
 #: includes/legacy/api/v2/class-wc-api-coupons.php:189
 #: includes/legacy/api/v3/class-wc-api-coupons.php:187
 msgid "Invalid coupon code"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1122
+#: includes/abstracts/abstract-wc-order.php:1131
 #: includes/class-wc-ajax.php:1172
 #: includes/class-wc-ajax.php:1235
 #: includes/class-wc-discounts.php:249
 msgid "Invalid coupon"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1129
+#: includes/abstracts/abstract-wc-order.php:1138
 #: includes/class-wc-coupon.php:998
 msgid "Coupon code already applied!"
 msgstr ""
@@ -8705,20 +8710,20 @@ msgstr ""
 #. translators: %s: method
 #. translators: %s: payment method
 #. translators: %s: shipping method
-#: includes/abstracts/abstract-wc-order.php:2020
+#: includes/abstracts/abstract-wc-order.php:2029
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:276
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:328
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:345
 msgid "via %s"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2025
+#: includes/abstracts/abstract-wc-order.php:2034
 #: includes/class-wc-cart.php:1585
 #: includes/class-wc-product-grouped.php:120
 msgid "Free!"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2054
+#: includes/abstracts/abstract-wc-order.php:2063
 #: includes/wc-template-functions.php:2205
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:5
@@ -8726,14 +8731,14 @@ msgstr ""
 msgid "Subtotal:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2069
+#: includes/abstracts/abstract-wc-order.php:2078
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
 msgid "Discount:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2084
+#: includes/abstracts/abstract-wc-order.php:2093
 #: includes/admin/meta-boxes/views/html-order-items.php:187
 #: packages/woocommerce-blocks/build/cart-blocks/express-payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout-blocks/express-payment-frontend.js:5
@@ -8741,7 +8746,7 @@ msgstr ""
 msgid "Shipping:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2145
+#: includes/abstracts/abstract-wc-order.php:2154
 #: templates/checkout/order-receipt.php:33
 #: templates/checkout/thankyou.php:64
 msgid "Total:"
