@@ -914,9 +914,21 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithScalarInjectionMethodArgument.php'
 	),
+	'Automattic\\WooCommerce\\Tests\\Internal\\Utilities\\URLTest' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/tests/php/src/Internal/Utilities/URLTest.php'
+	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\RestApiUtilTest' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/tests/php/src/Internal/RestApiUtilTest.php'
+	),
+	'Automattic\\WooCommerce\\Tests\\Internal\\ProductDownloads\\SynchronizeTest' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/tests/php/src/Internal/ProductDownloads/ApprovedDirectories/SynchronizeTest.php'
+	),
+	'Automattic\\WooCommerce\\Tests\\Internal\\ProductDownloads\\RegisterTest' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/tests/php/src/Internal/ProductDownloads/ApprovedDirectories/RegisterTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\AssignDefaultCategoryTest' => array(
 		'version' => '9999999-dev',
@@ -2894,6 +2906,10 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php'
 	),
+	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProductDownloadsServiceProvider' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProductDownloadsServiceProvider.php'
+	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\OrdersDataStoreServiceProvider' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/OrdersDataStoreServiceProvider.php'
@@ -2918,9 +2934,49 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ExtendedContainer.php'
 	),
+	'Automattic\\WooCommerce\\Internal\\Utilities\\URLException' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/Utilities/URLException.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\Utilities\\Users' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/Utilities/Users.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\Utilities\\URL' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/Utilities/URL.php'
+	),
 	'Automattic\\WooCommerce\\Internal\\AssignDefaultCategory' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/AssignDefaultCategory.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\Admin\\UI' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/Admin/UI.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\Admin\\SyncUI' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/Admin/SyncUI.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\Admin\\Table' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\StoredUrl' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/StoredUrl.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\ApprovedDirectoriesException' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/ApprovedDirectoriesException.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\Synchronize' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/Synchronize.php'
+	),
+	'Automattic\\WooCommerce\\Internal\\ProductDownloads\\ApprovedDirectories\\Register' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/ProductDownloads/ApprovedDirectories/Register.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\RestockRefundedItemsAdjuster' => array(
 		'version' => '9999999-dev',
