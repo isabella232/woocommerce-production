@@ -16,7 +16,6 @@ return array(
     'Automattic\\WooCommerce\\Testing\\Tools\\' => array($baseDir . '/tests/Tools'),
     'Automattic\\WooCommerce\\StoreApi\\' => array($baseDir . '/packages/woocommerce-blocks/src/StoreApi'),
     'Automattic\\WooCommerce\\Blocks\\' => array($baseDir . '/packages/woocommerce-blocks/src'),
-    'Automattic\\WooCommerce\\Admin\\' => array($baseDir . '/packages/woocommerce-admin/src'),
     'Automattic\\WooCommerce\\' => array($baseDir . '/src'),
     'Automattic\\Jetpack\\Autoloader\\' => array($vendorDir . '/automattic/jetpack-autoloader/src'),
 );
