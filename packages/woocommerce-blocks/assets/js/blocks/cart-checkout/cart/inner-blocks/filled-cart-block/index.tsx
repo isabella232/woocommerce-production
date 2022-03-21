@@ -1,8 +1,7 @@
 /**
  * External dependencies
  */
-import { filledCart } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, filledCart } from '@woocommerce/icons';
 import { registerFeaturePluginBlockType } from '@woocommerce/block-settings';
 
 /**
@@ -15,7 +14,7 @@ registerFeaturePluginBlockType( metadata, {
 	icon: {
 		src: (
 			<Icon
-				icon={ filledCart }
+				srcElement={ filledCart }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

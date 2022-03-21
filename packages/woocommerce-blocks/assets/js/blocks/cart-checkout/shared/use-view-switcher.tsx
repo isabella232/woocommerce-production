@@ -5,8 +5,7 @@ import { __ } from '@wordpress/i18n';
 import { useState, useEffect } from '@wordpress/element';
 import { useDispatch, select } from '@wordpress/data';
 import { ToolbarGroup, ToolbarDropdownMenu } from '@wordpress/components';
-import { eye } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, eye } from '@woocommerce/icons';
 import { store as blockEditorStore } from '@wordpress/block-editor';
 
 interface View {
@@ -88,7 +87,9 @@ export const useViewSwitcher = (
 			<ToolbarDropdownMenu
 				label={ __( 'Switch view', 'woo-gutenberg-products-block' ) }
 				text={ currentView.label }
-				icon={ <Icon icon={ eye } style={ { marginRight: '8px' } } /> }
+				icon={
+					<Icon srcElement={ eye } style={ { marginRight: '8px' } } />
+				}
 				controls={ views.map( ( view ) => ( {
 					...view,
 					title: <span>{ view.label }</span>,

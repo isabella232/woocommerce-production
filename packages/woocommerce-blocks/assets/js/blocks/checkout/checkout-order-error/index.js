@@ -3,8 +3,7 @@
  */
 import { __ } from '@wordpress/i18n';
 import { CART_URL } from '@woocommerce/block-settings';
-import { removeCart } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, removeCart } from '@woocommerce/icons';
 import { getSetting } from '@woocommerce/settings';
 import { decodeEntities } from '@wordpress/html-entities';
 
@@ -58,7 +57,8 @@ const CheckoutOrderError = () => {
 		<div className="wc-block-checkout-error">
 			<Icon
 				className="wc-block-checkout-error__image"
-				icon={ removeCart }
+				alt=""
+				srcElement={ removeCart }
 				size={ 100 }
 			/>
 			<ErrorTitle errorData={ errorData } />

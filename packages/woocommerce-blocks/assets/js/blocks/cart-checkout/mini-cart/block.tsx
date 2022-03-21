@@ -11,18 +11,12 @@ import {
 	getCurrencyFromPriceResponse,
 } from '@woocommerce/price-format';
 import { getSettingWithCoercion } from '@woocommerce/settings';
+import { isBoolean, isString } from '@woocommerce/types';
 import {
-	CartResponseTotals,
-	isBoolean,
-	isString,
-	isCartResponseTotals,
-	isNumber,
-} from '@woocommerce/types';
-import {
+	RawHTML,
 	unmountComponentAtNode,
 	useCallback,
 	useEffect,
-	useRef,
 	useState,
 } from '@wordpress/element';
 import { sprintf, _n } from '@wordpress/i18n';
@@ -49,20 +43,7 @@ const MiniCartBlock = ( {
 	style,
 	contents = '',
 }: Props ): JSX.Element => {
-	const {
-		cartItemsCount: cartItemsCountFromApi,
-		cartIsLoading,
-		cartTotals: cartTotalsFromApi,
-	} = useStoreCart();
-
-	const isFirstLoadingCompleted = useRef( cartIsLoading );
-
-	useEffect( () => {
-		if ( isFirstLoadingCompleted.current && ! cartIsLoading ) {
-			isFirstLoadingCompleted.current = false;
-		}
-	}, [ cartIsLoading, isFirstLoadingCompleted ] );
-
+	const { cartItemsCount, cartIsLoading, cartTotals } = useStoreCart();
 	const [ isOpen, setIsOpen ] = useState< boolean >( isInitiallyOpen );
 	// We already rendered the HTML drawer placeholder, so we want to skip the
 	// slide in animation.
@@ -140,28 +121,7 @@ const MiniCartBlock = ( {
 		isBoolean
 	);
 
-	const preFetchedCartTotals = getSettingWithCoercion< CartResponseTotals | null >(
-		'cartTotals',
-		null,
-		isCartResponseTotals
-	);
-
-	const preFetchedCartItemsCount = getSettingWithCoercion< number >(
-		'cartItemsCount',
-		0,
-		isNumber
-	);
-
 	const taxLabel = getSettingWithCoercion( 'taxLabel', '', isString );
-
-	const cartTotals =
-		! isFirstLoadingCompleted.current || preFetchedCartTotals === null
-			? cartTotalsFromApi
-			: preFetchedCartTotals;
-
-	const cartItemsCount = ! isFirstLoadingCompleted.current
-		? cartItemsCountFromApi
-		: preFetchedCartItemsCount;
 
 	const subTotal = showIncludingTax
 		? parseInt( cartTotals.total_items, 10 ) +
@@ -233,8 +193,10 @@ const MiniCartBlock = ( {
 				<div
 					className="wc-block-mini-cart__template-part"
 					ref={ contentsRef }
-					dangerouslySetInnerHTML={ { __html: contents } }
-				></div>
+				>
+					{ /* @todo The `div` wrapper of RawHTML isn't removed on the front end. */ }
+					<RawHTML>{ contents }</RawHTML>
+				</div>
 			</Drawer>
 		</>
 	);

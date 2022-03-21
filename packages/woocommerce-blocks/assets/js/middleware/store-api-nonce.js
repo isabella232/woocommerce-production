@@ -28,7 +28,7 @@ const isStoreApiRequest = ( options ) => {
 	if ( ! url || ! options.method || options.method === 'GET' ) {
 		return false;
 	}
-	return /wc\/store\/v1\//.exec( url ) !== null;
+	return /wc\/store\//.exec( url ) !== null;
 };
 
 /**
@@ -39,12 +39,12 @@ const isStoreApiRequest = ( options ) => {
 const setNonce = ( headers ) => {
 	const nonce =
 		typeof headers?.get === 'function'
-			? headers.get( 'Nonce' )
-			: headers.Nonce;
+			? headers.get( 'X-WC-Store-API-Nonce' )
+			: headers[ 'X-WC-Store-API-Nonce' ];
 	const timestamp =
 		typeof headers?.get === 'function'
-			? headers.get( 'Nonce-Timestamp' )
-			: headers[ 'Nonce-Timestamp' ];
+			? headers.get( 'X-WC-Store-API-Nonce-Timestamp' )
+			: headers[ 'X-WC-Store-API-Nonce-Timestamp' ];
 
 	if ( nonce ) {
 		updateNonce( nonce, timestamp );
@@ -85,7 +85,7 @@ const appendNonceHeader = ( request ) => {
 	const headers = request.headers || {};
 	request.headers = {
 		...headers,
-		Nonce: currentNonce,
+		'X-WC-Store-API-Nonce': currentNonce,
 	};
 	return request;
 };

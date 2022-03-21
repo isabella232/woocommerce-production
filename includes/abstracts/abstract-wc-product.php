@@ -10,7 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 use Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore as ProductAttributesLookupDataStore;
-use Automattic\WooCommerce\Internal\ProductDownloads\ApprovedDirectories\Register as Download_Directories;
 
 /**
  * Legacy product contains all deprecated methods for this class and can be
@@ -1225,14 +1224,25 @@ class WC_Product extends WC_Abstract_Legacy_Product {
 				$download_object->set_file( $download['file'] );
 			}
 
-			try {
-				$download_object->check_is_valid();
-				$downloads[ $download_object->get_id() ] = $download_object;
-			} catch ( Exception $e ) {
+			// Validate the file extension.
+			if ( ! $download_object->is_allowed_filetype() ) {
 				if ( $this->get_object_read() ) {
-					$errors[] = $e->getMessage();
+					/* translators: %1$s: Downloadable file */
+					$errors[] = sprintf( __( 'The downloadable file %1$s cannot be used as it does not have an allowed file type. Allowed types include: %2$s', 'woocommerce' ), '<code>' . basename( $download_object->get_file() ) . '</code>', '<code>' . implode( ', ', array_keys( $download_object->get_allowed_mime_types() ) ) . '</code>' );
 				}
+				continue;
 			}
+
+			// Validate the file exists.
+			if ( ! $download_object->file_exists() ) {
+				if ( $this->get_object_read() ) {
+					/* translators: %s: Downloadable file */
+					$errors[] = sprintf( __( 'The downloadable file %s cannot be used as it does not exist on the server.', 'woocommerce' ), '<code>' . $download_object->get_file() . '</code>' );
+				}
+				continue;
+			}
+
+			$downloads[ $download_object->get_id() ] = $download_object;
 		}
 
 		if ( $errors ) {

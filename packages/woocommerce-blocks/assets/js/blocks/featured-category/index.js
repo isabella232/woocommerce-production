@@ -5,8 +5,7 @@ import { __ } from '@wordpress/i18n';
 import { InnerBlocks } from '@wordpress/block-editor';
 import { registerBlockType } from '@wordpress/blocks';
 import { getSetting } from '@woocommerce/settings';
-import { folderStarred } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, folderStarred } from '@woocommerce/icons';
 import { isFeaturePluginBuild } from '@woocommerce/block-settings';
 
 /**
@@ -26,7 +25,7 @@ registerBlockType( 'woocommerce/featured-category', {
 	icon: {
 		src: (
 			<Icon
-				icon={ folderStarred }
+				srcElement={ folderStarred }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

@@ -1,1 +1,0 @@
-<?php return array('dependencies' => array('wc-number', 'wp-deprecated', 'wp-element', 'wp-html-entities', 'wp-i18n'), 'version' => 'f4ca1fa94d687b9d6e7f6c6103244550');

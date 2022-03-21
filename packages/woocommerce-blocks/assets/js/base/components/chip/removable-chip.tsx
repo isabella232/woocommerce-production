@@ -3,7 +3,7 @@
  */
 import classNames from 'classnames';
 import { __, sprintf } from '@wordpress/i18n';
-import { Icon, closeSmall } from '@wordpress/icons';
+import { Icon, noAlt } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -106,7 +106,7 @@ export const RemovableChip = ( {
 			>
 				<Icon
 					className="wc-block-components-chip__remove-icon"
-					icon={ closeSmall }
+					srcElement={ noAlt }
 					size={ 16 }
 				/>
 			</RemoveElement>

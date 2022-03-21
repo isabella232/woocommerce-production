@@ -5,7 +5,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, ToggleControl } from '@wordpress/components';
 import PropTypes from 'prop-types';
-import { Icon, postComments } from '@wordpress/icons';
+import { Icon, discussion } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -67,7 +67,7 @@ const AllReviewsEditor = ( { attributes, setAttributes } ) => {
 				attributes={ attributes }
 				icon={
 					<Icon
-						icon={ postComments }
+						icon={ discussion }
 						className="block-editor-block-icon"
 					/>
 				}

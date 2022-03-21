@@ -28,11 +28,9 @@ import { withSelect } from '@wordpress/data';
 import { compose, createHigherOrderComponent } from '@wordpress/compose';
 import PropTypes from 'prop-types';
 import { getSetting } from '@woocommerce/settings';
-import { folderStarred } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, folderStarred } from '@woocommerce/icons';
 import ProductCategoryControl from '@woocommerce/editor-components/product-category-control';
 import ErrorPlaceholder from '@woocommerce/editor-components/error-placeholder';
-import TextToolbarButton from '@woocommerce/editor-components/text-toolbar-button';
 
 /**
  * Internal dependencies
@@ -91,29 +89,18 @@ const FeaturedCategory = ( {
 						setAttributes( { contentAlign: nextAlign } );
 					} }
 				/>
-				<ToolbarGroup>
-					<MediaReplaceFlow
-						mediaId={ mediaId }
-						mediaURL={ mediaSrc }
-						accept="image/*"
-						onSelect={ ( media ) => {
-							setAttributes( {
-								mediaId: media.id,
-								mediaSrc: media.url,
-							} );
-						} }
-						allowedTypes={ [ 'image' ] }
-					/>
-					{ mediaId && mediaSrc ? (
-						<TextToolbarButton
-							onClick={ () =>
-								setAttributes( { mediaId: 0, mediaSrc: '' } )
-							}
-						>
-							{ __( 'Reset', 'woocommerce' ) }
-						</TextToolbarButton>
-					) : null }
-				</ToolbarGroup>
+				<MediaReplaceFlow
+					mediaId={ mediaId }
+					mediaURL={ mediaSrc }
+					accept="image/*"
+					onSelect={ ( media ) => {
+						setAttributes( {
+							mediaId: media.id,
+							mediaSrc: media.url,
+						} );
+					} }
+					allowedTypes={ [ 'image' ] }
+				/>
 				<ToolbarGroup
 					controls={ [
 						{
@@ -209,7 +196,7 @@ const FeaturedCategory = ( {
 
 		return (
 			<Placeholder
-				icon={ <Icon icon={ folderStarred } /> }
+				icon={ <Icon srcElement={ folderStarred } /> }
 				label={ __(
 					'Featured Category',
 					'woocommerce'
@@ -270,21 +257,15 @@ const FeaturedCategory = ( {
 			<InnerBlocks
 				template={ [
 					[
-						'core/buttons',
-						{},
-						[
-							[
-								'core/button',
-								{
-									text: __(
-										'Shop now',
-										'woocommerce'
-									),
-									url: category.permalink,
-									align: 'center',
-								},
-							],
-						],
+						'core/button',
+						{
+							text: __(
+								'Shop now',
+								'woocommerce'
+							),
+							url: category.permalink,
+							align: 'center',
+						},
 					],
 				] }
 				templateLock="all"
@@ -293,13 +274,7 @@ const FeaturedCategory = ( {
 	};
 
 	const renderCategory = () => {
-		const {
-			height,
-			contentAlign,
-			dimRatio,
-			focalPoint,
-			showDesc,
-		} = attributes;
+		const { contentAlign, dimRatio, focalPoint, showDesc } = attributes;
 
 		const classes = classnames(
 			'wc-block-featured-category',
@@ -327,7 +302,10 @@ const FeaturedCategory = ( {
 		return (
 			<ResizableBox
 				className={ classes }
-				size={ { height } }
+				size={ {
+					height: '',
+					width: '',
+				} }
 				minHeight={ getSetting( 'min_height', 500 ) }
 				enable={ { bottom: true } }
 				onResizeStop={ onResizeStop }
@@ -359,7 +337,7 @@ const FeaturedCategory = ( {
 	const renderNoCategory = () => (
 		<Placeholder
 			className="wc-block-featured-category"
-			icon={ <Icon icon={ folderStarred } /> }
+			icon={ <Icon srcElement={ folderStarred } /> }
 			label={ __( 'Featured Category', 'woocommerce' ) }
 		>
 			{ isLoading ? (

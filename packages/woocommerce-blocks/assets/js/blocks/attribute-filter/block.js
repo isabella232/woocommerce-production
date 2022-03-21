@@ -18,7 +18,6 @@ import FilterSubmitButton from '@woocommerce/base-components/filter-submit-butto
 import isShallowEqual from '@wordpress/is-shallow-equal';
 import { decodeEntities } from '@wordpress/html-entities';
 import { Notice } from '@wordpress/components';
-import classNames from 'classnames';
 
 /**
  * Internal dependencies
@@ -26,7 +25,6 @@ import classNames from 'classnames';
 import { getAttributeFromID } from '../../utils/attributes';
 import { updateAttributeFilter } from '../../utils/attributes-query';
 import { previewAttributeObject, previewOptions } from './preview';
-import { useBorderProps } from '../../hooks/style-attributes';
 import './style.scss';
 
 /**
@@ -52,8 +50,6 @@ const AttributeFilterBlock = ( {
 			: []
 	);
 
-	const borderProps = useBorderProps( blockAttributes );
-
 	const [ queryState ] = useQueryStateByContext();
 	const [
 		productAttributesQuery,
@@ -64,7 +60,7 @@ const AttributeFilterBlock = ( {
 		results: attributeTerms,
 		isLoading: attributeTermsLoading,
 	} = useCollection( {
-		namespace: '/wc/store/v1',
+		namespace: '/wc/store',
 		resourceName: 'products/attributes/terms',
 		resourceValues: [ attributeObject?.id || 0 ],
 		shouldSelect: blockAttributes.attributeId > 0,
@@ -385,11 +381,7 @@ const AttributeFilterBlock = ( {
 					<DropdownSelector
 						attributeLabel={ attributeObject.label }
 						checked={ checked }
-						className={ classNames(
-							'wc-block-attribute-filter-dropdown',
-							borderProps.className
-						) }
-						style={ { ...borderProps.style, borderStyle: 'none' } }
+						className={ 'wc-block-attribute-filter-dropdown' }
 						inputLabel={ blockAttributes.heading }
 						isLoading={ isLoading }
 						multiple={ multiple }

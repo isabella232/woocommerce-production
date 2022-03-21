@@ -56,7 +56,6 @@ const Block = ( { color, backgroundColor }: Props ): JSX.Element => {
 							color,
 							borderColor: color,
 						} }
-						variant="outlined"
 					>
 						{ __( 'View my cart', 'woo-gutenberg-products-block' ) }
 					</Button>

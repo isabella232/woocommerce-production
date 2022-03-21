@@ -3,7 +3,6 @@
  */
 import type { LazyExoticComponent } from 'react';
 import type { BlockConfiguration } from '@wordpress/blocks';
-import type { RegisteredBlockComponent } from '@woocommerce/types';
 
 export enum innerBlockAreas {
 	CHECKOUT = 'woocommerce/checkout',
@@ -33,7 +32,10 @@ interface CheckoutBlockOptionsMetadata extends Partial< BlockConfiguration > {
 export type RegisteredBlock = {
 	blockName: string;
 	metadata: CheckoutBlockOptionsMetadata;
-	component: RegisteredBlockComponent;
+	component:
+		| LazyExoticComponent< React.ComponentType< unknown > >
+		| ( () => JSX.Element | null )
+		| null;
 	force: boolean;
 };
 

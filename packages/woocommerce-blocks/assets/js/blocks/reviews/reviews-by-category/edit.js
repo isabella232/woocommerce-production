@@ -12,7 +12,7 @@ import {
 } from '@wordpress/components';
 import PropTypes from 'prop-types';
 import ProductCategoryControl from '@woocommerce/editor-components/product-category-control';
-import { Icon, commentContent } from '@wordpress/icons';
+import { Icon, review } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -104,7 +104,7 @@ const ReviewsByCategoryEditor = ( {
 			<Placeholder
 				icon={
 					<Icon
-						icon={ commentContent }
+						srcElement={ review }
 						className="block-editor-block-icon"
 					/>
 				}
@@ -152,7 +152,7 @@ const ReviewsByCategoryEditor = ( {
 				attributes={ attributes }
 				icon={
 					<Icon
-						icon={ commentContent }
+						srcElement={ review }
 						className="block-editor-block-icon"
 					/>
 				}

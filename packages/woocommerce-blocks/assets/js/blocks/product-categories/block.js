@@ -11,12 +11,12 @@ import {
 	ToggleControl,
 	Placeholder,
 } from '@wordpress/components';
-import { Icon, listView } from '@wordpress/icons';
+import { Icon, list } from '@woocommerce/icons';
 import ToggleButtonControl from '@woocommerce/editor-components/toggle-button-control';
 
 const EmptyPlaceholder = () => (
 	<Placeholder
-		icon={ <Icon icon={ listView } /> }
+		icon={ <Icon srcElement={ list } /> }
 		label={ __(
 			'Product Categories List',
 			'woocommerce'

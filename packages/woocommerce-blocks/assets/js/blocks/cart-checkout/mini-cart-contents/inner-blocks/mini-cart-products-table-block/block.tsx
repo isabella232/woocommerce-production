@@ -15,7 +15,6 @@ const Block = (): JSX.Element => {
 			<CartLineItemsTable
 				lineItems={ cartItems }
 				isLoading={ cartIsLoading }
-				className="wc-block-mini-cart-items"
 			/>
 		</div>
 	);

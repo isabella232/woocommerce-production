@@ -30,16 +30,13 @@ const getProductsRequests = ( {
 		order: 'asc',
 	};
 	const requests = [
-		addQueryArgs( '/wc/store/v1/products', {
-			...defaultArgs,
-			...queryArgs,
-		} ),
+		addQueryArgs( '/wc/store/products', { ...defaultArgs, ...queryArgs } ),
 	];
 
 	// If we have a large catalog, we might not get all selected products in the first page.
 	if ( isLargeCatalog && selected.length ) {
 		requests.push(
-			addQueryArgs( '/wc/store/v1/products', {
+			addQueryArgs( '/wc/store/products', {
 				catalog_visibility: 'any',
 				include: selected,
 				per_page: 0,
@@ -88,7 +85,7 @@ export const getProducts = ( {
  */
 export const getProduct = ( productId ) => {
 	return apiFetch( {
-		path: `/wc/store/v1/products/${ productId }`,
+		path: `/wc/store/products/${ productId }`,
 	} );
 };
 
@@ -97,7 +94,7 @@ export const getProduct = ( productId ) => {
  */
 export const getAttributes = () => {
 	return apiFetch( {
-		path: `wc/store/v1/products/attributes`,
+		path: `wc/store/products/attributes`,
 	} );
 };
 
@@ -108,7 +105,7 @@ export const getAttributes = () => {
  */
 export const getTerms = ( attribute ) => {
 	return apiFetch( {
-		path: `wc/store/v1/products/attributes/${ attribute }/terms`,
+		path: `wc/store/products/attributes/${ attribute }/terms`,
 	} );
 };
 
@@ -122,7 +119,7 @@ export const getTerms = ( attribute ) => {
 const getProductTagsRequests = ( { selected = [], search } ) => {
 	const limitTags = getSetting( 'limitTags', false );
 	const requests = [
-		addQueryArgs( `wc/store/v1/products/tags`, {
+		addQueryArgs( `wc/store/products/tags`, {
 			per_page: limitTags ? 100 : 0,
 			orderby: limitTags ? 'count' : 'name',
 			order: limitTags ? 'desc' : 'asc',
@@ -133,7 +130,7 @@ const getProductTagsRequests = ( { selected = [], search } ) => {
 	// If we have a large catalog, we might not get all selected products in the first page.
 	if ( limitTags && selected.length ) {
 		requests.push(
-			addQueryArgs( `wc/store/v1/products/tags`, {
+			addQueryArgs( `wc/store/products/tags`, {
 				include: selected,
 			} )
 		);
@@ -166,7 +163,7 @@ export const getProductTags = ( { selected = [], search } ) => {
  */
 export const getCategories = ( queryArgs ) => {
 	return apiFetch( {
-		path: addQueryArgs( `wc/store/v1/products/categories`, {
+		path: addQueryArgs( `wc/store/products/categories`, {
 			per_page: 0,
 			...queryArgs,
 		} ),
@@ -180,7 +177,7 @@ export const getCategories = ( queryArgs ) => {
  */
 export const getCategory = ( categoryId ) => {
 	return apiFetch( {
-		path: `wc/store/v1/products/categories/${ categoryId }`,
+		path: `wc/store/products/categories/${ categoryId }`,
 	} );
 };
 
@@ -191,7 +188,7 @@ export const getCategory = ( categoryId ) => {
  */
 export const getProductVariations = ( product ) => {
 	return apiFetch( {
-		path: addQueryArgs( `wc/store/v1/products`, {
+		path: addQueryArgs( `wc/store/products`, {
 			per_page: 0,
 			type: 'variation',
 			parent: product,

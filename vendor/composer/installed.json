@@ -551,18 +551,92 @@
         }
     },
     {
-        "name": "woocommerce/woocommerce-blocks",
-        "version": "v7.2.0",
-        "version_normalized": "7.2.0.0",
+        "name": "woocommerce/woocommerce-admin",
+        "version": "3.3.0-rc.1",
+        "version_normalized": "3.3.0.0-RC1",
         "source": {
             "type": "git",
-            "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block.git",
-            "reference": "52fd37a82aa522b9e39fcad11a67b3560c0ea9f0"
+            "url": "https://github.com/woocommerce/woocommerce-admin.git",
+            "reference": "4bb1b565463b260b542209e23df8236b8b3b975f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/52fd37a82aa522b9e39fcad11a67b3560c0ea9f0",
-            "reference": "52fd37a82aa522b9e39fcad11a67b3560c0ea9f0",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-admin/zipball/4bb1b565463b260b542209e23df8236b8b3b975f",
+            "reference": "4bb1b565463b260b542209e23df8236b8b3b975f",
+            "shasum": ""
+        },
+        "require": {
+            "automattic/jetpack-autoloader": "^2.9.1",
+            "composer/installers": "^1.9.0",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "automattic/jetpack-changelogger": "^1.1",
+            "bamarni/composer-bin-plugin": "^1.4",
+            "suin/phpcs-psr4-sniff": "^2.2",
+            "woocommerce/woocommerce-sniffs": "0.1.0",
+            "yoast/phpunit-polyfills": "^1.0"
+        },
+        "time": "2022-03-15T20:23:32+00:00",
+        "type": "wordpress-plugin",
+        "extra": {
+            "scripts-description": {
+                "test": "Run unit tests",
+                "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
+                "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+            },
+            "bamarni-bin": {
+                "target-directory": "bin/composer"
+            },
+            "changelogger": {
+                "changelog": "./changelog.txt",
+                "formatter": {
+                    "filename": "bin/changelogger/WCAdminFormatter.php"
+                },
+                "versioning": "semver",
+                "changes-dir": "./changelogs",
+                "types": [
+                    "Fix",
+                    "Add",
+                    "Update",
+                    "Dev",
+                    "Tweak",
+                    "Performance",
+                    "Enhancement"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Automattic\\WooCommerce\\Admin\\": "src/",
+                "Automattic\\WooCommerce\\Internal\\Admin\\": "src-internal/Admin/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "description": "A modern, javascript-driven WooCommerce Admin experience.",
+        "homepage": "https://github.com/woocommerce/woocommerce-admin",
+        "support": {
+            "issues": "https://github.com/woocommerce/woocommerce-admin/issues",
+            "source": "https://github.com/woocommerce/woocommerce-admin/tree/v3.3.0-rc.1"
+        }
+    },
+    {
+        "name": "woocommerce/woocommerce-blocks",
+        "version": "v6.9.0",
+        "version_normalized": "6.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block.git",
+            "reference": "ea6675c86c11138860766a824420b6c7fbcb7e47"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/ea6675c86c11138860766a824420b6c7fbcb7e47",
+            "reference": "ea6675c86c11138860766a824420b6c7fbcb7e47",
             "shasum": ""
         },
         "require": {
@@ -576,7 +650,7 @@
             "wp-phpunit/wp-phpunit": "^5.4",
             "yoast/phpunit-polyfills": "^1.0"
         },
-        "time": "2022-03-15T11:18:07+00:00",
+        "time": "2022-02-02T10:37:29+00:00",
         "type": "wordpress-plugin",
         "extra": {
             "scripts-description": {
@@ -586,13 +660,8 @@
         },
         "installation-source": "dist",
         "autoload": {
-            "files": [
-                "src/StoreApi/deprecated.php",
-                "src/StoreApi/functions.php"
-            ],
             "psr-4": {
-                "Automattic\\WooCommerce\\Blocks\\": "src/",
-                "Automattic\\WooCommerce\\StoreApi\\": "src/StoreApi/"
+                "Automattic\\WooCommerce\\Blocks\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -608,7 +677,7 @@
         ],
         "support": {
             "issues": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/issues",
-            "source": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/tree/v7.2.0"
+            "source": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/tree/v6.9.0"
         }
     }
 ]

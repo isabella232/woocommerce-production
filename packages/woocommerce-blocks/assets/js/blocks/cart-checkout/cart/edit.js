@@ -23,8 +23,7 @@ import {
 import { createInterpolateElement } from '@wordpress/element';
 import { getAdminLink } from '@woocommerce/settings';
 import { previewCart } from '@woocommerce/resource-previews';
-import { filledCart, removeCart } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, filledCart, removeCart } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -51,12 +50,12 @@ const views = [
 	{
 		view: 'woocommerce/filled-cart-block',
 		label: __( 'Filled Cart', 'woocommerce' ),
-		icon: <Icon icon={ filledCart } />,
+		icon: <Icon srcElement={ filledCart } />,
 	},
 	{
 		view: 'woocommerce/empty-cart-block',
 		label: __( 'Empty Cart', 'woocommerce' ),
-		icon: <Icon icon={ removeCart } />,
+		icon: <Icon srcElement={ removeCart } />,
 	},
 ];
 

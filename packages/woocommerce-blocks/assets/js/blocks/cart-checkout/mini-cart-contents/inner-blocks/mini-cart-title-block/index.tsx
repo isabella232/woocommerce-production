@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import { Icon, heading } from '@wordpress/icons';
+import { Icon, bookmark } from '@woocommerce/icons';
 import { registerFeaturePluginBlockType } from '@woocommerce/block-settings';
 
 /**
@@ -14,7 +14,7 @@ registerFeaturePluginBlockType( metadata, {
 	icon: {
 		src: (
 			<Icon
-				icon={ heading }
+				srcElement={ bookmark }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

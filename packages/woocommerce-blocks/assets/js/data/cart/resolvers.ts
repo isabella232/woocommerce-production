@@ -15,7 +15,7 @@ import { STORE_KEY, CART_API_ERROR } from './constants';
  */
 export function* getCartData(): Generator< unknown, void, CartResponse > {
 	const cartData = yield apiFetch( {
-		path: '/wc/store/v1/cart',
+		path: '/wc/store/cart',
 		method: 'GET',
 		cache: 'no-store',
 	} );

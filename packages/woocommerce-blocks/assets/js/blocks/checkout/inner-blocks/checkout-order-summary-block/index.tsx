@@ -1,8 +1,7 @@
 /**
  * External dependencies
  */
-import { totals } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, totals } from '@woocommerce/icons';
 import { registerFeaturePluginBlockType } from '@woocommerce/block-settings';
 
 /**
@@ -16,7 +15,7 @@ registerFeaturePluginBlockType( metadata, {
 	icon: {
 		src: (
 			<Icon
-				icon={ totals }
+				srcElement={ totals }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

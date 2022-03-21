@@ -3,11 +3,7 @@
  */
 import { __, sprintf, _n } from '@wordpress/i18n';
 import { useState } from '@wordpress/element';
-import {
-	InspectorControls,
-	BlockControls,
-	useBlockProps,
-} from '@wordpress/block-editor';
+import { InspectorControls, BlockControls } from '@wordpress/block-editor';
 import {
 	Placeholder,
 	Disabled,
@@ -17,7 +13,7 @@ import {
 	ToolbarGroup,
 	withSpokenMessages,
 } from '@wordpress/components';
-import { Icon, category, external } from '@wordpress/icons';
+import { Icon, server, external } from '@woocommerce/icons';
 import { SearchListControl } from '@woocommerce/editor-components/search-list-control';
 import { mapValues, toArray, sortBy } from 'lodash';
 import { getAdminLink, getSetting } from '@woocommerce/settings';
@@ -50,8 +46,6 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 	const [ isEditing, setIsEditing ] = useState(
 		! attributeId && ! isPreview
 	);
-
-	const blockProps = useBlockProps();
 
 	const getBlockControls = () => {
 		return (
@@ -228,7 +222,7 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 	const noAttributesPlaceholder = () => (
 		<Placeholder
 			className="wc-block-attribute-filter"
-			icon={ <Icon icon={ category } /> }
+			icon={ <Icon srcElement={ server } /> }
 			label={ __(
 				'Filter Products by Attribute',
 				'woocommerce'
@@ -253,7 +247,7 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 			>
 				{ __( 'Add new attribute', 'woocommerce' ) +
 					' ' }
-				<Icon icon={ external } />
+				<Icon srcElement={ external } />
 			</Button>
 			<Button
 				className="wc-block-attribute-filter__read_more_button"
@@ -362,7 +356,7 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 		return (
 			<Placeholder
 				className="wc-block-attribute-filter"
-				icon={ <Icon icon={ category } /> }
+				icon={ <Icon srcElement={ server } /> }
 				label={ __(
 					'Filter Products by Attribute',
 					'woocommerce'
@@ -385,7 +379,7 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 	return Object.keys( ATTRIBUTES ).length === 0 ? (
 		noAttributesPlaceholder()
 	) : (
-		<div { ...blockProps }>
+		<>
 			{ getBlockControls() }
 			{ getInspectorControls() }
 			{ isEditing ? (
@@ -410,7 +404,7 @@ const Edit = ( { attributes, setAttributes, debouncedSpeak } ) => {
 					</Disabled>
 				</div>
 			) }
-		</div>
+		</>
 	);
 };
 

@@ -18,12 +18,16 @@ import {
 } from '@woocommerce/blocks-checkout';
 
 import { getCurrencyFromPriceResponse } from '@woocommerce/price-format';
+import { useShippingDataContext } from '@woocommerce/base-context';
 import {
 	useStoreCartCoupons,
 	useStoreCart,
-	useShippingData,
 } from '@woocommerce/base-context/hooks';
 import { getSetting } from '@woocommerce/settings';
+
+/**
+ * Internal dependencies
+ */
 
 const Block = ( {
 	showRateAfterTaxName = false,
@@ -40,7 +44,7 @@ const Block = ( {
 		isRemovingCoupon,
 	} = useStoreCartCoupons();
 
-	const { needsShipping } = useShippingData();
+	const { needsShipping } = useShippingDataContext();
 	const totalsCurrency = getCurrencyFromPriceResponse( cartTotals );
 
 	// Prepare props to pass to the ExperimentalOrderMeta slot fill.
@@ -50,7 +54,6 @@ const Block = ( {
 	const slotFillProps = {
 		extensions,
 		cart,
-		context: 'woocommerce/checkout',
 	};
 
 	return (

@@ -2,8 +2,7 @@
  * External dependencies
  */
 import { __ } from '@wordpress/i18n';
-import { cart } from '@woocommerce/icons';
-import { Icon } from '@wordpress/icons';
+import { Icon, cart } from '@woocommerce/icons';
 import { registerExperimentalBlockType } from '@woocommerce/block-settings';
 
 /**
@@ -19,7 +18,7 @@ const settings = {
 	icon: {
 		src: (
 			<Icon
-				icon={ cart }
+				srcElement={ cart }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

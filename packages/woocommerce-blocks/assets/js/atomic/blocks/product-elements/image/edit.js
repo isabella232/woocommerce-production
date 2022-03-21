@@ -3,7 +3,7 @@
  */
 import { __ } from '@wordpress/i18n';
 import { Disabled, PanelBody, ToggleControl } from '@wordpress/components';
-import { InspectorControls, useBlockProps } from '@wordpress/block-editor';
+import { InspectorControls } from '@wordpress/block-editor';
 import { createInterpolateElement } from '@wordpress/element';
 import ToggleButtonControl from '@woocommerce/editor-components/toggle-button-control';
 import { getAdminLink } from '@woocommerce/settings';
@@ -23,10 +23,8 @@ const Edit = ( { attributes, setAttributes } ) => {
 		saleBadgeAlign,
 	} = attributes;
 
-	const blockProps = useBlockProps();
-
 	return (
-		<div { ...blockProps }>
+		<>
 			<InspectorControls>
 				<PanelBody
 					title={ __( 'Content', 'woocommerce' ) }
@@ -147,7 +145,7 @@ const Edit = ( { attributes, setAttributes } ) => {
 			<Disabled>
 				<Block { ...attributes } />
 			</Disabled>
-		</div>
+		</>
 	);
 };
 

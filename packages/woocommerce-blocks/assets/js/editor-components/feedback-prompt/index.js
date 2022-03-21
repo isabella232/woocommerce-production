@@ -3,7 +3,7 @@
  */
 import { __ } from '@wordpress/i18n';
 import PropTypes from 'prop-types';
-import { Icon, commentContent, external } from '@wordpress/icons';
+import { Icon, comment, external } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -23,7 +23,7 @@ const FeedbackPrompt = ( {
 } ) => {
 	return (
 		<div className="wc-block-feedback-prompt">
-			<Icon icon={ commentContent } />
+			<Icon srcElement={ comment } />
 			<h2 className="wc-block-feedback-prompt__title">
 				{ __( 'Feedback?', 'woocommerce' ) }
 			</h2>
@@ -38,7 +38,7 @@ const FeedbackPrompt = ( {
 					'Give us your feedback.',
 					'woocommerce'
 				) }
-				<Icon icon={ external } size={ 16 } />
+				<Icon srcElement={ external } size={ 16 } />
 			</a>
 		</div>
 	);

@@ -30,7 +30,7 @@ const ActiveAttributeFilters = ( {
 	displayStyle,
 } ) => {
 	const { results, isLoading } = useCollection( {
-		namespace: '/wc/store/v1',
+		namespace: '/wc/store',
 		resourceName: 'products/attributes/terms',
 		resourceValues: [ attributeObject.id ],
 	} );

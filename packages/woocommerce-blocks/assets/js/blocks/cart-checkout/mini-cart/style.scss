@@ -24,7 +24,7 @@
 	font-weight: 400;
 	padding: em($gap-small) em($gap-smaller);
 
-	&:hover:not([disabled]) {
+	&:hover {
 		opacity: 0.6;
 	}
 }
@@ -65,7 +65,6 @@
 
 		button {
 			color: inherit;
-			z-index: 9999;
 		}
 
 		svg {
@@ -74,6 +73,7 @@
 	}
 }
 
+// @todo Review the class naming convention for Mini Cart inner blocks.
 .wp-block-woocommerce-mini-cart-contents {
 	background: #fff;
 	box-sizing: border-box;
@@ -82,11 +82,6 @@
 	height: 100vh;
 	padding: 0;
 	justify-content: center;
-}
-
-.wp-block-woocommerce-empty-mini-cart-contents-block {
-	overflow-y: auto;
-	padding: $gap-largest $gap $gap;
 }
 
 h2.wc-block-mini-cart__title {
@@ -99,7 +94,7 @@ h2.wc-block-mini-cart__title {
 	flex-direction: column;
 	flex-grow: 1;
 	overflow-y: hidden;
-	padding: $gap $gap 0;
+	padding: 0 $gap;
 
 	.wc-block-mini-cart__products-table {
 		margin-bottom: auto;
@@ -107,13 +102,8 @@ h2.wc-block-mini-cart__title {
 		overflow-y: auto;
 		padding-right: $gap;
 
-		.wc-block-cart-items__row {
-			padding-top: $gap-smaller;
-			padding-bottom: $gap-smaller;
-
-			&:last-child::after {
-				content: none;
-			}
+		.wc-block-cart-items__row:last-child::after {
+			content: none;
 		}
 	}
 }
@@ -142,6 +132,9 @@ h2.wc-block-mini-cart__title {
 		gap: $gap;
 
 		.wc-block-mini-cart__footer-cart.wc-block-components-button {
+			background-color: transparent;
+			border: 1px solid $gray-900;
+			color: $gray-900;
 			display: none;
 			flex-grow: 1;
 			font-weight: 600;
@@ -152,6 +145,7 @@ h2.wc-block-mini-cart__title {
 		}
 
 		.wc-block-mini-cart__footer-checkout {
+			border: 1px solid $gray-900;
 			flex-grow: 1;
 			font-weight: 600;
 		}
@@ -159,16 +153,5 @@ h2.wc-block-mini-cart__title {
 
 	.wc-block-components-payment-method-icons {
 		margin-top: $gap;
-	}
-}
-
-.wc-block-mini-cart__shopping-button {
-	display: flex;
-	justify-content: center;
-
-	a {
-		border: 2px solid;
-		padding: $gap-small $gap-large;
-		text-decoration: none;
 	}
 }

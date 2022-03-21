@@ -12,7 +12,7 @@ import {
 import { SearchListItem } from '@woocommerce/editor-components/search-list-control';
 import PropTypes from 'prop-types';
 import ProductControl from '@woocommerce/editor-components/product-control';
-import { Icon, commentContent } from '@wordpress/icons';
+import { Icon, comment } from '@woocommerce/icons';
 
 /**
  * Internal dependencies
@@ -123,7 +123,7 @@ const ReviewsByProductEditor = ( {
 			<Placeholder
 				icon={
 					<Icon
-						icon={ commentContent }
+						icon={ comment }
 						className="block-editor-block-icon"
 					/>
 				}
@@ -175,7 +175,7 @@ const ReviewsByProductEditor = ( {
 				attributes={ attributes }
 				icon={
 					<Icon
-						icon={ commentContent }
+						icon={ comment }
 						className="block-editor-block-icon"
 					/>
 				}
