@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-23T09:13:58+00:00\n"
+"POT-Creation-Date: 2022-03-23T16:13:02+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -23572,7 +23572,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:122
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:103
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:84
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:822
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:828
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:423
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:741
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:80
@@ -24196,7 +24196,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:711
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:612
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:636
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:930
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:948
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:709
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractTermsRoute.php:54
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/Products.php:172
@@ -24204,7 +24204,7 @@ msgid "Ensure result set excludes specific IDs."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:874
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:938
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:956
 msgid "Limit result set to specific IDs."
 msgstr ""
 
@@ -24213,7 +24213,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:729
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:630
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:654
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:946
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:964
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductReviews.php:187
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/Products.php:192
 msgid "Offset the result set by a specific number of items."
@@ -24224,7 +24224,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:735
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:636
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:660
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:950
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:968
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:733
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductReviews.php:194
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/Products.php:199
@@ -24236,7 +24236,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:742
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:643
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:667
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:959
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:977
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductReviews.php:202
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/Products.php:207
 msgid "Sort collection by object attribute."
@@ -24366,6 +24366,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:441
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1346
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1674
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:851
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:747
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CartItemSchema.php:87
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductSchema.php:58
@@ -25066,7 +25067,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:364
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:371
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:531
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1049
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1067
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/ProductsById.php:73
 msgid "Invalid product ID."
 msgstr ""
@@ -25098,41 +25099,41 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:535
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:159
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:863
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:881
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:108
 msgid "The content of the review."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:540
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:164
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:828
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:834
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:57
 msgid "The date the review was created, in the site's timezone."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:545
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:174
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:871
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:889
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:117
 msgid "Review rating (0 to 5)."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:550
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:179
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:852
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:870
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:102
 msgid "Reviewer name."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:555
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:184
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:857
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:875
 msgid "Reviewer email."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:560
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:189
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:876
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:894
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:123
 msgid "Shows if the reviewer bought the product or not."
 msgstr ""
@@ -25207,6 +25208,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1755
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1684
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:856
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:757
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CartItemSchema.php:135
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductSchema.php:80
@@ -26144,7 +26146,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:699
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:582
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:624
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:920
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:938
 msgid "Limit response to resources published after a given ISO8601 compliant date."
 msgstr ""
 
@@ -26473,7 +26475,7 @@ msgid "The date the image was last modified, as GMT."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:169
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:834
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:840
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:70
 msgid "The date the review was created, as GMT."
 msgstr ""
@@ -27532,51 +27534,51 @@ msgstr ""
 msgid "The object cannot be deleted."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:840
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:846
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:77
 msgid "Unique identifier for the product that the review belongs to."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:845
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:863
 msgid "Status of the review."
 msgstr ""
 
 #. translators: %d: avatar image size in pixels
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:891
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:909
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:137
 msgid "Avatar URL with image size of %d pixels."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:898
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:916
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductReviewSchema.php:144
 msgid "Avatar URLs for the object reviewer."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:925
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:943
 msgid "Limit response to reviews published before a given ISO8601 compliant date."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:971
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:989
 msgid "Limit result set to reviews assigned to specific user IDs."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:978
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:996
 msgid "Ensure result set excludes reviews assigned to specific user IDs."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:986
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1004
 msgid "Limit result set to that from a specific author email."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:992
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1010
 msgid "Limit result set to reviews assigned to specific product IDs."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1000
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1018
 msgid "Limit result set to reviews assigned a specific status."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1034
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1052
 msgid "Invalid review ID."
 msgstr ""
 
