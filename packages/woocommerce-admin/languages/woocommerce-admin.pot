@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 3.3.0-rc.1\n"
+"Project-Id-Version: WooCommerce Admin 3.3.0-rc.2\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2022-03-15 20:22:55+00:00\n"
+"POT-Creation-Date: 2022-03-21 17:24:53+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: src/Features/OnboardingTasks/Tasks/AdditionalPayments.php:51
 #: src/Features/OnboardingTasks/Tasks/Appearance.php:61
 #: src/Features/OnboardingTasks/Tasks/Payments.php:49
-#: src/Features/OnboardingTasks/Tasks/Purchase.php:110
+#: src/Features/OnboardingTasks/Tasks/Purchase.php:111
 #: src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:58
 #: client/two-column-tasks/headers/woocommerce-payments.js:86
 msgid "2 minutes"
@@ -196,7 +196,6 @@ msgstr ""
 #: client/analytics/report/customers/table.js:68
 #: client/analytics/report/get-reports.js:78
 #: client/analytics/report/orders/config.js:36
-#: client/analytics/report/orders/table.js:353
 #: client/analytics/report/products/config.js:53
 #: client/analytics/report/taxes/config.js:57
 #: client/analytics/report/taxes/table.js:58
@@ -2823,54 +2822,54 @@ msgstr ""
 msgid "Customizable products"
 msgstr ""
 
-#: src/Features/Onboarding.php:659
+#: src/Features/Onboarding.php:664
 #. translators: site currency symbol (used to show that the product costs
 #. money)
 msgid " — %s"
 msgstr ""
 
-#: src/Features/Onboarding.php:820 src/Features/Onboarding.php:832
+#: src/Features/Onboarding.php:825 src/Features/Onboarding.php:837
 msgid "Setup wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:828
+#: src/Features/Onboarding.php:833
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: src/Features/Onboarding.php:830
+#: src/Features/Onboarding.php:835
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:831
+#: src/Features/Onboarding.php:836
 msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:834
+#: src/Features/Onboarding.php:839
 msgid "Task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:835
+#: src/Features/Onboarding.php:840
 msgid ""
 "If you need to enable or disable the task lists, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:837 src/Features/Onboarding.php:846
+#: src/Features/Onboarding.php:842 src/Features/Onboarding.php:851
 #: client/tasks/fills/PaymentGatewaySuggestions/components/Action.js:95
 msgid "Enable"
 msgstr ""
 
-#: src/Features/Onboarding.php:838 src/Features/Onboarding.php:847
+#: src/Features/Onboarding.php:843 src/Features/Onboarding.php:852
 msgid "Disable"
 msgstr ""
 
-#: src/Features/Onboarding.php:843
+#: src/Features/Onboarding.php:848
 msgid "Extended task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:844
+#: src/Features/Onboarding.php:849
 msgid ""
 "If you need to enable or disable the extended task lists, please click on "
 "the button below."
@@ -2973,13 +2972,13 @@ msgstr ""
 msgid "Add paid extensions to my store"
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Purchase.php:85
+#: src/Features/OnboardingTasks/Tasks/Purchase.php:86
 #. translators: %1$s: list of product names comma separated, %2%s the last
 #. product name
 msgid "Good choice! You chose to add %1$s and %2$s to your store."
 msgstr ""
 
-#: src/Features/OnboardingTasks/Tasks/Purchase.php:100
+#: src/Features/OnboardingTasks/Tasks/Purchase.php:101
 msgid "Purchase & install now"
 msgstr ""
 
@@ -6974,7 +6973,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: client/profile-wizard/steps/business-details/flows/selective-bundle/selective-extensions-bundle/index.js:29
-#: client/profile-wizard/steps/theme/index.js:269
+#: client/profile-wizard/steps/theme/index.js:267
 msgid "Free"
 msgstr ""
 
@@ -7126,62 +7125,62 @@ msgid "Skip setup store details"
 msgstr ""
 
 # The name of the theme that was installed and activated
-#: client/profile-wizard/steps/theme/index.js:134
+#: client/profile-wizard/steps/theme/index.js:132
 msgid "%s was installed and activated on your site"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:204
+#: client/profile-wizard/steps/theme/index.js:202
 msgid "This theme does not support WooCommerce."
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:231
+#: client/profile-wizard/steps/theme/index.js:229
 msgid "Continue with my active theme"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:243
+#: client/profile-wizard/steps/theme/index.js:241
 #: client/profile-wizard/steps/theme/preview.js:111
 msgid "Choose"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:251
+#: client/profile-wizard/steps/theme/index.js:249
 msgid "Live demo"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:264
+#: client/profile-wizard/steps/theme/index.js:262
 msgid "Currently active theme"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:267
+#: client/profile-wizard/steps/theme/index.js:265
 msgid "Installed"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:273
+#: client/profile-wizard/steps/theme/index.js:271
 msgid "%s per year"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:358
+#: client/profile-wizard/steps/theme/index.js:356
 msgid "Choose a theme"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:361
+#: client/profile-wizard/steps/theme/index.js:359
 msgid ""
 "Choose how your store appears to customers. And don't worry, you can always "
 "switch themes and edit them later."
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:374
+#: client/profile-wizard/steps/theme/index.js:372
 msgid "All themes"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:378
+#: client/profile-wizard/steps/theme/index.js:376
 msgid "Paid themes"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:382
+#: client/profile-wizard/steps/theme/index.js:380
 msgid "Free themes"
 msgstr ""
 
-#: client/profile-wizard/steps/theme/index.js:413
+#: client/profile-wizard/steps/theme/index.js:411
 msgid "Skip this step"
 msgstr ""
 

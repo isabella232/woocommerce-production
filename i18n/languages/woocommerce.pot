@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-22T19:46:05+00:00\n"
+"POT-Creation-Date: 2022-03-29T02:59:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -28527,8 +28527,8 @@ msgstr ""
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:117
 #: includes/shipping/legacy-local-pickup/class-wc-shipping-legacy-local-pickup.php:96
-#: packages/woocommerce-admin/src/Features/Onboarding.php:837
-#: packages/woocommerce-admin/src/Features/Onboarding.php:846
+#: packages/woocommerce-admin/src/Features/Onboarding.php:842
+#: packages/woocommerce-admin/src/Features/Onboarding.php:851
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Enable"
 msgstr ""
@@ -32951,45 +32951,45 @@ msgid "Customizable products"
 msgstr ""
 
 #. translators: site currency symbol (used to show that the product costs money)
-#: packages/woocommerce-admin/src/Features/Onboarding.php:659
+#: packages/woocommerce-admin/src/Features/Onboarding.php:664
 msgid " — %s"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:820
-#: packages/woocommerce-admin/src/Features/Onboarding.php:832
+#: packages/woocommerce-admin/src/Features/Onboarding.php:825
+#: packages/woocommerce-admin/src/Features/Onboarding.php:837
 msgid "Setup wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:828
+#: packages/woocommerce-admin/src/Features/Onboarding.php:833
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:830
+#: packages/woocommerce-admin/src/Features/Onboarding.php:835
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:831
+#: packages/woocommerce-admin/src/Features/Onboarding.php:836
 msgid "If you need to access the setup wizard again, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:834
+#: packages/woocommerce-admin/src/Features/Onboarding.php:839
 msgid "Task List"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:835
+#: packages/woocommerce-admin/src/Features/Onboarding.php:840
 msgid "If you need to enable or disable the task lists, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:838
-#: packages/woocommerce-admin/src/Features/Onboarding.php:847
+#: packages/woocommerce-admin/src/Features/Onboarding.php:843
+#: packages/woocommerce-admin/src/Features/Onboarding.php:852
 msgid "Disable"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:843
+#: packages/woocommerce-admin/src/Features/Onboarding.php:848
 msgid "Extended task List"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:844
+#: packages/woocommerce-admin/src/Features/Onboarding.php:849
 msgid "If you need to enable or disable the extended task lists, please click on the button below."
 msgstr ""
 
@@ -33036,7 +33036,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/AdditionalPayments.php:51
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Appearance.php:61
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Payments.php:49
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:110
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:111
 #: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/WooCommercePayments.php:58
 msgid "2 minutes"
 msgstr ""
@@ -33093,11 +33093,11 @@ msgid "Add paid extensions to my store"
 msgstr ""
 
 #. translators: %1$s: list of product names comma separated, %2%s the last product name
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:85
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:86
 msgid "Good choice! You chose to add %1$s and %2$s to your store."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:100
+#: packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/Purchase.php:101
 msgid "Purchase & install now"
 msgstr ""
 
