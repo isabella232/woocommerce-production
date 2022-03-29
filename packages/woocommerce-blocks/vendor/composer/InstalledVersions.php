@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'b6b8a005cd5b0892fada670ed4bc4596132ad79e',
+    'reference' => '6e593fd4917a761483447a213bf51bca8da65a09',
     'name' => 'woocommerce/woocommerce-blocks',
   ),
   'versions' => 
@@ -74,7 +74,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'b6b8a005cd5b0892fada670ed4bc4596132ad79e',
+      'reference' => '6e593fd4917a761483447a213bf51bca8da65a09',
     ),
   ),
 );
