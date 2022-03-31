@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-31T17:44:04+00:00\n"
+"POT-Creation-Date: 2022-03-31T21:18:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -10492,9 +10492,9 @@ msgstr ""
 #: includes/admin/class-wc-admin-post-types.php:141
 #: includes/admin/class-wc-admin-post-types.php:161
 #: includes/admin/class-wc-admin-post-types.php:180
-#: includes/admin/settings/views/html-webhooks-edit.php:169
-#: includes/admin/settings/views/html-webhooks-edit.php:178
-#: includes/admin/settings/views/html-webhooks-edit.php:186
+#: includes/admin/settings/views/html-webhooks-edit.php:176
+#: includes/admin/settings/views/html-webhooks-edit.php:185
+#: includes/admin/settings/views/html-webhooks-edit.php:193
 #: includes/class-wc-webhook.php:526
 msgid "M j, Y @ G:i"
 msgstr ""
@@ -11947,7 +11947,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-webhooks-table-list.php:94
 #: includes/admin/class-wc-admin-webhooks-table-list.php:208
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:57
-#: includes/admin/settings/views/html-webhooks-edit.php:207
+#: includes/admin/settings/views/html-webhooks-edit.php:214
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:215
 msgid "Delete permanently"
 msgstr ""
@@ -17190,20 +17190,20 @@ msgstr ""
 msgid "Legacy API v3 (deprecated)"
 msgstr ""
 
-#: includes/admin/settings/views/html-webhooks-edit.php:159
+#: includes/admin/settings/views/html-webhooks-edit.php:166
 msgid "Webhook actions"
 msgstr ""
 
-#: includes/admin/settings/views/html-webhooks-edit.php:166
-#: includes/admin/settings/views/html-webhooks-edit.php:175
+#: includes/admin/settings/views/html-webhooks-edit.php:173
+#: includes/admin/settings/views/html-webhooks-edit.php:182
 msgid "Created at"
 msgstr ""
 
-#: includes/admin/settings/views/html-webhooks-edit.php:183
+#: includes/admin/settings/views/html-webhooks-edit.php:190
 msgid "Updated at"
 msgstr ""
 
-#: includes/admin/settings/views/html-webhooks-edit.php:194
+#: includes/admin/settings/views/html-webhooks-edit.php:201
 msgid "Save webhook"
 msgstr ""
 
