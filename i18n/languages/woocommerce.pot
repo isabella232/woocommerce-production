@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-04T09:16:56+00:00\n"
+"POT-Creation-Date: 2022-04-05T05:44:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -19029,21 +19029,21 @@ msgstr ""
 msgid "An error occurred in the request and at the time were unable to send the consumer data"
 msgstr ""
 
-#: includes/class-wc-auth.php:378
+#: includes/class-wc-auth.php:408
 msgid "Invalid nonce verification"
 msgstr ""
 
-#: includes/class-wc-auth.php:399
+#: includes/class-wc-auth.php:429
 msgid "You do not have permission to access this page"
 msgstr ""
 
 #. translators: %s: error message
-#: includes/class-wc-auth.php:405
+#: includes/class-wc-auth.php:435
 msgid "Error: %s."
 msgstr ""
 
 #. translators: %s: error message
-#: includes/class-wc-auth.php:405
+#: includes/class-wc-auth.php:435
 msgid "Access denied"
 msgstr ""
 
