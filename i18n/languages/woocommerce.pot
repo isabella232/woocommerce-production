@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-06T18:35:13+00:00\n"
+"POT-Creation-Date: 2022-04-06T21:30:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -21269,12 +21269,12 @@ msgid "The downloadable file %s cannot be used as it does not exist on the serve
 msgstr ""
 
 #. translators: %1$s is the downloadable file path, %2$s is an opening link tag, %3%s is a closing link tag.
-#: includes/class-wc-product-download.php:217
+#: includes/class-wc-product-download.php:227
 msgid "The downloadable file %1$s cannot be used: it is not located in an approved directory. Please contact a site administrator and request their approval. %2$sLearn more.%3$s"
 msgstr ""
 
 #. translators: %1$s is the downloadable file path, %2$s is an opening link tag, %3%s is a closing link tag.
-#: includes/class-wc-product-download.php:230
+#: includes/class-wc-product-download.php:240
 msgid "The downloadable file %1$s cannot be used: it is not located in an approved directory. Please contact a site administrator for help. %2$sLearn more.%3$s"
 msgstr ""
 
@@ -35922,7 +35922,7 @@ msgid "invalid URL"
 msgstr ""
 
 #. translators: %s is a URL, %d is a product ID.
-#: src/Internal/ProductDownloads/ApprovedDirectories/Synchronize.php:229
+#: src/Internal/ProductDownloads/ApprovedDirectories/Synchronize.php:240
 msgid "Product download migration: %1$s (for product %1$d) could not be added to the list of approved download directories."
 msgstr ""
 
