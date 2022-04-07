@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-07T08:10:55+00:00\n"
+"POT-Creation-Date: 2022-04-07T14:17:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -34350,7 +34350,7 @@ msgstr ""
 #: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:69
 #: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:55
 #: src/Admin/Features/OnboardingTasks/Tasks/Purchase.php:112
-#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:58
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:59
 msgid "2 minutes"
 msgstr ""
 
@@ -34498,22 +34498,22 @@ msgstr ""
 msgid "Set your store location and configure tax rate settings."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:37
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:38
 msgid "Get paid with WooCommerce Payments"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:46
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:47
 #: assets/client/admin/chunks/9589.js:1
 msgid "You're only one step away from getting paid. Verify your business details to start managing transactions with WooCommerce Payments."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:67
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:68
 #: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/marketing-overview.js:1
 msgid "Finish setup"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:76
+#: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:77
 msgid "By setting up, you are agreeing to the <a href=\"https://wordpress.com/tos/\" target=\"_blank\">Terms of Service</a>"
 msgstr ""
 
