@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-08T12:12:37+00:00\n"
+"POT-Creation-Date: 2022-04-08T13:02:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -10766,7 +10766,7 @@ msgstr ""
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:133
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/SyncUI.php:81
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/UI.php:360
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/activity-panels-inbox.js:1
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/customer-effort-score/index.js:1
@@ -14424,7 +14424,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:397
 #: src/Admin/Features/OnboardingTasks/Tasks/Products.php:43
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/homescreen.js:1
 msgid "Add products"
 msgstr ""
@@ -34315,24 +34315,24 @@ msgstr ""
 msgid "Task is not a subclass of `Task`"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:82
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:103
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:146
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:83
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:104
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:147
 #: assets/client/admin/chunks/two-column-tasks.js:1
 msgid "Get ready to start selling"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:126
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:163
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:127
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:164
 #: assets/client/admin/app/index.js:2
 msgid "Things to do next"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:230
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:231
 msgid "Task list ID already exists"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:249
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:250
 msgid "Task list ID does not exist"
 msgstr ""
 
@@ -34363,7 +34363,7 @@ msgid "Personalize your store"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:48
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/homescreen.js:1
 msgid "Personalize my store"
 msgstr ""
@@ -34377,7 +34377,7 @@ msgid "You added sales channels"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:32
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 msgid "Get more sales"
 msgstr ""
 
@@ -34402,7 +34402,7 @@ msgstr ""
 #: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:32
 #: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:34
 #: src/Internal/Admin/Notes/SetUpAdditionalPaymentTypes.php:106
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 msgid "Set up payments"
 msgstr ""
 
@@ -34503,7 +34503,7 @@ msgid "Get paid with WooCommerce Payments"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:47
-#: assets/client/admin/chunks/9589.js:1
+#: assets/client/admin/app/index.js:2
 msgid "You're only one step away from getting paid. Verify your business details to start managing transactions with WooCommerce Payments."
 msgstr ""
 
@@ -36872,6 +36872,34 @@ msgid "Yes, count me in!"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
+msgid "Welcome to %s"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Welcome"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Let's get you started"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "You are on the right track"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "You are almost there"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Hide setup list"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Follow these steps to start selling quickly. %1$d out of %2$d complete."
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
 msgid "Help us build a better WooCommerce Payments experience"
 msgstr ""
 
@@ -36909,7 +36937,6 @@ msgid "Configure your %(title)s account"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
-#: assets/client/admin/chunks/9589.js:1
 msgid "There was an error connecting to WooCommerce Payments. Please try again or connect later in store settings."
 msgstr ""
 
@@ -37359,6 +37386,122 @@ msgid "Show things to do next"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
+#: assets/client/admin/chunks/payment-recommendations.js:1
+#: assets/client/admin/chunks/shipping-recommendations.js:1
+msgid "Task List Options"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+#: assets/client/admin/chunks/payment-recommendations.js:1
+#: assets/client/admin/chunks/shipping-recommendations.js:1
+msgid "Hide this"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+#: assets/client/admin/chunks/activity-panels-inbox.js:1
+#: assets/client/admin/chunks/homescreen.js:1
+msgid "Undo"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Task postponed until tomorrow"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Show %d more task."
+msgid_plural "Show %d more tasks."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/client/admin/app/index.js:2
+#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:9
+#: packages/woocommerce-blocks/build/attribute-filter.js:11
+#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
+#: packages/woocommerce-blocks/build/stock-filter.js:11
+msgid "Show less"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Next up, add your tax rates"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Set up shipping for your store"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Configure shipping zones and rates"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Add shipping zones"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Add tools to grow your store such as email, social, and in-person selling"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Add selling tools"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Add your logo, create a homepage, and start designing your store"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Modify choices"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Personalize"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Choose payment methods"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Choose payment providers and enable payment methods at checkout"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "It's time to get paid"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "By clicking \"Verify Details\", you agree to the {{link}}Terms of Service{{/link}}"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Verify details"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Hide store setup tasks"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Are you sure? These tasks are required for all stores."
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Yes, hide store setup tasks"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "You've completed store setup"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Keep list"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
+msgid "Hide this list"
+msgstr ""
+
+#: assets/client/admin/app/index.js:2
 msgid "Not allowed"
 msgstr ""
 
@@ -37801,152 +37944,6 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-taxes.js:1
 #: assets/client/admin/chunks/store-performance.js:1
 msgid "Previous year:"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Welcome to %s"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Welcome"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Let's get you started"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "You are on the right track"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "You are almost there"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Hide setup list"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Follow these steps to start selling quickly. %1$d out of %2$d complete."
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/payment-recommendations.js:1
-#: assets/client/admin/chunks/shipping-recommendations.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Task List Options"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/payment-recommendations.js:1
-#: assets/client/admin/chunks/shipping-recommendations.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Hide this"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Next up, add your tax rates"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Set up shipping for your store"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Configure shipping zones and rates"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Add shipping zones"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Add tools to grow your store such as email, social, and in-person selling"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Add selling tools"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Add your logo, create a homepage, and start designing your store"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Modify choices"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Personalize"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Choose payment methods"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Choose payment providers and enable payment methods at checkout"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "It's time to get paid"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "By clicking \"Verify Details\", you agree to the {{link}}Terms of Service{{/link}}"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Verify details"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Hide store setup tasks"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Are you sure? These tasks are required for all stores."
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Yes, hide store setup tasks"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "You've completed store setup"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Keep list"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-msgid "Hide this list"
-msgstr ""
-
-#: assets/client/admin/chunks/9589.js:1
-#: assets/client/admin/chunks/activity-panels-inbox.js:1
-#: assets/client/admin/chunks/homescreen.js:1
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Undo"
 msgstr ""
 
 #: assets/client/admin/chunks/activity-panels-help.js:1
@@ -39966,27 +39963,6 @@ msgstr ""
 
 #: assets/client/admin/chunks/store-performance.js:1
 msgid "Store Performance"
-msgstr ""
-
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Task postponed until tomorrow"
-msgstr ""
-
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-msgid "Show %d more task."
-msgid_plural "Show %d more tasks."
-msgstr[0] ""
-msgstr[1] ""
-
-#: assets/client/admin/chunks/task-list.js:1
-#: assets/client/admin/chunks/two-column-tasks-extended.js:1
-#: packages/woocommerce-blocks/build/attribute-filter-frontend.js:9
-#: packages/woocommerce-blocks/build/attribute-filter.js:11
-#: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
-#: packages/woocommerce-blocks/build/stock-filter.js:11
-msgid "Show less"
 msgstr ""
 
 #: assets/client/admin/chunks/wcpay-payment-welcome-page.js:1
