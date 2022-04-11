@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-11T12:25:56+00:00\n"
+"POT-Creation-Date: 2022-04-11T14:28:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -10854,8 +10854,8 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-general.php:53
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:215
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:278
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1164
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1227
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1183
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1246
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:170
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:233
 #: assets/client/admin/app/index.js:2
@@ -10871,8 +10871,8 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:688
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:220
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:283
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1169
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1232
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1188
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1251
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:175
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:238
 msgid "Address line 2"
@@ -21512,7 +21512,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1283
 #: includes/rest-api/Controllers/Version1/class-wc-rest-report-top-sellers-v1-controller.php:158
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:447
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1356
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1375
 #: src/Admin/API/Reports/Downloads/Controller.php:176
 #: src/Admin/API/Reports/Products/Controller.php:165
 #: src/Admin/API/Reports/Variations/Controller.php:180
@@ -21536,7 +21536,7 @@ msgstr ""
 
 #: includes/cli/class-wc-cli-runner.php:113
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1615
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1809
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1828
 msgid "Refund ID."
 msgstr ""
 
@@ -23020,7 +23020,7 @@ msgstr ""
 #: includes/legacy/api/v3/class-wc-api-orders.php:423
 #: includes/legacy/api/v3/class-wc-api-orders.php:573
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:534
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:685
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:704
 #: includes/rest-api/Controllers/Version3/class-wc-rest-orders-controller.php:189
 msgid "Customer ID is invalid."
 msgstr ""
@@ -23384,7 +23384,7 @@ msgstr ""
 #: includes/legacy/api/v2/class-wc-api-orders.php:844
 #: includes/legacy/api/v3/class-wc-api-orders.php:888
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:779
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:937
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:956
 msgid "Order item ID provided is not associated with order."
 msgstr ""
 
@@ -23431,7 +23431,7 @@ msgstr ""
 #: includes/legacy/api/v2/class-wc-api-orders.php:1036
 #: includes/legacy/api/v3/class-wc-api-orders.php:1081
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:695
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:852
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:871
 msgid "Shipping method ID is required."
 msgstr ""
 
@@ -23463,7 +23463,7 @@ msgstr ""
 #: includes/legacy/api/v2/class-wc-api-orders.php:1159
 #: includes/legacy/api/v3/class-wc-api-orders.php:1204
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:741
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:900
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:919
 #: includes/rest-api/Controllers/Version3/class-wc-rest-orders-controller.php:60
 msgid "Coupon code is required."
 msgstr ""
@@ -24011,7 +24011,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1588
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:61
 #: includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php:342
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1756
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1775
 #: src/Admin/API/Reports/Coupons/Controller.php:177
 msgid "Coupon code."
 msgstr ""
@@ -24050,7 +24050,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:96
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:362
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:86
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1000
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1019
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:54
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php:103
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:153
@@ -24305,7 +24305,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customer-downloads-v1-controller.php:199
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:987
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php:117
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1017
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1036
 msgid "Order key."
 msgstr ""
 
@@ -24581,8 +24581,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1146
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:200
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:263
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1149
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1212
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1168
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1231
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:155
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:218
 msgid "First name."
@@ -24594,8 +24594,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1151
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:205
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:268
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1154
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1217
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1173
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1236
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:160
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:223
 msgid "Last name."
@@ -24607,8 +24607,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1156
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:210
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:273
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1159
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1222
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1178
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1241
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:165
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:228
 msgid "Company name."
@@ -24635,8 +24635,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:655
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:225
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:288
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1174
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1237
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1193
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1256
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:180
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:243
 msgid "City name."
@@ -24648,8 +24648,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1176
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:230
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:293
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1179
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1242
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1198
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1261
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:185
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:248
 msgid "ISO code or name of the state, province or district."
@@ -24661,8 +24661,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1181
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:235
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:298
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1184
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1247
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1203
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1266
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:190
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:253
 #: src/Admin/API/Reports/Customers/Controller.php:267
@@ -24681,7 +24681,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:773
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1128
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:245
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1194
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1213
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:200
 msgid "Email address."
 msgstr ""
@@ -24689,7 +24689,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:779
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1134
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:251
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1200
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1219
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:206
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:263
 msgid "Phone number."
@@ -24884,7 +24884,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:366
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1258
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:427
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1333
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1352
 msgid "Line items data."
 msgstr ""
 
@@ -24895,11 +24895,11 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1511
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1582
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:435
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1340
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1483
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1561
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1652
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1750
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1359
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1502
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1580
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1671
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1769
 msgid "Item ID."
 msgstr ""
 
@@ -24909,7 +24909,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-report-top-sellers-v1-controller.php:152
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php:99
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:441
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1346
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1365
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1674
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:851
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:747
@@ -24924,7 +24924,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:386
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1277
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:553
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1460
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1479
 #: src/Admin/API/Reports/Products/Controller.php:244
 msgid "Product SKU."
 msgstr ""
@@ -24932,28 +24932,28 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:398
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1288
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:453
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1361
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1380
 msgid "Variation ID, if applicable."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:404
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1293
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:459
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1366
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1385
 msgid "Quantity ordered."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:410
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1298
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:465
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1371
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1390
 msgid "Tax class of product."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:416
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1304
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:559
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1466
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1485
 #: src/Admin/API/Reports/Products/Controller.php:196
 #: src/Admin/API/Reports/Variations/Controller.php:217
 msgid "Product price."
@@ -24962,14 +24962,14 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:422
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1310
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:471
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1376
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1395
 msgid "Line subtotal (before discounts)."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:428
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1315
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:477
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1381
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1400
 msgid "Line subtotal tax (before discounts)."
 msgstr ""
 
@@ -24978,9 +24978,9 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1467
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1533
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:483
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1387
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1582
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1674
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1406
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1601
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1693
 msgid "Line total (after discounts)."
 msgstr ""
 
@@ -24989,9 +24989,9 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1472
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1538
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:489
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1392
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1587
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1679
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1411
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1606
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1698
 msgid "Line total tax (after discounts)."
 msgstr ""
 
@@ -25000,9 +25000,9 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1478
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1543
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:495
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1398
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1593
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1685
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1417
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1612
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1704
 msgid "Line taxes."
 msgstr ""
 
@@ -25012,10 +25012,10 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1486
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1551
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:503
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1406
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1495
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1601
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1693
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1425
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1514
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1620
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1712
 #: src/Admin/API/Reports/Taxes/Controller.php:158
 msgid "Tax rate ID."
 msgstr ""
@@ -25025,9 +25025,9 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1492
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1557
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:509
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1411
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1607
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1699
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1430
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1626
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1718
 msgid "Tax total."
 msgstr ""
 
@@ -25035,8 +25035,8 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1350
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1563
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:515
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1416
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1705
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1435
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1724
 msgid "Tax subtotal."
 msgstr ""
 
@@ -25051,12 +25051,12 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:347
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:414
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:538
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1320
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1437
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1538
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1629
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1727
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1785
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1339
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1456
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1557
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1648
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1746
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1804
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:979
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2257
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:295
@@ -25077,12 +25077,12 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:352
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:419
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:544
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1325
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1442
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1543
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1634
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1732
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1790
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1344
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1461
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1562
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1653
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1751
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1809
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:984
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2262
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:300
@@ -25094,103 +25094,103 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:522
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1671
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1877
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1896
 msgid "Number of decimal points to use in each resource."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:623
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:760
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:779
 msgid "Product ID or SKU is required."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:718
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:876
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:895
 msgid "Fee name is required."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:975
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1006
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1025
 msgid "Parent order ID."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:980
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1035
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1054
 #: src/Admin/API/Reports/Orders/Controller.php:199
 msgid "Order status."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:993
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1011
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1030
 msgid "Order number."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:999
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1042
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1061
 msgid "Currency the order was created with, in ISO format."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1006
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1029
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1048
 msgid "Version of WooCommerce which last updated the order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1012
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1115
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1134
 msgid "True the prices included tax during checkout."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1018
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1055
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1074
 msgid "The date the order was created, as GMT."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1024
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1067
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1086
 msgid "The date the order was last modified, as GMT."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1030
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1121
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1140
 msgid "User ID who owns the order. 0 for guests."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1036
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1073
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1092
 msgid "Total discount amount for the order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1042
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1079
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1098
 msgid "Total discount tax amount for the order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1048
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1085
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1104
 msgid "Total shipping amount for the order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1054
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1091
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1110
 msgid "Total shipping tax amount for the order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1060
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1097
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1116
 msgid "Sum of line item taxes only."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1066
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1103
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1122
 msgid "Grand total."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1072
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1109
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1128
 msgid "Sum of all taxes."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1078
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1144
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1163
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/CartUpdateCustomer.php:43
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CheckoutSchema.php:91
 msgid "Billing address."
@@ -25198,183 +25198,183 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1123
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1186
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1189
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1252
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1208
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1271
 msgid "Country code in ISO 3166-1 alpha-2 format."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1141
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1207
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1226
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/CartUpdateCustomer.php:51
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CheckoutSchema.php:102
 msgid "Shipping address."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1193
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1259
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1278
 msgid "Payment method ID."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1198
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1264
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1283
 msgid "Payment method title."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1206
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1836
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1855
 msgid "Define if the order is paid. It will set the status to processing and reduce stock items."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1212
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1272
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1291
 msgid "Unique transaction ID."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1217
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1127
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1146
 msgid "Customer's IP address."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1223
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1133
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1152
 msgid "User agent of the customer."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1229
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1023
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1042
 msgid "Shows where the order was created."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1235
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1139
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1158
 msgid "Note left by customer during checkout."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1240
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1289
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1308
 msgid "The date the order was completed, in the site's timezone."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1246
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1277
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1296
 msgid "The date the order was paid, in the site's timezone."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1252
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1301
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1320
 msgid "MD5 hash of cart items to ensure orders are not modified."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1391
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1475
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1494
 msgid "Tax lines data."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1405
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1489
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1508
 msgid "Tax rate code."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1417
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1501
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1520
 msgid "Tax rate label."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1423
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1507
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1526
 msgid "Show if is a compound tax rate."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1429
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1513
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1532
 msgid "Tax total (not including shipping taxes)."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1435
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1519
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1538
 msgid "Shipping tax total."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1444
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1554
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1573
 msgid "Shipping lines data."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1457
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1567
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1586
 msgid "Shipping method name."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1462
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1572
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1591
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:47
 #: includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php:464
 msgid "Shipping method ID."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1504
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1645
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1664
 msgid "Fee lines data."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1517
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1658
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1677
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CartFeeSchema.php:36
 msgid "Fee name."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1522
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1663
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1682
 msgid "Tax class of fee."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1527
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1668
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1687
 msgid "Tax status of fee."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1575
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1743
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1762
 msgid "Coupons line data."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1593
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1761
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1780
 msgid "Discount total."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1598
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1766
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1785
 msgid "Discount total tax."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1607
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1801
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1820
 msgid "List of refunds."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1621
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1815
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1834
 msgid "Refund reason."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1627
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1821
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1840
 msgid "Refund total."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1651
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1857
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1876
 msgid "Limit result set to orders assigned a specific status."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1658
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1864
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1883
 msgid "Limit result set to orders assigned a specific customer."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1664
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1870
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1889
 msgid "Limit result set to orders assigned a specific product."
 msgstr ""
 
@@ -26832,12 +26832,12 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:334
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:401
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:524
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1307
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1424
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1525
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1616
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1714
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1772
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1326
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1443
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1544
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1635
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1733
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1791
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:966
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2244
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:282
@@ -26850,12 +26850,12 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php:341
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:408
 #: includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php:532
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1314
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1431
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1532
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1623
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1721
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1779
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1333
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1450
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1551
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1642
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1740
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1798
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:973
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2251
 #: includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php:289
@@ -26944,40 +26944,44 @@ msgstr ""
 msgid "When true, the payment gateway API is used to generate the refund."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1049
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1068
 msgid "The date the order was created, in the site's timezone."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1061
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1080
 msgid "The date the order was last modified, in the site's timezone."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1283
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1302
 msgid "The date the order was paid, as GMT."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1295
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1314
 msgid "The date the order was completed, as GMT."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1351
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1370
 msgid "Parent product name if the product is a variation."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1447
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1466
 msgid "Meta key for UI display."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1452
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1471
 msgid "Meta value for UI display."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1577
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1596
 msgid "Shipping instance ID."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1830
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1849
 msgid "Order payment URL."
+msgstr ""
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1903
+msgid "Only show meta which is meant to be displayed for an order."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php:187
