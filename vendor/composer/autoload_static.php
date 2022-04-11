@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5
+class ComposerStaticInita8a9a0cdc2452712566bf6aaf2df937f
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -434,6 +434,14 @@ class ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5
         'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStock' => __DIR__ . '/../..' . '/src/Checkout/Helpers/ReserveStock.php',
         'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStockException' => __DIR__ . '/../..' . '/src/Checkout/Helpers/ReserveStockException.php',
         'Automattic\\WooCommerce\\Container' => __DIR__ . '/../..' . '/src/Container.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\MetaToCustomTableMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/MetaToCustomTableMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\MetaToMetaTableMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/MetaToMetaTableMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToCOTMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/WPPostToCOTMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderAddressTableMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderAddressTableMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderOpTableMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderOpTableMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderTableMigrator' => __DIR__ . '/../..' . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderTableMigrator.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\MigrationErrorLogger' => __DIR__ . '/../..' . '/src/Database/Migrations/MigrationErrorLogger.php',
+        'Automattic\\WooCommerce\\Database\\Migrations\\MigrationHelper' => __DIR__ . '/../..' . '/src/Database/Migrations/MigrationHelper.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\ActivityPanels' => __DIR__ . '/../..' . '/src/Internal/Admin/ActivityPanels.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Analytics' => __DIR__ . '/../..' . '/src/Internal/Admin/Analytics.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\CategoryLookup' => __DIR__ . '/../..' . '/src/Internal/Admin/CategoryLookup.php',
@@ -533,6 +541,7 @@ class ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\Definition' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/Definition.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ExtendedContainer' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ExtendedContainer.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\AssignDefaultCategoryServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/AssignDefaultCategoryServiceProvider.php',
+        'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\COTMigrationServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/COTMigrationServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\DownloadPermissionsAdjusterServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/DownloadPermissionsAdjusterServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\OrdersDataStoreServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/OrdersDataStoreServiceProvider.php',
         'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProductAttributesLookupServiceProvider' => __DIR__ . '/../..' . '/src/Internal/DependencyManagement/ServiceProviders/ProductAttributesLookupServiceProvider.php',
@@ -1028,10 +1037,10 @@ class ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2742d4db3cd2130fc6b4ac05599f22b5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita8a9a0cdc2452712566bf6aaf2df937f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita8a9a0cdc2452712566bf6aaf2df937f::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInita8a9a0cdc2452712566bf6aaf2df937f::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInita8a9a0cdc2452712566bf6aaf2df937f::$classMap;
 
         }, null, ClassLoader::class);
     }

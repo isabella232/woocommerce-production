@@ -2138,6 +2138,10 @@ return array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProductDownloadsServiceProvider.php'
 	),
+	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\COTMigrationServiceProvider' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/COTMigrationServiceProvider.php'
+	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ContainerException' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ContainerException.php'
@@ -2189,6 +2193,38 @@ return array(
 	'Automattic\\WooCommerce\\Internal\\DataStores\\Orders\\OrdersTableDataStore' => array(
 		'version' => '9999999-dev',
 		'path'    => $baseDir . '/src/Internal/DataStores/Orders/OrdersTableDataStore.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\MigrationErrorLogger' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/MigrationErrorLogger.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\MetaToMetaTableMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/MetaToMetaTableMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderAddressTableMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderAddressTableMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderOpTableMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderOpTableMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\MetaToCustomTableMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/MetaToCustomTableMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToCOTMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/WPPostToCOTMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\CustomOrderTable\\WPPostToOrderTableMigrator' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/CustomOrderTable/WPPostToOrderTableMigrator.php'
+	),
+	'Automattic\\WooCommerce\\Database\\Migrations\\MigrationHelper' => array(
+		'version' => '9999999-dev',
+		'path'    => $baseDir . '/src/Database/Migrations/MigrationHelper.php'
 	),
 	'Automattic\\WooCommerce\\Admin\\Schedulers\\SchedulerTraits' => array(
 		'version' => '9999999-dev',
