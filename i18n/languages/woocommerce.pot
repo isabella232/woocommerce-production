@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-12T15:12:51+00:00\n"
+"POT-Creation-Date: 2022-04-12T19:05:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -11703,7 +11703,7 @@ msgid "WooCommerce Admin icon"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1927
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:109
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:141
 msgid "Mailchimp"
 msgstr ""
 
@@ -19643,7 +19643,7 @@ msgid "Invalid permission ID."
 msgstr ""
 
 #: includes/class-wc-customer.php:776
-#: src/Admin/API/OnboardingProfile.php:459
+#: src/Admin/API/OnboardingProfile.php:460
 #: assets/client/admin/chunks/profile-wizard.js:1
 msgid "Invalid email address"
 msgstr ""
@@ -32647,23 +32647,23 @@ msgstr ""
 msgid "Extra business extensions to install."
 msgstr ""
 
-#: src/Admin/API/OnboardingProfile.php:407
+#: src/Admin/API/OnboardingProfile.php:408
 msgid "Selected store theme."
 msgstr ""
 
-#: src/Admin/API/OnboardingProfile.php:415
+#: src/Admin/API/OnboardingProfile.php:416
 msgid "Whether or not this store was setup for a client."
 msgstr ""
 
-#: src/Admin/API/OnboardingProfile.php:422
+#: src/Admin/API/OnboardingProfile.php:423
 msgid "Whether or not the store was connected to WooCommerce.com during the extension flow."
 msgstr ""
 
-#: src/Admin/API/OnboardingProfile.php:429
+#: src/Admin/API/OnboardingProfile.php:430
 msgid "Whether or not this store agreed to receiving marketing contents from WooCommerce.com."
 msgstr ""
 
-#: src/Admin/API/OnboardingProfile.php:436
+#: src/Admin/API/OnboardingProfile.php:437
 msgid "Store email address."
 msgstr ""
 
@@ -35469,77 +35469,93 @@ msgid "Get the basics"
 msgstr ""
 
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:35
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:52
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:53
 msgid "Grow your store"
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:43
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:44
 msgid "Reach out to customers"
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:72
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:95
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:74
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:97
 msgid "Google Listings & Ads"
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:75
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:77
 msgid "Drive sales with %1$sGoogle Listings and Ads%2$s"
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:96
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:98
 msgid "Reach more shoppers and drive sales for your store. Integrate with Google to list your products for free and launch paid ad campaigns."
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:102
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:428
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:450
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:104
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:127
+#: assets/client/admin/chunks/homescreen.js:1
+#: assets/client/admin/data/index.js:2
+msgid "Pinterest for WooCommerce"
+msgstr ""
+
+#. translators: 1: opening product link tag. 2: closing link tag
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:107
+msgid "Inspire shoppers with %1$sPinterest for WooCommerce%2$s"
+msgstr ""
+
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:128
+msgid "Get your products in front of Pinterest users searching for ideas and things to buy. Get started with Pinterest and make your entire product catalog browsable."
+msgstr ""
+
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:134
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:460
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:482
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/data/index.js:2
 msgid "MailPoet"
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:103
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:451
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:135
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:483
 msgid "Create and send purchase follow-up emails, newsletters, and promotional campaigns straight from your dashboard."
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:110
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:142
 msgid "Send targeted campaigns, recover abandoned carts and much more with Mailchimp."
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:116
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:148
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/data/index.js:2
 msgid "Creative Mail for WooCommerce"
 msgstr ""
 
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:117
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:149
 msgid "Create on-brand store campaigns, fast email promotions and customer retargeting with Creative Mail."
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:125
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:157
 msgid "Accept credit cards and other popular payment methods with %1$sWooCommerce Payments%2$s"
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:263
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:295
 msgid "Print shipping labels with %1$sWooCommerce Shipping%2$s"
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:330
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:362
 msgid "Get automated sales tax with %1$sWooCommerce Tax%2$s"
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:410
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:442
 msgid "Enhance speed and security with %1$sJetpack%2$s"
 msgstr ""
 
 #. translators: 1: opening product link tag. 2: closing link tag
-#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:431
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:463
 msgid "Level up your email marketing with %1$sMailPoet%2$s"
 msgstr ""
 
@@ -38056,6 +38072,10 @@ msgstr ""
 
 #: assets/client/admin/chunks/activity-panels-help.js:1
 msgid "Set up Google Listing & Ads"
+msgstr ""
+
+#: assets/client/admin/chunks/activity-panels-help.js:1
+msgid "Set up Pinterest for WooCommerce"
 msgstr ""
 
 #: assets/client/admin/chunks/activity-panels-help.js:1
