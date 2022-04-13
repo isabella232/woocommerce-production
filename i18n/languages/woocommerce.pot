@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-13T04:44:27+00:00\n"
+"POT-Creation-Date: 2022-04-13T05:03:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8915,9 +8915,9 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-addons.php:612
 #: includes/admin/class-wc-admin-addons.php:1092
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:213
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:255
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:289
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:215
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:257
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:291
 #: src/Internal/Admin/WcPayWelcomePage.php:53
 #: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/homescreen.js:1
@@ -8935,6 +8935,7 @@ msgid "Securely accept cards in your store. See payments, track cash flow into y
 msgstr ""
 
 #: includes/admin/class-wc-admin-addons.php:825
+#: assets/client/admin/app/index.js:2
 msgid "See more"
 msgstr ""
 
@@ -16641,7 +16642,6 @@ msgstr ""
 
 #. Translators: %s Payment gateway name.
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:185
-#: assets/client/admin/app/index.js:2
 msgid "Set up"
 msgstr ""
 
@@ -16656,6 +16656,7 @@ msgid "The \"%s\" payment method is currently disabled"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:213
+#: assets/client/admin/app/index.js:2
 msgid "Other payment methods"
 msgstr ""
 
@@ -22322,7 +22323,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:39
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:91
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:204
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:205
 #: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/bacs/index.js:15
 #: packages/woocommerce-blocks/build/wc-payment-method-bacs.js:1
 msgid "Direct bank transfer"
@@ -34590,47 +34591,47 @@ msgstr ""
 msgid "Take payments in cash upon delivery."
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:205
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:206
 msgid "Take payments via bank transfer."
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:214
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:256
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:290
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:216
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:258
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:292
 msgid "Manage transactions without leaving your WordPress Dashboard. Only with WooCommerce Payments."
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:323
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:325
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/data/index.js:2
 msgid "Razorpay"
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:324
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:326
 msgid "The official Razorpay extension for WooCommerce allows you to accept credit cards, debit cards, netbanking, wallet, and UPI payments."
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:338
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:340
 msgid "PayU for WooCommerce"
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:339
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:341
 msgid "Enable PayU’s exclusive plugin for WooCommerce to start accepting payments in 100+ payment methods available in India including credit cards, debit cards, UPI, & more!"
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:353
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:355
 msgid "Eway"
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:354
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:356
 msgid "The Eway extension for WooCommerce allows you to take credit card payments directly on your store without redirecting your customers to a third party site to make payment."
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:364
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:366
 msgid "Square"
 msgstr ""
 
-#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:365
+#: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:367
 msgid "Securely accept credit and debit cards with one low rate, no surprise fees (custom rates available). Sell online and in store and track sales and inventory in one place."
 msgstr ""
 
@@ -36985,11 +36986,11 @@ msgid "These details are required to receive payments via bank transfer"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
-msgid "Enabled payment gateways"
+msgid "Choose a payment provider"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
-msgid "Additional payment gateways"
+msgid "Offline payment methods"
 msgstr ""
 
 #: assets/client/admin/app/index.js:2
