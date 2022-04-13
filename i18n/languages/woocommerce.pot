@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-13T05:03:43+00:00\n"
+"POT-Creation-Date: 2022-04-13T07:25:02+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8785,7 +8785,7 @@ msgstr ""
 msgid "Invalid product tax status."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:1877
+#: includes/abstracts/abstract-wc-product.php:1923
 #: includes/class-wc-product-simple.php:60
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/add-to-cart/shared/add-to-cart-button.js:163
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/button/block.js:127
@@ -8802,7 +8802,7 @@ msgstr ""
 msgid "Add to cart"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:1886
+#: includes/abstracts/abstract-wc-product.php:1932
 #: includes/class-wc-embed.php:106
 #: includes/class-wc-product-simple.php:60
 #: includes/class-wc-product-variable.php:60
@@ -8814,12 +8814,12 @@ msgid "Read more"
 msgstr ""
 
 #. translators: %s: Product title
-#: includes/abstracts/abstract-wc-product.php:1897
+#: includes/abstracts/abstract-wc-product.php:1943
 #: includes/class-wc-product-simple.php:73
 msgid "Read more about &ldquo;%s&rdquo;"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:2062
+#: includes/abstracts/abstract-wc-product.php:2108
 #: includes/admin/class-wc-admin-reports.php:108
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:276
 #: includes/admin/reports/class-wc-report-stock.php:118
@@ -8828,8 +8828,8 @@ msgstr ""
 msgid "Out of stock"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:2064
-#: includes/abstracts/abstract-wc-product.php:2066
+#: includes/abstracts/abstract-wc-product.php:2110
+#: includes/abstracts/abstract-wc-product.php:2112
 #: templates/cart/cart.php:92
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/stock-indicator/block.js:77
 #: packages/woocommerce-blocks/build/all-products.js:28
@@ -9671,8 +9671,8 @@ msgstr ""
 #: includes/admin/class-wc-admin-log-table-list.php:190
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:56
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:81
-#: includes/admin/meta-boxes/views/html-product-download.php:14
-#: includes/admin/meta-boxes/views/html-product-variation-download.php:13
+#: includes/admin/meta-boxes/views/html-product-download.php:29
+#: includes/admin/meta-boxes/views/html-product-variation-download.php:29
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:125
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:78
 #: includes/wc-account-functions.php:360
@@ -12624,7 +12624,7 @@ msgstr ""
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:514
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:685
-#: includes/admin/meta-boxes/views/html-product-data-general.php:161
+#: includes/admin/meta-boxes/views/html-product-data-general.php:179
 #: includes/admin/views/html-bulk-edit-product.php:70
 #: includes/admin/views/html-quick-edit-product.php:49
 #: includes/export/class-wc-product-csv-exporter.php:116
@@ -12637,7 +12637,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:515
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:686
 #: includes/admin/meta-boxes/views/html-order-items.php:452
-#: includes/admin/meta-boxes/views/html-product-data-general.php:176
+#: includes/admin/meta-boxes/views/html-product-data-general.php:194
 #: includes/admin/meta-boxes/views/html-variation-admin.php:358
 #: includes/admin/settings/class-wc-settings-tax.php:235
 #: includes/admin/views/html-bulk-edit-product.php:89
@@ -12782,9 +12782,9 @@ msgstr ""
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:537
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:727
-#: includes/admin/meta-boxes/views/html-product-data-general.php:124
+#: includes/admin/meta-boxes/views/html-product-data-general.php:142
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:87
-#: includes/admin/meta-boxes/views/html-variation-admin.php:444
+#: includes/admin/meta-boxes/views/html-variation-admin.php:461
 #: includes/export/class-wc-product-csv-exporter.php:139
 msgid "Download limit"
 msgstr ""
@@ -14163,8 +14163,8 @@ msgid "Downloads remaining"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:29
-#: includes/admin/meta-boxes/views/html-product-data-general.php:125
-#: includes/admin/meta-boxes/views/html-variation-admin.php:445
+#: includes/admin/meta-boxes/views/html-product-data-general.php:143
+#: includes/admin/meta-boxes/views/html-variation-admin.php:462
 msgid "Unlimited"
 msgstr ""
 
@@ -14174,8 +14174,8 @@ msgid "Access expires"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:33
-#: includes/admin/meta-boxes/views/html-product-data-general.php:140
-#: includes/admin/meta-boxes/views/html-variation-admin.php:463
+#: includes/admin/meta-boxes/views/html-product-data-general.php:158
+#: includes/admin/meta-boxes/views/html-variation-admin.php:480
 #: templates/emails/email-downloads.php:58
 #: templates/emails/plain/email-downloads.php:40
 #: templates/order/order-downloads.php:62
@@ -14594,27 +14594,33 @@ msgstr ""
 msgid "This is the URL or absolute path to the file which customers will get access to. URLs entered here should already be encoded."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:113
+#: includes/admin/meta-boxes/views/html-product-data-general.php:118
 msgid "Add File"
 msgstr ""
 
+#. translators: 1: opening link tag, 2: closing link tag.
 #: includes/admin/meta-boxes/views/html-product-data-general.php:126
-#: includes/admin/meta-boxes/views/html-variation-admin.php:446
+#: includes/admin/meta-boxes/views/html-variation-admin.php:442
+msgid "The indicated downloads have been disabled (invalid location or filetype&mdash;%1$slearn more%2$s)."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:144
+#: includes/admin/meta-boxes/views/html-variation-admin.php:463
 msgid "Leave blank for unlimited re-downloads."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:139
+#: includes/admin/meta-boxes/views/html-product-data-general.php:157
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:88
-#: includes/admin/meta-boxes/views/html-variation-admin.php:462
+#: includes/admin/meta-boxes/views/html-variation-admin.php:479
 msgid "Download expiry"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:141
-#: includes/admin/meta-boxes/views/html-variation-admin.php:464
+#: includes/admin/meta-boxes/views/html-product-data-general.php:159
+#: includes/admin/meta-boxes/views/html-variation-admin.php:481
 msgid "Enter the number of days before a download link expires, or leave blank."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:163
+#: includes/admin/meta-boxes/views/html-product-data-general.php:181
 #: includes/admin/views/html-bulk-edit-product.php:76
 #: includes/admin/views/html-quick-edit-product.php:54
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:26
@@ -14623,13 +14629,13 @@ msgstr ""
 msgid "Taxable"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:164
+#: includes/admin/meta-boxes/views/html-product-data-general.php:182
 #: includes/admin/views/html-bulk-edit-product.php:77
 #: includes/admin/views/html-quick-edit-product.php:55
 msgid "Shipping only"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:165
+#: includes/admin/meta-boxes/views/html-product-data-general.php:183
 #: includes/admin/views/html-bulk-edit-product.php:78
 #: includes/admin/views/html-quick-edit-product.php:56
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:27
@@ -14639,11 +14645,11 @@ msgctxt "Tax status"
 msgid "None"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:168
+#: includes/admin/meta-boxes/views/html-product-data-general.php:186
 msgid "Define whether or not the entire product is taxable, or just the cost of shipping it."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:179
+#: includes/admin/meta-boxes/views/html-product-data-general.php:197
 #: includes/admin/meta-boxes/views/html-variation-admin.php:361
 msgid "Choose a tax class for this product. Tax classes are used to apply different tax rates specific to certain types of product."
 msgstr ""
@@ -14988,25 +14994,25 @@ msgstr ""
 msgid "Save changes"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-download.php:9
-#: includes/admin/meta-boxes/views/html-product-variation-download.php:8
+#: includes/admin/meta-boxes/views/html-product-download.php:19
+#: includes/admin/meta-boxes/views/html-product-variation-download.php:19
 #: src/Admin/API/Reports/Downloads/Controller.php:394
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 msgid "File name"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-download.php:12
-#: includes/admin/meta-boxes/views/html-product-variation-download.php:11
+#: includes/admin/meta-boxes/views/html-product-download.php:23
+#: includes/admin/meta-boxes/views/html-product-variation-download.php:23
 msgid "http://"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-download.php:13
-#: includes/admin/meta-boxes/views/html-product-variation-download.php:12
+#: includes/admin/meta-boxes/views/html-product-download.php:28
+#: includes/admin/meta-boxes/views/html-product-variation-download.php:28
 msgid "Choose file"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-product-download.php:13
-#: includes/admin/meta-boxes/views/html-product-variation-download.php:12
+#: includes/admin/meta-boxes/views/html-product-download.php:28
+#: includes/admin/meta-boxes/views/html-product-variation-download.php:28
 msgid "Insert file URL"
 msgstr ""
 
@@ -15104,7 +15110,7 @@ msgstr ""
 msgid "Enter an optional description for this variation."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:430
+#: includes/admin/meta-boxes/views/html-variation-admin.php:434
 msgid "Add file"
 msgstr ""
 
@@ -21263,23 +21269,23 @@ msgstr ""
 msgid "Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\">PayPal Privacy Policy</a> for more details."
 msgstr ""
 
-#. translators: %1$s: Downloadable file
-#: includes/class-wc-product-download.php:113
+#. translators: %s: Downloadable file.
+#: includes/class-wc-product-download.php:114
+msgid "The downloadable file %s cannot be used as it has been disabled."
+msgstr ""
+
+#. translators: 1: Downloadable file, 2: List of allowed filetypes.
+#: includes/class-wc-product-download.php:124
 msgid "The downloadable file %1$s cannot be used as it does not have an allowed file type. Allowed types include: %2$s"
 msgstr ""
 
 #. translators: %s: Downloadable file
-#: includes/class-wc-product-download.php:125
+#: includes/class-wc-product-download.php:136
 msgid "The downloadable file %s cannot be used as it does not exist on the server."
 msgstr ""
 
 #. translators: %1$s is the downloadable file path, %2$s is an opening link tag, %3%s is a closing link tag.
-#: includes/class-wc-product-download.php:227
-msgid "The downloadable file %1$s cannot be used: it is not located in an approved directory. Please contact a site administrator and request their approval. %2$sLearn more.%3$s"
-msgstr ""
-
-#. translators: %1$s is the downloadable file path, %2$s is an opening link tag, %3%s is a closing link tag.
-#: includes/class-wc-product-download.php:240
+#: includes/class-wc-product-download.php:248
 msgid "The downloadable file %1$s cannot be used: it is not located in an approved directory. Please contact a site administrator for help. %2$sLearn more.%3$s"
 msgstr ""
 
