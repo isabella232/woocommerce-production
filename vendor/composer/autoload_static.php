@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit684b2d8c5340db61a75e4ee77986be24
+class ComposerStaticInitf4323983acd0c7b25213043c548eb09d
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -453,7 +453,6 @@ class ComposerStaticInit684b2d8c5340db61a75e4ee77986be24
         'Automattic\\WooCommerce\\Internal\\Admin\\Events' => __DIR__ . '/../..' . '/src/Internal/Admin/Events.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\FeaturePlugin' => __DIR__ . '/../..' . '/src/Internal/Admin/FeaturePlugin.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Homescreen' => __DIR__ . '/../..' . '/src/Internal/Admin/Homescreen.php',
-        'Automattic\\WooCommerce\\Internal\\Admin\\Install' => __DIR__ . '/../..' . '/src/Internal/Admin/Install.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Loader' => __DIR__ . '/../..' . '/src/Internal/Admin/Loader.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Marketing' => __DIR__ . '/../..' . '/src/Internal/Admin/Marketing.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\MobileAppBanner' => __DIR__ . '/../..' . '/src/Internal/Admin/MobileAppBanner.php',
@@ -1039,10 +1038,10 @@ class ComposerStaticInit684b2d8c5340db61a75e4ee77986be24
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit684b2d8c5340db61a75e4ee77986be24::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit684b2d8c5340db61a75e4ee77986be24::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit684b2d8c5340db61a75e4ee77986be24::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit684b2d8c5340db61a75e4ee77986be24::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf4323983acd0c7b25213043c548eb09d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf4323983acd0c7b25213043c548eb09d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf4323983acd0c7b25213043c548eb09d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf4323983acd0c7b25213043c548eb09d::$classMap;
 
         }, null, ClassLoader::class);
     }

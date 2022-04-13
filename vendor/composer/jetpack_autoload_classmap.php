@@ -2030,10 +2030,6 @@ return array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Internal/Admin/Events.php'
 	),
-	'Automattic\\WooCommerce\\Internal\\Admin\\Install' => array(
-		'version' => '1.0.0.0',
-		'path'    => $baseDir . '/src/Internal/Admin/Install.php'
-	),
 	'Automattic\\WooCommerce\\Internal\\Admin\\WCAdminSharedSettings' => array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Internal/Admin/WCAdminSharedSettings.php'

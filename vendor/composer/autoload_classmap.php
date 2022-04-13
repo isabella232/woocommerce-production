@@ -345,7 +345,6 @@ return array(
     'Automattic\\WooCommerce\\Internal\\Admin\\Events' => $baseDir . '/src/Internal/Admin/Events.php',
     'Automattic\\WooCommerce\\Internal\\Admin\\FeaturePlugin' => $baseDir . '/src/Internal/Admin/FeaturePlugin.php',
     'Automattic\\WooCommerce\\Internal\\Admin\\Homescreen' => $baseDir . '/src/Internal/Admin/Homescreen.php',
-    'Automattic\\WooCommerce\\Internal\\Admin\\Install' => $baseDir . '/src/Internal/Admin/Install.php',
     'Automattic\\WooCommerce\\Internal\\Admin\\Loader' => $baseDir . '/src/Internal/Admin/Loader.php',
     'Automattic\\WooCommerce\\Internal\\Admin\\Marketing' => $baseDir . '/src/Internal/Admin/Marketing.php',
     'Automattic\\WooCommerce\\Internal\\Admin\\MobileAppBanner' => $baseDir . '/src/Internal/Admin/MobileAppBanner.php',
