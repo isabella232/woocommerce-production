@@ -1,1 +1,101 @@
-!function(){"use strict";var e={};(function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e);var t=window.wp.element,o=window.wp.i18n,n=window.wp.components;class a extends t.Component{constructor(e){super(e),this.state={isModalOpen:!0}}render(){const{isModalOpen:e}=this.state;return e&&window.surveyData&&window.surveyData.url?(0,t.createElement)(n.Modal,{title:(0,o.__)("Help us improve","woocommerce"),onRequestClose:()=>this.setState({isModalOpen:!1}),className:"woocommerce-navigation-opt-out-modal"},(0,t.createElement)("p",null,(0,o.__)("Take this 2-minute survey to share why you're opting out of the new navigation","woocommerce")),(0,t.createElement)("div",{className:"woocommerce-navigation-opt-out-modal__actions"},(0,t.createElement)(n.Button,{isDefault:!0,onClick:()=>this.setState({isModalOpen:!1})},(0,o.__)("No thanks","woocommerce")),(0,t.createElement)(n.Button,{isPrimary:!0,target:"_blank",href:window.surveyData.url,onClick:()=>this.setState({isModalOpen:!1})},(0,o.__)("Share feedback","woocommerce")))):null}}const i=document.createElement("div");i.setAttribute("id","navigation-opt-out-root"),(0,t.render)((0,t.createElement)(a,null),document.body.appendChild(i)),(window.wc=window.wc||{}).navigationOptOut=e}();
+/******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	// The require scope
+/******/ 	var __webpack_require__ = {};
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+;// CONCATENATED MODULE: external ["wp","element"]
+var external_wp_element_namespaceObject = window["wp"]["element"];
+;// CONCATENATED MODULE: external ["wp","i18n"]
+var external_wp_i18n_namespaceObject = window["wp"]["i18n"];
+;// CONCATENATED MODULE: external ["wp","components"]
+var external_wp_components_namespaceObject = window["wp"]["components"];
+;// CONCATENATED MODULE: ./client/wp-admin-scripts/navigation-opt-out/container.js
+
+
+/**
+ * External dependencies
+ */
+
+
+
+class NavigationOptOutContainer extends external_wp_element_namespaceObject.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isModalOpen: true
+    };
+  }
+
+  render() {
+    const {
+      isModalOpen
+    } = this.state;
+
+    if (!isModalOpen) {
+      return null;
+    }
+
+    if (!window.surveyData || !window.surveyData.url) {
+      return null;
+    }
+
+    return (0,external_wp_element_namespaceObject.createElement)(external_wp_components_namespaceObject.Modal, {
+      title: (0,external_wp_i18n_namespaceObject.__)('Help us improve', 'woocommerce'),
+      onRequestClose: () => this.setState({
+        isModalOpen: false
+      }),
+      className: "woocommerce-navigation-opt-out-modal"
+    }, (0,external_wp_element_namespaceObject.createElement)("p", null, (0,external_wp_i18n_namespaceObject.__)("Take this 2-minute survey to share why you're opting out of the new navigation", 'woocommerce')), (0,external_wp_element_namespaceObject.createElement)("div", {
+      className: "woocommerce-navigation-opt-out-modal__actions"
+    }, (0,external_wp_element_namespaceObject.createElement)(external_wp_components_namespaceObject.Button, {
+      isDefault: true,
+      onClick: () => this.setState({
+        isModalOpen: false
+      })
+    }, (0,external_wp_i18n_namespaceObject.__)('No thanks', 'woocommerce')), (0,external_wp_element_namespaceObject.createElement)(external_wp_components_namespaceObject.Button, {
+      isPrimary: true,
+      target: "_blank",
+      href: window.surveyData.url,
+      onClick: () => this.setState({
+        isModalOpen: false
+      })
+    }, (0,external_wp_i18n_namespaceObject.__)('Share feedback', 'woocommerce'))));
+  }
+
+}
+;// CONCATENATED MODULE: ./client/wp-admin-scripts/navigation-opt-out/index.js
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * Internal dependencies
+ */
+
+
+
+const navigationOptOutRoot = document.createElement('div');
+navigationOptOutRoot.setAttribute('id', 'navigation-opt-out-root');
+(0,external_wp_element_namespaceObject.render)((0,external_wp_element_namespaceObject.createElement)(NavigationOptOutContainer, null), document.body.appendChild(navigationOptOutRoot));
+(window.wc = window.wc || {}).navigationOptOut = __webpack_exports__;
+/******/ })()
+;
