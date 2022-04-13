@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-13T07:25:02+00:00\n"
+"POT-Creation-Date: 2022-04-13T10:30:35+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8846,13 +8846,13 @@ msgstr ""
 
 #: includes/abstracts/abstract-wc-settings-api.php:801
 #: includes/admin/class-wc-admin-menus.php:355
-#: includes/admin/class-wc-admin-settings.php:673
+#: includes/admin/class-wc-admin-settings.php:682
 #: includes/admin/meta-boxes/views/html-product-attribute.php:57
 msgid "Select all"
 msgstr ""
 
 #: includes/abstracts/abstract-wc-settings-api.php:801
-#: includes/admin/class-wc-admin-settings.php:673
+#: includes/admin/class-wc-admin-settings.php:682
 #: includes/admin/meta-boxes/views/html-product-attribute.php:58
 msgid "Select none"
 msgstr ""
@@ -9677,7 +9677,7 @@ msgstr ""
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:78
 #: includes/wc-account-functions.php:360
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:92
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:181
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:213
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/experimental/index.js:2
 msgid "Delete"
@@ -10912,8 +10912,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-profile.php:74
 #: includes/admin/class-wc-admin-profile.php:134
-#: includes/admin/class-wc-admin-settings.php:640
-#: includes/admin/class-wc-admin-settings.php:665
+#: includes/admin/class-wc-admin-settings.php:649
+#: includes/admin/class-wc-admin-settings.php:674
 #: includes/admin/class-wc-admin-setup-wizard.php:505
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:73
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:125
@@ -11116,73 +11116,73 @@ msgstr ""
 msgid "Taxes by date"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:81
+#: includes/admin/class-wc-admin-settings.php:82
 msgid "Your settings have been saved."
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:143
+#: includes/admin/class-wc-admin-settings.php:144
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:144
+#: includes/admin/class-wc-admin-settings.php:145
 msgid "Item moved up"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:145
+#: includes/admin/class-wc-admin-settings.php:146
 msgid "Item moved down"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:146
+#: includes/admin/class-wc-admin-settings.php:147
 msgid "Selecting no country / region to sell to prevents from completing the checkout. Continue anyway?"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:533
+#: includes/admin/class-wc-admin-settings.php:542
 msgid "The settings of this image size have been disabled because its values are being overwritten by a filter."
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:545
+#: includes/admin/class-wc-admin-settings.php:554
 msgid "Hard crop?"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:576
+#: includes/admin/class-wc-admin-settings.php:585
 msgid "Select a page&hellip;"
 msgstr ""
 
 #. translators: 1: page name 2: page ID
-#: includes/admin/class-wc-admin-settings.php:590
+#: includes/admin/class-wc-admin-settings.php:599
 #: includes/class-wc-ajax.php:1825
 msgid "%1$s (ID: %2$s)"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:607
+#: includes/admin/class-wc-admin-settings.php:616
 msgid "Search for a page&hellip;"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:640
+#: includes/admin/class-wc-admin-settings.php:649
 #: includes/admin/class-wc-admin-setup-wizard.php:505
 msgid "Choose a country / region&hellip;"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:665
+#: includes/admin/class-wc-admin-settings.php:674
 msgid "Choose countries / regions&hellip;"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:682
+#: includes/admin/class-wc-admin-settings.php:691
 #: includes/wc-formatting-functions.php:1471
 msgid "Day(s)"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:683
+#: includes/admin/class-wc-admin-settings.php:692
 #: includes/wc-formatting-functions.php:1472
 msgid "Week(s)"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:684
+#: includes/admin/class-wc-admin-settings.php:693
 #: includes/wc-formatting-functions.php:1473
 msgid "Month(s)"
 msgstr ""
 
-#: includes/admin/class-wc-admin-settings.php:685
+#: includes/admin/class-wc-admin-settings.php:694
 #: includes/wc-formatting-functions.php:1474
 msgid "Year(s)"
 msgstr ""
@@ -12062,7 +12062,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:184
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:193
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:207
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:173
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:205
 #: templates/emails/email-order-details.php:80
 #: templates/emails/plain/email-order-details.php:46
 #: templates/order/order-details.php:93
@@ -13908,7 +13908,7 @@ msgid "Move to Trash"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:68
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:193
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:225
 msgid "Create"
 msgstr ""
 
@@ -35583,53 +35583,92 @@ msgstr ""
 msgid "Dismiss the gateway"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:170
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:202
 msgid "Delete the custom orders tables"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:174
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:206
 msgid "This will delete the custom orders tables. The tables can be deleted only if they are not not in use (via Settings > Advanced > Custom data stores). You can create them again at any time with the \"Create the custom orders tables\" tool."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:179
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:211
 msgid "Custom orders tables have been deleted."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:186
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:218
 msgid "Create the custom orders tables"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:187
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:219
 msgid "This tool will create the custom orders tables. Once created you can go to WooCommerce > Settings > Advanced > Custom data stores and configure the usage of the tables."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:191
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:223
 msgid "Custom orders tables have been created. You can now go to WooCommerce > Settings > Advanced > Custom data stores."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:243
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:276
 msgid "Custom data stores"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:262
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:296
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:374
 msgid "Custom orders tables"
 msgstr ""
 
 #. translators: %1$s = <strong> tag, %2$s = </strong> tag.
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:266
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:301
 msgid "%1$sWARNING:%2$s This feature is currently under development and may cause database instability. For contributors only."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:276
-msgid "Enable tables usage"
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:311
+msgid "Data store for orders"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:277
-msgid "Use the custom orders tables as the main orders data store."
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:316
+msgid "Use the WooCommerce orders tables"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:317
+msgid "Use the WordPress posts table"
+msgstr ""
+
+#. translators: %1$s=current number of orders pending sync, %2$s=initial number of orders pending sync
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:330
+msgid "There's %1$s order (out of a total of %2$s) pending sync!"
+msgid_plural "There are %1$s orders (out of a total of %2$s) pending sync!"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s=initial number of orders pending sync
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:337
+msgid "There's %s order pending sync!"
+msgid_plural "There are %s orders pending sync!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:341
+msgid "<br/>Synchronization for these orders is currently in progress.<br/>The authoritative table can't be changed until sync completes."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:343
+msgid "<br/>The authoritative table can't be changed until these orders are synchronized."
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:355
+msgid "Keep the posts table and the orders tables synchronized"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:363
+msgid "Switch to using the posts table as the authoritative data store for orders when sync finishes"
+msgstr ""
+
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:364
+msgid "Switch to using the orders table as the authoritative data store for orders when sync finishes"
 msgstr ""
 
 #. translators: %1$s = <em> tag, %2$s = </em> tag.
-#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:286
+#: src/Internal/DataStores/Orders/CustomOrdersTableController.php:378
 msgid "Create the tables first by going to %1$sWooCommerce > Status > Tools%2$s and running %1$sCreate the custom orders tables%2$s."
 msgstr ""
 
