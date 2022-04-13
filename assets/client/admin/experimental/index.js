@@ -3992,7 +3992,7 @@ const TaskItem = _ref3 => {
     setTaskExpanded(expanded);
   }, [expanded]);
   const className = classnames_default()('woocommerce-task-list__item', {
-    complete: completed,
+    'is-complete': completed,
     expanded: isTaskExpanded,
     'level-2': level === 2 && !completed,
     'level-1': level === 1 && !completed
