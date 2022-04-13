@@ -4059,6 +4059,7 @@ __webpack_require__.d(__webpack_exports__, {
   "getTaskLists": function() { return /* reexport */ getTaskLists; },
   "getTaskListsByIds": function() { return /* reexport */ getTaskListsByIds; },
   "getTooltipValueFormat": function() { return /* reexport */ getTooltipValueFormat; },
+  "getVisibleTasks": function() { return /* reexport */ getVisibleTasks; },
   "isOnboardingRequesting": function() { return /* reexport */ isOnboardingRequesting; },
   "pluginNames": function() { return /* reexport */ pluginNames; },
   "searchItemsByString": function() { return /* reexport */ searchItemsByString; },
@@ -7396,6 +7397,14 @@ const withOnboardingHydration = data => {
     });
   }, 'withOnboardingHydration');
 };
+;// CONCATENATED MODULE: ../../packages/js/data/build-module/onboarding/utils.js
+/**
+ * Filters tasks to only visible tasks, taking in account snoozed tasks.
+ */
+function getVisibleTasks(tasks) {
+  const nowTimestamp = Date.now();
+  return tasks.filter(task => !task.isDismissed && (!task.isSnoozed || task.snoozedUntil < nowTimestamp));
+}
 ;// CONCATENATED MODULE: ../../packages/js/data/build-module/user/constants.js
 const user_constants_STORE_NAME = 'core';
 ;// CONCATENATED MODULE: ../../packages/js/data/build-module/user/index.js
@@ -10897,6 +10906,7 @@ const IMPORT_STORE_NAME = import_constants_STORE_NAME;
 /**
  * External dependencies
  */
+
 
 
 

@@ -2486,6 +2486,10 @@ return array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Admin/Features/OnboardingTasks/DeprecatedOptions.php'
 	),
+	'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskListSection' => array(
+		'version' => '1.0.0.0',
+		'path'    => $baseDir . '/src/Admin/Features/OnboardingTasks/TaskListSection.php'
+	),
 	'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskTraits' => array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Admin/Features/OnboardingTasks/TaskTraits.php'
@@ -2497,6 +2501,10 @@ return array(
 	'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Appearance' => array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Admin/Features/OnboardingTasks/Tasks/Appearance.php'
+	),
+	'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\StoreCreation' => array(
+		'version' => '1.0.0.0',
+		'path'    => $baseDir . '/src/Admin/Features/OnboardingTasks/Tasks/StoreCreation.php'
 	),
 	'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\StoreDetails' => array(
 		'version' => '1.0.0.0',

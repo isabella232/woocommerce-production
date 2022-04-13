@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitee7d855bd2403df357fa5a9f34d18074
+class ComposerStaticInitdfd29c1ab7b56c79059cf2e9791dabf7
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -243,6 +243,7 @@ class ComposerStaticInitee7d855bd2403df357fa5a9f34d18074
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Init' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Init.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Task' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Task.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskList' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/TaskList.php',
+        'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskListSection' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/TaskListSection.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskLists' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/TaskLists.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\TaskTraits' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/TaskTraits.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\AdditionalPayments' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/AdditionalPayments.php',
@@ -252,6 +253,7 @@ class ComposerStaticInitee7d855bd2403df357fa5a9f34d18074
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Products' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/Products.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Purchase' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/Purchase.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Shipping' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/Shipping.php',
+        'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\StoreCreation' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/StoreCreation.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\StoreDetails' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/StoreDetails.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\Tax' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/Tax.php',
         'Automattic\\WooCommerce\\Admin\\Features\\OnboardingTasks\\Tasks\\WooCommercePayments' => __DIR__ . '/../..' . '/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php',
@@ -1037,10 +1039,10 @@ class ComposerStaticInitee7d855bd2403df357fa5a9f34d18074
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitee7d855bd2403df357fa5a9f34d18074::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitee7d855bd2403df357fa5a9f34d18074::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitee7d855bd2403df357fa5a9f34d18074::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitee7d855bd2403df357fa5a9f34d18074::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdfd29c1ab7b56c79059cf2e9791dabf7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdfd29c1ab7b56c79059cf2e9791dabf7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitdfd29c1ab7b56c79059cf2e9791dabf7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitdfd29c1ab7b56c79059cf2e9791dabf7::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-13T16:32:55+00:00\n"
+"POT-Creation-Date: 2022-04-13T17:03:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -8926,10 +8926,10 @@ msgstr ""
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:257
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:291
 #: src/Internal/Admin/WcPayWelcomePage.php:53
-#: assets/client/admin/app/index.js:20538
+#: assets/client/admin/app/index.js:20832
 #: assets/client/admin/chunks/homescreen.js:1955
 #: assets/client/admin/chunks/wcpay-payment-welcome-page.js:46
-#: assets/client/admin/data/index.js:5098
+#: assets/client/admin/data/index.js:5099
 msgid "WooCommerce Payments"
 msgstr ""
 
@@ -8942,7 +8942,7 @@ msgid "Securely accept cards in your store. See payments, track cash flow into y
 msgstr ""
 
 #: includes/admin/class-wc-admin-addons.php:840
-#: assets/client/admin/app/index.js:5068
+#: assets/client/admin/app/index.js:5350
 msgid "See more"
 msgstr ""
 
@@ -9628,7 +9628,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:68
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/SyncUI.php:60
 #: templates/cart/shipping-calculator.php:86
-#: assets/client/admin/app/index.js:5714
+#: assets/client/admin/app/index.js:5994
 #: assets/client/admin/components/index.js:42522
 #: assets/client/admin/components/index.js:42526
 #: packages/woocommerce-blocks/build/cart-blocks/order-summary-frontend.js:21
@@ -10170,8 +10170,8 @@ msgstr ""
 #: src/Admin/Features/Navigation/CoreMenu.php:124
 #: src/Internal/Admin/Analytics.php:302
 #: src/Internal/Admin/SettingsNavigationFeature.php:87
-#: assets/client/admin/app/index.js:20450
-#: assets/client/admin/app/index.js:20527
+#: assets/client/admin/app/index.js:20744
+#: assets/client/admin/app/index.js:20821
 #: assets/client/admin/chunks/homescreen.js:660
 #: assets/client/admin/chunks/homescreen.js:2740
 #: assets/client/admin/chunks/marketing-overview.js:795
@@ -10783,7 +10783,7 @@ msgstr ""
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:133
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/SyncUI.php:81
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/UI.php:360
-#: assets/client/admin/app/index.js:11138
+#: assets/client/admin/app/index.js:11478
 #: assets/client/admin/chunks/activity-panels-inbox.js:338
 #: assets/client/admin/chunks/homescreen.js:844
 #: assets/client/admin/chunks/homescreen.js:3748
@@ -11083,7 +11083,7 @@ msgstr ""
 #: src/Admin/ReportCSVEmail.php:34
 #: src/Internal/Admin/Analytics.php:296
 #: assets/client/admin/app/index.js:1957
-#: assets/client/admin/app/index.js:20460
+#: assets/client/admin/app/index.js:20754
 #: assets/client/admin/chunks/analytics-report-customers.js:627
 msgid "Customers"
 msgstr ""
@@ -11261,8 +11261,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:246
 #: assets/client/admin/app/index.js:1228
-#: assets/client/admin/app/index.js:4734
-#: assets/client/admin/app/index.js:6672
+#: assets/client/admin/app/index.js:5016
+#: assets/client/admin/app/index.js:6952
 #: assets/client/admin/chunks/payment-recommendations.js:155
 #: assets/client/admin/chunks/shipping-recommendations.js:178
 #: assets/client/admin/onboarding/index.js:921
@@ -11300,8 +11300,8 @@ msgid "Get your store up and running more quickly with our new and improved setu
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:453
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:110
-#: assets/client/admin/app/index.js:7849
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:116
+#: assets/client/admin/app/index.js:8129
 msgid "Yes please"
 msgstr ""
 
@@ -11401,7 +11401,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:1818
 #: includes/admin/class-wc-admin-setup-wizard.php:1949
 #: includes/admin/importers/views/html-product-csv-import-form.php:101
-#: assets/client/admin/app/index.js:5396
+#: assets/client/admin/app/index.js:5678
 #: assets/client/admin/chunks/profile-wizard.js:722
 #: assets/client/admin/chunks/profile-wizard.js:1112
 #: assets/client/admin/chunks/profile-wizard.js:1511
@@ -11415,7 +11415,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:826
 #: src/Admin/API/Plugins.php:414
 #: assets/client/admin/chunks/homescreen.js:1947
-#: assets/client/admin/data/index.js:5090
+#: assets/client/admin/data/index.js:5091
 msgid "Jetpack"
 msgstr ""
 
@@ -11623,13 +11623,13 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1470
 #: assets/client/admin/chunks/homescreen.js:1948
-#: assets/client/admin/data/index.js:5091
+#: assets/client/admin/data/index.js:5092
 msgid "Klarna Checkout for WooCommerce"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1478
 #: assets/client/admin/chunks/homescreen.js:1949
-#: assets/client/admin/data/index.js:5092
+#: assets/client/admin/data/index.js:5093
 msgid "Klarna Payments for WooCommerce"
 msgstr ""
 
@@ -11760,7 +11760,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1931
 #: assets/client/admin/chunks/homescreen.js:1950
-#: assets/client/admin/data/index.js:5093
+#: assets/client/admin/data/index.js:5094
 msgid "Mailchimp for WooCommerce"
 msgstr ""
 
@@ -11778,7 +11778,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1942
 #: assets/client/admin/chunks/homescreen.js:1946
-#: assets/client/admin/data/index.js:5089
+#: assets/client/admin/data/index.js:5090
 msgid "Facebook for WooCommerce"
 msgstr ""
 
@@ -11952,7 +11952,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2272
 #: includes/admin/class-wc-admin-setup-wizard.php:2278
-#: assets/client/admin/app/index.js:7083
+#: assets/client/admin/app/index.js:7363
 msgid "Import products"
 msgstr ""
 
@@ -12536,8 +12536,8 @@ msgstr ""
 
 #: includes/admin/helper/views/html-oauth-start.php:27
 #: src/Internal/Admin/Notes/WooSubscriptionsNotes.php:193
-#: assets/client/admin/app/index.js:4406
-#: assets/client/admin/app/index.js:5189
+#: assets/client/admin/app/index.js:4688
+#: assets/client/admin/app/index.js:5471
 msgid "Connect"
 msgstr ""
 
@@ -14426,7 +14426,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:320
 #: templates/myaccount/form-reset-password.php:45
-#: assets/client/admin/app/index.js:4859
+#: assets/client/admin/app/index.js:5141
 #: assets/client/admin/chunks/homescreen.js:841
 #: assets/client/admin/chunks/profile-wizard.js:1943
 #: assets/client/admin/wp-admin-scripts/beta-features-tracking-modal.js:133
@@ -14482,8 +14482,8 @@ msgid "Refund %s manually"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:397
-#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:43
-#: assets/client/admin/app/index.js:10892
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:46
+#: assets/client/admin/app/index.js:11232
 #: assets/client/admin/chunks/homescreen.js:2715
 msgid "Add products"
 msgstr ""
@@ -14575,7 +14575,7 @@ msgstr ""
 #: includes/admin/meta-boxes/views/html-product-data-attributes.php:51
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:98
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:129
-#: assets/client/admin/app/index.js:25751
+#: assets/client/admin/app/index.js:26045
 #: assets/client/admin/components/index.js:42027
 msgid "Close"
 msgstr ""
@@ -16446,7 +16446,7 @@ msgstr ""
 #. Translators: %s Payment gateway name.
 #: includes/admin/settings/class-wc-settings-emails.php:351
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:182
-#: assets/client/admin/app/index.js:4032
+#: assets/client/admin/app/index.js:4316
 msgid "Manage"
 msgstr ""
 
@@ -16731,7 +16731,7 @@ msgid "The \"%s\" payment method is currently disabled"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:213
-#: assets/client/admin/app/index.js:5083
+#: assets/client/admin/app/index.js:5365
 msgid "Other payment methods"
 msgstr ""
 
@@ -19848,7 +19848,7 @@ msgid "%1$s units of %2$s have been backordered in order #%3$s."
 msgstr ""
 
 #: includes/class-wc-embed.php:103
-#: assets/client/admin/app/index.js:8581
+#: assets/client/admin/app/index.js:8861
 msgid "Buy now"
 msgstr ""
 
@@ -22453,7 +22453,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:128
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:291
-#: assets/client/admin/app/index.js:4847
+#: assets/client/admin/app/index.js:5129
 msgid "Sort code"
 msgstr ""
 
@@ -22462,30 +22462,30 @@ msgid "Account details:"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:139
-#: assets/client/admin/app/index.js:4838
+#: assets/client/admin/app/index.js:5120
 msgid "Account name"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:140
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:317
 #: includes/gateways/class-wc-payment-gateway-echeck.php:51
-#: assets/client/admin/app/index.js:4841
+#: assets/client/admin/app/index.js:5123
 msgid "Account number"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:141
-#: assets/client/admin/app/index.js:4844
+#: assets/client/admin/app/index.js:5126
 msgid "Bank name"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:143
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:325
-#: assets/client/admin/app/index.js:4850
+#: assets/client/admin/app/index.js:5132
 msgid "IBAN"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:144
-#: assets/client/admin/app/index.js:4853
+#: assets/client/admin/app/index.js:5135
 msgid "BIC / Swift"
 msgstr ""
 
@@ -24047,7 +24047,7 @@ msgid "The class attached to the \"woocommerce_queue_class\" does not implement 
 msgstr ""
 
 #: includes/react-admin/connect-existing-pages.php:26
-#: assets/client/admin/app/index.js:27288
+#: assets/client/admin/app/index.js:27582
 #: assets/client/admin/chunks/homescreen.js:2846
 msgid "Extensions"
 msgstr ""
@@ -28562,7 +28562,7 @@ msgid "Per order: Charge shipping for the most expensive shipping class"
 msgstr ""
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:47
-#: assets/client/admin/app/index.js:5622
+#: assets/client/admin/app/index.js:5902
 #: packages/woocommerce-blocks/build/cart.js:36
 #: packages/woocommerce-blocks/build/checkout.js:26
 #: packages/woocommerce-blocks/build/mini-cart-contents.js:15
@@ -28725,7 +28725,7 @@ msgstr ""
 #: src/Internal/Admin/Onboarding/OnboardingHelper.php:90
 #: src/Internal/Admin/Onboarding/OnboardingHelper.php:99
 #: src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:175
-#: assets/client/admin/app/index.js:4049
+#: assets/client/admin/app/index.js:4333
 msgid "Enable"
 msgstr ""
 
@@ -29764,7 +29764,7 @@ msgid "External/Affiliate product"
 msgstr ""
 
 #: includes/wc-product-functions.php:603
-#: assets/client/admin/app/index.js:6515
+#: assets/client/admin/app/index.js:6795
 msgid "Variable product"
 msgstr ""
 
@@ -34369,24 +34369,24 @@ msgstr ""
 #: src/Internal/Admin/Analytics.php:72
 #: src/Internal/Admin/Analytics.php:186
 #: src/Internal/Admin/Analytics.php:306
-#: assets/client/admin/app/index.js:20440
-#: assets/client/admin/app/index.js:20450
-#: assets/client/admin/app/index.js:20482
-#: assets/client/admin/app/index.js:27515
+#: assets/client/admin/app/index.js:20734
+#: assets/client/admin/app/index.js:20744
+#: assets/client/admin/app/index.js:20776
+#: assets/client/admin/app/index.js:27809
 msgid "Analytics"
 msgstr ""
 
 #: src/Admin/Features/Navigation/CoreMenu.php:119
 #: src/Internal/Admin/Marketing.php:75
 #: src/Internal/Admin/Marketing.php:76
-#: assets/client/admin/app/index.js:20493
+#: assets/client/admin/app/index.js:20787
 #: assets/client/admin/chunks/homescreen.js:2707
 msgid "Marketing"
 msgstr ""
 
 #: src/Admin/Features/Navigation/CoreMenu.php:195
 #: src/Internal/Admin/Homescreen.php:95
-#: assets/client/admin/app/index.js:20428
+#: assets/client/admin/app/index.js:20722
 msgid "Home"
 msgstr ""
 
@@ -34420,7 +34420,7 @@ msgid "Navigation"
 msgstr ""
 
 #: src/Admin/Features/Navigation/Menu.php:189
-#: assets/client/admin/app/index.js:9387
+#: assets/client/admin/app/index.js:9666
 msgid "WooCommerce Home"
 msgstr ""
 
@@ -34435,34 +34435,59 @@ msgid "The item ID %1$s attempted to register using an invalid option. The argum
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Task.php:193
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:111
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:117
 #: assets/client/admin/chunks/homescreen.js:3053
 #: assets/client/admin/chunks/homescreen.js:3293
 msgid "Let's go"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskList.php:239
+#: src/Admin/Features/OnboardingTasks/TaskList.php:260
 msgid "Task is not a subclass of `Task`"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/TaskLists.php:83
 #: src/Admin/Features/OnboardingTasks/TaskLists.php:104
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:147
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:128
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:204
 #: assets/client/admin/chunks/two-column-tasks.js:107
 msgid "Get ready to start selling"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:127
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:164
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:149
+msgid "Cover the basics"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:150
+msgid "Make sure you’ve got everything you need to start selling—from business details to products."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:159
+msgid "Get ready to sell"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:160
+msgid "Easily set up the backbone of your store’s operations and get ready to accept first orders."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:169
+msgid "Customize & expand"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:170
+msgid "Personalize your store’s design and grow your business by enabling new sales channels."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:184
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:221
 #: assets/client/admin/app/index.js:1826
 msgid "Things to do next"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:231
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:288
 msgid "Task list ID already exists"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:250
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:307
 msgid "Task list ID does not exist"
 msgstr ""
 
@@ -34472,83 +34497,115 @@ msgid "Set up additional payment providers"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/AdditionalPayments.php:39
-#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:43
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:49
 msgid "Choose payment providers and enable payment methods at checkout."
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/AdditionalPayments.php:51
-#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:69
-#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:55
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:75
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:61
 #: src/Admin/Features/OnboardingTasks/Tasks/Purchase.php:112
 #: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:50
 msgid "2 minutes"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:44
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:43
+msgid "Make your store stand out with unique design"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:47
 msgid "You personalized your store"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:46
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:49
 msgid "Personalize your store"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:48
-#: assets/client/admin/app/index.js:10068
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:51
+#: assets/client/admin/app/index.js:10408
 #: assets/client/admin/chunks/homescreen.js:2723
 msgid "Personalize my store"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:57
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:61
+msgid "Upload your logo to adapt the store to your brand’s personality."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Appearance.php:63
 msgid "Add your logo, create a homepage, and start designing your store."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:30
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:29
+msgid "Grow your business with marketing tools"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:33
 msgid "You added sales channels"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:32
-#: assets/client/admin/app/index.js:9823
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:35
+#: assets/client/admin/app/index.js:10163
 msgid "Get more sales"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:34
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:37
 msgid "Set up marketing tools"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:43
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:47
+msgid "Promote your store in other sales channels, like email, Google, and Facebook."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:49
 msgid "Add recommended marketing tools to reach new customers and grow your business"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:55
-#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:54
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:100
+#: src/Admin/Features/OnboardingTasks/Tasks/Marketing.php:61
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:60
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:106
 msgid "1 minute"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:30
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:29
+msgid "Add a way to get paid"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:33
 msgid "You set up payments"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:32
-#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:34
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:35
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:37
 #: src/Internal/Admin/Notes/SetUpAdditionalPaymentTypes.php:106
-#: assets/client/admin/app/index.js:10999
+#: assets/client/admin/app/index.js:11339
 msgid "Set up payments"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:41
+#: src/Admin/Features/OnboardingTasks/Tasks/Payments.php:47
+msgid "Let your customers pay the way they like."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:40
+msgid "Create or upload your first products"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:44
 msgid "You added products"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:45
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:48
 msgid "Add my products"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:54
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:58
+msgid "Add products to sell and build your catalog."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:60
 msgid "Start by adding the first product to your store. You can add your products manually, via CSV, or import them from another service."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:66
+#: src/Admin/Features/OnboardingTasks/Tasks/Products.php:72
 msgid "1 minute per product"
 msgstr ""
 
@@ -34570,20 +34627,33 @@ msgstr ""
 msgid "Purchase & install now"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:29
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:28
+msgid "Select how to ship your products"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:32
 msgid "You added shipping costs"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:31
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:34
 msgid "Add shipping costs"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:33
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:36
 msgid "Set up shipping"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:42
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:46
+msgid "Set delivery costs and enable extra features, like shipping label printing."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Shipping.php:48
 msgid "Set your store location and where you'll ship to."
+msgstr ""
+
+#. translators: Store name
+#: src/Admin/Features/OnboardingTasks/Tasks/StoreCreation.php:29
+msgid "You created %s"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/StoreDetails.php:29
@@ -34608,23 +34678,31 @@ msgstr ""
 msgid "4 minutes"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:70
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:69
+msgid "Get taxes out of your mind"
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:73
 msgid "You added tax rates"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:72
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:75
 msgid "Add tax rates"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:74
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:77
 msgid "Set up tax"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:84
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:87
+msgid "Have sales tax calculated automatically, or add the rates manually."
+msgstr ""
+
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:90
 msgid "Good news! WooCommerce Services and Jetpack can automate your sales tax calculations for you."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:88
+#: src/Admin/Features/OnboardingTasks/Tasks/Tax.php:94
 msgid "Set your store location and configure tax rate settings."
 msgstr ""
 
@@ -34633,13 +34711,13 @@ msgid "Get paid with WooCommerce Payments"
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:38
-#: assets/client/admin/app/index.js:11070
+#: assets/client/admin/app/index.js:11410
 msgid "You're only one step away from getting paid. Verify your business details to start managing transactions with WooCommerce Payments."
 msgstr ""
 
 #: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:59
-#: assets/client/admin/app/index.js:4076
-#: assets/client/admin/app/index.js:26340
+#: assets/client/admin/app/index.js:4360
+#: assets/client/admin/app/index.js:26634
 #: assets/client/admin/chunks/marketing-overview.js:866
 msgid "Finish setup"
 msgstr ""
@@ -34725,7 +34803,7 @@ msgstr ""
 
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:325
 #: assets/client/admin/chunks/homescreen.js:1962
-#: assets/client/admin/data/index.js:5105
+#: assets/client/admin/data/index.js:5106
 msgid "Razorpay"
 msgstr ""
 
@@ -34833,7 +34911,7 @@ msgid "Current page retrieval should be called on or after the `current_screen` 
 msgstr ""
 
 #: src/Admin/PageController.php:510
-#: assets/client/admin/app/index.js:20506
+#: assets/client/admin/app/index.js:20800
 msgid "Setup Wizard"
 msgstr ""
 
@@ -34930,8 +35008,8 @@ msgstr ""
 
 #: src/Internal/Admin/Analytics.php:196
 #: src/Internal/Admin/Marketing.php:137
-#: assets/client/admin/app/index.js:20440
-#: assets/client/admin/app/index.js:20493
+#: assets/client/admin/app/index.js:20734
+#: assets/client/admin/app/index.js:20787
 msgid "Overview"
 msgstr ""
 
@@ -34940,12 +35018,12 @@ msgid "Analytics cache cleared."
 msgstr ""
 
 #: src/Internal/Admin/CustomerEffortScoreTracks.php:132
-#: assets/client/admin/app/index.js:27814
+#: assets/client/admin/app/index.js:28108
 msgid "Thank you for your feedback!"
 msgstr ""
 
 #: src/Internal/Admin/CustomerEffortScoreTracks.php:274
-#: assets/client/admin/app/index.js:28068
+#: assets/client/admin/app/index.js:28362
 msgid "How easy was it to use search?"
 msgstr ""
 
@@ -35446,9 +35524,9 @@ msgid "By clicking \"Get started\", you agree to our %1$sTerms of Service%2$s"
 msgstr ""
 
 #: src/Internal/Admin/Notes/WooCommercePayments.php:122
-#: assets/client/admin/app/index.js:3994
-#: assets/client/admin/app/index.js:4416
-#: assets/client/admin/app/index.js:4749
+#: assets/client/admin/app/index.js:4278
+#: assets/client/admin/app/index.js:4698
+#: assets/client/admin/app/index.js:5031
 #: assets/client/admin/chunks/payment-recommendations.js:162
 #: assets/client/admin/chunks/shipping-recommendations.js:189
 msgid "Get started"
@@ -35620,7 +35698,7 @@ msgstr ""
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:104
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:127
 #: assets/client/admin/chunks/homescreen.js:1964
-#: assets/client/admin/data/index.js:5107
+#: assets/client/admin/data/index.js:5108
 msgid "Pinterest for WooCommerce"
 msgstr ""
 
@@ -35637,7 +35715,7 @@ msgstr ""
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:460
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:482
 #: assets/client/admin/chunks/homescreen.js:1963
-#: assets/client/admin/data/index.js:5106
+#: assets/client/admin/data/index.js:5107
 msgid "MailPoet"
 msgstr ""
 
@@ -35652,7 +35730,7 @@ msgstr ""
 
 #: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:148
 #: assets/client/admin/chunks/homescreen.js:1951
-#: assets/client/admin/data/index.js:5094
+#: assets/client/admin/data/index.js:5095
 msgid "Creative Mail for WooCommerce"
 msgstr ""
 
@@ -35825,7 +35903,7 @@ msgid "Product attributes lookup table regeneration process has been aborted."
 msgstr ""
 
 #: src/Internal/ProductAttributesLookup/DataRegenerator.php:308
-#: assets/client/admin/app/index.js:5193
+#: assets/client/admin/app/index.js:5475
 #: assets/client/admin/components/index.js:44755
 msgid "Abort"
 msgstr ""
@@ -36897,7 +36975,7 @@ msgid "Setup required"
 msgstr ""
 
 #: assets/client/admin/app/index.js:1545
-#: assets/client/admin/app/index.js:3939
+#: assets/client/admin/app/index.js:4230
 #: assets/client/admin/chunks/two-column-tasks-extended.js:131
 msgid "Display"
 msgstr ""
@@ -37038,8 +37116,8 @@ msgid "Build a better WooCommerce"
 msgstr ""
 
 #: assets/client/admin/app/index.js:3488
-#: assets/client/admin/app/index.js:3722
-#: assets/client/admin/app/index.js:5191
+#: assets/client/admin/app/index.js:3723
+#: assets/client/admin/app/index.js:5473
 #: assets/client/admin/chunks/homescreen.js:2321
 #: assets/client/admin/chunks/wcpay-payment-welcome-page.js:44
 #: assets/client/admin/components/index.js:44752
@@ -37052,116 +37130,116 @@ msgid "Yes, count me in!"
 msgstr ""
 
 #. translators: %s = site title
-#: assets/client/admin/app/index.js:3616
+#: assets/client/admin/app/index.js:3617
 msgid "Welcome to %s"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3616
+#: assets/client/admin/app/index.js:3617
 msgid "Welcome"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3620
+#: assets/client/admin/app/index.js:3621
 msgid "Let's get you started"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3624
+#: assets/client/admin/app/index.js:3625
 msgid "You are on the right track"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3627
+#: assets/client/admin/app/index.js:3628
 msgid "You are almost there"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3638
+#: assets/client/admin/app/index.js:3639
 msgid "Hide setup list"
 msgstr ""
 
 #. translators: 1: completed tasks, 2: total tasks
-#: assets/client/admin/app/index.js:3645
+#: assets/client/admin/app/index.js:3646
 msgid "Follow these steps to start selling quickly. %1$d out of %2$d complete."
 msgstr ""
 
-#: assets/client/admin/app/index.js:3705
+#: assets/client/admin/app/index.js:3706
 msgid "Help us build a better WooCommerce Payments experience"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3708
+#: assets/client/admin/app/index.js:3709
 msgid "By agreeing to share non-sensitive {{link}}usage data{{/link}}, you’ll help us improve features and optimize the WooCommerce Payments experience. You can opt out at any time."
 msgstr ""
 
-#: assets/client/admin/app/index.js:3721
+#: assets/client/admin/app/index.js:3722
 msgid "I agree"
 msgstr ""
 
-#: assets/client/admin/app/index.js:3946
+#: assets/client/admin/app/index.js:4237
 #: assets/client/admin/chunks/two-column-tasks-extended.js:138
 msgid "Show things to do next"
 msgstr ""
 
 #. translators: %s = title of the payment gateway
-#: assets/client/admin/app/index.js:4368
+#: assets/client/admin/app/index.js:4650
 msgid "%s configured successfully"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4371
-#: assets/client/admin/app/index.js:4817
+#: assets/client/admin/app/index.js:4653
+#: assets/client/admin/app/index.js:5099
 msgid "There was a problem saving your payment settings"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4382
-#: assets/client/admin/app/index.js:5970
-#: assets/client/admin/app/index.js:7120
+#: assets/client/admin/app/index.js:4664
+#: assets/client/admin/app/index.js:6250
+#: assets/client/admin/app/index.js:7400
 #: assets/client/admin/components/index.js:48212
 msgid "Proceed"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4413
+#: assets/client/admin/app/index.js:4695
 msgid "You can manage this payment gateway's settings by clicking the button below"
 msgstr ""
 
 #. translators: %s = title of the payment gateway to install
-#: assets/client/admin/app/index.js:4505
+#: assets/client/admin/app/index.js:4787
 msgid "Install %s"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4522
+#: assets/client/admin/app/index.js:4804
 msgid "Configure your %(title)s account"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4642
-#: assets/client/admin/app/index.js:11035
+#: assets/client/admin/app/index.js:4924
+#: assets/client/admin/app/index.js:11375
 msgid "There was an error connecting to WooCommerce Payments. Please try again or connect later in store settings."
 msgstr ""
 
-#: assets/client/admin/app/index.js:4697
+#: assets/client/admin/app/index.js:4979
 msgid "Upon clicking \"Get started\", you agree to the {{link}}Terms of service{{/link}}. Next we’ll ask you to share a few details about your business to create your account."
 msgstr ""
 
-#: assets/client/admin/app/index.js:4797
+#: assets/client/admin/app/index.js:5079
 msgid "Please enter an account number or IBAN"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4813
+#: assets/client/admin/app/index.js:5095
 msgid "Direct bank transfer details added successfully"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4835
+#: assets/client/admin/app/index.js:5117
 msgid "Add your bank details"
 msgstr ""
 
-#: assets/client/admin/app/index.js:4835
+#: assets/client/admin/app/index.js:5117
 msgid "These details are required to receive payments via bank transfer"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5059
+#: assets/client/admin/app/index.js:5341
 msgid "Choose a payment provider"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5073
+#: assets/client/admin/app/index.js:5355
 msgid "Offline payment methods"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5184
+#: assets/client/admin/app/index.js:5466
 #: assets/client/admin/chunks/profile-wizard.js:1112
 #: assets/client/admin/components/index.js:44728
 #: packages/woocommerce-blocks/assets/js/blocks/checkout/checkout-order-error/index.js:121
@@ -37175,425 +37253,425 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5349
+#: assets/client/admin/app/index.js:5631
 msgid "There was a problem saving your store location"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5491
+#: assets/client/admin/app/index.js:5771
 msgid "Shipping cost"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5589
+#: assets/client/admin/app/index.js:5869
 msgid "Your shipping rates have been updated"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5662
+#: assets/client/admin/app/index.js:5942
 msgid "Shipping rates can not be negative numbers."
 msgstr ""
 
-#: assets/client/admin/app/index.js:5818
+#: assets/client/admin/app/index.js:6098
 msgid "Rest of the world"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5914
+#: assets/client/admin/app/index.js:6194
 msgid "📦 Shipping is done! Don't worry, you can always change it later"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5951
-#: assets/client/admin/app/index.js:7744
-#: assets/client/admin/app/index.js:8071
+#: assets/client/admin/app/index.js:6231
+#: assets/client/admin/app/index.js:8024
+#: assets/client/admin/app/index.js:8351
 msgid "Set store location"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5952
-#: assets/client/admin/app/index.js:7745
-#: assets/client/admin/app/index.js:8072
+#: assets/client/admin/app/index.js:6232
+#: assets/client/admin/app/index.js:8025
+#: assets/client/admin/app/index.js:8352
 msgid "The address from which your business operates"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5967
+#: assets/client/admin/app/index.js:6247
 msgid "Set shipping costs"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5968
+#: assets/client/admin/app/index.js:6248
 msgid "Define how much customers pay to ship to different destinations"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5970
-#: assets/client/admin/app/index.js:7139
+#: assets/client/admin/app/index.js:6250
+#: assets/client/admin/app/index.js:7419
 msgid "Complete task"
 msgstr ""
 
-#: assets/client/admin/app/index.js:5985
+#: assets/client/admin/app/index.js:6265
 msgid "Enable shipping label printing"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6019
-#: assets/client/admin/app/index.js:8081
+#: assets/client/admin/app/index.js:6299
+#: assets/client/admin/app/index.js:8361
 msgid "Connect your store"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6020
+#: assets/client/admin/app/index.js:6300
 msgid "Connect your store to WordPress.com to enable label printing"
 msgstr ""
 
 #. translators: %s = name of the plugin
-#: assets/client/admin/app/index.js:6153
+#: assets/client/admin/app/index.js:6433
 msgid "%s logo"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6159
+#: assets/client/admin/app/index.js:6439
 msgid "Built by WooCommerce"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6377
+#: assets/client/admin/app/index.js:6657
 #: assets/client/admin/chunks/marketing-overview.js:973
 msgid "Installed marketing extensions"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6387
+#: assets/client/admin/app/index.js:6667
 msgid "Recommended marketing extensions"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6389
+#: assets/client/admin/app/index.js:6669
 msgid "We recommend adding one of the following marketing tools for your store. The extension will be installed and activated for you when you click \"Get started\"."
 msgstr ""
 
-#: assets/client/admin/app/index.js:6507
+#: assets/client/admin/app/index.js:6787
 msgid "Physical product"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6508
+#: assets/client/admin/app/index.js:6788
 msgid "Tangible items that get delivered to customers"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6511
+#: assets/client/admin/app/index.js:6791
 msgid "Digital product"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6512
+#: assets/client/admin/app/index.js:6792
 msgid "Items that customers download or access through your website"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6516
+#: assets/client/admin/app/index.js:6796
 msgid "Products with several versions that customers can choose from"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6519
+#: assets/client/admin/app/index.js:6799
 msgid "Subscription product"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6520
+#: assets/client/admin/app/index.js:6800
 msgid "Products that customers receive or gain access to regularly by paying in advance"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6672
+#: assets/client/admin/app/index.js:6952
 msgid "Start with a template"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6673
+#: assets/client/admin/app/index.js:6953
 msgid "Use a template to add physical, digital, and variable products"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6685
+#: assets/client/admin/app/index.js:6965
 msgid "Add manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6686
+#: assets/client/admin/app/index.js:6966
 msgid "For small stores we recommend adding products manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6699
+#: assets/client/admin/app/index.js:6979
 msgid "Import via CSV"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6700
+#: assets/client/admin/app/index.js:6980
 msgid "For larger stores we recommend importing all products at once via CSV file"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6713
+#: assets/client/admin/app/index.js:6993
 msgid "Import from another service"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6714
+#: assets/client/admin/app/index.js:6994
 msgid "For stores currently selling elsewhere we suggest using a product migration service"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6770
+#: assets/client/admin/app/index.js:7050
 msgid "Use a template to add physical, digital, variable, and subscription products"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6945
+#: assets/client/admin/app/index.js:7225
 msgid "There was an error importing some of the sample products"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6947
+#: assets/client/admin/app/index.js:7227
 msgid "All sample products have been imported"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6958
+#: assets/client/admin/app/index.js:7238
 msgid "There was an error importing the sample products"
 msgstr ""
 
-#: assets/client/admin/app/index.js:6983
+#: assets/client/admin/app/index.js:7263
 msgid "Customize"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7030
+#: assets/client/admin/app/index.js:7310
 msgid "Store logo updated sucessfully"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7060
+#: assets/client/admin/app/index.js:7340
 msgid "🎨 Your store is looking great! Don't forget to continue personalizing it"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7077
+#: assets/client/admin/app/index.js:7357
 msgid "Import sample products"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7078
+#: assets/client/admin/app/index.js:7358
 msgid "We’ll add some products that will make it easier to see what your store looks like"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7085
-#: assets/client/admin/app/index.js:7103
-#: assets/client/admin/app/index.js:7123
+#: assets/client/admin/app/index.js:7365
+#: assets/client/admin/app/index.js:7383
+#: assets/client/admin/app/index.js:7403
 msgid "Skip"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7089
+#: assets/client/admin/app/index.js:7369
 msgid "Create a custom homepage"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7090
+#: assets/client/admin/app/index.js:7370
 msgid "Create a new homepage and customize it to suit your needs"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7095
+#: assets/client/admin/app/index.js:7375
 msgid "Create homepage"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7107
+#: assets/client/admin/app/index.js:7387
 msgid "Upload a logo"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7108
+#: assets/client/admin/app/index.js:7388
 msgid "Ensure your store is on-brand by adding your logo"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7127
+#: assets/client/admin/app/index.js:7407
 msgid "Set a store notice"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7128
+#: assets/client/admin/app/index.js:7408
 msgid "Optionally display a prominent notice across all pages of your store"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7130
-#: assets/client/admin/app/index.js:7131
+#: assets/client/admin/app/index.js:7410
+#: assets/client/admin/app/index.js:7411
 msgid "Store notice text"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7230
+#: assets/client/admin/app/index.js:7510
 msgid "You must click approve to install your extensions and connect to WooCommerce.com"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7253
+#: assets/client/admin/app/index.js:7533
 msgid "There was an error connecting to WooCommerce.com. Please try again"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7298
+#: assets/client/admin/app/index.js:7578
 msgid "Store connected to WooCommerce.com and extensions are being installed"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7501
+#: assets/client/admin/app/index.js:7781
 msgid "Avalara"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7503
+#: assets/client/admin/app/index.js:7783
 msgid "Powerful all-in-one tax tool"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7504
-#: assets/client/admin/app/index.js:7551
+#: assets/client/admin/app/index.js:7784
+#: assets/client/admin/app/index.js:7831
 msgid "Real-time sales tax calculation"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7505
+#: assets/client/admin/app/index.js:7785
 msgid "{{strong}}Multi{{/strong}}-economic nexus compliance"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7509
+#: assets/client/admin/app/index.js:7789
 msgid "Cross-border and multi-channel compliance"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7509
+#: assets/client/admin/app/index.js:7789
 msgid "Automate filing & remittance"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7509
+#: assets/client/admin/app/index.js:7789
 msgid "Return-ready, jurisdiction-level reporting."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7510
+#: assets/client/admin/app/index.js:7790
 msgid "30-day free trial. No credit card needed."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7511
-#: assets/client/admin/app/index.js:7577
+#: assets/client/admin/app/index.js:7791
+#: assets/client/admin/app/index.js:7857
 #: assets/client/admin/wp-admin-scripts/onboarding-product-import-notice.js:81
 msgid "Continue setup"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7511
+#: assets/client/admin/app/index.js:7791
 msgid "Enable & set up"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7548
+#: assets/client/admin/app/index.js:7828
 msgid "WooCommerce Tax"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7550
+#: assets/client/admin/app/index.js:7830
 msgid "Best for new stores"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7552
+#: assets/client/admin/app/index.js:7832
 msgid "{{strong}}Single{{/strong}} economic nexus compliance"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7557
+#: assets/client/admin/app/index.js:7837
 msgid "Powered by {{link}}Jetpack{{/link}}"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7566
+#: assets/client/admin/app/index.js:7846
 msgid "100% free"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7568
+#: assets/client/admin/app/index.js:7848
 msgid "By installing WooCommerce Tax and Jetpack you agree to the {{link}}Terms of Service{{/link}}."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7630
+#: assets/client/admin/app/index.js:7910
 msgid "Configure"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7631
+#: assets/client/admin/app/index.js:7911
 msgid "By clicking \"Configure\" you're enabling tax rates and calculations. More info {{link}}here{{/link}}."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7749
+#: assets/client/admin/app/index.js:8029
 msgid "Configure tax rates"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7750
+#: assets/client/admin/app/index.js:8030
 msgid "Head over to the tax rate settings screen to configure your tax rates"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7785
+#: assets/client/admin/app/index.js:8065
 msgid "Choose a tax partner"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7796
+#: assets/client/admin/app/index.js:8076
 msgid "Set up taxes manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7803
-#: assets/client/admin/app/index.js:7862
-#: assets/client/admin/app/index.js:7978
+#: assets/client/admin/app/index.js:8083
+#: assets/client/admin/app/index.js:8142
+#: assets/client/admin/app/index.js:8258
 msgid "I don't charge sales tax"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7835
+#: assets/client/admin/app/index.js:8115
 msgid "Good news!"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7858
+#: assets/client/admin/app/index.js:8138
 msgid "No thanks, I'll set up manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7896
+#: assets/client/admin/app/index.js:8176
 msgid "Set up tax rates manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7898
+#: assets/client/admin/app/index.js:8178
 msgid "My business doesn't charge sales tax"
 msgstr ""
 
-#: assets/client/admin/app/index.js:7952
+#: assets/client/admin/app/index.js:8232
 msgid "By installing Jetpack and WooCommerce Tax you agree to the {{link}}Terms of Service{{/link}}."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7952
+#: assets/client/admin/app/index.js:8232
 msgid "By installing Jetpack you agree to the {{link}}Terms of Service{{/link}}."
 msgstr ""
 
-#: assets/client/admin/app/index.js:7976
+#: assets/client/admin/app/index.js:8256
 msgid "Set up manually"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8076
+#: assets/client/admin/app/index.js:8356
 msgid "Install Jetpack and WooCommerce Tax"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8076
+#: assets/client/admin/app/index.js:8356
 msgid "Install Jetpack"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8077
+#: assets/client/admin/app/index.js:8357
 msgid "Jetpack and WooCommerce Tax allow you to automate sales tax calculations"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8082
+#: assets/client/admin/app/index.js:8362
 msgid "Connect your store to WordPress.com to enable automated sales tax calculations"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8260
+#: assets/client/admin/app/index.js:8540
 msgid "You're awesome! One less item on your to-do list ✅"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8548
+#: assets/client/admin/app/index.js:8828
 msgid "%s — %s per year"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8566
+#: assets/client/admin/app/index.js:8846
 msgid "Would you like to add the following paid features to your store now?"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8571
+#: assets/client/admin/app/index.js:8851
 msgid "You won't have access to this functionality until the extensions have been purchased and installed."
 msgstr ""
 
-#: assets/client/admin/app/index.js:8577
+#: assets/client/admin/app/index.js:8857
 msgid "I'll do it later"
 msgstr ""
 
 #. translators: 1: remaining tasks count
-#: assets/client/admin/app/index.js:8789
+#: assets/client/admin/app/index.js:9069
 msgid "🎉 Almost there. Only {{strongText}}%1$d step left{{/strongText}} get your store up and running. {{setupLink}}Finish setup{{/setupLink}}"
 msgstr ""
 
 #. translators: 1: remaining tasks count
-#: assets/client/admin/app/index.js:8791
+#: assets/client/admin/app/index.js:9071
 msgid "🚀 You're doing great! {{strongText}}%1$d steps left{{/strongText}} to get your store up and running. {{setupLink}}Continue setup{{/setupLink}}"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8989
-#: assets/client/admin/app/index.js:11339
+#: assets/client/admin/app/index.js:9269
+#: assets/client/admin/app/index.js:11633
 #: assets/client/admin/chunks/payment-recommendations.js:188
 #: assets/client/admin/chunks/shipping-recommendations.js:76
 msgid "Task List Options"
 msgstr ""
 
-#: assets/client/admin/app/index.js:8994
-#: assets/client/admin/app/index.js:11355
+#: assets/client/admin/app/index.js:9274
+#: assets/client/admin/app/index.js:11649
 #: assets/client/admin/chunks/payment-recommendations.js:193
 #: assets/client/admin/chunks/shipping-recommendations.js:81
 msgid "Hide this"
 msgstr ""
 
-#: assets/client/admin/app/index.js:9093
-#: assets/client/admin/app/index.js:9102
-#: assets/client/admin/app/index.js:11312
+#: assets/client/admin/app/index.js:9373
+#: assets/client/admin/app/index.js:9382
+#: assets/client/admin/app/index.js:11606
 #: assets/client/admin/chunks/activity-panels-inbox.js:312
 #: assets/client/admin/chunks/activity-panels-inbox.js:553
 #: assets/client/admin/chunks/homescreen.js:813
@@ -37604,18 +37682,18 @@ msgstr ""
 msgid "Undo"
 msgstr ""
 
-#: assets/client/admin/app/index.js:9100
+#: assets/client/admin/app/index.js:9380
 msgid "Task postponed until tomorrow"
 msgstr ""
 
 #. translators: %d = number of hidden tasks
-#: assets/client/admin/app/index.js:9286
+#: assets/client/admin/app/index.js:9565
 msgid "Show %d more task."
 msgid_plural "Show %d more tasks."
 msgstr[0] ""
 msgstr[1] ""
 
-#: assets/client/admin/app/index.js:9288
+#: assets/client/admin/app/index.js:9567
 #: packages/woocommerce-blocks/build/attribute-filter-frontend.js:9
 #: packages/woocommerce-blocks/build/attribute-filter.js:11
 #: packages/woocommerce-blocks/build/stock-filter-frontend.js:5
@@ -37623,167 +37701,167 @@ msgstr[1] ""
 msgid "Show less"
 msgstr ""
 
-#: assets/client/admin/app/index.js:9696
-msgid "Next up, add your tax rates"
-msgstr ""
-
-#: assets/client/admin/app/index.js:9823
-msgid "Add tools to grow your store such as email, social, and in-person selling"
-msgstr ""
-
-#: assets/client/admin/app/index.js:9827
-msgid "Add selling tools"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10068
-msgid "Add your logo, create a homepage, and start designing your store"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10072
-msgid "Modify choices"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10072
-msgid "Personalize"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10194
-msgid "Set up shipping for your store"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10194
-msgid "Configure shipping zones and rates"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10198
-msgid "Add shipping zones"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10995
-msgid "Choose payment methods"
-msgstr ""
-
-#: assets/client/admin/app/index.js:10995
-msgid "Choose payment providers and enable payment methods at checkout"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11070
-msgid "It's time to get paid"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11071
-msgid "By clicking \"Verify Details\", you agree to the {{link}}Terms of Service{{/link}}"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11086
-msgid "Verify details"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11134
-msgid "Hide store setup tasks"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11136
-msgid "Are you sure? These tasks are required for all stores."
-msgstr ""
-
-#: assets/client/admin/app/index.js:11140
-msgid "Yes, hide store setup tasks"
-msgstr ""
-
-#: assets/client/admin/app/index.js:11202
+#: assets/client/admin/app/index.js:9792
 msgid "You've completed store setup"
 msgstr ""
 
-#: assets/client/admin/app/index.js:11205
+#: assets/client/admin/app/index.js:9795
 msgid "Keep list"
 msgstr ""
 
-#: assets/client/admin/app/index.js:11208
+#: assets/client/admin/app/index.js:9798
 msgid "Hide this list"
 msgstr ""
 
-#: assets/client/admin/app/index.js:20558
+#: assets/client/admin/app/index.js:10036
+msgid "Next up, add your tax rates"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10163
+msgid "Add tools to grow your store such as email, social, and in-person selling"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10167
+msgid "Add selling tools"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10408
+msgid "Add your logo, create a homepage, and start designing your store"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10412
+msgid "Modify choices"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10412
+msgid "Personalize"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10534
+msgid "Set up shipping for your store"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10534
+msgid "Configure shipping zones and rates"
+msgstr ""
+
+#: assets/client/admin/app/index.js:10538
+msgid "Add shipping zones"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11335
+msgid "Choose payment methods"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11335
+msgid "Choose payment providers and enable payment methods at checkout"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11410
+msgid "It's time to get paid"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11411
+msgid "By clicking \"Verify Details\", you agree to the {{link}}Terms of Service{{/link}}"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11426
+msgid "Verify details"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11474
+msgid "Hide store setup tasks"
+msgstr ""
+
+#: assets/client/admin/app/index.js:11476
+msgid "Are you sure? These tasks are required for all stores."
+msgstr ""
+
+#: assets/client/admin/app/index.js:11480
+msgid "Yes, hide store setup tasks"
+msgstr ""
+
+#: assets/client/admin/app/index.js:20852
 msgid "Not allowed"
 msgstr ""
 
 #. translators: 1: document title. 2: page title
-#: assets/client/admin/app/index.js:20789
+#: assets/client/admin/app/index.js:21083
 msgid "%1$s &lsaquo; %2$s &#8212; WooCommerce"
 msgstr ""
 
-#: assets/client/admin/app/index.js:25492
+#: assets/client/admin/app/index.js:25786
 msgid "unread activity"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26333
+#: assets/client/admin/app/index.js:26627
 msgid "Activity"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26362
+#: assets/client/admin/app/index.js:26656
 msgid "Help"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26374
+#: assets/client/admin/app/index.js:26668
 msgid "Preview site"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26440
+#: assets/client/admin/app/index.js:26734
 msgid "Store Activity"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26470
+#: assets/client/admin/app/index.js:26764
 msgid "We're here for help"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26471
+#: assets/client/admin/app/index.js:26765
 msgid "If you have any questions, feel free to explore the WooCommerce docs listed here."
 msgstr ""
 
-#: assets/client/admin/app/index.js:26472
-#: assets/client/admin/app/index.js:27130
+#: assets/client/admin/app/index.js:26766
+#: assets/client/admin/app/index.js:27424
 msgid "Got it"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26632
+#: assets/client/admin/app/index.js:26926
 msgid "Run your store from anywhere"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26634
+#: assets/client/admin/app/index.js:26928
 msgid "Download the WooCommerce app"
 msgstr ""
 
-#: assets/client/admin/app/index.js:26644
+#: assets/client/admin/app/index.js:26938
 #: assets/client/admin/chunks/wcpay-payment-welcome-page.js:43
 #: assets/client/admin/wp-admin-scripts/payment-method-promotions.js:1685
 msgid "Install"
 msgstr ""
 
-#: assets/client/admin/app/index.js:27076
+#: assets/client/admin/app/index.js:27370
 msgid "Add this item to your favorites."
 msgstr ""
 
-#: assets/client/admin/app/index.js:27076
+#: assets/client/admin/app/index.js:27370
 msgid "Remove this item from your favorites."
 msgstr ""
 
-#: assets/client/admin/app/index.js:27128
+#: assets/client/admin/app/index.js:27422
 msgid "Introducing favorites"
 msgstr ""
 
-#: assets/client/admin/app/index.js:27129
+#: assets/client/admin/app/index.js:27423
 msgid "You can now favorite your extensions to pin them in the top level of the navigation."
 msgstr ""
 
-#: assets/client/admin/app/index.js:27263
+#: assets/client/admin/app/index.js:27557
 msgid "WordPress Dashboard"
 msgstr ""
 
-#: assets/client/admin/app/index.js:27900
+#: assets/client/admin/app/index.js:28194
 msgid "Pencil icon"
 msgstr ""
 
-#: assets/client/admin/app/index.js:28061
+#: assets/client/admin/app/index.js:28355
 msgid "How easy was it to filter your store analytics?"
 msgstr ""
 
@@ -39327,7 +39405,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-settings.js:942
 #: assets/client/admin/components/index.js:31826
 #: assets/client/admin/components/index.js:42613
-#: assets/client/admin/data/index.js:10791
+#: assets/client/admin/data/index.js:10800
 #: assets/client/admin/date/index.js:3009
 msgid "MM/DD/YYYY"
 msgstr ""
@@ -39559,47 +39637,47 @@ msgid "They'll appear in the top level of the navigation for quick access"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1952
-#: assets/client/admin/data/index.js:5095
+#: assets/client/admin/data/index.js:5096
 msgid "WooCommerce PayPal"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1953
-#: assets/client/admin/data/index.js:5096
+#: assets/client/admin/data/index.js:5097
 msgid "WooCommerce Stripe"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1954
-#: assets/client/admin/data/index.js:5097
+#: assets/client/admin/data/index.js:5098
 msgid "WooCommerce PayFast"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1956
 #: assets/client/admin/chunks/homescreen.js:1957
 #: assets/client/admin/chunks/homescreen.js:1958
-#: assets/client/admin/data/index.js:5099
 #: assets/client/admin/data/index.js:5100
 #: assets/client/admin/data/index.js:5101
+#: assets/client/admin/data/index.js:5102
 msgid "WooCommerce Shipping & Tax"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1959
-#: assets/client/admin/data/index.js:5102
+#: assets/client/admin/data/index.js:5103
 msgid "WooCommerce ShipStation Gateway"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1960
-#: assets/client/admin/data/index.js:5103
+#: assets/client/admin/data/index.js:5104
 msgid "Mercado Pago payments for WooCommerce"
 msgstr ""
 
 #: assets/client/admin/chunks/homescreen.js:1961
-#: assets/client/admin/data/index.js:5104
+#: assets/client/admin/data/index.js:5105
 msgid "Google Listings and Ads"
 msgstr ""
 
 #. translators: %(actionType): install or activate (the plugin). %(pluginName): a plugin slug (e.g. woocommerce-services). %(error): a single error message or in plural a comma separated error message list.
 #: assets/client/admin/chunks/homescreen.js:2055
-#: assets/client/admin/data/index.js:5203
+#: assets/client/admin/data/index.js:5204
 msgid "Could not %(actionType)s %(pluginName)s plugin, %(error)s"
 msgid_plural "Could not %(actionType)s the following plugins: %(pluginName)s with these Errors: %(error)s"
 msgstr[0] ""
@@ -41128,12 +41206,12 @@ msgstr ""
 msgid "Give feedback"
 msgstr ""
 
-#: assets/client/admin/data/index.js:4789
+#: assets/client/admin/data/index.js:4790
 msgid "There was a problem updating your settings."
 msgstr ""
 
 #. translators: %s = link to developer blog
-#: assets/client/admin/data/index.js:8182
+#: assets/client/admin/data/index.js:8191
 msgid "WooCommerce Admin will soon limit inbox note contents to 320 characters. For more information, please visit %s. The following notes currently exceeds that limit:"
 msgstr ""
 

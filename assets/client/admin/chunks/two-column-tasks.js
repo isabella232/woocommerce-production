@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _woocommerce_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(67221);
 /* harmony import */ var _woocommerce_data__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_woocommerce_data__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _task_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(59589);
+/* harmony import */ var _task_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(44254);
 /* harmony import */ var _placeholder__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(93902);
 /* harmony import */ var _tasks_task__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(78162);
 

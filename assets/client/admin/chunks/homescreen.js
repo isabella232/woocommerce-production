@@ -2887,8 +2887,8 @@ const StoreManagementLinks = () => {
     }));
   })));
 };
-// EXTERNAL MODULE: ./client/tasks/index.ts + 56 modules
-var tasks = __webpack_require__(20016);
+// EXTERNAL MODULE: ./client/tasks/index.ts + 59 modules
+var tasks = __webpack_require__(57124);
 ;// CONCATENATED MODULE: ./client/homescreen/welcome-modal/illustrations/line-chart.js
 
 
@@ -3375,7 +3375,7 @@ const useHeadercardExperimentHook = (installTimestampHasResolved, installTimesta
 
 
 
-const Tasks = (0,external_wp_element_.lazy)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 20016)));
+const Tasks = (0,external_wp_element_.lazy)(() => Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 57124)));
 const TwoColumnTasks = (0,external_wp_element_.lazy)(() => __webpack_require__.e(/* import() | two-column-tasks */ 9525).then(__webpack_require__.bind(__webpack_require__, 51053)));
 const TwoColumnTasksExtended = (0,external_wp_element_.lazy)(() => __webpack_require__.e(/* import() | two-column-tasks-extended */ 1920).then(__webpack_require__.bind(__webpack_require__, 57038)));
 const Layout = _ref => {
