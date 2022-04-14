@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-14T11:09:51+00:00\n"
+"POT-Creation-Date: 2022-04-14T14:26:19+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -34337,49 +34337,49 @@ msgstr ""
 msgid "Task is not a subclass of `Task`"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:83
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:104
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:128
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:204
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:110
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:132
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:156
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:233
 #: assets/client/admin/chunks/two-column-tasks.js:1
 msgid "Get ready to start selling"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:149
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:178
 msgid "Cover the basics"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:150
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:179
 msgid "Make sure you’ve got everything you need to start selling—from business details to products."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:159
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:188
 msgid "Get ready to sell"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:160
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:189
 msgid "Easily set up the backbone of your store’s operations and get ready to accept first orders."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:169
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:198
 msgid "Customize & expand"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:170
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:199
 msgid "Personalize your store’s design and grow your business by enabling new sales channels."
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:184
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:221
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:213
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:250
 #: assets/client/admin/app/index.js:2
 msgid "Things to do next"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:288
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:317
 msgid "Task list ID already exists"
 msgstr ""
 
-#: src/Admin/Features/OnboardingTasks/TaskLists.php:307
+#: src/Admin/Features/OnboardingTasks/TaskLists.php:336
 msgid "Task list ID does not exist"
 msgstr ""
 

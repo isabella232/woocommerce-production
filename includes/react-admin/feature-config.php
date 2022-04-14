@@ -25,8 +25,6 @@ if ( ! function_exists( 'wc_admin_get_feature_config' ) ) {
 			'transient-notices' => true,
 			'wc-pay-promotion' => true,
 			'wc-pay-welcome-page' => true,
-			'tasklist-setup-experiment-1' => false,
-			'tasklist-setup-experiment-2' => false,
 		);
 	}
 }
