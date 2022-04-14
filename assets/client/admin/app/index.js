@@ -2223,21 +2223,29 @@ const QUEUE_OPTION_NAME = 'woocommerce_ces_tracks_queue';
 const storeAddressFields = ['addressLine1', 'addressLine2', 'city', 'countryState', 'postCode'];
 
 /**
+ * Type guard to ensure that the specified locale object has a .required property
+ *
+ * @param fieldName field of Locale
+ * @param locale    unknown object to be checked
+ * @return          Boolean indicating if locale has a .required property
+ */
+const isLocaleRecord = (fieldName, locale) => {
+  return !!locale && (0,lodash__WEBPACK_IMPORTED_MODULE_4__.has)(locale, `${fieldName}.required`);
+};
+/**
  * Check if a given address field is required for the locale.
  *
  * @param {string} fieldName Name of the field to check.
  * @param {Object} locale    Locale data.
  * @return {boolean} Field requirement.
  */
-function isAddressFieldRequired(fieldName) {
-  var _locale$fieldName;
 
+
+function isAddressFieldRequired(fieldName) {
   let locale = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
-  if ((_locale$fieldName = locale[fieldName]) !== null && _locale$fieldName !== void 0 && _locale$fieldName.hasOwnProperty('required')) {
-    var _locale$fieldName2;
-
-    return (_locale$fieldName2 = locale[fieldName]) === null || _locale$fieldName2 === void 0 ? void 0 : _locale$fieldName2.required;
+  if (isLocaleRecord(fieldName, locale)) {
+    return locale[fieldName].required;
   }
 
   if (fieldName === 'address_2') {
