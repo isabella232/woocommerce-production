@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('moment'), 'version' => 'bfe61fc19bc5ab143885b4fe40eb3ec7');

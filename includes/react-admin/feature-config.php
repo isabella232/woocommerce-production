@@ -10,7 +10,7 @@ if ( ! function_exists( 'wc_admin_get_feature_config' ) ) {
 			'customer-effort-score-tracks' => true,
 			'homescreen' => true,
 			'marketing' => true,
-			'minified-js' => true,
+			'minified-js' => false,
 			'mobile-app-banner' => true,
 			'navigation' => true,
 			'onboarding' => true,
