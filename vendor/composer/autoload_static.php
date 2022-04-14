@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35
+class ComposerStaticInitb63836b3672eb372ad66e350305fb8a7
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -274,7 +274,6 @@ class ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Coupon_Page_Moved' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Customize_Store_With_Blocks' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
-        'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Deactivate_Plugin' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_EU_VAT_Number' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Edit_Products_On_The_Move' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Facebook_Marketing_Expert' => __DIR__ . '/../..' . '/src/Admin/Notes/DeprecatedNotes.php',
@@ -463,7 +462,6 @@ class ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\CouponPageMoved' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/CouponPageMoved.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\CustomizeStoreWithBlocks' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/CustomizeStoreWithBlocks.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\CustomizingProductCatalog' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/CustomizingProductCatalog.php',
-        'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\DeactivatePlugin' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/DeactivatePlugin.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\EUVATNumber' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/EUVATNumber.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\EditProductsOnTheMove' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/EditProductsOnTheMove.php',
         'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\EmailNotification' => __DIR__ . '/../..' . '/src/Internal/Admin/Notes/EmailNotification.php',
@@ -1038,10 +1036,10 @@ class ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit14a6ff4d5d7e1661736177bd272f3d35::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb63836b3672eb372ad66e350305fb8a7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb63836b3672eb372ad66e350305fb8a7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitb63836b3672eb372ad66e350305fb8a7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitb63836b3672eb372ad66e350305fb8a7::$classMap;
 
         }, null, ClassLoader::class);
     }

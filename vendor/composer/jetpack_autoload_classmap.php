@@ -1854,10 +1854,6 @@ return array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Internal/Admin/Notes/CustomizingProductCatalog.php'
 	),
-	'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\DeactivatePlugin' => array(
-		'version' => '1.0.0.0',
-		'path'    => $baseDir . '/src/Internal/Admin/Notes/DeactivatePlugin.php'
-	),
 	'Automattic\\WooCommerce\\Internal\\Admin\\Notes\\ManageOrdersOnTheGo' => array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Internal/Admin/Notes/ManageOrdersOnTheGo.php'
@@ -2275,10 +2271,6 @@ return array(
 		'path'    => $baseDir . '/src/Admin/Notes/DeprecatedNotes.php'
 	),
 	'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Customize_Store_With_Blocks' => array(
-		'version' => '1.0.0.0',
-		'path'    => $baseDir . '/src/Admin/Notes/DeprecatedNotes.php'
-	),
-	'Automattic\\WooCommerce\\Admin\\Notes\\WC_Admin_Notes_Deactivate_Plugin' => array(
 		'version' => '1.0.0.0',
 		'path'    => $baseDir . '/src/Admin/Notes/DeprecatedNotes.php'
 	),
