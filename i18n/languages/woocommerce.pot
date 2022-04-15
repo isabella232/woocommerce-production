@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-15T05:54:48+00:00\n"
+"POT-Creation-Date: 2022-04-15T06:07:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -11020,7 +11020,7 @@ msgstr ""
 #: src/Admin/ReportCSVEmail.php:36
 #: src/Internal/Admin/Analytics.php:226
 #: assets/client/admin/app/index.js:2
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-customers.js:1
@@ -12003,7 +12003,7 @@ msgstr ""
 #: src/Admin/ReportCSVEmail.php:37
 #: src/Internal/Admin/Analytics.php:206
 #: assets/client/admin/app/index.js:2
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-orders.js:1
 #: assets/client/admin/chunks/analytics-report-products.js:1
@@ -12300,7 +12300,7 @@ msgstr ""
 
 #: includes/admin/helper/class-wc-helper.php:360
 #: includes/admin/reports/class-wc-report-sales-by-category.php:230
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/components/index.js:2
 msgid "All"
 msgstr ""
@@ -12342,7 +12342,7 @@ msgstr ""
 #: includes/legacy/abstract-wc-legacy-order.php:508
 #: includes/wc-account-functions.php:221
 #: includes/wc-template-functions.php:3401
-#: assets/client/admin/chunks/6637.js:1
+#: assets/client/admin/chunks/5586.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 msgid "Download"
 msgid_plural "Downloads"
@@ -14117,7 +14117,7 @@ msgstr ""
 #: src/Admin/ReportCSVEmail.php:41
 #: src/Internal/Admin/Analytics.php:236
 #: assets/client/admin/app/index.js:2
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-products.js:1
 #: assets/client/admin/chunks/analytics-report-variations.js:1
@@ -15304,7 +15304,7 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-sales-by-category.php:231
 #: includes/admin/reports/class-wc-report-sales-by-product.php:222
 #: includes/widgets/class-wc-widget-products.php:41
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-customers.js:1
@@ -15542,7 +15542,7 @@ msgid "Select categories&hellip;"
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-category.php:229
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 msgid "None"
 msgstr ""
 
@@ -20497,7 +20497,7 @@ msgid "View product"
 msgstr ""
 
 #: includes/class-wc-post-types.php:331
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-variations.js:1
 msgid "Search products"
 msgstr ""
@@ -20616,7 +20616,7 @@ msgid "This is where store orders are stored."
 msgstr ""
 
 #: includes/class-wc-post-types.php:431
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 msgid "Refunds"
 msgstr ""
 
@@ -20673,7 +20673,7 @@ msgid "View coupon"
 msgstr ""
 
 #: includes/class-wc-post-types.php:464
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 msgid "Search coupons"
 msgstr ""
 
@@ -26924,7 +26924,7 @@ msgid "Name of the customer for the order"
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-network-orders-v2-controller.php:76
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 msgid "Order Status"
 msgstr ""
 
@@ -30008,7 +30008,7 @@ msgid "Filter by"
 msgstr ""
 
 #: includes/widgets/class-wc-widget-layered-nav.php:82
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-variations.js:1
 msgid "Attribute"
 msgstr ""
@@ -32422,7 +32422,7 @@ msgstr ""
 
 #: src/Admin/API/Leaderboards.php:201
 #: src/Admin/API/Leaderboards.php:337
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-orders.js:1
 #: assets/client/admin/chunks/analytics-report-products.js:1
@@ -33855,7 +33855,7 @@ msgid "N. Revenue (formatted)"
 msgstr ""
 
 #: src/Admin/API/Reports/Orders/Controller.php:539
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-orders.js:1
 msgid "Customer type"
 msgstr ""
@@ -33883,7 +33883,7 @@ msgid "Average order value."
 msgstr ""
 
 #: src/Admin/API/Reports/Orders/Stats/Controller.php:187
-#: assets/client/admin/chunks/5487.js:1
+#: assets/client/admin/chunks/9198.js:1
 msgid "Average items per order"
 msgstr ""
 
@@ -37744,8 +37744,8 @@ msgstr ""
 msgid "How easy was it to filter your store analytics?"
 msgstr ""
 
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/8625.js:1
+#: assets/client/admin/chunks/5531.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 #: assets/client/admin/chunks/analytics-report-revenue.js:1
@@ -37753,8 +37753,8 @@ msgstr ""
 msgid "No data for the current search"
 msgstr ""
 
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/8625.js:1
+#: assets/client/admin/chunks/5531.js:1
+#: assets/client/admin/chunks/9198.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 #: assets/client/admin/chunks/analytics-report-revenue.js:1
@@ -37762,330 +37762,7 @@ msgstr ""
 msgid "No data for the selected date range"
 msgstr ""
 
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-customers.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgid "Average order value"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "All orders"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-categories.js:1
-#: assets/client/admin/chunks/analytics-report-coupons.js:1
-#: assets/client/admin/chunks/analytics-report-customers.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-taxes.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgid "Advanced filters"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "A sentence describing filters for Orders. See screen shot for context: https://cloudup.com/cSsUY9VeCVJ"
-msgid "Orders match {{select /}} filters"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove order status filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select an order status filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Order Status{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select an order status"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "order status"
-msgid "Is"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "order status"
-msgid "Is Not"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Remove products filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgid "Select a product filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgid "{{title}}Product{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Select products"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgctxt "products"
-msgid "Includes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgctxt "products"
-msgid "Excludes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Search variations"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove variations filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a variation filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Variation{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select variation"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "variations"
-msgid "Includes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "variations"
-msgid "Excludes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Coupon Codes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove coupon filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a coupon filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Coupon code{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select coupon codes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "coupon code"
-msgid "Includes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "coupon code"
-msgid "Excludes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove customer filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a customer filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Customer is{{/title}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a customer type"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "New"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Returning"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove refunds filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a refund filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Refunds{{/title}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a refund type"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Partially refunded"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Fully refunded"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Tax Rates"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Search tax rates"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Remove tax rate filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select a tax rate filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "{{title}}Tax Rate{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgid "Select tax rates"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "tax rate"
-msgid "Includes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-msgctxt "tax rate"
-msgid "Excludes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Search attributes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Remove attribute filter"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Select a product attribute filter match"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "{{title}}Attribute{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgid "Select attributes"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgctxt "product attribute"
-msgid "Is"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-msgctxt "product attribute"
-msgid "Is Not"
-msgstr ""
-
-#: assets/client/admin/chunks/5487.js:1
-#: assets/client/admin/chunks/8625.js:1
-#: assets/client/admin/chunks/analytics-report-coupons.js:1
-#: assets/client/admin/chunks/analytics-report-customers.js:1
-#: assets/client/admin/chunks/analytics-report-downloads.js:1
-#: assets/client/admin/chunks/analytics-report-taxes.js:1
-#: assets/client/admin/components/index.js:2
-msgid "TAX"
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-#: assets/client/admin/chunks/analytics-report.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-#: assets/client/admin/chunks/leaderboards.js:1
-msgid "There was an error getting your stats. Please try again."
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-#: assets/client/admin/chunks/activity-panels-inbox.js:1
-#: assets/client/admin/chunks/analytics-report.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-#: assets/client/admin/chunks/homescreen.js:1
-#: assets/client/admin/chunks/leaderboards.js:1
-msgid "Reload"
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-msgid "Check at least two items below to compare"
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-#: assets/client/admin/chunks/analytics-report-categories.js:1
-#: assets/client/admin/chunks/analytics-report-coupons.js:1
-#: assets/client/admin/chunks/analytics-report-products.js:1
-#: assets/client/admin/chunks/analytics-report-taxes.js:1
-#: assets/client/admin/chunks/analytics-report-variations.js:1
-#: assets/client/admin/chunks/dashboard-charts.js:1
-msgid "Compare"
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-msgid "Search by item name"
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-msgid "Your %s Report will be emailed to you."
-msgstr ""
-
-#: assets/client/admin/chunks/6637.js:1
-msgid "There was a problem exporting your %s Report. Please try again."
-msgstr ""
-
-#: assets/client/admin/chunks/8625.js:1
+#: assets/client/admin/chunks/5531.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 #: assets/client/admin/chunks/analytics-report-orders.js:1
@@ -38097,7 +37774,7 @@ msgstr ""
 msgid "Previous period:"
 msgstr ""
 
-#: assets/client/admin/chunks/8625.js:1
+#: assets/client/admin/chunks/5531.js:1
 #: assets/client/admin/chunks/analytics-report-coupons.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 #: assets/client/admin/chunks/analytics-report-orders.js:1
@@ -38105,6 +37782,329 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-taxes.js:1
 #: assets/client/admin/chunks/store-performance.js:1
 msgid "Previous year:"
+msgstr ""
+
+#: assets/client/admin/chunks/5531.js:1
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-coupons.js:1
+#: assets/client/admin/chunks/analytics-report-customers.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-taxes.js:1
+#: assets/client/admin/components/index.js:2
+msgid "TAX"
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+#: assets/client/admin/chunks/analytics-report.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+#: assets/client/admin/chunks/leaderboards.js:1
+msgid "There was an error getting your stats. Please try again."
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+#: assets/client/admin/chunks/activity-panels-inbox.js:1
+#: assets/client/admin/chunks/analytics-report.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+#: assets/client/admin/chunks/homescreen.js:1
+#: assets/client/admin/chunks/leaderboards.js:1
+msgid "Reload"
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+msgid "Check at least two items below to compare"
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+#: assets/client/admin/chunks/analytics-report-categories.js:1
+#: assets/client/admin/chunks/analytics-report-coupons.js:1
+#: assets/client/admin/chunks/analytics-report-products.js:1
+#: assets/client/admin/chunks/analytics-report-taxes.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgid "Compare"
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+msgid "Search by item name"
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+msgid "Your %s Report will be emailed to you."
+msgstr ""
+
+#: assets/client/admin/chunks/5586.js:1
+msgid "There was a problem exporting your %s Report. Please try again."
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-customers.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgid "Average order value"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "All orders"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-categories.js:1
+#: assets/client/admin/chunks/analytics-report-coupons.js:1
+#: assets/client/admin/chunks/analytics-report-customers.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-taxes.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgid "Advanced filters"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "A sentence describing filters for Orders. See screen shot for context: https://cloudup.com/cSsUY9VeCVJ"
+msgid "Orders match {{select /}} filters"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove order status filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select an order status filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Order Status{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select an order status"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "order status"
+msgid "Is"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "order status"
+msgid "Is Not"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Remove products filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgid "Select a product filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgid "{{title}}Product{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Select products"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgctxt "products"
+msgid "Includes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-downloads.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+#: assets/client/admin/chunks/dashboard-charts.js:1
+msgctxt "products"
+msgid "Excludes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Search variations"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove variations filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a variation filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Variation{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select variation"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "variations"
+msgid "Includes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "variations"
+msgid "Excludes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Coupon Codes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove coupon filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a coupon filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Coupon code{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select coupon codes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "coupon code"
+msgid "Includes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "coupon code"
+msgid "Excludes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove customer filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a customer filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Customer is{{/title}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a customer type"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "New"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Returning"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove refunds filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a refund filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Refunds{{/title}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a refund type"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Partially refunded"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Fully refunded"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Tax Rates"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Search tax rates"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Remove tax rate filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select a tax rate filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "{{title}}Tax Rate{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgid "Select tax rates"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "tax rate"
+msgid "Includes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+msgctxt "tax rate"
+msgid "Excludes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Search attributes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Remove attribute filter"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Select a product attribute filter match"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "{{title}}Attribute{{/title}} {{rule /}} {{filter /}}"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgid "Select attributes"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgctxt "product attribute"
+msgid "Is"
+msgstr ""
+
+#: assets/client/admin/chunks/9198.js:1
+#: assets/client/admin/chunks/analytics-report-variations.js:1
+msgctxt "product attribute"
+msgid "Is Not"
 msgstr ""
 
 #: assets/client/admin/chunks/activity-panels-help.js:1
