@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6867940b712a77af7f878345610281a9
+class ComposerStaticInit6c0f72159a4418796f7c13aeed52327e
 {
     public static $files = array (
         'fcd5d7d87e03ff4f5b5a66c2b8968671' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/StoreApi/deprecated.php',
@@ -951,10 +951,10 @@ class ComposerStaticInit6867940b712a77af7f878345610281a9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6867940b712a77af7f878345610281a9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6867940b712a77af7f878345610281a9::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6867940b712a77af7f878345610281a9::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6867940b712a77af7f878345610281a9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6c0f72159a4418796f7c13aeed52327e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6c0f72159a4418796f7c13aeed52327e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit6c0f72159a4418796f7c13aeed52327e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit6c0f72159a4418796f7c13aeed52327e::$classMap;
 
         }, null, ClassLoader::class);
     }
